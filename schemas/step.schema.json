@@ -1,0 +1,250 @@
+{
+  "$defs": {
+    "GradingRule": {
+      "additionalProperties": false,
+      "description": "One step's grading rule. Field requirements per type are enforced by the\nvalidator (spec \u00a74 decision tree), not here, so issues come back as\nreadable findings instead of a pydantic stack.",
+      "properties": {
+        "type": {
+          "enum": [
+            "answer_key",
+            "rubric",
+            "numeric",
+            "llm_judge",
+            "none"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "points": {
+          "default": 1,
+          "title": "Points",
+          "type": "number"
+        },
+        "options": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Options"
+        },
+        "correct_answer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Correct Answer"
+        },
+        "distractors": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Distractors"
+        },
+        "expected_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expected Value"
+        },
+        "expected_range": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "number"
+              },
+              "maxItems": 2,
+              "minItems": 2,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expected Range"
+        },
+        "tolerance": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tolerance"
+        },
+        "formula": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Formula"
+        },
+        "criteria": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Criteria"
+        },
+        "anchor_examples": {
+          "anyOf": [
+            {
+              "items": {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Anchor Examples"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "title": "GradingRule",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "actor_mode": {
+      "enum": [
+        "human",
+        "human_with_ai",
+        "team_with_ai",
+        "ai"
+      ],
+      "title": "Actor Mode",
+      "type": "string"
+    },
+    "task_type": {
+      "enum": [
+        "multiple_choice",
+        "numeric_input",
+        "structured_response",
+        "open_response",
+        "document_review"
+      ],
+      "title": "Task Type",
+      "type": "string"
+    },
+    "task_description": {
+      "title": "Task Description",
+      "type": "string"
+    },
+    "role": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Role"
+    },
+    "depends_on": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Depends On",
+      "type": "array"
+    },
+    "ai_assist": {
+      "anyOf": [
+        {
+          "enum": [
+            "suggests",
+            "critiques",
+            "grades",
+            "decides"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Ai Assist"
+    },
+    "grading": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/GradingRule"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "actor_mode",
+    "task_type",
+    "task_description"
+  ],
+  "title": "StepSpec",
+  "type": "object"
+}

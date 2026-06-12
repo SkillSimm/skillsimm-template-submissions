@@ -1,0 +1,174 @@
+{
+  "$defs": {
+    "TeamSizeRange": {
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Min"
+        },
+        "max": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max"
+        }
+      },
+      "title": "TeamSizeRange",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "metadata.yaml \u2014 mirrors the `metadata` block of template.json that\nseed._registry_fields_from_master maps onto Template registry columns.",
+  "properties": {
+    "domain": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Domain"
+    },
+    "industry": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Industry"
+    },
+    "difficulty": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Difficulty"
+    },
+    "duration_minutes": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Duration Minutes"
+    },
+    "team_size": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TeamSizeRange"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "task_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Task Type"
+    },
+    "scoring_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Scoring Type"
+    },
+    "license": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "License"
+    },
+    "author": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Author"
+    },
+    "research_ready": {
+      "default": false,
+      "title": "Research Ready",
+      "type": "boolean"
+    },
+    "ai_modes": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Ai Modes",
+      "type": "array"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "learning_goals": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Learning Goals",
+      "type": "array"
+    }
+  },
+  "title": "MarketplaceMetadata",
+  "type": "object"
+}

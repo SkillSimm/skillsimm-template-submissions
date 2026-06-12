@@ -1,0 +1,7 @@
+escalation_decision:
+  type: rubric
+  criteria:
+  - customer_empathy
+  - business_risk
+  - policy_fit
+  points: 3

@@ -1,0 +1,64 @@
+{
+  "additionalProperties": false,
+  "description": "template.yaml \u2014 package identity.",
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "objective": {
+      "title": "Objective",
+      "type": "string"
+    },
+    "audience": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Audience"
+    },
+    "roles": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Roles",
+      "type": "array"
+    },
+    "version": {
+      "default": "1.0.0",
+      "title": "Version",
+      "type": "string"
+    },
+    "team_size": {
+      "default": 5,
+      "title": "Team Size",
+      "type": "integer"
+    },
+    "ai_chat_enabled": {
+      "default": true,
+      "title": "Ai Chat Enabled",
+      "type": "boolean"
+    },
+    "group_communication_allowed": {
+      "default": true,
+      "title": "Group Communication Allowed",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "objective"
+  ],
+  "title": "TemplateMeta",
+  "type": "object"
+}

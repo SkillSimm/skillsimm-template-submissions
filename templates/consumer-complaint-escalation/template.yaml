@@ -1,0 +1,9 @@
+id: consumer_complaint_escalation
+title: Consumer Complaint Escalation
+objective: Train escalation judgment under emotional ambiguity
+audience: MBA / enterprise training
+roles:
+- support_agent
+- manager
+version: 1.0.0
+team_size: 4

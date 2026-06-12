@@ -1,0 +1,63 @@
+{
+  "additionalProperties": false,
+  "description": "creator.yaml \u2014 who submitted the package.",
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "email": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Email"
+    },
+    "github": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Github"
+    },
+    "organization": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Organization"
+    },
+    "royalty_preference": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Royalty Preference"
+    }
+  },
+  "required": [
+    "name"
+  ],
+  "title": "CreatorProfile",
+  "type": "object"
+}
