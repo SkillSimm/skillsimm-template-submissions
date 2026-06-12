@@ -10,7 +10,7 @@ steps:
   title: Write mitigation plan
   actor_mode: team_with_ai
   task_type: structured_response
-  task_description: Draft the mitigation plan.
+  task_description: Draft the mitigation plan with owners and dates.
   depends_on:
   - classify_vendor_risk
   ai_assist: critiques
