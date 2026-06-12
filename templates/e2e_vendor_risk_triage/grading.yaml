@@ -1,0 +1,14 @@
+classify_vendor_risk:
+  type: answer_key
+  points: 2.0
+  options:
+  - low
+  - medium
+  - high
+  correct_answer: high
+write_mitigation_plan:
+  type: rubric
+  points: 3.0
+  criteria:
+  - completeness
+  - feasibility
