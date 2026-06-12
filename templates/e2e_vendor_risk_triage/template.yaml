@@ -1,0 +1,8 @@
+id: e2e_vendor_risk_triage
+title: E2E Vendor Risk Triage
+objective: Train vendor risk triage judgment
+roles: []
+version: 0.1.0
+team_size: 3
+ai_chat_enabled: true
+group_communication_allowed: true
