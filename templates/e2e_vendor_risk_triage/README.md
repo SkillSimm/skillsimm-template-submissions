@@ -11,7 +11,7 @@ Train vendor risk triage judgment
 1. **Classify vendor risk** (`classify_vendor_risk`) — human_with_ai, multiple_choice
    Pick the vendor's risk class.
 2. **Write mitigation plan** (`write_mitigation_plan`) — team_with_ai, structured_response
-   Draft the mitigation plan.
+   Draft the mitigation plan with owners and dates.
 
 ---
 Submitted via the SkillSimm Template MCP. Review happens in this pull request; merge publishes the template to the registry.
