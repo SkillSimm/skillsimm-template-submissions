@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Startup Financials Fixed</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe3ef;
+      --accent: #2563eb;
+      --soft: #eff6ff;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1.05;
+      margin: 0 0 0.75rem;
+    }
+    .lede {
+      color: var(--muted);
+      font-size: 1.12rem;
+      max-width: 850px;
+      margin-bottom: 2rem;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      margin: 24px 0;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+    }
+    .visual-summary img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+      margin-top: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 14px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    th {
+      background: var(--soft);
+      color: #1e40af;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    .assumptions li,
+    .compute-list li {
+      margin: 0.5rem 0;
+    }
+    .note {
+      background: var(--soft);
+      border-left: 5px solid var(--accent);
+      padding: 16px 18px;
+      border-radius: 12px;
+      color: #1e3a8a;
+    }
+    code {
+      background: #e2e8f0;
+      padding: 0.1rem 0.35rem;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Startup Financials (fixed)</h1>
+
+    <section class="visual-summary" aria-labelledby="visual-summary-title">
+      <h2 id="visual-summary-title">Working Flow</h2>
+      <img src="./img/FlowChart.png" alt="Startup financials infographic summarizing revenue, costs, burn, gross margin, and break-even paid users.">
+    </section>
+
+    <section aria-labelledby="inputs-title">
+      <h2 id="inputs-title">Inputs</h2>
+      <table>
+        <thead>
+          <tr><th>Input</th><th>Value</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Free users</td><td>1,000</td></tr>
+          <tr><td>Paid users</td><td>80</td></tr>
+          <tr><td>Monthly price per paid user</td><td>$20</td></tr>
+          <tr><td>Monthly fixed cost</td><td>$6,000</td></tr>
+          <tr><td>Variable cost per active user</td><td>$2</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="assumptions" aria-labelledby="assumptions-title">
+      <h2 id="assumptions-title">Pinned assumptions</h2>
+      <ol>
+        <li><strong>Variable cost applies to every active user — free and paid.</strong> Free users are not free to serve; each of the 1,080 active users costs $2/month.</li>
+        <li>When solving for the break-even number of <strong>paid</strong> users, the <strong>free base stays fixed at 1,000</strong>. You are adding paid users on top of the existing 1,000 free users.</li>
+        <li><strong>Price ($20) and fixed cost ($6,000) are constant.</strong> Adding a paid user adds $20 of revenue and $2 of variable cost, for a net contribution of $18. The existing 1,000 free users keep costing $2 each.</li>
+        <li>“Burn” means the <strong>monthly operating loss</strong> = revenue − total monthly cost, reported as a positive dollar figure of cash lost per month.</li>
+        <li>“Gross margin” means the <strong>per-paid-user contribution margin</strong>: <code>(price − variable cost) / price</code>.</li>
+      </ol>
+    </section>
+
+  </main>
+</body>
+</html>

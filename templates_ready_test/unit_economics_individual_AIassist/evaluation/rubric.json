@@ -1,0 +1,62 @@
+{
+  "scoring_overview": {
+    "total_points": 100,
+    "objective_block": 100,
+    "process_block": 0,
+    "custom_scoring_module": "code.scoring",
+    "note": "Objective-only by design. Every item is a single-answer multiple-choice question (Stages 1-2) or a ranking (Stage 3), graded against the fixed answer key in code.scoring with no AI evaluator. There is NO process block: single-answer items give the group mechanisms nothing to measure — that absence is the experimental point (Auto AI ≈ Individual+AI)."
+  },
+
+  "criteria": {
+    "comp_users_correct": {
+      "weight": 0.10,
+      "rubric": "Paid users = 80. Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "comprehensive_check"
+    },
+    "comp_price_correct": {
+      "weight": 0.10,
+      "rubric": "Monthly price per paid user = $20. Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "comprehensive_check"
+    },
+    "comp_cost_correct": {
+      "weight": 0.10,
+      "rubric": "Monthly fixed cost = $6,000. Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "comprehensive_check"
+    },
+    "comp_monthburn_correct": {
+      "weight": 0.10,
+      "rubric": "Monthly burn = $6,560 (revenue $1,600 − total cost $8,160). Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "comprehensive_check"
+    },
+    "fin_revenue_correct": {
+      "weight": 0.10,
+      "rubric": "Monthly revenue = paid × price = $1,600. Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "role_questions"
+    },
+    "fin_variable_cost_correct": {
+      "weight": 0.10,
+      "rubric": "Total variable cost = $2 × 1,080 active users = $2,160 (free users count). Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "role_questions"
+    },
+    "founder_problem_correct": {
+      "weight": 0.10,
+      "rubric": "Core business issue = not enough paid conversion. Correct option scores 10, else 0.",
+      "scored_by": "custom_code",
+      "stage": "role_questions"
+    },
+    "strategic_ranking_score": {
+      "weight": 0.30,
+      "rubric": "Best order: increase paid conversion > reduce fixed cost > increase price > add more free users. Full 30 for the exact order; partial 7.5 per lever placed in its correct rank; 0 for a duplicate/incomplete ranking.",
+      "scored_by": "custom_code",
+      "stage": "ranking"
+    }
+  },
+
+  "custom_scoring_module": "code.scoring"
+}

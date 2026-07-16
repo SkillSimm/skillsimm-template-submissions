@@ -1,0 +1,134 @@
+{
+  "template_id": "unit_economics_individual_AIassist",
+  "name": "Unit Economics \u00b7 Individual+ AI assist",
+  "version": "1.0.0",
+  "team_size": 1,
+  "ai_chat_enabled": true,
+  "ai_chat_policy": "coach",
+  "group_communication_allowed": false,
+  "max_concurrent_claims": 50,
+  "default_model_config": {
+    "orchestrator_model": "deepseek:deepseek-chat",
+    "evaluator_model": "deepseek:deepseek-chat",
+    "chat_model": "deepseek:deepseek-chat",
+    "decomposer_model": "deepseek:deepseek-reasoner"
+  },
+  "stages_dir": "stages/",
+  "materials_dir": "materials/",
+  "skills_dir": "skills/",
+  "code_module": "code",
+  "mcp_config": null,
+  "evaluation_config": "evaluation/rubric.json",
+  "reference_decisions": "evaluation/reference_decisions.json",
+  "task_space_profile": {
+    "task_class": "unit_economics_calculation",
+    "task_instance": "single_answer_calculation",
+    "instance_variants": [
+      "single_answer_calculation"
+    ],
+    "dimensions": {
+      "planning": "low",
+      "generate": "low",
+      "creativity_input": "low",
+      "objective_correctness": "high",
+      "decision_verifiability": "high",
+      "shared_knowledge": "high",
+      "within_system_solution": "high",
+      "divisible_unitary": "unitary",
+      "conflicting_tradeoffs": "low",
+      "solution_scheme_multiplicity": "low",
+      "outcome_multiplicity": "low",
+      "solution_scheme_outcome_uncertainty": "low"
+    },
+    "reference": "Hu et al. 2026 \u2014 Task Space framework (Table 1). Engineered as the AI-favorable control task."
+  },
+  "experiment_config": {
+    "arms": [
+      "fully_automatic_ai",
+      "individual_plus_ai",
+      "team_plus_ai"
+    ],
+    "individual_arm_team_size": 1,
+    "team_arm_team_size": 4,
+    "hypothesis": "Fully-Automatic AI \u2248 Individual+AI, and Team+AI adds no measurable gain. A within-system, verifiable calculation has one right answer reachable by AI alone, so there is no decomposition or divergence advantage for a team.",
+    "primary_outcome": "total_score (0-100)",
+    "mechanism_outcomes": [
+      "objective_correctness",
+      "decision_verifiability"
+    ]
+  },
+  "lens_assignments": [
+    {
+      "member_slot": 1,
+      "lens": "Whole calculation",
+      "goal": "Compute every figure; in the Team arm members cross-check the same numbers (no division of labor helps)."
+    }
+  ],
+  "materials": [
+    {
+      "name": "Instructions",
+      "path": "materials/Instructions.html",
+      "mime": "text/html",
+      "visibility": "all_stages",
+      "description": ""
+    },
+    {
+      "name": "Consent Form",
+      "path": "materials/consent/consent.pdf",
+      "mime": "application/pdf",
+      "visibility": "all_stages",
+      "description": "Informed consent form shown before joining."
+    },
+    {
+      "name": "Flowchart",
+      "path": "materials/img/FlowChart.png",
+      "mime": "image/png",
+      "visibility": "all_stages",
+      "description": ""
+    },
+    {
+      "name": "Startup Financials (fixed)",
+      "path": "materials/startup_financials.html",
+      "mime": "text/html",
+      "visibility": "all_stages",
+      "description": "The fixed unit-economics inputs (1,000 free / 80 paid users, $20 price, $6,000 fixed cost, $2 variable cost per active user) and the pinned assumptions that make every answer verifiable. Opens in a new tab."
+    }
+  ],
+  "ip_protection": {
+    "evaluation_criteria_server_only": true,
+    "reference_decisions_server_only": true,
+    "scoring_code_server_only": true,
+    "prompt_skills_server_only": true,
+    "behavioral_data_export": "anonymized_aggregates_only"
+  },
+  "metadata": {
+    "visibility": "verified",
+    "verified_by_skillsimm": true,
+    "domain": "entrepreneurship",
+    "industry": "startup",
+    "difficulty": "beginner",
+    "duration_minutes": 20,
+    "task_type": "calculation",
+    "scoring_type": "rubric",
+    "license": "CC-BY-4.0",
+    "author": "SkillSimm",
+    "research_ready": true,
+    "tags": [
+      "unit economics",
+      "break-even",
+      "startup finance"
+    ],
+    "learning_goals": [
+      "calculate contribution margin",
+      "identify break-even paid users",
+      "reason about fixed and variable costs"
+    ],
+    "ai_modes": [
+      "AI as assistant + bug"
+    ],
+    "team_size": {
+      "min": 1,
+      "max": 1
+    }
+  }
+}

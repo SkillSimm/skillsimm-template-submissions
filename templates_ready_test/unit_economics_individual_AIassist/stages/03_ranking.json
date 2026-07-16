@@ -1,0 +1,58 @@
+{
+  "stage_index": 2,
+  "stage_id": "ranking",
+  "name": "Stage 3 — Rank the Strategic Levers",
+  "description": "One participant claims the ranking task and orders the four strategic levers from best to worst for reaching break-even. Because the unit economics are objective, the best ranking is determinate (increase paid conversion first; adding more free users last, since free users only add cost). Individuals, teams, and AI should converge on the same order.",
+  "estimated_duration_minutes": 4,
+
+  "tasks": [
+    {
+      "task_id": "strategic_ranking",
+      "participant_slot": 1,
+      "name": "Rank the strategic levers",
+      "type": "human",
+      "hitl_prompt": "Order the four strategic levers from most to least effective for reaching break-even. Pick a distinct lever for each rank — no repeats. The strongest lever closes the $1,600-vs-$8,160 gap fastest; the weakest one makes the gap worse.",
+      "required_fields": ["rank_1", "rank_2", "rank_3", "rank_4"],
+      "field_schema": {
+        "rank_1": {
+          "type": "select",
+          "label": "Rank 1 — best lever",
+          "options": ["Increase paid conversion", "Reduce fixed cost", "Increase price", "Add more free users"],
+          "required": true
+        },
+        "rank_2": {
+          "type": "select",
+          "label": "Rank 2",
+          "options": ["Increase paid conversion", "Reduce fixed cost", "Increase price", "Add more free users"],
+          "required": true
+        },
+        "rank_3": {
+          "type": "select",
+          "label": "Rank 3",
+          "options": ["Increase paid conversion", "Reduce fixed cost", "Increase price", "Add more free users"],
+          "required": true
+        },
+        "rank_4": {
+          "type": "select",
+          "label": "Rank 4 — weakest lever",
+          "options": ["Increase paid conversion", "Reduce fixed cost", "Increase price", "Add more free users"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.30,
+      "requires_review": false,
+      "behavioral_signals": ["thinker", "manager"]
+    }
+  ],
+
+  "sign_off_rule": "any",
+  "sign_off_note": "Any one teammate may lock the ranking.",
+  "dependencies": ["role_questions"],
+  "parallel_with": [],
+  "custom_validators": ["code.validators.validate_ranking"],
+
+  "context_brief_template": "Rank the four levers. The dominant lever is increasing price — each dollar of price increase applies to every paid user, so this is the fastest way to close the gap. Next best is converting free users to paid, then reducing fixed cost. Adding more free users is worst because they only add variable cost. Best order: increase price > increase paid conversion > reduce fixed cost > add more free users."
+}

@@ -1,0 +1,26 @@
+{
+  "_note": "Server-only answer key. This template has no HITL Confirm/Revise gates — every item is graded objectively by code.scoring against these canonical answers. Kept for reference and audit only.",
+
+  "comprehensive_check": {
+    "comp_users": "80",
+    "comp_price": "$20",
+    "comp_cost": "$6,000",
+    "comp_monthburn": "$6,560"
+  },
+
+  "role_questions": {
+    "fin_revenue": "$1,600",
+    "fin_variable_cost": "$2,160",
+    "founder_problem": "Not enough paid conversion"
+  },
+
+  "ranking": {
+    "best_order": [
+      "Increase paid conversion",
+      "Reduce fixed cost",
+      "Increase price",
+      "Add more free users"
+    ],
+    "rationale": "Each converted free user adds $18 of contribution toward the $8,000 to cover; reducing fixed cost and raising price help less; adding more free users only adds variable cost, so it is the worst lever."
+  }
+}

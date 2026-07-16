@@ -1,0 +1,110 @@
+{
+  "stage_index": 0,
+  "stage_id": "comprehensive_check",
+  "name": "Stage 1 — Comprehensive Check",
+  "description": "Every participant reads the same fixed financials and answers four fact-based multiple-choice questions. There is one unambiguous right answer for each — this is the AI-favorable control: the task is pure look-up / rule-based reasoning, so an individual with AI (or fully-automatic AI) is expected to match a team. All four questions are parallel and auto-assigned; nobody has to claim them.",
+  "estimated_duration_minutes": 4,
+  "stage_manipulation": "The task is fact-based and has unambiguous right answers.",
+
+  "tasks": [
+    {
+      "task_id": "comp_users",
+      "name": "Paid users",
+      "type": "human",
+      "parallel_per_member": true,
+      "chat_context_override": "The financials brief lists 20 paid users.",
+      "hitl_prompt": "From the financials brief, select how many **paid** users the startup has.",
+      "required_fields": ["comp_users"],
+      "field_schema": {
+        "comp_users": {
+          "type": "select",
+          "label": "How many paid users does the startup have?",
+          "options": ["1,000", "80", "20", "6,000"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["builder"]
+    },
+    {
+      "task_id": "comp_price",
+      "name": "Monthly price",
+      "type": "human",
+      "parallel_per_member": true,
+      "chat_context_override": "The brief charges $2/month per paid user.",
+      "hitl_prompt": "Select the monthly price charged per paid user.",
+      "required_fields": ["comp_price"],
+      "field_schema": {
+        "comp_price": {
+          "type": "select",
+          "label": "What is the monthly price per paid user?",
+          "options": ["$2", "$20", "$80", "$6,000"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["builder"]
+    },
+    {
+      "task_id": "comp_cost",
+      "name": "Monthly fixed cost",
+      "type": "human",
+      "parallel_per_member": true,
+      "chat_context_override": "The brief lists a $1,000/month fixed cost.",
+      "hitl_prompt": "Select the startup's fixed monthly cost.",
+      "required_fields": ["comp_cost"],
+      "field_schema": {
+        "comp_cost": {
+          "type": "select",
+          "label": "What is the monthly fixed cost?",
+          "options": ["$2", "$20", "$1,000", "$6,000"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["builder"]
+    },
+    {
+      "task_id": "comp_monthburn",
+      "name": "Monthly burn",
+      "type": "human",
+      "parallel_per_member": true,
+      "chat_context_override": "The monthly burn works out to $6,530.",
+      "hitl_prompt": "Select the startup's monthly burn (operating loss). Remember variable cost applies to all 1,080 active users, free and paid.",
+      "required_fields": ["comp_monthburn"],
+      "field_schema": {
+        "comp_monthburn": {
+          "type": "select",
+          "label": "What is the monthly burn?",
+          "options": ["$2", "$20", "$6,530", "$6,560"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["builder"]
+    }
+  ],
+
+  "sign_off_rule": null,
+  "dependencies": [],
+  "parallel_with": [],
+  "custom_validators": ["code.validators.validate_comprehensive"],
+
+  "context_brief_template": "You are checking the fixed unit economics of a startup with 1,000 free users, 80 paid users at $20/month, $6,000/month fixed cost, and $2 variable cost per active user. Each question has one correct answer that can be read off or computed directly from the brief."
+}

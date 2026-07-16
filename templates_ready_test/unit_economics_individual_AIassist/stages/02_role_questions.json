@@ -1,0 +1,88 @@
+{
+  "stage_index": 1,
+  "stage_id": "role_questions",
+  "name": "Stage 2 — Role-Specific Questions",
+  "description": "Participants claim role-specific questions. The Finance role answers revenue and total variable cost; the Founder role names the core business issue. Each still has one best answer that follows directly from the fixed financials — claiming and roles add structure, not subjectivity, so the arms are still expected to converge.",
+  "estimated_duration_minutes": 4,
+
+  "roles": ["finance", "finance", "founder"],
+
+  "tasks": [
+    {
+      "task_id": "fin_revenue",
+      "participant_slot": 1,
+      "name": "Finance · Monthly revenue",
+      "type": "human",
+      "role": "finance",
+      "hitl_prompt": "As the finance analyst, select the startup's monthly revenue.",
+      "required_fields": ["fin_revenue"],
+      "field_schema": {
+        "fin_revenue": {
+          "type": "select",
+          "label": "What is monthly revenue?",
+          "options": ["$1,600", "$6,000", "$8,000", "$20,000"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["builder"]
+    },
+    {
+      "task_id": "fin_variable_cost",
+      "participant_slot": 1,
+      "name": "Finance · Total variable cost",
+      "type": "human",
+      "role": "finance",
+      "hitl_prompt": "As the finance analyst, select the total monthly variable cost if all 1,080 active users (free + paid) create cost.",
+      "required_fields": ["fin_variable_cost"],
+      "field_schema": {
+        "fin_variable_cost": {
+          "type": "select",
+          "label": "What is total variable cost if all 1,080 users create cost?",
+          "options": ["$160", "$2,160", "$6,000", "$8,160"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["builder"]
+    },
+    {
+      "task_id": "founder_problem",
+      "participant_slot": 1,
+      "name": "Founder · Core business issue",
+      "type": "human",
+      "role": "founder",
+      "hitl_prompt": "As the founder, select the main business issue given the unit economics.",
+      "required_fields": ["founder_problem"],
+      "field_schema": {
+        "founder_problem": {
+          "type": "select",
+          "label": "What is the main business issue?",
+          "options": ["Too many users", "Not enough paid conversion", "Price too high", "No fixed cost"],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/unit_economics_analyst.md",
+      "materials_required": ["materials/startup_financials.html"],
+      "evaluation_point": true,
+      "evaluation_weight": 0.10,
+      "requires_review": false,
+      "behavioral_signals": ["thinker"]
+    }
+  ],
+
+  "sign_off_rule": null,
+  "dependencies": ["comprehensive_check"],
+  "parallel_with": [],
+  "custom_validators": ["code.validators.validate_role_questions"],
+
+  "context_brief_template": "Answer your claimed role question from the fixed financials. Finance figures (revenue $6,000, total variable cost $2,160 on 1,080 users) are direct calculations; the core business issue is that there are too many users driving up variable cost."
+}
