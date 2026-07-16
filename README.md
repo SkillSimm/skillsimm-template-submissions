@@ -1,61 +1,43 @@
 # SkillSimm Template Submissions
 
-Private review repo for the SkillSimm template marketplace. **Merged folders
-under `templates/` on `main` are the registry** — the SkillSimm backend syncs
-them on startup (`GITHUB_SYNC_ENABLED=true`) and lists them as
-verified marketplace templates.
+The creator pipeline for **SkillSimm simulations** — workplace simulations
+where real people make the judgment calls inside AI-assisted workflows.
+Templates are submitted here as pull requests, validated by CI, reviewed by
+humans, and published to the SkillSimm library.
 
-## How a template gets here
+**🌐 Start at the Simulation Hub: <https://skillsimm.github.io/skillsimm-template-submissions/>**
+
+| I want to… | Go to |
+|---|---|
+| Create a simulation (no code needed) | [Create guide](https://skillsimm.github.io/skillsimm-template-submissions/create.html) — write a 4-section structured report, submit through an AI agent |
+| Browse published simulations | [Gallery](https://skillsimm.github.io/skillsimm-template-submissions/explore.html) |
+| Understand the package format | [Format reference](https://skillsimm.github.io/skillsimm-template-submissions/format.html) · [`schemas/`](schemas/) |
+| Submit a package by hand | [CONTRIBUTING.md](CONTRIBUTING.md) |
+
+## How a simulation gets published
 
 ```
-Claude / Codex / Cursor (creator's agent)
-        ↓  SkillSimm MCP server (mcp.skillsimm.com)
-Draft in SkillSimm DB
-        ↓  submit_to_github_review
-Pull request on this repo        ← you are here
-        ↓  GitHub Actions validation (required check)
-        ↓  internal review (PR template checklist)
-        ↓  merge = approval
-templates/<slug>/ on main
-        ↓  backend sync_from_registry
-Public template library → user My Library → runs
+You describe → AI drafts → CI validates → Humans review → Test run → Published
 ```
 
-Agents create; they never publish. Merging a PR is the only publish path.
+Nothing publishes without human review. Creators describe a workflow —
+what it looks like, the materials needed, the human decision boundaries and
+standard operating procedure, and the edge cases. The SkillSimm Template MCP
+(`https://mcp.skillsimm.com/mcp`) turns that report into a formal package and
+opens a PR here; the `validate` workflow and a reviewer checklist gate the merge.
 
-## Package format
+## Repository layout
 
-Each template is a folder under `templates/`:
+```
+templates/   one folder per simulation package (see the reference:
+             templates/consumer-complaint-escalation/)
+schemas/     JSON Schemas for template.yaml, steps.yaml, metadata.yaml, creator.yaml
+scripts/     validate_package.py + vendored validator module
+docs/        the Simulation Hub site (GitHub Pages, served from main:/docs)
+```
 
-| File | Required | Contents |
-|---|---|---|
-| `template.yaml` | ✓ | id, title, objective, audience, roles, team_size |
-| `steps.yaml` | ✓ | ordered steps: actor_mode, task_type, task_description, grading |
-| `grading.yaml` | | grading rules keyed by step id (inline rules in steps.yaml win) |
-| `metadata.yaml` | | marketplace discovery: domain, difficulty, duration, tags… |
-| `creator.yaml` | | creator profile + royalty preference |
-| `sample_inputs.json` / `expected_outputs.json` | | example run data |
-| `README.md` | ✓ | what the template trains, ≥200 chars |
-| `LICENSE.md` | ✓ | license + SkillSimm modification clause |
-
-JSON Schemas for every file live in [`schemas/`](schemas/). The reference
-package is [`templates/consumer-complaint-escalation/`](templates/consumer-complaint-escalation/).
-
-Validate locally:
+Validate a package locally:
 
 ```bash
-pip install "pydantic>=2.10,<3" "pyyaml>=6"
-python scripts/validate_package.py templates/<your-slug>
+python scripts/validate_package.py templates/<slug>
 ```
-
-## Labels
-
-`new-submission` → `schema-pass` / `needs-revision` → `internal-test-pass` →
-`royalty-pending` → `approved` → `published` (or `rejected`).
-
-## Review rules
-
-- The `validate` check must pass before merge.
-- Reviewers work through the checklist in the PR template.
-- Royalty terms are agreed before merge for revenue-share templates
-  (`royalty-pending` label while open).

@@ -1,5 +1,11 @@
 # Contributing a template
 
+**New to this — or don't code?** Start at the
+[Simulation Hub create guide](https://skillsimm.github.io/skillsimm-template-submissions/create.html):
+write a four-section structured report (workflow, materials, human decision
+boundaries & SOP, edge cases) and an AI agent builds and submits the package
+for you. The rest of this document covers the hands-on paths.
+
 Most submissions arrive through the **SkillSimm Template MCP** — point your
 agent (Claude Code, Codex, Cursor) at `https://mcp.skillsimm.com/mcp` with a
 SkillSimm API token and ask it to create a template; the

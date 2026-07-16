@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create a simulation — SkillSimm Simulation Hub</title>
+  <meta name="description" content="Create a SkillSimm simulation without writing code: fill in a four-section structured report and submit it through an AI agent.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">Skill<span>Simm</span> Simulation Hub</a>
+      <nav class="site">
+        <a href="index.html">Home</a>
+        <a href="create.html" aria-current="page">Create</a>
+        <a href="explore.html">Explore</a>
+        <a href="format.html">Format</a>
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Create a simulation from a structured report</h1>
+      <p class="lede">
+        You don't write YAML, code, or config files. You write four short
+        sections about a workflow you know well. If you can explain the job to
+        a new hire, you can create a simulation.
+      </p>
+
+      <div class="callout">
+        <strong>The whole process:</strong> fill in the
+        <a href="report-template.md" download>report template</a> (four sections
+        below) → hand it to an AI agent connected to SkillSimm → the agent
+        interviews you for anything missing, builds the formal template package,
+        and submits it for review.
+      </div>
+
+      <h2><span class="stepnum">1</span>What the workflow looks like</h2>
+      <p>
+        Describe the scenario and the sequence of work in plain language: who is
+        involved, what kicks the workflow off, and what happens step by step.
+        Think of it as narrating the job to someone shadowing you for a day.
+        Aim for 5–12 steps.
+      </p>
+      <div class="example">
+        <span class="label">Example</span>
+        A customer files an angry complaint about delayed onboarding. A support
+        agent reads the ticket and diagnoses the core issue. If the customer is
+        high-value or threatens to churn, the agent drafts an escalation summary
+        for a manager. The manager decides the escalation path — refund, service
+        credit, or executive callback — and the agent sends the final response.
+      </div>
+
+      <h2><span class="stepnum">2</span>Materials needed</h2>
+      <p>
+        List every document, dataset, image, or reference a participant must
+        read to do the work: the ticket, the policy manual, the financial
+        spreadsheet, the org chart. For each one, say what it is and whether you
+        can provide it or need help creating a realistic version. Materials make
+        or break realism — vague scenarios produce vague decisions.
+      </p>
+      <div class="example">
+        <span class="label">Example</span>
+        (1) The complaint email thread, 3 messages, escalating tone.
+        (2) The customer's account summary: plan tier, contract value, support
+        history. (3) A one-page escalation policy stating refund limits per
+        role. I can write #1 and #3; I need a realistic-looking #2 generated.
+      </div>
+
+      <h2><span class="stepnum">3</span>Human decision boundaries &amp; standard operating procedure</h2>
+      <p>
+        This is the heart of a SkillSimm simulation. For each step, say
+        <strong>who acts</strong> and <strong>where the human boundary sits</strong>:
+      </p>
+      <ul>
+        <li><strong>Which steps must a human decide?</strong> These are the decisions the simulation exists to practice.</li>
+        <li><strong>What may the AI do at each step?</strong> Suggest options, critique a draft, grade an answer, or decide outright.</li>
+        <li><strong>What is the standard operating procedure?</strong> The rules a competent employee follows: thresholds, approval limits, escalation criteria, required checks before acting.</li>
+      </ul>
+      <div class="example">
+        <span class="label">Example</span>
+        Diagnosing the complaint: human decides, AI may suggest candidate
+        issues. Escalation decision: human decides alone — this is the graded
+        judgment call. SOP: refunds under $200 need no approval; $200–$1,000
+        requires manager sign-off; any churn threat from an enterprise account
+        escalates to the account executive within 4 business hours, no
+        exceptions. Drafting the response email: AI drafts, human edits and
+        approves before sending.
+      </div>
+
+      <h2><span class="stepnum">4</span>Edge cases</h2>
+      <p>
+        What makes this workflow genuinely hard? List the tricky inputs,
+        ambiguities, and failure modes a strong performer handles and a weak one
+        misses. Good edge cases are what separate a training simulation from a
+        quiz — including deliberately planted ambiguities participants should
+        catch.
+      </p>
+      <div class="example">
+        <span class="label">Example</span>
+        The customer's tone is angry but their actual ask is small (a $40
+        credit) — over-escalating wastes a manager's time. The account summary
+        shows the contract renews in 3 weeks, which changes the risk calculus
+        but is never mentioned in the complaint. The policy has no rule for
+        customers who threaten to post on social media — participants must
+        reason from principles.
+      </div>
+
+      <h2>Get the report template</h2>
+      <p>
+        Copy the blank report below, or
+        <a href="report-template.md" download>download it as a Markdown file</a>.
+        Fill in each section — bullet points are fine.
+      </p>
+      <div class="copy-block">
+        <button class="copy" data-target="report-md">Copy</button>
+<pre id="report-md"><code># SkillSimm Simulation Report
+
+## 0. Basics
+- Working title:
+- Who is this for (audience):
+- What skill or judgment should it train (objective):
+- Roles involved (e.g., support agent, manager):
+- Solo or team simulation? Ideal team size:
+
+## 1. What the workflow looks like
+(Narrate the scenario and steps in order. Who does what, triggered by what?)
+
+## 2. Materials needed
+(Every document, dataset, or image a participant must read.
+For each: what it is, and whether you can provide it or need it created.)
+
+## 3. Human decision boundaries &amp; standard operating procedure
+(For each step: does a human decide, or the AI? If AI is involved, does it
+suggest, critique, grade, or decide? What rules, thresholds, and approval
+limits does a competent employee follow?)
+
+## 4. Edge cases
+(Tricky inputs, ambiguities, and failure modes. What do strong performers
+catch that weak ones miss? Any deliberately planted traps?)
+
+## 5. Grading (optional — the interview will help)
+(How would you know a participant did well? Right answers, a rubric,
+numeric targets?)
+</code></pre>
+      </div>
+
+      <h2>Submit it — no code, no git</h2>
+      <p>
+        Open Claude (or any AI agent that supports MCP connectors), connect the
+        SkillSimm template server at
+        <code>https://mcp.skillsimm.com/mcp</code> with your SkillSimm API
+        token, then paste your finished report with this prompt:
+      </p>
+      <div class="copy-block">
+        <button class="copy" data-target="submit-prompt">Copy</button>
+<pre id="submit-prompt"><code>Here is my structured report for a new SkillSimm simulation. Please:
+1. Interview me about anything missing or ambiguous — one question at a time.
+2. Build the full template package (steps, human/AI modes, materials, grading).
+3. Show me a preview and let me revise it.
+4. When I approve, validate it and submit it for review.
+
+[paste your report here]</code></pre>
+      </div>
+      <p>
+        The agent walks you through the standard interview
+        (goal → audience → scenario → roles → steps → human/AI mode → grading),
+        assembles the formal package, and opens the review submission for you.
+      </p>
+      <p>
+        <strong>Comfortable with GitHub?</strong> You can also build the package
+        by hand and open a pull request directly — see the
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/CONTRIBUTING.md">contributing guide</a>
+        and the <a href="format.html">package format</a>.
+      </p>
+
+      <h2>What happens after you submit</h2>
+      <ol>
+        <li><strong>Automated checks</strong> validate the package structure, step logic, and grading rules the moment the submission opens.</li>
+        <li><strong>A reviewer reads it</strong> for instruction clarity, sound step logic, honest grading, safety, and originality — and leaves comments if anything needs work.</li>
+        <li><strong>You revise</strong> through the same AI agent (or directly on the pull request) until the reviewer approves.</li>
+        <li><strong>A test run</strong> confirms the simulation produces a meaningful evaluation report.</li>
+        <li><strong>Royalty terms are settled</strong> (revenue share, per-run, or open source — your choice, stated in your creator profile) and the template is <strong>published to the gallery</strong> with your name on it.</li>
+      </ol>
+
+      <div class="callout">
+        Nothing publishes without human review. The AI creates, GitHub reviews,
+        SkillSimm tests, you agree, an admin publishes — in that order.
+      </div>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      SkillSimm Simulation Hub ·
+      <a href="https://github.com/SkillSimm/skillsimm-template-submissions">skillsimm-template-submissions</a> ·
+      <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/CONTRIBUTING.md">Contributing</a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll("button.copy").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var pre = document.getElementById(btn.dataset.target);
+        navigator.clipboard.writeText(pre.textContent).then(function () {
+          btn.textContent = "Copied!";
+          setTimeout(function () { btn.textContent = "Copy"; }, 1500);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

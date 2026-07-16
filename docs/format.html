@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Template package format — SkillSimm Simulation Hub</title>
+  <meta name="description" content="The SkillSimm template package format: files, step fields, actor modes, task types, and grading rules.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">Skill<span>Simm</span> Simulation Hub</a>
+      <nav class="site">
+        <a href="index.html">Home</a>
+        <a href="create.html">Create</a>
+        <a href="explore.html">Explore</a>
+        <a href="format.html" aria-current="page">Format</a>
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>The template package format</h1>
+      <p class="lede">
+        Reference for reviewers and hands-on creators. If you're creating
+        through the <a href="create.html">structured report</a>, you never
+        touch these files — the AI interview builds them for you. Machine-readable
+        schemas live in
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/schemas"><code>schemas/</code></a>.
+      </p>
+
+      <h2>Package layout</h2>
+      <p>Each simulation is one folder under <code>templates/</code>:</p>
+<pre><code>templates/
+  your-template-slug/
+    template.yaml          # identity: id, title, objective, audience, roles, team size
+    steps.yaml             # the ordered steps, human/AI modes, and grading rules
+    metadata.yaml          # domain, difficulty, duration, tags, license, learning goals
+    creator.yaml           # who you are + royalty preference
+    sample_inputs.json     # example inputs for a test run
+    expected_outputs.json  # what a good run produces
+    README.md              # human-readable description of the simulation
+    LICENSE.md             # license text
+</code></pre>
+      <p>
+        The reference package to copy from:
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/templates/consumer-complaint-escalation"><code>consumer-complaint-escalation</code></a>.
+      </p>
+
+      <h2>template.yaml</h2>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Field</th><th>Required</th><th>Meaning</th></tr>
+        <tr><td><code>id</code></td><td>yes</td><td>Unique snake_case identifier, e.g. <code>consumer_complaint_escalation</code></td></tr>
+        <tr><td><code>title</code></td><td>yes</td><td>Display name</td></tr>
+        <tr><td><code>objective</code></td><td>yes</td><td>The skill or judgment the simulation trains</td></tr>
+        <tr><td><code>audience</code></td><td>no</td><td>Who it's for, e.g. "MBA / enterprise training"</td></tr>
+        <tr><td><code>roles</code></td><td>no</td><td>List of participant roles, e.g. <code>support_agent</code>, <code>manager</code></td></tr>
+        <tr><td><code>version</code></td><td>no</td><td>Semver, defaults to <code>1.0.0</code></td></tr>
+        <tr><td><code>team_size</code></td><td>no</td><td>Default team size (integer, default 5)</td></tr>
+        <tr><td><code>ai_chat_enabled</code></td><td>no</td><td>Whether participants get an AI chat assistant (default true)</td></tr>
+        <tr><td><code>group_communication_allowed</code></td><td>no</td><td>Whether team members may talk to each other (default true)</td></tr>
+      </table>
+      </div>
+
+      <h2>steps.yaml — one entry per step</h2>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Field</th><th>Required</th><th>Meaning</th></tr>
+        <tr><td><code>id</code></td><td>yes</td><td>Unique snake_case step id</td></tr>
+        <tr><td><code>title</code></td><td>yes</td><td>Short step name</td></tr>
+        <tr><td><code>actor_mode</code></td><td>yes</td><td>Who acts — see table below</td></tr>
+        <tr><td><code>task_type</code></td><td>yes</td><td>Shape of the answer — see table below</td></tr>
+        <tr><td><code>task_description</code></td><td>yes</td><td>What the participant is asked to do</td></tr>
+        <tr><td><code>role</code></td><td>no</td><td>Which role performs this step</td></tr>
+        <tr><td><code>depends_on</code></td><td>no</td><td>List of step ids that must complete first (defines the workflow DAG)</td></tr>
+        <tr><td><code>ai_assist</code></td><td>no</td><td>What the AI may do: <code>suggests</code> · <code>critiques</code> · <code>grades</code> · <code>decides</code></td></tr>
+        <tr><td><code>grading</code></td><td>no</td><td>Grading rule block — see below</td></tr>
+      </table>
+      </div>
+
+      <h3>Actor modes — the human decision boundary</h3>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Mode</th><th>Who decides</th></tr>
+        <tr><td><code>human</code></td><td>A person, working alone — no AI involvement</td></tr>
+        <tr><td><code>human_with_ai</code></td><td>A person decides; AI assists per <code>ai_assist</code></td></tr>
+        <tr><td><code>team_with_ai</code></td><td>The team decides together; AI assists</td></tr>
+        <tr><td><code>ai</code></td><td>The AI acts autonomously; humans see the output downstream</td></tr>
+      </table>
+      </div>
+
+      <h3>Task types</h3>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Type</th><th>The participant produces…</th></tr>
+        <tr><td><code>multiple_choice</code></td><td>One choice from fixed options</td></tr>
+        <tr><td><code>numeric_input</code></td><td>A number (checked against value/range/tolerance)</td></tr>
+        <tr><td><code>structured_response</code></td><td>A structured answer, e.g. decision + justification fields</td></tr>
+        <tr><td><code>open_response</code></td><td>Free-form writing</td></tr>
+        <tr><td><code>document_review</code></td><td>A judgment on a provided document</td></tr>
+      </table>
+      </div>
+
+      <h3>Grading rules</h3>
+      <div class="table-scroll">
+      <table>
+        <tr><th><code>type</code></th><th>Requires</th><th>Use when</th></tr>
+        <tr><td><code>answer_key</code></td><td><code>correct_answer</code>, usually <code>options</code> and <code>distractors</code>, <code>points</code></td><td>One objectively correct answer</td></tr>
+        <tr><td><code>numeric</code></td><td><code>expected_value</code> or <code>expected_range</code>, optional <code>tolerance</code> / <code>formula</code></td><td>Calculations</td></tr>
+        <tr><td><code>rubric</code></td><td><code>criteria</code> list (each measurable)</td><td>Judgment quality scored by named criteria</td></tr>
+        <tr><td><code>llm_judge</code></td><td><code>criteria</code> <em>and</em> <code>anchor_examples</code> (good/bad answer examples)</td><td>Open responses graded by an LLM against anchors</td></tr>
+        <tr><td><code>none</code></td><td>—</td><td>Ungraded steps (context-setting, handoffs)</td></tr>
+      </table>
+      </div>
+
+      <h2>metadata.yaml &amp; creator.yaml</h2>
+      <p>
+        <code>metadata.yaml</code> carries discovery info: <code>domain</code>,
+        <code>industry</code>, <code>difficulty</code>,
+        <code>duration_minutes</code>, <code>team_size</code> (min/max),
+        <code>scoring_type</code>, <code>license</code>, <code>tags</code>, and
+        <code>learning_goals</code>.
+        <code>creator.yaml</code> identifies you and states your royalty
+        preference: <code>fixed_fee</code> · <code>revenue_share</code> ·
+        <code>per_run</code> · <code>open_source</code> ·
+        <code>enterprise_only</code>.
+      </p>
+
+      <h2>Validation</h2>
+      <p>
+        Every pull request runs
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/scripts/validate_package.py"><code>scripts/validate_package.py</code></a>
+        over all packages: schema conformance, step-id uniqueness,
+        <code>depends_on</code> references, and grading-rule completeness per
+        the decision tree above. Run it locally before opening a PR:
+      </p>
+<pre><code>python scripts/validate_package.py templates/&lt;your-slug&gt;</code></pre>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      SkillSimm Simulation Hub ·
+      <a href="https://github.com/SkillSimm/skillsimm-template-submissions">skillsimm-template-submissions</a> ·
+      <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/CONTRIBUTING.md">Contributing</a>
+    </div>
+  </footer>
+</body>
+</html>
