@@ -1,0 +1,123 @@
+{
+  "family": "security_analyst",
+  "generated_at": "2026-07-19T19:11:21+00:00",
+  "postings": [
+    {
+      "title": "Incident Response Analyst",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8050511?gh_jid=8050511",
+      "posted_at": "2026-07-16T04:25:45-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
+      "company": "GitLab",
+      "location": "Remote, Israel; Remote, United Kingdom",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8628447002",
+      "posted_at": "2026-07-10T16:02:45-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Manager of Response, Automation, Intelligence & Detection Engineering",
+      "company": "Robinhood",
+      "location": "Denver, CO; Menlo Park, CA",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8055526?t=gh_src=&gh_jid=8055526",
+      "posted_at": "2026-07-10T15:51:32-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Sr Security Engineer, Incident Response",
+      "company": "Databricks",
+      "location": "Belgium; Finland; Remote - Denmark; Remote - France; Remote - Germany; Remote - Netherlands; Remote - Spain; Remote - Sweden; Remote - United Kingdom; Switzerland",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8618455002",
+      "posted_at": "2026-07-03T09:52:48-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Incident Response Engineer - PhishGuard",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8037643?gh_jid=8037643",
+      "posted_at": "2026-07-01T02:18:07-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Incident Response Engineer - CMDC",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8037628?gh_jid=8037628",
+      "posted_at": "2026-06-30T06:53:54-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Incident Response Analyst - React",
+      "company": "Cloudflare",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8025650?gh_jid=8025650",
+      "posted_at": "2026-06-24T08:29:13-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Security Incident Response Manager",
+      "company": "Stripe",
+      "location": "Dublin",
+      "url": "https://stripe.com/jobs/search?gh_jid=8007205",
+      "posted_at": "2026-06-15T06:28:33-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Manager, Security Incident Response Team (USA)",
+      "company": "GitLab",
+      "location": "Remote, US",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8535048002",
+      "posted_at": "2026-05-14T15:23:56-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Incident Response Manager, Enforcement",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY | Washington, DC",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5211184008",
+      "posted_at": "2026-05-13T19:02:48-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Incident Response Manager - Product & Engineering",
+      "company": "Anthropic",
+      "location": "New York City, NY; Remote-Friendly, United States",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5205495008",
+      "posted_at": "2026-04-29T18:03:24-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Group Product Manager - Threat Detection and Incident Response (Cloud SIEM)",
+      "company": "Datadog",
+      "location": "New York, New York, USA",
+      "url": "https://careers.datadoghq.com/detail/7608826/?gh_jid=7608826",
+      "posted_at": "2026-02-11T16:47:21-05:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Defensive Security Analyst",
+      "company": "palantir",
+      "location": "Washington, D.C.",
+      "url": "https://jobs.lever.co/palantir/bc803bd5-7793-452d-9ae5-9301ee24615a",
+      "posted_at": "2026-01-08T11:51:58.513000+00:00",
+      "source": "lever",
+      "matched_templates": []
+    }
+  ]
+}

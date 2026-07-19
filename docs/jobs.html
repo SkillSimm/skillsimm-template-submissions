@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job board — SkillSimm Simulation Hub</title>
+  <meta name="description" content="Live job postings from public ATS boards, matched to SkillSimm practice simulations. Practice the sim, then apply.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .jobs-controls { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1rem 0 1.4rem; align-items: center; }
+    .jobs-controls input, .jobs-controls select {
+      padding: 0.45rem 0.6rem; border: 1px solid var(--border); border-radius: 8px;
+      background: var(--surface); color: var(--text); font: inherit;
+    }
+    .jobs-controls input[type="search"] { flex: 1 1 220px; }
+    .fam-tabs { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 1rem; }
+    .fam-tabs button {
+      padding: 0.45rem 0.9rem; border: 1px solid var(--border); border-radius: 999px;
+      background: var(--surface); color: var(--text); cursor: pointer; font: inherit;
+    }
+    .fam-tabs button[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+    table.jobs { width: 100%; border-collapse: collapse; }
+    .jobs-scroll { overflow-x: auto; }
+    table.jobs th, table.jobs td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    table.jobs th { color: var(--text-muted); font-weight: 600; font-size: 0.85rem; }
+    .sim-chip { display: inline-block; background: var(--accent-soft); color: var(--accent);
+      border-radius: 6px; padding: 0.1rem 0.45rem; font-size: 0.78rem; margin: 0 0.25rem 0.25rem 0; }
+    .stamp { color: var(--text-muted); font-size: 0.85rem; }
+    .empty { color: var(--text-muted); padding: 2rem 0; }
+  </style>
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">Skill<span>Simm</span> Simulation Hub</a>
+      <nav class="site">
+        <a href="index.html">Home</a>
+        <a href="create.html">Create</a>
+        <a href="explore.html">Explore</a>
+        <a href="jobs.html" aria-current="page">Jobs</a>
+        <a href="format.html">Format</a>
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Job board</h1>
+      <p class="lede">
+        Live postings from companies' own public ATS boards (Greenhouse, Lever,
+        Ashby), matched to the simulations that practice the same work.
+        Practice first, then apply at the source — every link goes to the
+        company's real posting.
+      </p>
+      <p>
+        See a role no simulation covers yet? That's a gap —
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/GAPS.md">check GAPS.md</a>
+        and build the sim.
+      </p>
+
+      <div class="fam-tabs" id="famTabs" role="group" aria-label="Job family"></div>
+
+      <div class="jobs-controls">
+        <input type="search" id="q" placeholder="Filter by title, company, location…" aria-label="Filter postings">
+        <select id="days" aria-label="Posted within">
+          <option value="0">Any date</option>
+          <option value="7">Last 7 days</option>
+          <option value="30">Last 30 days</option>
+          <option value="90">Last 90 days</option>
+        </select>
+      </div>
+
+      <p class="stamp" id="stamp"></p>
+      <div class="jobs-scroll">
+        <table class="jobs" id="jobsTable" hidden>
+          <thead>
+            <tr><th>Role</th><th>Company</th><th>Location</th><th>Posted</th><th>Practice first</th></tr>
+          </thead>
+          <tbody id="jobsBody"></tbody>
+        </table>
+      </div>
+      <p class="empty" id="empty" hidden>No postings match the current filters.</p>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>Feeds are committed JSON generated from public ATS APIs — titles and
+         links only, no reposted descriptions. Families are partly
+         data-discovered (clustered from postings, not hand-picked).
+         Data: <a href="data/jobs/index.json">index.json</a> +
+         <code>data/jobs/&lt;family&gt;.json</code></p>
+    </div>
+  </footer>
+
+  <script>
+    // Fallback when data/jobs/index.json is missing; otherwise tabs come from
+    // the index so data-discovered families appear automatically.
+    const DEFAULT_FAMILIES = ["financial_analyst", "data_analyst", "security_analyst"];
+    const state = { family: null, feeds: {}, q: "", days: 0 };
+
+    const tabs = document.getElementById("famTabs");
+    function buildTabs(families) {
+      tabs.innerHTML = "";
+      families.forEach(f => {
+        const b = document.createElement("button");
+        b.textContent = f.replace(/_/g, " ");
+        b.dataset.family = f;
+        b.setAttribute("aria-pressed", String(f === state.family));
+        b.addEventListener("click", () => { state.family = f; syncTabs(); render(); });
+        tabs.appendChild(b);
+      });
+    }
+    async function initFamilies() {
+      let families = DEFAULT_FAMILIES;
+      try {
+        const resp = await fetch("data/jobs/index.json", { cache: "no-store" });
+        if (resp.ok) {
+          const idx = await resp.json();
+          const listed = (idx.families || []).map(e => e.family).filter(Boolean);
+          if (listed.length) families = listed;
+        }
+      } catch {}
+      state.family = families[0];
+      buildTabs(families);
+      render();
+    }
+    function syncTabs() {
+      tabs.querySelectorAll("button").forEach(b =>
+        b.setAttribute("aria-pressed", String(b.dataset.family === state.family)));
+    }
+
+    document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.toLowerCase(); render(); });
+    document.getElementById("days").addEventListener("change", e => { state.days = +e.target.value; render(); });
+
+    async function load(family) {
+      if (state.feeds[family] !== undefined) return state.feeds[family];
+      try {
+        const resp = await fetch(`data/jobs/${family}.json`, { cache: "no-store" });
+        state.feeds[family] = resp.ok ? await resp.json() : null;
+      } catch { state.feeds[family] = null; }
+      return state.feeds[family];
+    }
+
+    function simUrl(id) {
+      return `https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/GAPS.md`;
+    }
+
+    async function render() {
+      const feed = await load(state.family);
+      const table = document.getElementById("jobsTable");
+      const empty = document.getElementById("empty");
+      const stamp = document.getElementById("stamp");
+      const body = document.getElementById("jobsBody");
+      body.innerHTML = "";
+      if (!feed || !feed.postings) {
+        table.hidden = true; empty.hidden = false;
+        empty.textContent = "No feed published yet for this family.";
+        stamp.textContent = "";
+        return;
+      }
+      const cutoff = state.days ? Date.now() - state.days * 864e5 : 0;
+      const rows = feed.postings.filter(p => {
+        const hay = `${p.title} ${p.company} ${p.location}`.toLowerCase();
+        if (state.q && !hay.includes(state.q)) return false;
+        if (cutoff) {
+          const t = p.posted_at ? Date.parse(p.posted_at) : NaN;
+          if (!Number.isFinite(t) || t < cutoff) return false;
+        }
+        return true;
+      });
+      stamp.textContent = `${rows.length} of ${feed.postings.length} postings · feed generated ${feed.generated_at ? feed.generated_at.slice(0, 10) : "n/a"}`;
+      if (!rows.length) { table.hidden = true; empty.hidden = false; empty.textContent = "No postings match the current filters."; return; }
+      empty.hidden = true; table.hidden = false;
+      for (const p of rows) {
+        const tr = document.createElement("tr");
+        const sims = (p.matched_templates || []).slice(0, 3).map(id =>
+          `<span class="sim-chip">${id}</span>`).join("") ||
+          `<a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/GAPS.md">no sim yet — build one</a>`;
+        tr.innerHTML =
+          `<td><a href="${p.url}" rel="noopener" target="_blank">${escapeHtml(p.title)}</a></td>` +
+          `<td>${escapeHtml(p.company)}</td>` +
+          `<td>${escapeHtml(p.location || "")}</td>` +
+          `<td>${p.posted_at ? p.posted_at.slice(0, 10) : ""}</td>` +
+          `<td>${sims}</td>`;
+        body.appendChild(tr);
+      }
+    }
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+    initFamilies();
+  </script>
+</body>
+</html>

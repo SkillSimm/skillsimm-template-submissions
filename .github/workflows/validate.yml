@@ -22,3 +22,19 @@ jobs:
 
       - name: Validate all template packages
         run: python scripts/validate_package.py
+
+  test-ats-ingest:
+    name: Test ats-ingest package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install package + test deps
+        run: pip install -e tools/ats-ingest pytest
+
+      - name: Run offline unit tests
+        run: pytest tools/ats-ingest/tests -q

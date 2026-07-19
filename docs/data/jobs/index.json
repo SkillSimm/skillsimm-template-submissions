@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-19T19:11:21+00:00",
+  "families": [
+    {
+      "family": "financial_analyst",
+      "postings": 28,
+      "companies": 16
+    },
+    {
+      "family": "data_analyst",
+      "postings": 20,
+      "companies": 10
+    },
+    {
+      "family": "security_analyst",
+      "postings": 13,
+      "companies": 8
+    },
+    {
+      "family": "account_manager",
+      "postings": 5,
+      "companies": 3
+    },
+    {
+      "family": "cloud_data_engineer",
+      "postings": 28,
+      "companies": 15
+    },
+    {
+      "family": "data_engineer",
+      "postings": 10,
+      "companies": 2
+    },
+    {
+      "family": "data_scientist",
+      "postings": 30,
+      "companies": 10
+    },
+    {
+      "family": "machine_learning_engineer",
+      "postings": 10,
+      "companies": 2
+    },
+    {
+      "family": "platform_engineer",
+      "postings": 23,
+      "companies": 1
+    },
+    {
+      "family": "product_manager",
+      "postings": 80,
+      "companies": 20
+    },
+    {
+      "family": "risk_compliance_manager",
+      "postings": 14,
+      "companies": 1
+    }
+  ]
+}

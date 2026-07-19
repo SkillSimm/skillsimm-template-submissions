@@ -1,0 +1,43 @@
+name: Claim a gap
+description: Claim an uncovered-demand item from GAPS.md and build the simulation for it.
+title: "gap: <item> — <your working title>"
+labels: ["gap-claim"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Claiming a gap tells other creators you're on it and gives reviewers
+        context when your PR lands. Find open gaps in
+        [GAPS.md](../blob/main/GAPS.md) — each entry links to its `gap:*` label.
+  - type: input
+    id: gap
+    attributes:
+      label: Gap label
+      description: The gap:* slug from GAPS.md
+      placeholder: "gap:log-analysis"
+    validations:
+      required: true
+  - type: input
+    id: family
+    attributes:
+      label: Job family
+      placeholder: "security_analyst"
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Planned scenario
+      description: 2-5 sentences — the scenario, the human decisions, where AI assists.
+    validations:
+      required: true
+  - type: input
+    id: eta
+    attributes:
+      label: Rough timeline
+      placeholder: "PR within 2 weeks"
+  - type: markdown
+    attributes:
+      value: |
+        **Fast path:** `python scripts/new_template.py --slug <your-slug> --from-gap gap:<slug>`
+        scaffolds a valid package prefilled from the GAPS.md entry.

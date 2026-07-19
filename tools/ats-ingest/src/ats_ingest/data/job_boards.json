@@ -1,0 +1,169 @@
+{
+  "_comment": "Seed board list. Every slug here was live-verified (HTTP 200) on 2026-07-19. Add your company's board with a one-line PR — greenhouse: boards-api.greenhouse.io/v1/boards/{slug}/jobs, lever: api.lever.co/v0/postings/{slug}, ashby: api.ashbyhq.com/posting-api/job-board/{slug}. title_rules are substring filters (lowercase): a posting joins the family only if its title matches at least one rule.",
+  "families": {
+    "financial_analyst": {
+      "title_rules": [
+        "financial analyst",
+        "finance analyst",
+        "fp&a",
+        "financial planning",
+        "corporate finance",
+        "revenue analyst",
+        "treasury analyst"
+      ],
+      "onet_soc": "13-2051.00",
+      "usajobs_keyword": "financial analyst",
+      "adzuna_query": "financial analyst",
+      "greenhouse": [
+        "affirm",
+        "airbnb",
+        "anthropic",
+        "brex",
+        "carta",
+        "checkr",
+        "chime",
+        "cloudflare",
+        "coinbase",
+        "databricks",
+        "datadog",
+        "duolingo",
+        "flexport",
+        "gitlab",
+        "gusto",
+        "instacart",
+        "mongodb",
+        "pinterest",
+        "reddit",
+        "robinhood",
+        "samsara",
+        "scaleai",
+        "sofi",
+        "stripe"
+      ],
+      "lever": [
+        "plaid",
+        "kraken",
+        "palantir",
+        "voleon"
+      ],
+      "ashby": [
+        "ramp",
+        "deel",
+        "openai",
+        "notion",
+        "linear",
+        "sierra",
+        "cursor"
+      ]
+    },
+    "data_analyst": {
+      "title_rules": [
+        "data analyst",
+        "analytics analyst",
+        "business intelligence analyst",
+        "bi analyst",
+        "product analyst",
+        "data analytics"
+      ],
+      "onet_soc": "15-2051.01",
+      "usajobs_keyword": "data analyst",
+      "adzuna_query": "data analyst",
+      "greenhouse": [
+        "affirm",
+        "airbnb",
+        "anthropic",
+        "brex",
+        "carta",
+        "checkr",
+        "chime",
+        "cloudflare",
+        "coinbase",
+        "databricks",
+        "datadog",
+        "duolingo",
+        "flexport",
+        "gitlab",
+        "gusto",
+        "instacart",
+        "mongodb",
+        "pinterest",
+        "reddit",
+        "robinhood",
+        "samsara",
+        "scaleai",
+        "sofi",
+        "stripe"
+      ],
+      "lever": [
+        "plaid",
+        "kraken",
+        "palantir",
+        "voleon"
+      ],
+      "ashby": [
+        "ramp",
+        "deel",
+        "openai",
+        "notion",
+        "linear",
+        "sierra",
+        "cursor"
+      ]
+    },
+    "security_analyst": {
+      "title_rules": [
+        "security analyst",
+        "information security analyst",
+        "soc analyst",
+        "security operations analyst",
+        "threat intelligence analyst",
+        "detection engineer",
+        "incident response"
+      ],
+      "onet_soc": "15-1212.00",
+      "usajobs_keyword": "information security",
+      "adzuna_query": "security analyst",
+      "greenhouse": [
+        "affirm",
+        "airbnb",
+        "anthropic",
+        "brex",
+        "carta",
+        "checkr",
+        "chime",
+        "cloudflare",
+        "coinbase",
+        "databricks",
+        "datadog",
+        "duolingo",
+        "flexport",
+        "gitlab",
+        "gusto",
+        "instacart",
+        "mongodb",
+        "pinterest",
+        "reddit",
+        "robinhood",
+        "samsara",
+        "scaleai",
+        "sofi",
+        "stripe"
+      ],
+      "lever": [
+        "plaid",
+        "kraken",
+        "palantir",
+        "voleon"
+      ],
+      "ashby": [
+        "ramp",
+        "deel",
+        "openai",
+        "notion",
+        "linear",
+        "sierra",
+        "cursor"
+      ]
+    }
+  }
+}

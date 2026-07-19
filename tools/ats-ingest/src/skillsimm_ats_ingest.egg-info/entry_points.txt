@@ -1,0 +1,2 @@
+[console_scripts]
+ats-ingest = ats_ingest.cli:main

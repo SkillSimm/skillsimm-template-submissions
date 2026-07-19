@@ -1,5 +1,5 @@
 
-# Unit Economics (Individual + AI Assistant)
+# Unit Economics 
 
 This simulation is designed as a simple, objective business calculation exercise. One participant works with an AI assistant to answer a series of unit economics questions about a startup. The key purpose is not creativity or strategy generation. It is testing whether participants can correctly calculate answers and identify when information provided by the AI or task instructions is wrong.
 
