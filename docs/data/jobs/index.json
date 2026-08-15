@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-27T16:06:15+00:00",
+  "generated_at": "2026-08-15T09:34:49+00:00",
   "families": [
     {
       "family": "financial_analyst",
       "postings": 83,
-      "companies": 45
+      "companies": 48
     },
     {
       "family": "data_analyst",
-      "postings": 88,
-      "companies": 48
+      "postings": 93,
+      "companies": 61
     },
     {
       "family": "security_analyst",
-      "postings": 67,
-      "companies": 48
+      "postings": 66,
+      "companies": 52
     },
     {
       "family": "account_manager",

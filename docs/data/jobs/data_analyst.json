@@ -1,140 +1,617 @@
 {
   "family": "data_analyst",
-  "generated_at": "2026-07-27T16:06:15+00:00",
+  "generated_at": "2026-08-15T09:34:49+00:00",
   "postings": [
     {
-      "title": "DATA ANALYST",
-      "company": "AaraTechnologies Inc",
-      "location": "Chesapeake City, Cecil County",
-      "url": "https://www.adzuna.com/land/ad/5817452253?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=7A1B80225A1A8B46D028D55304A08B0015018D08",
-      "posted_at": "2026-07-27T11:12:34Z",
+      "title": "Data Analyst",
+      "company": "International SOS",
+      "location": "San Antonio, Bexar County",
+      "url": "https://www.adzuna.com/land/ad/5842575171?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=B5BBD74DE34230F9C566779E191171843225D5E9",
+      "posted_at": "2026-08-14T22:26:30Z",
       "source": "adzuna",
       "matched_templates": []
     },
     {
-      "title": "Information Technology Data Analyst II - Health Outcomes",
-      "company": "CHRISTUS Health",
-      "location": "Irving, Dallas",
-      "url": "https://www.adzuna.com/land/ad/5817446391?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=5613812D18824123EEDD877B792B62A010B5196A",
-      "posted_at": "2026-07-27T10:02:03Z",
+      "title": "Sr. Data Analyst",
+      "company": "ISLAND PEER REVIEW ORGANIZATION, INC",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5842574730?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=1EEEA5E87D4E27CA0437040C003DC848D959679F",
+      "posted_at": "2026-08-14T22:26:19Z",
       "source": "adzuna",
       "matched_templates": []
     },
     {
-      "title": "Data Scientist - Data Analyst (Direct Hire)",
-      "company": "Social Security Administration",
-      "location": "Birmingham, Alabama",
-      "url": "https://www.usajobs.gov:443/job/878023200",
-      "posted_at": "2026-07-27T00:00:00.0000",
+      "title": "Data Analyst",
+      "company": "Sedgwick",
+      "location": "Florida",
+      "url": "https://www.adzuna.com/land/ad/5842574663?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=518B554A62603985E071F302077488DE1D4ACEAE",
+      "posted_at": "2026-08-14T22:26:16Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Federal Acquisition Service",
+      "location": "Monterey Park, California",
+      "url": "https://www.usajobs.gov:443/job/880660900",
+      "posted_at": "2026-08-14T11:17:15.9170",
       "source": "usajobs",
+      "matched_templates": []
+    },
+    {
+      "title": "Market Research Data Analyst",
+      "company": "Federal Acquisition Service",
+      "location": "San Francisco, California",
+      "url": "https://www.usajobs.gov:443/job/880647300",
+      "posted_at": "2026-08-14T10:36:27.7370",
+      "source": "usajobs",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Children's Aid Job Listing",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5841125305?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=2F456F1F8F42A7DCCC12F412BE7FCE2584D9992E",
+      "posted_at": "2026-08-13T21:59:39Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Senior Data Analyst",
+      "company": "3 Core Systems",
+      "location": "Deerfield Beach, Broward County",
+      "url": "https://www.adzuna.com/land/ad/5841125245?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=BB7B01220B474E1BB0E8DEC3C4F19191AE382413",
+      "posted_at": "2026-08-13T21:59:39Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Medical Billing Data Analyst",
+      "company": "North Central Mental Health Services, Inc.",
+      "location": "Columbus, Franklin County",
+      "url": "https://www.adzuna.com/land/ad/5838651003?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=7FCF167D51108A203F4648B5C000A460E295F1D8",
+      "posted_at": "2026-08-12T13:36:59Z",
+      "source": "adzuna",
       "matched_templates": []
     },
     {
       "title": "Financial Data Analyst",
-      "company": "Transunion",
-      "location": "White Plains, Charles County",
-      "url": "https://www.adzuna.com/land/ad/5816851021?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=E3C2BB317E2353977EB12263F6A0F90296F3AC5A",
-      "posted_at": "2026-07-26T18:35:30Z",
-      "source": "adzuna",
+      "company": "Defense Logistics Agency",
+      "location": "Fort Belvoir, Virginia",
+      "url": "https://www.usajobs.gov:443/job/880043800",
+      "posted_at": "2026-08-11T08:03:55.4130",
+      "source": "usajobs",
       "matched_templates": []
     },
     {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Frazer, Chester County",
-      "url": "https://www.adzuna.com/land/ad/5815857556?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=D1B192A8A2562D6C2ADF53687F23B8524E1D0C3B",
-      "posted_at": "2026-07-25T18:26:36Z",
-      "source": "adzuna",
+      "title": "Program Analyst (Data Analytics)",
+      "company": "Federal Acquisition Service",
+      "location": "San Francisco, California",
+      "url": "https://www.usajobs.gov:443/job/879942800",
+      "posted_at": "2026-08-11T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": []
+    },
+    {
+      "title": "PERFORMANCE AND SPORT DATA ANALYST",
+      "company": "U.S. Marine Corps",
+      "location": "Camp Lejeune, North Carolina",
+      "url": "https://www.usajobs.gov:443/job/879909900",
+      "posted_at": "2026-08-11T00:00:00.0000",
+      "source": "usajobs",
       "matched_templates": []
     },
     {
       "title": "Data Analyst",
-      "company": "Verisk",
-      "location": "Jersey City, Hudson County",
-      "url": "https://www.adzuna.com/land/ad/5814531896?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=95346F73F66BF1CFFECCACFBBA852CEFB38C72A2",
-      "posted_at": "2026-07-24T18:30:51Z",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8109620?gh_jid=8109620",
+      "posted_at": "2026-08-10T10:31:48-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Contract & Data Analyst (Managed Care)",
+      "company": "Lancesoft INC",
+      "location": "Tulsa, Tulsa County",
+      "url": "https://www.adzuna.com/land/ad/5835226789?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=3000592BEC284CEE919F347E4FCD59D988829F24",
+      "posted_at": "2026-08-09T22:33:34Z",
       "source": "adzuna",
       "matched_templates": []
     },
     {
-      "title": "Program Analyst (Data Analyst)",
-      "company": "Department of State - Agency Wide",
+      "title": "PERF & SPORT DATA ANALYST NF4",
+      "company": "U.S. Marine Corps",
+      "location": "Oceanside, California",
+      "url": "https://www.usajobs.gov:443/job/879860200",
+      "posted_at": "2026-08-07T18:44:03.3870",
+      "source": "usajobs",
+      "matched_templates": []
+    },
+    {
+      "title": "MANAGEMENT AND PROGRAM ANALYST (DATA ANALYST)",
+      "company": "Citizenship and Immigration Services",
+      "location": "Camp Springs, Maryland",
+      "url": "https://www.usajobs.gov:443/job/879362300",
+      "posted_at": "2026-08-07T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": []
+    },
+    {
+      "title": "Management & Program Analyst (Data Analyst)",
+      "company": "Customs and Border Protection",
       "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/878018100",
-      "posted_at": "2026-07-24T17:46:22.6030",
+      "url": "https://www.usajobs.gov:443/job/879527400",
+      "posted_at": "2026-08-07T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": []
+    },
+    {
+      "title": "Staff Analytics Analyst, Full Stack (Revenue)",
+      "company": "Affirm",
+      "location": "Remote Canada",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7820001003",
+      "posted_at": "2026-08-05T17:45:23-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Staff Analytics Analyst, Full Stack (Revenue)",
+      "company": "Affirm",
+      "location": "Remote US",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7819999003",
+      "posted_at": "2026-08-05T17:45:22-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Senior Data Analyst",
+      "company": "Wonder Group LLC",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5828589344?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=63560BDFCCC336BF306D962A1337533701D29CB7",
+      "posted_at": "2026-08-04T21:30:15Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst (AI Assurance Lead)",
+      "company": "National Geospatial-Intelligence Agency",
+      "location": "Springfield, Virginia",
+      "url": "https://www.usajobs.gov:443/job/879303100",
+      "posted_at": "2026-08-04T00:00:00.0000",
       "source": "usajobs",
       "matched_templates": []
     },
     {
       "title": "Data Analyst",
-      "company": "Randstad Digital",
-      "location": "Daytona Beach Shores, Volusia County",
-      "url": "https://www.adzuna.com/land/ad/5814311674?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=B21F2AC6F55A36651FDA9C26392EB7C875A9F50E",
-      "posted_at": "2026-07-24T17:13:42Z",
+      "company": "Touro University",
+      "location": "Vallejo, Solano County",
+      "url": "https://www.adzuna.com/land/ad/5826552519?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=A75C0C2A2CDF447A98EA2C62448E58030614543B",
+      "posted_at": "2026-08-03T07:18:11Z",
       "source": "adzuna",
       "matched_templates": []
     },
     {
-      "title": "Program Analyst (Data Analyst)",
-      "company": "Joint Activities",
-      "location": "Fort Meade, Maryland",
-      "url": "https://www.usajobs.gov:443/job/877993200",
-      "posted_at": "2026-07-24T15:31:56.5900",
+      "title": "Hourly Data Analyst",
+      "company": "New Jersey Institute of Technology",
+      "location": "New Jersey, US",
+      "url": "https://www.adzuna.com/land/ad/5826552496?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=8D868107A5E237029F83658B092ABA1CBE0411CB",
+      "posted_at": "2026-08-03T07:18:10Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Fitt Talent Partners",
+      "location": "Los Angeles, Los Angeles County",
+      "url": "https://www.adzuna.com/land/ad/5826551122?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=392E3C51CEED5AEEFE191683D595DCB004454ABE",
+      "posted_at": "2026-08-03T07:17:43Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst II",
+      "company": "NextGen",
+      "location": "Georgia, US",
+      "url": "https://www.adzuna.com/land/ad/5826550691?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=C80225778ADACC432CCDCE509B727CFD00CB66C1",
+      "posted_at": "2026-08-03T07:17:33Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Inizio Evoke",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826550626?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=FE5E1A36B11D661AAD3F91C21373AF8763AE5482",
+      "posted_at": "2026-08-03T07:17:32Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Arsenault Inc",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826550143?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=137FA9480F8DEF1CFAB77C60950E3197FEF8E12B",
+      "posted_at": "2026-08-03T07:17:25Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Recruit Marks",
+      "location": "Scottsdale, Maricopa County",
+      "url": "https://www.adzuna.com/land/ad/5826550116?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=25A83182B7EC98F8D8F14AB967516FF6EEA8979B",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Arsenault Inc",
+      "location": "Los Angeles, Los Angeles County",
+      "url": "https://www.adzuna.com/land/ad/5826550088?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=D62539DB2C550F573C0F2334EB2299EB2D24019E",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Remoten's",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5826550095?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=00440AED4BA0D41BDC24A442B5D3CAD3E77B9D41",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Jobsultant Solutions",
+      "location": "Charlotte, Mecklenburg County",
+      "url": "https://www.adzuna.com/land/ad/5826550124?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=8184BEAEE003B8D088783C08AE0CCBCE6863C70A",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Jobsultant Solutions",
+      "location": "Atlanta, Fulton County",
+      "url": "https://www.adzuna.com/land/ad/5826550114?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=D9987286395E48131597C14D5402912E2244E270",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Remote Data Analyst",
+      "company": "Easy Recruiter",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826550099?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=A3FDBA4841542E9B451DE6BD96CFDAE05564FFE0",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Sr. Data Analyst",
+      "company": "Remote Career",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5826550081?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=7A162C717AD1AF9E4BC972FA55E94BC7BA3CA510",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Senior Data Analyst",
+      "company": "Arsenault Inc",
+      "location": "San Diego, San Diego County",
+      "url": "https://www.adzuna.com/land/ad/5826550111?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=3369B9B7EA01A4374B194BE9647208DA9480D3DD",
+      "posted_at": "2026-08-03T07:17:24Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Global Channel Management, Inc.",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826550024?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=0BE43CF216F2A2E27CB2EC9A3F3E89FB1191D72A",
+      "posted_at": "2026-08-03T07:17:23Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Pds Company",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826550044?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=9B3AD2E4E8FBEDA3CB839D214D281CEC034BB2AF",
+      "posted_at": "2026-08-03T07:17:23Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Phoenix Healthcare Services",
+      "location": "California, US",
+      "url": "https://www.adzuna.com/land/ad/5826550009?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=634A194581C38D7891F29E5BA3BFFF28DD066B1D",
+      "posted_at": "2026-08-03T07:17:23Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Voltguard Utilities Limited",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826550020?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=08EB62D47560A3045452D72F07D110B2ECA43916",
+      "posted_at": "2026-08-03T07:17:23Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Recruit Monitor",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826550003?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=D31AA9C8783ABC31A8C13F8DA119D9503E7C9068",
+      "posted_at": "2026-08-03T07:17:23Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "HR Data Analyst",
+      "company": "Workoo Technologies",
+      "location": "San Jose, Santa Clara County",
+      "url": "https://www.adzuna.com/land/ad/5826550055?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=539DE629CE7DE4A4E9534BD1F32039C4DA01BF55",
+      "posted_at": "2026-08-03T07:17:23Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "First Service Credit Union",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826547982?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=8A566D15B211A1718992FDD29F7B070A7B3A993E",
+      "posted_at": "2026-08-03T07:16:48Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Surya Carpet Inc",
+      "location": "Georgia, US",
+      "url": "https://www.adzuna.com/land/ad/5826547709?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=600C3FF9E81C63E1A0EAD911FF5CC2E12D898DE8",
+      "posted_at": "2026-08-03T07:16:43Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Elite Talent Consulting Corp.",
+      "location": "Scottsdale, Maricopa County",
+      "url": "https://www.adzuna.com/land/ad/5826547649?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=590F12DE4FD23EAB6716C568609CD150097A5410",
+      "posted_at": "2026-08-03T07:16:42Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst II",
+      "company": "Shirley Ryan Ability Lab",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826547250?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=09B2DFD9268A6EC11676CAA2ED5C20999DD29A13",
+      "posted_at": "2026-08-03T07:16:33Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "ays s.r.o.",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5826546935?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=21E53F55F12D77AFB244E6C084E8D44BC4B0B08B",
+      "posted_at": "2026-08-03T07:16:27Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "SourcePro Search, LLC",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5826546904?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=44C1A32C3B57539FCF400470DA615322DBA856AD",
+      "posted_at": "2026-08-03T07:16:27Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Cymertek Corporation",
+      "location": "San Antonio, Bexar County",
+      "url": "https://www.adzuna.com/land/ad/5826546884?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=ECA1A1C66417E3FA11FAF2238FAFD91C4E794C2D",
+      "posted_at": "2026-08-03T07:16:26Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst (Remote)",
+      "company": "Workoo Technologies",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5826546447?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=C153471A530D86F7A4FF61573D7253C8C8941FAB",
+      "posted_at": "2026-08-03T07:16:18Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Fm Talent Source",
+      "location": "Atlanta, Fulton County",
+      "url": "https://www.adzuna.com/land/ad/5826546257?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=3F3EEA64E949F263F0C0906CD93483979EDFD906",
+      "posted_at": "2026-08-03T07:16:15Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst Lead",
+      "company": "Resource Innovations",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826545582?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=089A89C3B23943B88D230748D867966CD0F1EF85",
+      "posted_at": "2026-08-03T07:16:04Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Contexture",
+      "location": "Phoenix, Maricopa County",
+      "url": "https://www.adzuna.com/land/ad/5826544782?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=1B7C5197DB121BCC332DD1036F84DB8AF69D33B9",
+      "posted_at": "2026-08-03T07:15:51Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Connexzia",
+      "location": "Scottsdale, Maricopa County",
+      "url": "https://www.adzuna.com/land/ad/5826544750?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=BD04050DCBECF1362A8F1033B660715446F767C6",
+      "posted_at": "2026-08-03T07:15:50Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Impiricus",
+      "location": "Atlanta, Fulton County",
+      "url": "https://www.adzuna.com/land/ad/5826544609?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=34429FF807B197A027028D61FEE62C53C0311003",
+      "posted_at": "2026-08-03T07:15:48Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Senior Data Analyst",
+      "company": "VillageCare",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/land/ad/5826544257?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=7DB0376957C9273944F12D925E40E01A48EB06AA",
+      "posted_at": "2026-08-03T07:15:41Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Zynga, Inc.",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826544188?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=6A083AAB8066D619129B4627CD1734E18D3C6764",
+      "posted_at": "2026-08-03T07:15:40Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Arsenault Inc",
+      "location": "Burbank, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5826544109?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=3633E6D2A629E1A9A770E6C3FB3141909DE47B4B",
+      "posted_at": "2026-08-03T07:15:39Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Panelmatic Inc.",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826543851?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=4EFC34810409F44C3C2714F540B24A515AFC9FB7",
+      "posted_at": "2026-08-03T07:15:35Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Recruit Monitor",
+      "location": "Arlington, Tarrant County",
+      "url": "https://www.adzuna.com/land/ad/5826542986?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=BE0D2441D7640736238474EEEA17A3255EEE5974",
+      "posted_at": "2026-08-03T07:15:21Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Insolation Technology Ltd",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5826542901?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=23773A07FD01D5278932BD92EC2EC1E7B169F778",
+      "posted_at": "2026-08-03T07:15:20Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "CCU, LLC",
+      "location": "Illinois, US",
+      "url": "https://www.adzuna.com/land/ad/5826542916?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=BDF0AFD55E368C3CEA7F431C31F3FD428999BAEE",
+      "posted_at": "2026-08-03T07:15:20Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Jobsultant Solutions",
+      "location": "Buffalo, Erie County",
+      "url": "https://www.adzuna.com/land/ad/5826542931?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=1CC1F1BEB248BEED4466868038533373E136DE95",
+      "posted_at": "2026-08-03T07:15:20Z",
+      "source": "adzuna",
+      "matched_templates": []
+    },
+    {
+      "title": "Supv Forensic Data Analyst",
+      "company": "National Geospatial-Intelligence Agency",
+      "location": "Saint Louis, Missouri",
+      "url": "https://www.usajobs.gov:443/job/878936800",
+      "posted_at": "2026-08-03T00:00:00.0000",
       "source": "usajobs",
       "matched_templates": []
     },
     {
-      "title": "DATA ANALYST",
-      "company": "AaraTechnologies Inc",
-      "location": "California City, Kern County",
-      "url": "https://www.adzuna.com/land/ad/5813928576?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=EEE886160FC1CD87B2EFF622CF6066F9A7FFB780",
-      "posted_at": "2026-07-24T11:03:33Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Na Oiwi Kane",
-      "location": "Mount Rainier, Prince George's County",
-      "url": "https://www.adzuna.com/land/ad/5813141729?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=E73568B4D251D07DD28B4B0DC53EE801E51F7F70",
-      "posted_at": "2026-07-23T21:24:28Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Supervisory Market Data Analyst (Associate Director)",
-      "company": "Commodity Futures Trading Commission",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/877796700",
-      "posted_at": "2026-07-23T17:18:16.2370",
+      "title": "Forensic Data Analyst",
+      "company": "National Geospatial-Intelligence Agency",
+      "location": "Saint Louis, Missouri",
+      "url": "https://www.usajobs.gov:443/job/878936700",
+      "posted_at": "2026-08-03T00:00:00.0000",
       "source": "usajobs",
       "matched_templates": []
     },
     {
       "title": "Data Analyst",
-      "company": "Generis TEK Inc.",
-      "location": "Saint Paul, Ramsey County",
-      "url": "https://www.adzuna.com/land/ad/5812673390?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=9EBFA99CFC9ED90E5EBD3B397CE09563621577DE",
-      "posted_at": "2026-07-23T17:03:49Z",
+      "company": "MANTECH",
+      "location": "Tampa, Hillsborough County",
+      "url": "https://www.adzuna.com/land/ad/5823867997?se=Mkdq_4uY8RG_bIJiHDFaPw&utm_medium=api&utm_source=e9c6b04b&v=757201D9115334E84AAE7E3A8E06E978454B5FE9",
+      "posted_at": "2026-08-01T06:42:49Z",
       "source": "adzuna",
       "matched_templates": []
     },
     {
-      "title": "Data Analyst",
-      "company": "Kforce Technology Staffing",
-      "location": "Triana, Madison County",
-      "url": "https://www.adzuna.com/land/ad/5812593434?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=A4D1DBEB9482DDA8AD277562197908193EF0EB6A",
-      "posted_at": "2026-07-23T15:01:25Z",
-      "source": "adzuna",
+      "title": "Staff Data Analyst",
+      "company": "Peloton",
+      "location": "New York, New York",
+      "url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8067868",
+      "posted_at": "2026-07-29T15:12:14-04:00",
+      "source": "greenhouse",
       "matched_templates": []
     },
     {
-      "title": "DATA ANALYST",
-      "company": "AaraTechnologies Inc",
-      "location": "Kansas City, Jackson County",
-      "url": "https://www.adzuna.com/land/ad/5812417799?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=8B90986388646116709D523638E80200CBA3111C",
-      "posted_at": "2026-07-23T11:00:54Z",
-      "source": "adzuna",
+      "title": "Senior People Analytics Analyst",
+      "company": "GitLab",
+      "location": "Remote, United States",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617615002",
+      "posted_at": "2026-07-29T14:05:33-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "Senior Data Analyst, New Account Risk",
+      "company": "Chime Financial, Inc",
+      "location": "San Francisco, CA, USA",
+      "url": "https://boards.greenhouse.io/chime/jobs/8637297002?gh_jid=8637297002",
+      "posted_at": "2026-07-28T09:09:33-04:00",
+      "source": "greenhouse",
+      "matched_templates": []
+    },
+    {
+      "title": "People Analytics Analyst & Business Partner",
+      "company": "Stripe",
+      "location": "Dublin, London",
+      "url": "https://stripe.com/jobs/search?gh_jid=8069694",
+      "posted_at": "2026-07-27T12:23:06-04:00",
+      "source": "greenhouse",
       "matched_templates": []
     },
     {
@@ -147,237 +624,12 @@
       "matched_templates": []
     },
     {
-      "title": "DATA ANALYST",
-      "company": "AaraTechnologies Inc",
-      "location": "Chesapeake City, Cecil County",
-      "url": "https://www.adzuna.com/land/ad/5810929566?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=73424D36B9B62AEDEDD7B527BF7C03178B6E7A7B",
-      "posted_at": "2026-07-22T10:54:51Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Sr Product Data Analyst",
-      "company": "Hertz",
-      "location": "Atlanta, Fulton County",
-      "url": "https://www.adzuna.com/land/ad/5810500502?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=B2D2A661EE839599295EF25DBCE264146BC9166B",
-      "posted_at": "2026-07-22T03:44:44Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Sr Product Data Analyst",
-      "company": "Hertz",
-      "location": "Estero, Lee County",
-      "url": "https://www.adzuna.com/land/ad/5810498712?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=D04C88AFE5CF7F4C10237861589E1291891E4EB8",
-      "posted_at": "2026-07-22T03:43:16Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Belcan, LLC",
-      "location": "Country Park Acres, Guilford County",
-      "url": "https://www.adzuna.com/land/ad/5810313399?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=DAF20AFA92495D766816CC9AB266B7ED14B801E2",
-      "posted_at": "2026-07-21T23:00:47Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Booz Allen Hamilton",
-      "location": "Camp Lejeune, Onslow County",
-      "url": "https://www.adzuna.com/land/ad/5809936601?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=071B17A307ED4B83F3DBF6FCD8A37A9FD53D7B23",
-      "posted_at": "2026-07-21T19:00:39Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Frazer, Chester County",
-      "url": "https://www.adzuna.com/land/ad/5809620931?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=593027D0D281D96258C5CF9410D0179B9488CCB6",
-      "posted_at": "2026-07-21T15:12:31Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "DATA ANALYST",
-      "company": "AaraTechnologies Inc",
-      "location": "Virginia Beach, Virginia Beach City",
-      "url": "https://www.adzuna.com/land/ad/5809559983?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=826491298BB111C25BD4E94AD9FCF9504F73E10F",
-      "posted_at": "2026-07-21T12:59:29Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Management and Program Analyst (Data Analytics)",
-      "company": "Farm Production and Conservation (FPAC) Business Center",
-      "location": "Kansas City, Missouri",
-      "url": "https://www.usajobs.gov:443/job/877390800",
-      "posted_at": "2026-07-21T12:42:32.6970",
-      "source": "usajobs",
-      "matched_templates": []
-    },
-    {
-      "title": "Quality Data Analyst",
-      "company": "University Health",
-      "location": "San Antonio, Conejos County",
-      "url": "https://www.adzuna.com/land/ad/5808889183?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=DD6DE4465C2F64517073A07AFE1E755AC94BC6C8",
-      "posted_at": "2026-07-21T01:11:47Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Na Oiwi Kane",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5808781969?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=DB8DB52935F67EEAF1C0A59C5C4A1AE9E6B6617A",
-      "posted_at": "2026-07-20T22:41:53Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Ellianse LLC",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5808394738?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=55A7A99CA266B921361FABEE87700AE2E7E98875",
-      "posted_at": "2026-07-20T16:58:53Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "DATA ANALYST",
-      "company": "AaraTechnologies Inc",
-      "location": "Texas City, Galveston County",
-      "url": "https://www.adzuna.com/land/ad/5808314214?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=7DB567C5922EFE056F5B89F97F76FAF84A0D97FD",
-      "posted_at": "2026-07-20T13:17:13Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Market Data Analyst",
-      "company": "Commodity Futures Trading Commission",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/877222000",
-      "posted_at": "2026-07-20T13:03:32.4070",
-      "source": "usajobs",
-      "matched_templates": []
-    },
-    {
-      "title": "Contract Performance Data Analyst, SYD 84",
-      "company": "Space Systems Command",
-      "location": "Los Angeles County, California",
-      "url": "https://www.usajobs.gov:443/job/877212300",
-      "posted_at": "2026-07-20T12:21:55.5800",
-      "source": "usajobs",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Frazer, Chester County",
-      "url": "https://www.adzuna.com/land/ad/5806988189?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=482C6D99D5ABDB4DC7EAAD7486B617831E809077",
-      "posted_at": "2026-07-19T04:52:16Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Solace",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5805946719?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=46A9F8D0FAA018E5FE46233B5B1A091FD0E238E0",
-      "posted_at": "2026-07-18T04:36:34Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "NimbusAITech LLC",
-      "location": "Richmond, Richmond County",
-      "url": "https://www.adzuna.com/land/ad/5805474655?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=CA6B22EF48316DA01251E68D6D8892F859966473",
-      "posted_at": "2026-07-17T19:52:10Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "HackerEarth",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5805043176?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=5CB712D77C696B50FDA3AC20B12080F8DE0C901F",
-      "posted_at": "2026-07-17T12:17:34Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "iTech US, Inc.",
-      "location": "Charlotte, Mecklenburg County",
-      "url": "https://www.adzuna.com/land/ad/5803823376?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=19E1CA7D583A3CD98900099031124D260540235F",
-      "posted_at": "2026-07-16T17:52:23Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "DatamanUSA, LLC",
-      "location": "Wake Island, Honolulu",
-      "url": "https://www.adzuna.com/land/ad/5803519002?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=846876AA15803CB67F5B3900762012C1AAB2D2CB",
-      "posted_at": "2026-07-16T13:41:58Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "SUPERVISORY FINANCIAL MANAGEMENT ANALYST (DATA ANALYTICS)",
-      "company": "Defense Finance and Accounting Service",
-      "location": "Indianapolis, Indiana",
-      "url": "https://www.usajobs.gov:443/job/876794800",
-      "posted_at": "2026-07-16T10:25:37.9770",
-      "source": "usajobs",
-      "matched_templates": []
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Vanguard",
-      "location": "Frazer, Chester County",
-      "url": "https://www.adzuna.com/land/ad/5802478133?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=8B554F2581738E301354422BC992368495C78BED",
-      "posted_at": "2026-07-16T04:37:25Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Financial Data Analyst",
-      "company": "CAI",
-      "location": "Miramar, Broward County",
-      "url": "https://www.adzuna.com/land/ad/5802478131?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=2BBDE377DAAD5EE4376E54A24A7D6A6BCCA0A7C3",
-      "posted_at": "2026-07-16T04:37:25Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
       "title": "Manager, Data Analytics, Performance Creative",
       "company": "Peloton",
       "location": "New York, New York",
       "url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8053428",
       "posted_at": "2026-07-15T15:41:00-04:00",
       "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Frazer, Chester County",
-      "url": "https://www.adzuna.com/land/ad/5800926478?se=KNEGStSJ8RG6Urh7Fd0dtQ&utm_medium=api&utm_source=e9c6b04b&v=AD4D0CC8DBF62E3FE31EDACF1BD62074B997FF14",
-      "posted_at": "2026-07-15T04:41:56Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Eliassen Group",
-      "location": "Jacks Cabin, Gunnison County",
-      "url": "https://www.adzuna.com/land/ad/5800473938?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=43D682B20A363B2111956FA68F8633A9EB8F335C",
-      "posted_at": "2026-07-14T19:43:32Z",
-      "source": "adzuna",
       "matched_templates": []
     },
     {
@@ -399,102 +651,12 @@
       "matched_templates": []
     },
     {
-      "title": "Data Analyst",
-      "company": "MANTECH",
-      "location": "Doral, Miami-Dade County",
-      "url": "https://www.adzuna.com/land/ad/5794461870?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=E4AE188AE4E0739D79E9EAB90FD68CD4779DD6DF",
-      "posted_at": "2026-07-09T16:13:21Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Randstad Digital",
-      "location": "Centerdale, Providence County",
-      "url": "https://www.adzuna.com/land/ad/5793061728?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=2FCFBED7542E536249E36522BBF8C859A236100E",
-      "posted_at": "2026-07-08T16:47:32Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Transunion",
-      "location": "Chicago, Cook County",
-      "url": "https://www.adzuna.com/land/ad/5792991589?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=464C44845C1B70EB471EDCE0CE77554B78DBDF9B",
-      "posted_at": "2026-07-08T16:10:18Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Futuremindz llc",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5792941498?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=D6524A7F45D7800477A787B2F3D1963F68B64B16",
-      "posted_at": "2026-07-08T13:03:32Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, AVP",
-      "company": "Barclays",
-      "location": "Hanover Township, Morris County",
-      "url": "https://www.adzuna.com/land/ad/5789985522?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=0855B57339AFFA6D0F24373D22049E730398E4EA",
-      "posted_at": "2026-07-06T11:33:08Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Charlotte, Clinton County",
-      "url": "https://www.adzuna.com/land/ad/5789985328?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=BCEF858D53F4B5CC933D7464E2F2152D908DC715",
-      "posted_at": "2026-07-06T11:33:04Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Charlotte, Clinton County",
-      "url": "https://www.adzuna.com/land/ad/5789984891?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=44664F04923D36AA0189F3F1FDC93C008869CDC7",
-      "posted_at": "2026-07-06T11:32:56Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst, Specialist",
-      "company": "Vanguard",
-      "location": "Charlotte, Clinton County",
-      "url": "https://www.adzuna.com/land/ad/5789984892?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=F00C749400547BA7B153132208261F6A6C52511A",
-      "posted_at": "2026-07-06T11:32:56Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Booz Allen Hamilton",
-      "location": "San Diego, San Diego County",
-      "url": "https://www.adzuna.com/land/ad/5786123800?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=D7EE4281E94C8C228BE42C4DF8AC68F747174386",
-      "posted_at": "2026-07-02T19:13:20Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
       "title": "Product Data Analyst",
       "company": "Flexport",
       "location": "Shanghai, China",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8040985",
       "posted_at": "2026-07-01T04:55:09-04:00",
       "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Chenega MIOS",
-      "location": "Trade, Alexandria City",
-      "url": "https://www.adzuna.com/land/ad/5781698387?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=438AE7759846BFACAE5E584C17FD48561ACE7E6B",
-      "posted_at": "2026-06-29T22:55:30Z",
-      "source": "adzuna",
       "matched_templates": []
     },
     {
@@ -534,15 +696,6 @@
       "matched_templates": []
     },
     {
-      "title": "Data Analyst",
-      "company": "Visionaire Partners",
-      "location": "Northlake, DeKalb County",
-      "url": "https://www.adzuna.com/land/ad/5778342048?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=6213F1BB57F089BAB49CEE2F43997EE00D755529",
-      "posted_at": "2026-06-26T18:47:31Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
       "title": "Internal Audit Data Analytics Lead",
       "company": "Stripe",
       "location": "Toronto, New York, San Francisco",
@@ -552,57 +705,12 @@
       "matched_templates": []
     },
     {
-      "title": "Data Analyst",
-      "company": "Judge Group, Inc.",
-      "location": "Bridgeport, Montgomery County",
-      "url": "https://www.adzuna.com/land/ad/5775687128?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=52DE47B215F783A25B0FC96FB344E0BBB6ADA5DF",
-      "posted_at": "2026-06-24T22:42:09Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
       "title": "Data Analyst, User Operations",
       "company": "cursor",
       "location": "Remote",
       "url": "https://jobs.ashbyhq.com/cursor/c43bdded-80a1-4705-a0ec-8217d771528c",
       "posted_at": "2026-06-24T17:44:18.151+00:00",
       "source": "ashby",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Enterprise Business Solutions Inc",
-      "location": "Virginia Beach, Virginia Beach City",
-      "url": "https://www.adzuna.com/land/ad/5769854278?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=98A6CBACB5F61B8A123ADA6638997B55E835D7CA",
-      "posted_at": "2026-06-19T18:30:50Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Cherokee Federal",
-      "location": "State Farm, Arlington County",
-      "url": "https://www.adzuna.com/land/ad/5761867133?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=A9E320C79B533892BDD4C53314ACEB8BA53D32B0",
-      "posted_at": "2026-06-12T19:39:28Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Booz Allen Hamilton",
-      "location": "Oakwood, Montgomery County",
-      "url": "https://www.adzuna.com/land/ad/5759191393?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=376B92BE8311B1A6A8A3AC4968364CFABCB72811",
-      "posted_at": "2026-06-10T18:38:52Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Booz Allen Hamilton",
-      "location": "Mount Rainier, Prince George's County",
-      "url": "https://www.adzuna.com/land/ad/5756663511?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=FF5F6F04E5FDCEB3FDBD60244D7EAC5EE601785E",
-      "posted_at": "2026-06-08T18:36:48Z",
-      "source": "adzuna",
       "matched_templates": []
     },
     {
@@ -620,15 +728,6 @@
       "location": "Mexico City",
       "url": "https://stripe.com/jobs/search?gh_jid=7978488",
       "posted_at": "2026-06-03T15:13:13-04:00",
-      "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
-      "title": "Lead Product Analyst, Lifecycle Marketing",
-      "company": "Pinterest",
-      "location": "New York, NY, US; Remote, US",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7890197",
-      "posted_at": "2026-05-13T15:06:48-04:00",
       "source": "greenhouse",
       "matched_templates": []
     },
@@ -705,42 +804,6 @@
       "matched_templates": []
     },
     {
-      "title": ": Data Analyst",
-      "company": "Gov Services Hub",
-      "location": "Richmond, Richmond County",
-      "url": "https://www.adzuna.com/land/ad/5683630339?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=7D9B7EAC268FCA02A66F276987B4459E30A84613",
-      "posted_at": "2026-03-30T18:34:44Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Chenega MIOS",
-      "location": "Trade, Alexandria City",
-      "url": "https://www.adzuna.com/land/ad/5680353927?se=0u_ocNGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=91E49353DBA21C2AB57374AE6A7D962C2A3F700B",
-      "posted_at": "2026-03-27T10:10:27Z",
-      "source": "adzuna",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst III",
-      "company": "Brex",
-      "location": "New York, New York, United States",
-      "url": "https://www.brex.com/careers/8463704002?gh_jid=8463704002",
-      "posted_at": "2026-03-14T16:35:12-04:00",
-      "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst III",
-      "company": "Brex",
-      "location": "San Francisco, California, United States",
-      "url": "https://www.brex.com/careers/8463699002?gh_jid=8463699002",
-      "posted_at": "2026-03-14T16:35:11-04:00",
-      "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
       "title": "Data Analyst II",
       "company": "Brex",
       "location": "São Paulo, São Paulo, Brazil",
@@ -773,24 +836,6 @@
       "location": "United States",
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7696633",
       "posted_at": "2026-03-12T16:11:20-04:00",
-      "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7616983",
-      "posted_at": "2026-03-03T05:42:55-05:00",
-      "source": "greenhouse",
-      "matched_templates": []
-    },
-    {
-      "title": "Data Analyst",
-      "company": "Stripe",
-      "location": "Canada",
-      "url": "https://stripe.com/jobs/search?gh_jid=5416444",
-      "posted_at": "2023-11-01T13:50:50-04:00",
       "source": "greenhouse",
       "matched_templates": []
     }
