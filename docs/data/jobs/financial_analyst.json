@@ -1,13 +1,33 @@
 {
   "family": "financial_analyst",
-  "generated_at": "2026-08-15T09:34:49+00:00",
+  "generated_at": "2026-09-05T20:29:13+00:00",
   "postings": [
     {
-      "title": "Senior Financial Analyst",
-      "company": "Bailey Nurseries, Inc",
-      "location": "Newport, Washington County",
-      "url": "https://www.adzuna.com/land/ad/5842407987?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=5595BFEDB291959FAAA0228804376F2F92D674A5",
-      "posted_at": "2026-08-14T19:55:56Z",
+      "title": "Associate Financial Analyst (Financial Examiner 2 – Non Perm)",
+      "company": "State of Washington",
+      "location": "Olympia, Thurston County",
+      "url": "https://www.adzuna.com/land/ad/5871429412?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=0148612BEACFE97E37753C356A51EAF179A50AF0",
+      "posted_at": "2026-09-05T00:07:55Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Sr Financial Analyst",
+      "company": "Xcel Energy",
+      "location": "Minneapolis, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5871236334?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=97ECF6DB85CBF913F8C1D600B795A43E7C6D01B5",
+      "posted_at": "2026-09-04T21:03:47Z",
       "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -24,10 +44,650 @@
     },
     {
       "title": "Senior Financial Analyst",
-      "company": "Bailey Nurseries",
-      "location": "Newport, Washington County",
-      "url": "https://www.adzuna.com/details/5842140638?utm_medium=api&utm_source=e9c6b04b",
-      "posted_at": "2026-08-14T16:12:38Z",
+      "company": "Lonza",
+      "location": "Walkersville, Frederick County",
+      "url": "https://www.adzuna.com/land/ad/5871130577?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=E8E1999740D7163891844A0F2546113D26C6F922",
+      "posted_at": "2026-09-04T19:53:46Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Selby Jennings",
+      "location": "North Platte, Lincoln County",
+      "url": "https://www.adzuna.com/land/ad/5870949199?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=35880997ED39595BF4C4833603F295D15408C4E3",
+      "posted_at": "2026-09-04T15:16:48Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Arrow Electronics, Inc.",
+      "location": "Castlewood, Centennial",
+      "url": "https://www.adzuna.com/land/ad/5870729702?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=3E8B6E13F4D685F1ECF44D7261B95FA881ABCEE3",
+      "posted_at": "2026-09-04T11:32:17Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Cost Accountant/Financial Analyst",
+      "company": "Geartec Inc",
+      "location": "Willoughby, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5870337937?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=D3E2366B9A6A9C9CBC68E19A9BB9C4C129813133",
+      "posted_at": "2026-09-04T05:23:32Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "MongoDB",
+      "location": "Cork, Ireland; Dublin, Ireland",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8168951",
+      "posted_at": "2026-09-04T04:44:50-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Business and Financial Analyst",
+      "company": "Federal Retirement Thrift Investment Board",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov:443/job/883541200",
+      "posted_at": "2026-09-04T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Office of the Secretary of Defense",
+      "location": "Pentagon, Arlington, Virginia",
+      "url": "https://www.usajobs.gov:443/job/883426900",
+      "posted_at": "2026-09-03T11:28:32.3600",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Cost Accountant/Financial Analyst",
+      "company": "Geartec Inc",
+      "location": "Willoughby, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5868978432?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=10B2E0C4E401ACD4BA882A15F45CDED5B1A57DE6",
+      "posted_at": "2026-09-03T10:28:43Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Supervisory Financial Planning Specialist",
+      "company": "Defense Health Agency",
+      "location": "Falls Church, Virginia",
+      "url": "https://www.usajobs.gov:443/job/883153200",
+      "posted_at": "2026-09-03T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Supervisory Financial Analyst",
+      "company": "Small Business Administration",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov:443/job/883190500",
+      "posted_at": "2026-09-02T10:25:24.6270",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst Intern",
+      "company": "Oracle",
+      "location": "Nashville, Howard County",
+      "url": "https://www.adzuna.com/land/ad/5867068464?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=61CEAEE9D026E6EFE1A7753803B61FA20A748705",
+      "posted_at": "2026-09-02T07:52:40Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "TransUnion",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5867068454?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=431210C9EF6A9004034D7CE9F883DFC15D696A5F",
+      "posted_at": "2026-09-02T07:52:40Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Deputy Assistant Secretary for Finance",
+      "location": "Anywhere in the U.S. (remote job), United States",
+      "url": "https://www.usajobs.gov:443/job/883070400",
+      "posted_at": "2026-09-02T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "HonorVet Technologies",
+      "location": "Schiller Park, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5865897766?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=F7621C14FD2F8F92DCF697C5C1954BC2A365BB21",
+      "posted_at": "2026-09-01T20:14:38Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Berkeley Research Group, LLC",
+      "location": "Boston, Suffolk County",
+      "url": "https://www.adzuna.com/land/ad/5865869389?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=76EAF9B736F15707A9BF85CBE9D72F3504614428",
+      "posted_at": "2026-09-01T20:05:36Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst Intern",
+      "company": "Oracle",
+      "location": "Nashville, Davidson County",
+      "url": "https://www.adzuna.com/land/ad/5865832657?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=7B99C636A8EE0EA348947DDB44AE8439082377E5",
+      "posted_at": "2026-09-01T19:53:44Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Arrow Electronics",
+      "location": "Castlewood, Centennial",
+      "url": "https://www.adzuna.com/land/ad/5865782804?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=52DACBE92594C6A5D66E88D7FD2A3F2B7A30582D",
+      "posted_at": "2026-09-01T19:35:32Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Berkeley Research Group, LLC",
+      "location": "Boston, Suffolk County",
+      "url": "https://www.adzuna.com/land/ad/5865256707?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=EA0B791D5E684D1A9F57F0752A791D2ADF5C78AA",
+      "posted_at": "2026-09-01T16:33:28Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Encore Capital Group",
+      "location": "San Diego, San Diego County",
+      "url": "https://www.adzuna.com/land/ad/5861375603?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=B76211FA9A5CAC942735C5474506CB009E4502C8",
+      "posted_at": "2026-08-29T13:15:28Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Management and Financial Analyst",
+      "company": "Federal Aviation Administration",
+      "location": "Tutuila Island, American Samoa",
+      "url": "https://www.usajobs.gov:443/job/882595800",
+      "posted_at": "2026-08-29T00:00:00.0000",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Corporate Finance & Strategy, Cash Flow Forecasting",
+      "company": "Anthropic",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358130008",
+      "posted_at": "2026-08-28T15:19:00-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Whiz Global LLC",
+      "location": "Rancho Cordova, Sacramento County",
+      "url": "https://www.adzuna.com/land/ad/5858500753?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=06B6F97A2FB9AC28542647F36556B599BFCADC31",
+      "posted_at": "2026-08-27T12:01:08Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst (Auditor) Recent Grad",
+      "company": "U.S. International Trade Commission",
+      "location": "Washington, District of Columbia",
+      "url": "https://www.usajobs.gov:443/job/882264300",
+      "posted_at": "2026-08-26T13:45:38.6100",
+      "source": "usajobs",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
+      "company": "Hologic",
+      "location": "La Jolla, San Diego County",
+      "url": "https://www.adzuna.com/land/ad/5855961940?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=E355D1CD9FA654644E1A8D322C87A07280D873E8",
+      "posted_at": "2026-08-25T18:18:32Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Strategic Finance Analyst, Operations",
+      "company": "SoFi",
+      "location": "United States",
+      "url": "https://sofi.com/careers/job/7976546003?gh_jid=7976546003",
+      "posted_at": "2026-08-25T15:39:22-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior FP&A Analyst, Cloud Hosting",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, United States",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8731564002",
+      "posted_at": "2026-08-25T11:00:31-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst, R&D",
+      "company": "Hologic",
+      "location": "La Jolla, San Diego County",
+      "url": "https://www.adzuna.com/land/ad/5852526016?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=7D2295705225B7894F812DD766DE6F29230FA81B",
+      "posted_at": "2026-08-22T10:27:00Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Associate, Strategic Finance (FP&A)",
+      "company": "Oscar Health",
+      "location": "Atlanta, Georgia, United States",
+      "url": "http://www.hioscar.com/careers/8147968?gh_jid=8147968",
+      "posted_at": "2026-08-21T13:41:43-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Associate, Strategic Finance (FP&A)",
+      "company": "Oscar Health",
+      "location": "Dallas, Texas, United States",
+      "url": "http://www.hioscar.com/careers/8147965?gh_jid=8147965",
+      "posted_at": "2026-08-21T13:40:43-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Associate, Strategic Finance (FP&A)",
+      "company": "Oscar Health",
+      "location": "Tempe, Arizona, United States",
+      "url": "http://www.hioscar.com/careers/8147942?gh_jid=8147942",
+      "posted_at": "2026-08-21T13:39:44-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Associate, Strategic Finance (FP&A)",
+      "company": "Oscar Health",
+      "location": "New York, New York, United States",
+      "url": "http://www.hioscar.com/careers/8129152?gh_jid=8129152",
+      "posted_at": "2026-08-21T13:29:26-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Transunion",
+      "location": "White Plains, Charles County",
+      "url": "https://www.adzuna.com/land/ad/5848108987?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=D9A05BD278331CA838C8BB809E12D4CF879E14BB",
+      "posted_at": "2026-08-19T07:19:32Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst",
+      "company": "Lumen Solutions Group Inc.",
+      "location": "Simpsonville, Howard County",
+      "url": "https://www.adzuna.com/land/ad/5847669777?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=A509DABAAD229DA8C10F90A442F61EACA0DB96C3",
+      "posted_at": "2026-08-18T22:05:27Z",
       "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -63,192 +723,12 @@
       ]
     },
     {
-      "title": "Financial Analyst",
-      "company": "Vista Higher Learning",
-      "location": "Boston, Suffolk County",
-      "url": "https://www.adzuna.com/land/ad/5842125821?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=82429B5388EE9870C171A8A32915607CD81C92A6",
-      "posted_at": "2026-08-14T15:05:15Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
       "title": "Lead Forecasting & Financial Analyst",
       "company": "Guild",
       "location": "Denver, CO, United States",
       "url": "https://www.guild.com/open-positions-at-guild?gh_jid=8095504",
       "posted_at": "2026-08-14T13:40:21-04:00",
       "source": "greenhouse",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst Accounts Payable",
-      "company": "Aerodyne Industries Careers",
-      "location": "Cape Canaveral, Brevard County",
-      "url": "https://www.adzuna.com/land/ad/5841683101?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=8C037C548D0EEDEC30993F9EBCCC66D57FE6B7EF",
-      "posted_at": "2026-08-14T06:25:46Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Uline",
-      "location": "Pleasant Prairie, Kenosha County",
-      "url": "https://www.adzuna.com/land/ad/5841681197?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=509C3AA6E4F62FCEE440E8B4009F87FE78C58669",
-      "posted_at": "2026-08-14T06:25:28Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Way Forward Consulting",
-      "location": "Plano, Collin County",
-      "url": "https://www.adzuna.com/land/ad/5841653582?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=F45E8509E074BFDADBAA045F9CEEF02FB5B77F05",
-      "posted_at": "2026-08-14T06:23:15Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "People Make Us",
-      "location": "Prince, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5841645684?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=4A8D32B35BFD2DC1388A3DAD623073C327DDE260",
-      "posted_at": "2026-08-14T06:22:30Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Neotecra",
-      "location": "Newark, Essex County",
-      "url": "https://www.adzuna.com/land/ad/5841628192?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=3FC1976B20CD17669AA04B7D6ADD96AE82A73D59",
-      "posted_at": "2026-08-14T06:20:23Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Collabera",
-      "location": "Cedar Rapids, Linn County",
-      "url": "https://www.adzuna.com/land/ad/5841627063?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=DDFC4311455CA08E6A09AFC933D3BB63C32AE5DA",
-      "posted_at": "2026-08-14T06:20:14Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "FINANCIAL ANALYST",
-      "company": "OP Mobility",
-      "location": "Austin, Travis County",
-      "url": "https://www.adzuna.com/land/ad/5841612587?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=ADB4C5952F4D05F601079CB9EC641EB9F9F2BC85",
-      "posted_at": "2026-08-14T06:17:07Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Collabera",
-      "location": "Cedar Rapids, Linn County",
-      "url": "https://www.adzuna.com/land/ad/5841611532?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=E5BE209B90EF2F68C68080393AF315FA7FDEF101",
-      "posted_at": "2026-08-14T06:16:58Z",
-      "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
         "financial_review_case_AMZN_2025Q3_Individual_moderate",
@@ -283,392 +763,12 @@
       ]
     },
     {
-      "title": "Financial Analyst – Accounts Payable",
-      "company": "Aerodyne Industries",
-      "location": "Cape Canaveral, Brevard County",
-      "url": "https://www.adzuna.com/land/ad/5841086503?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=D23051CDFD854BA2D7107E3423C725C93C26CB0C",
-      "posted_at": "2026-08-13T21:28:05Z",
+      "title": "Internship - Financial Analyst",
+      "company": "General Mills",
+      "location": "Minneapolis, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5836641256?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=9CEF9C4362F748519AEAEFD1BE30E543199CD70C",
+      "posted_at": "2026-08-11T07:10:59Z",
       "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Space Training and Readiness Command",
-      "location": "Peterson AFB, Colorado",
-      "url": "https://www.usajobs.gov:443/job/880438900",
-      "posted_at": "2026-08-13T09:46:26.7730",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Department of Defense Test Resource Management Center",
-      "location": "Alexandria, Virginia",
-      "url": "https://www.usajobs.gov:443/job/880407000",
-      "posted_at": "2026-08-13T07:34:11.0170",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Express Employment",
-      "location": "Honolulu, Hawaii",
-      "url": "https://www.adzuna.com/land/ad/5840113090?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=B08D4C76AA27D98B0293808F416F21FD7F17EE1C",
-      "posted_at": "2026-08-13T05:47:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "St. Louis County, Minnesota",
-      "location": "Duluth, Saint Louis County",
-      "url": "https://www.adzuna.com/land/ad/5837128459?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=44E9A6C1E757297D0C43951D1C402ED09D57EF9B",
-      "posted_at": "2026-08-11T15:39:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "International Development Finance Analyst",
-      "company": "Development Finance Corporation",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/879869400",
-      "posted_at": "2026-08-10T00:00:00.0000",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "International Development Finance Analyst",
-      "company": "Development Finance Corporation",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/879869700",
-      "posted_at": "2026-08-10T00:00:00.0000",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst, Corporate FP&A",
-      "company": "LeafHome",
-      "location": "Hudson, Summit County",
-      "url": "https://www.adzuna.com/details/5832309503?utm_medium=api&utm_source=e9c6b04b",
-      "posted_at": "2026-08-07T16:30:51Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst (Auditor)",
-      "company": "U.S. International Trade Commission",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/879831600",
-      "posted_at": "2026-08-07T15:24:13.1870",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Supervisory Financial Analyst",
-      "company": "Federal Housing Finance Agency",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/879541200",
-      "posted_at": "2026-08-06T10:24:46.1500",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Commander, Navy Installations Command",
-      "location": "Millington, Tennessee",
-      "url": "https://www.usajobs.gov:443/job/879422500",
-      "posted_at": "2026-08-06T00:00:00.0000",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Bonneville Power Administration",
-      "location": "Portland, Oregon",
-      "url": "https://www.usajobs.gov:443/job/879476200",
-      "posted_at": "2026-08-06T00:00:00.0000",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Supervisory Budget and Financial Analyst",
-      "company": "U.S. Army Cyber Command",
-      "location": "Wiesbaden, Germany",
-      "url": "https://www.usajobs.gov:443/job/879536000",
-      "posted_at": "2026-08-06T00:00:00.0000",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst / Financial Engineer",
-      "company": "Sun West Mortgage-Since 1980",
-      "location": "Cerritos, Los Angeles County",
-      "url": "https://www.adzuna.com/land/ad/5830005214?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=4A0CE05671AA43546911E1DF2363EB1220239F13",
-      "posted_at": "2026-08-05T23:51:14Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst, NF-04",
-      "company": "United States Army Installation Management Command",
-      "location": "Fort Sam Houston, Texas",
-      "url": "https://www.usajobs.gov:443/job/879151200",
-      "posted_at": "2026-08-04T10:38:14.5000",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Financial Analyst",
-      "company": "Cinntra Inc",
-      "location": "New Brunswick, Middlesex County",
-      "url": "https://www.adzuna.com/land/ad/5826813553?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=0B8E9AD9AD0EA0DE0FE916F3A2E1B128BBE85D40",
-      "posted_at": "2026-08-03T15:41:40Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Business Financial Analyst",
-      "company": "Architect of the Capitol",
-      "location": "Washington, District of Columbia",
-      "url": "https://www.usajobs.gov:443/job/878965600",
-      "posted_at": "2026-08-03T09:55:21.4400",
-      "source": "usajobs",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Senior Financial Analyst",
-      "company": "Berkeley Research Group, LLC",
-      "location": "Boston, Suffolk County",
-      "url": "https://www.adzuna.com/land/ad/5824624933?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=A5C8BD912455BD5ED9EE6F7962B8CD2C4FA6A8E1",
-      "posted_at": "2026-08-01T17:24:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Senior Financial Analyst",
-      "company": "A.O. Smith",
-      "location": "Saint Francis, Milwaukee County",
-      "url": "https://www.adzuna.com/land/ad/5823580347?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=A4B0ABE087506ACD8864D984B40B80E208A29A31",
-      "posted_at": "2026-08-01T04:27:13Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Corporate Finance Analyst",
-      "company": "Robinhood",
-      "location": "Menlo Park, CA; New York, NY",
-      "url": "https://boards.greenhouse.io/robinhood/jobs/8090105?t=gh_src=&gh_jid=8090105",
-      "posted_at": "2026-07-29T17:06:10-04:00",
-      "source": "greenhouse",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
         "financial_review_case_AMZN_2025Q3_Individual_moderate",
@@ -703,551 +803,11 @@
       ]
     },
     {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Scottsdale, Maricopa County",
-      "url": "https://www.adzuna.com/land/ad/5815588861?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=2EC07151A73C67D8A44DD3A3BF0DCBA650FC7189",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Parkersburg, Wood County",
-      "url": "https://www.adzuna.com/land/ad/5815588881?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=0C520F888CA73FD05A30A941EECFC3DA00BF9C05",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Pomona, Los Angeles County",
-      "url": "https://www.adzuna.com/land/ad/5815588872?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=C04A9177290B205C591FC8B9458DE189034E58FC",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Waterloo, Black Hawk County",
-      "url": "https://www.adzuna.com/land/ad/5815588852?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=B613BC703F836DCE2CFE0D5FC733ACF54B8C2DBB",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Springfield, Greene County",
-      "url": "https://www.adzuna.com/land/ad/5815588838?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=3F08CA366E7EC96D9C44DE596AB399D862381CAB",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Boone, Watauga County",
-      "url": "https://www.adzuna.com/land/ad/5815588850?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=E67F511FC709CD103BF1B12604CA03BE4D233A3B",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Ogden, Weber County",
-      "url": "https://www.adzuna.com/land/ad/5815588882?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=B81E9EBE69DE264A7C69A0B3F45C550E98B8D706",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "San Antonio, Bexar County",
-      "url": "https://www.adzuna.com/land/ad/5815588859?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=6B557FC386210475601011AA621474C153D299B6",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Aberdeen, Brown County",
-      "url": "https://www.adzuna.com/land/ad/5815588890?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=3018862FFD853632E71BDF206FA48FFFE5002A74",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Cedar Rapids, Linn County",
-      "url": "https://www.adzuna.com/land/ad/5815588888?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=3A56785A42403995675E03927BE74C15D0250C0A",
-      "posted_at": "2026-07-25T13:14:48Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Miami, Miami-Dade County",
-      "url": "https://www.adzuna.com/land/ad/5815588797?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=A61D8B1DC647DB2E06BE755909286106B8E712F0",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Chattanooga, Hamilton County",
-      "url": "https://www.adzuna.com/land/ad/5815588806?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=A169AB236CE4BE053147EAA8C6BE56CD7C0DC02F",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Wilmington, New Castle County",
-      "url": "https://www.adzuna.com/land/ad/5815588796?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=E506E1084B2B5A7A4AB77FAC6B0DA1A447A68CFB",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Mesa, Maricopa County",
-      "url": "https://www.adzuna.com/land/ad/5815588804?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=C3A06C38700C6B4CCF1099318805C6DF13087CD8",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Colchester, Chittenden County",
-      "url": "https://www.adzuna.com/land/ad/5815588814?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=BC76FB6393179764529204304121A8BA88DF56F0",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Fairbanks, Fairbanks North Star",
-      "url": "https://www.adzuna.com/land/ad/5815588819?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=6A0EA8159658EDEAC2E152B9387BB8DC8A601981",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Nashville, Davidson County",
-      "url": "https://www.adzuna.com/land/ad/5815588789?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=492A61506BA3318C243F4CC59EF6597B13D70529",
-      "posted_at": "2026-07-25T13:14:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Indiana, Indiana County",
-      "url": "https://www.adzuna.com/land/ad/5815588688?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=164694911933EB97E4AC544B1EBA0B5B3CB76E75",
-      "posted_at": "2026-07-25T13:14:46Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Sacramento, Sacramento County",
-      "url": "https://www.adzuna.com/land/ad/5815588647?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=B87897D148D899D5289612F8BC0E2AAFC307B9BD",
-      "posted_at": "2026-07-25T13:14:46Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Owensboro, Daviess County",
-      "url": "https://www.adzuna.com/land/ad/5815588645?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=01FADF70577116DAA7624C54141E69CA571E7500",
-      "posted_at": "2026-07-25T13:14:46Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Birmingham, Jefferson County",
-      "url": "https://www.adzuna.com/land/ad/5815581892?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=040C7BD78F2804347D6F93DFB2EFC9E0FCFBA1B6",
-      "posted_at": "2026-07-25T13:10:22Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Manchester, Hillsborough County",
-      "url": "https://www.adzuna.com/land/ad/5815581831?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=E9197BD2516AC490C5BDDA976D6FB7BFB1D6452A",
-      "posted_at": "2026-07-25T13:10:22Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Entegral Financial Analyst",
-      "company": "Enterprise",
-      "location": "Helena, Lewis and Clark County",
-      "url": "https://www.adzuna.com/land/ad/5815581784?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=F19584EB56F36E2E102CEF8F8922B88A81B8C92C",
-      "posted_at": "2026-07-25T13:10:21Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
       "title": "Financial Analyst",
       "company": "Apidel Technologies",
       "location": "Rosemead, Los Angeles County",
       "url": "https://www.adzuna.com/land/ad/5812592854?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=9122A3B882DDDA33A2A53E0CA3A7D8DBADA3435C",
       "posted_at": "2026-07-23T14:58:07Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Lititz Financial Analyst",
-      "company": "Kenvue",
-      "location": "Brickerville, Lancaster County",
-      "url": "https://www.adzuna.com/land/ad/5810922748?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=758983B20BE847869A1BED108A4E1E9E99A5AFD8",
-      "posted_at": "2026-07-22T10:49:24Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Lititz Financial Analyst",
-      "company": "Kenvue",
-      "location": "Lime Rock, Lancaster County",
-      "url": "https://www.adzuna.com/land/ad/5810921127?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=D3FD831030FBA3CCA35ACF3BBA6269BE01492C3A",
-      "posted_at": "2026-07-22T10:45:29Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Lititz Financial Analyst",
-      "company": "Kenvue",
-      "location": "Penryn, Lancaster County",
-      "url": "https://www.adzuna.com/land/ad/5810920573?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=A7AC61FB127134520EB44915687BBFC025906552",
-      "posted_at": "2026-07-22T10:43:44Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Lititz Financial Analyst",
-      "company": "Kenvue",
-      "location": "Rothsville, Lancaster County",
-      "url": "https://www.adzuna.com/land/ad/5810920237?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=36760410E982CC9F2D943BB139F5E52FC5122E02",
-      "posted_at": "2026-07-22T10:42:33Z",
       "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -1343,11 +903,11 @@
       ]
     },
     {
-      "title": "FP&A Manager, R&D",
-      "company": "GitLab",
-      "location": "Remote, Canada; Remote, US",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626198002",
-      "posted_at": "2026-07-10T13:59:34-04:00",
+      "title": "Senior Financial Analyst, North America Sales & Operations Finance",
+      "company": "Flexport",
+      "location": "San Francisco, California, United States",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8025116",
+      "posted_at": "2026-07-06T19:26:21-04:00",
       "source": "greenhouse",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -1363,12 +923,292 @@
       ]
     },
     {
-      "title": "Senior Financial Analyst, North America Sales & Operations Finance",
-      "company": "Flexport",
-      "location": "Chicago, Illinois, United States; Dallas, Texas, United States",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8025116",
-      "posted_at": "2026-07-06T19:26:21-04:00",
-      "source": "greenhouse",
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Highwood, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422652?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=219AFAA765DEA4E4C76F7A0B591EF50B016C85CD",
+      "posted_at": "2026-07-03T01:35:25Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Lake Bluff, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422666?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=20BCAA203E17D0F948F6BC821FECC1C232CF3F17",
+      "posted_at": "2026-07-03T01:35:25Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Zion, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422641?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=3D2A8EFC4563B2042E0CB80E0B8B59AE1FD6768D",
+      "posted_at": "2026-07-03T01:35:24Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "US",
+      "url": "https://www.adzuna.com/land/ad/5786422644?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=9CE28E4C8C8BF00B88EFFF95AF686DACB03D37A1",
+      "posted_at": "2026-07-03T01:35:24Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Lake Forest, Orange County",
+      "url": "https://www.adzuna.com/land/ad/5786422545?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=77061CC7918D7AC8E3DD4BBEA0852B3A4C1C3C91",
+      "posted_at": "2026-07-03T01:35:15Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Grayslake, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422559?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=2544975A4C6BA9722C55BDE53BDC639CE3A25DE6",
+      "posted_at": "2026-07-03T01:35:15Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Winthrop Harbor, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422552?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=50D99AF9013DB6871516607AE4C5F35C41201EEA",
+      "posted_at": "2026-07-03T01:35:15Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Beach Park, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422557?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=E5376276001054DC3350D6D0E8319050F37AC475",
+      "posted_at": "2026-07-03T01:35:15Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Libertyville, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422492?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=2C525E5D27EA306A65F3A436DE9426E0DA1B40B2",
+      "posted_at": "2026-07-03T01:35:06Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Gurnee, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422463?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=12BBB6FFA10AF968D2786B05626E5E918ADCF477",
+      "posted_at": "2026-07-03T01:35:05Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Fox Lake, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422364?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=AB74BEF9BF396615665D3E83BD23F92B06780694",
+      "posted_at": "2026-07-03T01:34:56Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Round Lake, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422366?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=80F160D4515DC2511890D9A937AEE5DEA1CC423C",
+      "posted_at": "2026-07-03T01:34:56Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Antioch, Contra Costa County",
+      "url": "https://www.adzuna.com/land/ad/5786422357?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=DC293416249CDC96A1737312E263DB7F19B2E9AC",
+      "posted_at": "2026-07-03T01:34:56Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Flatwoods, Greenup County",
+      "url": "https://www.adzuna.com/land/ad/5786422343?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=A953474ECE8E87266AAF1F2D6169B7380C442957",
+      "posted_at": "2026-07-03T01:34:55Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst - Uline, Inc.",
+      "company": "Uline, Inc.",
+      "location": "Hawthorn Woods, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5786422337?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=B7FC1BBA70BF0ED6E26E1B8E28E1A87DBC85CF56",
+      "posted_at": "2026-07-03T01:34:55Z",
+      "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
         "financial_review_case_AMZN_2025Q3_Individual_moderate",
@@ -1403,26 +1243,6 @@
       ]
     },
     {
-      "title": "FP&A Analyst - Data Insights",
-      "company": "Datadog",
-      "location": "New York, New York, USA",
-      "url": "https://careers.datadoghq.com/detail/7964916/?gh_jid=7964916",
-      "posted_at": "2026-06-09T09:27:43-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
       "title": "Senior Manager, FP&A",
       "company": "Flexport",
       "location": "Singapore, Singapore",
@@ -1443,31 +1263,11 @@
       ]
     },
     {
-      "title": "Senior Financial Analyst, Retailer",
-      "company": "Instacart",
-      "location": "Canada - Remote (ON, AB, BC, or NS Only)",
-      "url": "https://instacart.careers/job/?gh_jid=7958331",
-      "posted_at": "2026-05-26T14:28:51-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Senior Financial Analyst, Retailer",
-      "company": "Instacart",
-      "location": "United States - Remote",
-      "url": "https://instacart.careers/job/?gh_jid=7958329",
-      "posted_at": "2026-05-26T14:28:50-04:00",
+      "title": "Senior Engineer - Business Systems (FP&A)",
+      "company": "MongoDB",
+      "location": "Bengaluru; Gurugram",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7942613",
+      "posted_at": "2026-06-03T01:53:09-04:00",
       "source": "greenhouse",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -1503,11 +1303,11 @@
       ]
     },
     {
-      "title": "Financial Analysts",
-      "company": "Enterprise Business Solutions Inc",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5720938537?se=gANmbtGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=C270874C57C470CA1D6DAE5A27EBF2ED1CA2DF30",
-      "posted_at": "2026-05-06T18:06:58Z",
+      "title": "Senior Financial Analyst",
+      "company": "Alpha Omega Integration LLC",
+      "location": "State Farm, Arlington County",
+      "url": "https://www.adzuna.com/land/ad/5726277547?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=FBAF4EC34ACA9E986C7E896345036AD0F11416FE",
+      "posted_at": "2026-05-11T19:34:16Z",
       "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -1523,32 +1323,12 @@
       ]
     },
     {
-      "title": "Strategic Finance Analyst II (Revenue)",
-      "company": "Affirm",
-      "location": "Remote Canada",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7724229003",
-      "posted_at": "2026-05-06T17:04:30-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Strategic Finance Analyst II (Revenue)",
-      "company": "Affirm",
-      "location": "Remote US",
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7724227003",
-      "posted_at": "2026-05-06T17:04:29-04:00",
-      "source": "greenhouse",
+      "title": "Financial Analysts",
+      "company": "Enterprise Business Solutions Inc",
+      "location": "US",
+      "url": "https://www.adzuna.com/land/ad/5720938537?se=gANmbtGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=C270874C57C470CA1D6DAE5A27EBF2ED1CA2DF30",
+      "posted_at": "2026-05-06T18:06:58Z",
+      "source": "adzuna",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
         "financial_review_case_AMZN_2025Q3_Individual_moderate",
@@ -1603,11 +1383,91 @@
       ]
     },
     {
-      "title": "Director, Finance PMO, Strategy & Operations, FP&A",
+      "title": "Financial Analyst l",
+      "company": "Kforce Technology Staffing",
+      "location": "Juno Beach, Palm Beach County",
+      "url": "https://www.adzuna.com/land/ad/5680358806?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=7A0E8F4603AD01223E71D3481165F55A65690A83",
+      "posted_at": "2026-03-27T10:12:04Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Financial Analyst I",
+      "company": "Kforce Technology Staffing",
+      "location": "Juno Beach, Palm Beach County",
+      "url": "https://www.adzuna.com/land/ad/5680358588?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=CA15B4DBF5EB542B49B0269592275D254C32DCF8",
+      "posted_at": "2026-03-27T10:12:00Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "PGD Financial Analyst",
+      "company": "Kforce Technology Staffing",
+      "location": "The Acreage, Palm Beach County",
+      "url": "https://www.adzuna.com/land/ad/5680355431?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=1A705BA9D7CB8901EE9568AB8AD9F3D33925E6AA",
+      "posted_at": "2026-03-27T10:10:58Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "IT Financial Analyst",
+      "company": "Chenega MIOS",
+      "location": "Mount Rainier, Prince George's County",
+      "url": "https://www.adzuna.com/land/ad/5680354342?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=81DE31857B0FEA4E68EA342B0FD0A322F17611B1",
+      "posted_at": "2026-03-27T10:10:34Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Individual_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
+        "financial_review_case_AMZN_2025Q3_Team_moderate",
+        "unit_economics_individual",
+        "unit_economics_individual_AIassist",
+        "unit_economics_individual_AIautomation_v2",
+        "unit_economics_team",
+        "unit_economics_team_AIassist",
+        "unit_economics_team_AIautomation"
+      ]
+    },
+    {
+      "title": "Senior Financial Analyst",
       "company": "Databricks",
-      "location": "Bellevue, Washington; Denver, Colorado; Mountain View, California; San Francisco, California; Seattle, Washington",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8415095002",
-      "posted_at": "2026-02-12T12:55:26-05:00",
+      "location": "Bellevue, Washington; Mountain View, California; San Francisco, California; Seattle, Washington",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8414474002",
+      "posted_at": "2026-02-17T21:04:46-05:00",
       "source": "greenhouse",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
@@ -1628,26 +1488,6 @@
       "location": "Boston, Massachusetts, USA",
       "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086",
       "posted_at": "2026-02-05T16:16:32-05:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Individual_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_AIassist_moderate",
-        "financial_review_case_AMZN_2025Q3_Team_moderate",
-        "unit_economics_individual",
-        "unit_economics_individual_AIassist",
-        "unit_economics_individual_AIautomation_v2",
-        "unit_economics_team",
-        "unit_economics_team_AIassist",
-        "unit_economics_team_AIautomation"
-      ]
-    },
-    {
-      "title": "Sales Finance Analyst",
-      "company": "Pinterest",
-      "location": "Dublin, IE",
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7507652",
-      "posted_at": "2026-01-16T16:40:01-05:00",
       "source": "greenhouse",
       "matched_templates": [
         "financial_review_case_AMZN_2025Q3_Individual_AIassist_moderate",
