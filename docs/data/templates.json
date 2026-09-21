@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-09-21T14:34:49+00:00",
+  "templates": [
+    {
+      "template_id": "AWS_team_AIassist",
+      "title": "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/AWS_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "cloud infrastructure / e-commerce",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Affirm_team_AIassist",
+      "title": "Operations & Business Model · Affirm FY2025 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Affirm_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "fintech / consumer payments and lending",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Affirm_team_AIautomation",
+      "title": "Operations & Business Model · Affirm FY2025 · Team + AI Automation",
+      "url": "https://app.skillsimm.com/templates/Affirm_team_AIautomation",
+      "domain": "entrepreneurship",
+      "industry": "fintech / consumer payments and lending",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Apple_team_AIassist",
+      "title": "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Apple_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "consumer hardware / artificial intelligence",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Apple_team_AIautomation",
+      "title": "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation",
+      "url": "https://app.skillsimm.com/templates/Apple_team_AIautomation",
+      "domain": "entrepreneurship",
+      "industry": "consumer hardware / artificial intelligence",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "BadBlood_team_AIassist",
+      "title": "Ethical and Legal Standards · Theranos 2014 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/BadBlood_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "medical diagnostics / health technology",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Cerebras_team_AIassist",
+      "title": "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Cerebras_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "semiconductors / AI infrastructure",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Disney_team_AIassist",
+      "title": "Acquiring Enterprises · Disney / Pixar FY2006 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Disney_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "media / entertainment",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "HMA_team_AIassist",
+      "title": "Common Pitfalls and Successes · MoviePass FY2017 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/HMA_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "consumer subscription / entertainment",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Marvell_team_AIassist",
+      "title": "Financial Budgeting · Marvell FY2026 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Marvell_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "semiconductors / data infrastructure",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "NYT_team_AIassist",
+      "title": "Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/NYT_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "media / artificial intelligence",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Netflix_team_AIassist",
+      "title": "Creative Thinking · Netflix FY2007 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Netflix_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "media / subscription entertainment",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "RealReal_team_AIassist",
+      "title": "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/RealReal_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "luxury resale / online marketplace",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "RealReal_team_AIautomation",
+      "title": "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation",
+      "url": "https://app.skillsimm.com/templates/RealReal_team_AIautomation",
+      "domain": "entrepreneurship",
+      "industry": "luxury resale / online marketplace",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Shak_team_AIassist",
+      "title": "Franchising Enterprises · Shake Shack FY2014 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Shak_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "restaurants / franchising",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Snowflake_team_AIassist",
+      "title": "Pricing Strategy · Snowflake FY2026 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Snowflake_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "enterprise software / cloud data platform",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Team_Writing_Project_New_Startup_Eva",
+      "title": "Team Writing Project New Startup Evaluation",
+      "url": "https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva",
+      "domain": "entrepreneurship",
+      "industry": "education",
+      "difficulty": "intermediate",
+      "duration_minutes": 180,
+      "team_size": 5,
+      "step_count": 10
+    },
+    {
+      "template_id": "Team_Writing_Project_Public_Firm_Eva",
+      "title": "Team Writing Project Public Firm Evaluation",
+      "url": "https://app.skillsimm.com/templates/Team_Writing_Project_Public_Firm_Eva",
+      "domain": "entrepreneurship",
+      "industry": "education",
+      "difficulty": "intermediate",
+      "duration_minutes": 180,
+      "team_size": 5,
+      "step_count": 10
+    },
+    {
+      "template_id": "Team_Writing_Project_Startup_Eva",
+      "title": "Team Writing Project Startup Evaluation",
+      "url": "https://app.skillsimm.com/templates/Team_Writing_Project_Startup_Eva",
+      "domain": "entrepreneurship",
+      "industry": "education",
+      "difficulty": "intermediate",
+      "duration_minutes": 180,
+      "team_size": 5,
+      "step_count": 10
+    },
+    {
+      "template_id": "Tesla_team_AIassist",
+      "title": "Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Tesla_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "automotive / energy storage / autonomy",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "ThomsShoes2025_team_AIassist",
+      "title": "Social Entrepreneurs · TOMS 2025 · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/ThomsShoes2025_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "footwear / apparel · social enterprise",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "Wework",
+      "title": "WeWork FY2021 Survival · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Wework",
+      "domain": "entrepreneurship",
+      "industry": "flexible_workspace_real_estate",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 12
+    },
+    {
+      "template_id": "unit_economics_individual",
+      "title": "Unit Economics · Individual",
+      "url": "https://app.skillsimm.com/templates/unit_economics_individual",
+      "domain": "entrepreneurship",
+      "industry": "startup",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "team_size": 1,
+      "step_count": 8
+    },
+    {
+      "template_id": "unit_economics_individual_AIassist",
+      "title": "Unit Economics · Individual+ AI assist",
+      "url": "https://app.skillsimm.com/templates/unit_economics_individual_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "startup",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "team_size": 1,
+      "step_count": 8
+    },
+    {
+      "template_id": "unit_economics_individual_AIautomation_v2",
+      "title": "Unit Economics · Individual+ AI Automation version 2",
+      "url": "https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2",
+      "domain": "entrepreneurship",
+      "industry": "startup",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "team_size": 1,
+      "step_count": 8
+    },
+    {
+      "template_id": "unit_economics_team",
+      "title": "Unit Economics · Team",
+      "url": "https://app.skillsimm.com/templates/unit_economics_team",
+      "domain": "entrepreneurship",
+      "industry": "startup",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "team_size": 4,
+      "step_count": 8
+    },
+    {
+      "template_id": "unit_economics_team_AIassist",
+      "title": "Unit Economics · Team + AI Assist",
+      "url": "https://app.skillsimm.com/templates/unit_economics_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "startup",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "team_size": 4,
+      "step_count": 8
+    },
+    {
+      "template_id": "unit_economics_team_AIautomation",
+      "title": "Unit Economics · Team + AI Automation",
+      "url": "https://app.skillsimm.com/templates/unit_economics_team_AIautomation",
+      "domain": "entrepreneurship",
+      "industry": "startup",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "team_size": 4,
+      "step_count": 8
+    }
+  ]
+}

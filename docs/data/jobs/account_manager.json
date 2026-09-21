@@ -1,6 +1,6 @@
 {
   "family": "account_manager",
-  "generated_at": "2026-09-05T20:29:13+00:00",
+  "generated_at": "2026-09-21T14:34:49+00:00",
   "postings": [
     {
       "title": "Key Account Manager",
@@ -9,7 +9,8 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7789940003",
       "posted_at": "2026-06-30T18:25:00-04:00",
       "source": "greenhouse",
-      "matched_templates": []
+      "matched_templates": [],
+      "match_explanations": []
     },
     {
       "title": "Head of Accountant Partner Program",
@@ -18,7 +19,8 @@
       "url": "https://job-boards.greenhouse.io/gusto/jobs/8003470",
       "posted_at": "2026-06-18T15:56:16-04:00",
       "source": "greenhouse",
-      "matched_templates": []
+      "matched_templates": [],
+      "match_explanations": []
     },
     {
       "title": "People Partner, EPD",
@@ -27,7 +29,8 @@
       "url": "https://jobs.ashbyhq.com/notion/5546e570-aa17-4e88-a877-f62d0d56f378",
       "posted_at": "2026-02-14T00:55:25.720+00:00",
       "source": "ashby",
-      "matched_templates": []
+      "matched_templates": [],
+      "match_explanations": []
     },
     {
       "title": "Manager, Solutions Engineering, Mid-Market",
@@ -36,7 +39,8 @@
       "url": "https://jobs.ashbyhq.com/notion/3c0141de-06fb-4186-9cd4-75395f0b5488",
       "posted_at": "2025-11-17T20:36:06.219+00:00",
       "source": "ashby",
-      "matched_templates": []
+      "matched_templates": [],
+      "match_explanations": []
     },
     {
       "title": "Commercial Sales Manager, Japan",
@@ -45,7 +49,8 @@
       "url": "https://jobs.ashbyhq.com/notion/e95ff317-92fe-4e34-88da-a83fe093f017",
       "posted_at": "2025-10-28T05:29:39.553+00:00",
       "source": "ashby",
-      "matched_templates": []
+      "matched_templates": [],
+      "match_explanations": []
     }
   ]
 }

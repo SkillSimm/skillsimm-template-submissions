@@ -29,6 +29,7 @@
     .stamp { color: var(--text-muted); font-size: 0.85rem; }
     .empty { color: var(--text-muted); padding: 2rem 0; }
   </style>
+  <script src="assets/embed.js"></script>
 </head>
 <body>
   <header class="site">
@@ -72,8 +73,8 @@
         </select>
       </div>
 
-      <p class="stamp" id="stamp"></p>
-      <div class="jobs-scroll">
+      <p class="stamp" id="stamp" role="status"></p>
+      <div class="jobs-scroll" tabindex="0" role="region" aria-label="Job postings, scroll horizontally on small screens">
         <table class="jobs" id="jobsTable" hidden>
           <thead>
             <tr><th>Role</th><th>Company</th><th>Location</th><th>Posted</th><th>Practice first</th></tr>
@@ -99,7 +100,7 @@
     // Fallback when data/jobs/index.json is missing; otherwise tabs come from
     // the index so data-discovered families appear automatically.
     const DEFAULT_FAMILIES = ["financial_analyst", "data_analyst", "security_analyst"];
-    const state = { family: null, feeds: {}, q: "", days: 0 };
+    const state = { family: null, feeds: {}, q: "", days: 0, catalog: new Map(), renderId: 0 };
 
     const tabs = document.getElementById("famTabs");
     function buildTabs(families) {
@@ -114,6 +115,15 @@
       });
     }
     async function initFamilies() {
+      try {
+        const response = await fetch("data/templates.json", {cache: "no-store"});
+        if (!response.ok) throw new Error("Catalog unavailable");
+        const catalog = await response.json();
+        state.catalog = new Map(catalog.templates.map(t => [t.template_id, t]));
+      } catch {
+        document.getElementById("stamp").textContent = "Simulation catalog unavailable. Please try again later.";
+        return;
+      }
       let families = DEFAULT_FAMILIES;
       try {
         const resp = await fetch("data/jobs/index.json", { cache: "no-store" });
@@ -138,18 +148,20 @@
     async function load(family) {
       if (state.feeds[family] !== undefined) return state.feeds[family];
       try {
-        const resp = await fetch(`data/jobs/${family}.json`, { cache: "no-store" });
+        const resp = await fetch(`data/jobs/${encodeURIComponent(family)}.json`, { cache: "no-store" });
         state.feeds[family] = resp.ok ? await resp.json() : null;
       } catch { state.feeds[family] = null; }
       return state.feeds[family];
     }
 
     function simUrl(id) {
-      return `https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/GAPS.md`;
+      return `https://app.skillsimm.com/templates/${encodeURIComponent(id)}`;
     }
 
     async function render() {
+      const renderId = ++state.renderId;
       const feed = await load(state.family);
+      if (renderId !== state.renderId) return;
       const table = document.getElementById("jobsTable");
       const empty = document.getElementById("empty");
       const stamp = document.getElementById("stamp");
@@ -176,17 +188,26 @@
       empty.hidden = true; table.hidden = false;
       for (const p of rows) {
         const tr = document.createElement("tr");
-        const sims = (p.matched_templates || []).slice(0, 3).map(id =>
-          `<span class="sim-chip">${id}</span>`).join("") ||
-          `<a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/GAPS.md">no sim yet — build one</a>`;
+        const sims = (p.matched_templates || []).filter(id => state.catalog.has(id)).slice(0, 3).map(id => {
+          const template = state.catalog.get(id);
+          const match = (p.match_explanations || []).find(m => m.template_id === id);
+          const shared = Object.entries(match?.shared_capabilities || {})
+            .filter(([, values]) => values.length)
+            .map(([dim, values]) => `${dim}: ${values.join(", ")}`).join("; ");
+          return `<div class="sim-match"><a class="sim-chip" href="${escapeHtml(simUrl(id))}" target="_blank" rel="noopener noreferrer">${escapeHtml(template.title)}</a><small>${escapeHtml(shared)}</small></div>`;
+        }).join("") || "No matching simulation yet";
         tr.innerHTML =
-          `<td><a href="${p.url}" rel="noopener" target="_blank">${escapeHtml(p.title)}</a></td>` +
+          `<td><a href="${escapeHtml(safeUrl(p.url))}" rel="noopener" target="_blank">${escapeHtml(p.title)}</a></td>` +
           `<td>${escapeHtml(p.company)}</td>` +
           `<td>${escapeHtml(p.location || "")}</td>` +
-          `<td>${p.posted_at ? p.posted_at.slice(0, 10) : ""}</td>` +
+          `<td>${escapeHtml(p.posted_at ? p.posted_at.slice(0, 10) : "")}</td>` +
           `<td>${sims}</td>`;
         body.appendChild(tr);
       }
+    }
+    function safeUrl(value) {
+      try { const url = new URL(value); return ["http:", "https:"].includes(url.protocol) ? url.href : "#"; }
+      catch { return "#"; }
     }
     function escapeHtml(s) {
       return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));

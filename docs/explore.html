@@ -7,6 +7,7 @@
   <meta name="description" content="Browse SkillSimm simulation templates: scenarios, roles, human/AI decision boundaries, and grading.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
   <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/embed.js"></script>
 </head>
 <body>
   <header class="site">
@@ -26,41 +27,9 @@
   <main>
     <div class="wrap">
       <h1>Explore simulations</h1>
-      <p class="lede">
-        Every template below went through creator submission and review. Open
-        one to see its scenario, roles, step design, and how humans and AI
-        split the decisions — then <a href="create.html">build your own</a>.
-      </p>
-
-      <p>
-        <span class="badge verified">Verified</span> — reviewed and test-run by SkillSimm; eligible for formal assessment.<br>
-        <span class="badge community">Community</span> — shared by a creator, not yet reviewed by SkillSimm; use for exploration, not formal assessment.
-      </p>
-
-      <div class="card-grid">
-        <!-- ══════════════════════════════════════════════════════════════
-             ADMIN: to add a template card after a PR merges, copy the
-             <article> block below, then update:
-               1. the title and badge (community | verified)
-               2. the objective sentence
-               3. the meta lines (audience, roles, team size, steps, duration)
-               4. the GitHub link: .../tree/main/templates/<slug>
-             Keep cards in reverse-chronological order (newest first).
-             ══════════════════════════════════════════════════════════════ -->
-
-        <article class="card">
-          <h3>Consumer Complaint Escalation
-            <span class="badge community">Community</span></h3>
-          <p>Train escalation judgment under emotional ambiguity: diagnose an
-             angry customer's real issue, then decide the escalation path with
-             policy in hand.</p>
-          <p class="meta"><strong>Audience:</strong> MBA / enterprise training</p>
-          <p class="meta"><strong>Roles:</strong> support agent, manager</p>
-          <p class="meta"><strong>Team:</strong> 3–5 people · <strong>Steps:</strong> 2 · <strong>Duration:</strong> ~60 min</p>
-          <p class="meta"><strong>Difficulty:</strong> intermediate · <strong>License:</strong> CC-BY-4.0</p>
-          <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/templates/consumer-complaint-escalation">View template →</a>
-        </article>
-      </div>
+      <p class="lede">Browse the current public SkillSimm simulations. Open a template to explore its scenario and practice the work.</p>
+      <p id="catalogStatus" role="status">Loading simulations…</p>
+      <div class="card-grid" id="catalogCards"></div>
 
       <h2>Want yours listed here?</h2>
       <p>
@@ -79,5 +48,34 @@
       <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/CONTRIBUTING.md">Contributing</a>
     </div>
   </footer>
+  <script>
+    async function loadCatalog() {
+      const status = document.getElementById("catalogStatus");
+      try {
+        const response = await fetch("data/templates.json", {cache: "no-store"});
+        if (!response.ok) throw new Error("Catalog unavailable");
+        const catalog = await response.json();
+        for (const template of catalog.templates) {
+          const card = document.createElement("article"); card.className = "card";
+          const heading = document.createElement("h2");
+          const link = document.createElement("a");
+          link.href = `https://app.skillsimm.com/templates/${encodeURIComponent(template.template_id)}`;
+          link.textContent = template.title;
+          link.target = "_blank"; link.rel = "noopener noreferrer";
+          heading.append(link); card.append(heading);
+          const description = document.createElement("p");
+          description.textContent = template.description || [template.domain, template.industry].filter(Boolean).join(" · ");
+          card.append(description);
+          const meta = document.createElement("p"); meta.className = "meta";
+          meta.textContent = [template.difficulty, template.duration_minutes != null ? `${template.duration_minutes} minutes` : null,
+            template.team_size != null ? `${template.team_size} participant(s)` : null,
+            template.step_count != null ? `${template.step_count} steps` : null].filter(Boolean).join(" · ");
+          card.append(meta); document.getElementById("catalogCards").append(card);
+        }
+        status.textContent = `${catalog.templates.length} simulations · updated ${catalog.generated_at.slice(0, 10)}`;
+      } catch { status.textContent = "Simulations could not be loaded. Please try again later."; }
+    }
+    loadCatalog();
+  </script>
 </body>
 </html>

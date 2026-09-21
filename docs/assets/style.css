@@ -308,3 +308,21 @@ th { color: var(--text-muted); font-weight: 600; }
 }
 
 img { max-width: 100%; }
+
+/* Embedded pages use the landing page's light palette even in dark mode. */
+html.embedded { color-scheme: light; --bg: #faf8f4; --surface: #fff;
+  --text: #1f2430; --text-muted: #5b6270; --accent: #4655d4;
+  --accent-soft: #eceefc; --border: #e3e1dc; --code-bg: #f1f0ec; }
+.embedded header.site, .embedded footer.site { display: none; }
+.embedded main { padding: 1.5rem 0; }
+.embedded .wrap { max-width: 1280px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 3px;
+}
+.card-grid { grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); }
+.sim-match { margin-bottom: .7rem; }
+.sim-match small { display: block; min-width: 150px; }
+@media (max-width: 600px) {
+  .jobs-controls input, .jobs-controls select { max-width: 100%; }
+  table.jobs { min-width: 650px; }
+}
