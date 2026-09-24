@@ -1,7 +1,7 @@
 (() => {
   if (new URLSearchParams(location.search).get("embed") !== "1") return;
   document.documentElement.classList.add("embedded");
-  const page = location.pathname.endsWith("jobs.html") ? "jobs" : "explore";
+  const page = "jobs";
   let parentOrigin;
   try { parentOrigin = new URL(document.referrer).origin; } catch { return; }
   let lastHeight = 0;

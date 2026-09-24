@@ -1,6 +1,6 @@
 {
   "family": "risk_compliance_manager",
-  "generated_at": "2026-09-21T14:53:49+00:00",
+  "generated_at": "2026-09-23T21:54:41+00:00",
   "postings": [
     {
       "title": "Manager, Privacy Compliance",
@@ -9,8 +9,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7793001003",
       "posted_at": "2026-07-09T09:09:25-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Director, Platform Accounts Management",
@@ -19,8 +39,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7799164003",
       "posted_at": "2026-07-09T09:01:54-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Compliance Lead, Canada",
@@ -29,8 +69,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7788916003",
       "posted_at": "2026-07-07T19:03:37-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manager MLRO, Compliance",
@@ -39,8 +99,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7784128003",
       "posted_at": "2026-07-02T05:44:30-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Compliance Lead, Servicing Advisory",
@@ -49,8 +129,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7788910003",
       "posted_at": "2026-06-30T17:06:09-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Director, Accounts Management",
@@ -59,8 +159,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7782548003",
       "posted_at": "2026-06-26T07:07:49-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manager, Accounting Policy & Reporting",
@@ -69,8 +189,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7725035003",
       "posted_at": "2026-06-12T11:27:56-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Director, Enterprise Risk Strategy",
@@ -79,8 +219,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7743210003",
       "posted_at": "2026-06-10T20:55:18-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Director, Enterprise Risk Strategy",
@@ -89,8 +249,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7743208003",
       "posted_at": "2026-06-10T20:55:17-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Lead, Customer Advocacy",
@@ -99,8 +279,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7764791003",
       "posted_at": "2026-06-08T22:38:19-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Lead, Customer Advocacy",
@@ -109,8 +309,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7764789003",
       "posted_at": "2026-06-08T22:38:18-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Security Risk Management Lead",
@@ -119,8 +339,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7718808003",
       "posted_at": "2026-06-05T10:29:43-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Affirm Bank Compliance Lead, CRA and Complaints",
@@ -129,8 +369,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7752003003",
       "posted_at": "2026-06-02T13:41:30-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Director, Information Technology & Security",
@@ -139,8 +399,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7607567003",
       "posted_at": "2026-02-02T13:09:19-05:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     }
   ]
 }

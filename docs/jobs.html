@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Job board — SkillSimm Simulation Hub</title>
-  <meta name="description" content="Live job postings from public ATS boards, matched to SkillSimm practice simulations. Practice the sim, then apply.">
+  <title>Jobs & simulations — SkillSimm Simulation Hub</title>
+  <meta name="description" content="Live job postings from public ATS boards, each linked to the SkillSimm simulations that practice the same work or come from the same industry. Practice the sim, then apply.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
   <link rel="stylesheet" href="assets/style.css">
   <style>
@@ -25,7 +25,15 @@
     table.jobs th, table.jobs td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--border); vertical-align: top; }
     table.jobs th { color: var(--text-muted); font-weight: 600; font-size: 0.85rem; }
     .sim-chip { display: inline-block; background: var(--accent-soft); color: var(--accent);
-      border-radius: 6px; padding: 0.1rem 0.45rem; font-size: 0.78rem; margin: 0 0.25rem 0.25rem 0; }
+      border: 1px solid var(--accent-soft); border-radius: 6px; padding: 0.1rem 0.45rem;
+      font-size: 0.78rem; margin: 0 0.25rem 0.25rem 0; }
+    .sim-chip.industry { background: transparent; border-color: var(--accent); }
+    .sim-strip { margin: 1.2rem 0 0.4rem; }
+    .sim-strip h2, .all-sims h2 { font-size: 1.05rem; margin: 0 0 0.5rem; }
+    .sim-strip .chips { display: flex; flex-wrap: wrap; gap: 0.1rem; }
+    .legend { color: var(--text-muted); font-size: 0.82rem; margin: 0.3rem 0 0; }
+    .legend .sim-chip { margin: 0 0.2rem; }
+    .all-sims { margin-top: 2.5rem; }
     .stamp { color: var(--text-muted); font-size: 0.85rem; }
     .empty { color: var(--text-muted); padding: 2rem 0; }
   </style>
@@ -37,9 +45,8 @@
       <a class="brand" href="index.html">Skill<span>Simm</span> Simulation Hub</a>
       <nav class="site">
         <a href="index.html">Home</a>
-        <a href="jobs.html" aria-current="page">Jobs</a>
+        <a href="jobs.html" aria-current="page">Jobs &amp; sims</a>
         <a href="create.html">Create</a>
-        <a href="explore.html">Explore</a>
         <a href="format.html">Format</a>
         <a href="https://github.com/SkillSimm/skillsimm-template-submissions">GitHub</a>
       </nav>
@@ -48,11 +55,12 @@
 
   <main>
     <div class="wrap">
-      <h1>Job board</h1>
+      <h1>Jobs &amp; simulations</h1>
       <p class="lede">
         Live postings from companies' own public ATS boards (Greenhouse, Lever,
-        Ashby), matched to the simulations that practice the same work.
-        Practice first, then apply at the source — every link goes to the
+        Ashby) and public job APIs, each linked to the simulations that practice
+        the same work — or, failing that, a case from the same firm or industry.
+        Practice first, then apply at the source — every job link goes to the
         company's real posting.
       </p>
       <p>
@@ -62,6 +70,11 @@
       </p>
 
       <div class="fam-tabs" id="famTabs" role="group" aria-label="Job family"></div>
+
+      <section class="sim-strip" id="simStrip" hidden>
+        <h2 id="simStripTitle">Practice for this role</h2>
+        <div class="chips" id="simStripChips"></div>
+      </section>
 
       <div class="jobs-controls">
         <input type="search" id="q" placeholder="Filter by title, company, location…" aria-label="Filter postings">
@@ -83,6 +96,24 @@
         </table>
       </div>
       <p class="empty" id="empty" hidden>No postings match the current filters.</p>
+      <p class="legend" id="legend" hidden>
+        <span class="sim-chip">Solid</span> practices the same work as the posting ·
+        <span class="sim-chip industry">Outlined</span> is a case from the same firm or industry
+      </p>
+
+      <section class="all-sims" id="allSims" hidden>
+        <h2>More simulations</h2>
+        <p class="stamp">Not yet linked to a job family above.</p>
+        <div class="chips" id="allSimsChips"></div>
+      </section>
+
+      <h2>Want your simulation listed here?</h2>
+      <p>
+        Write a <a href="create.html">structured report</a> about a workflow you
+        know, submit it through the AI-guided interview, and once it clears
+        review your simulation is linked to the jobs that do that work, with
+        your creator profile attached.
+      </p>
     </div>
   </main>
 
@@ -91,8 +122,10 @@
       <p>Feeds are committed JSON generated from public ATS APIs — titles and
          links only, no reposted descriptions. Families are partly
          data-discovered (clustered from postings, not hand-picked).
-         Data: <a href="data/jobs/index.json">index.json</a> +
-         <code>data/jobs/&lt;family&gt;.json</code></p>
+         Data: <a href="data/jobs/index.json">index.json</a>,
+         <code>data/jobs/&lt;family&gt;.json</code>,
+         <a href="data/jobs/sim_families.json">sim_families.json</a>,
+         <a href="data/templates.json">templates.json</a></p>
     </div>
   </footer>
 
@@ -100,7 +133,8 @@
     // Fallback when data/jobs/index.json is missing; otherwise tabs come from
     // the index so data-discovered families appear automatically.
     const DEFAULT_FAMILIES = ["financial_analyst", "data_analyst", "security_analyst"];
-    const state = { family: null, feeds: {}, q: "", days: 0, catalog: new Map(), renderId: 0 };
+    const state = { family: null, feeds: {}, q: "", days: 0, catalog: new Map(),
+                    simFamilies: {}, renderId: 0 };
 
     const tabs = document.getElementById("famTabs");
     function buildTabs(families) {
@@ -110,7 +144,7 @@
         b.textContent = f.replace(/_/g, " ");
         b.dataset.family = f;
         b.setAttribute("aria-pressed", String(f === state.family));
-        b.addEventListener("click", () => { state.family = f; syncTabs(); render(); });
+        b.addEventListener("click", () => { state.family = f; syncTabs(); renderStrip(); render(); });
         tabs.appendChild(b);
       });
     }
@@ -124,6 +158,10 @@
         document.getElementById("stamp").textContent = "Simulation catalog unavailable. Please try again later.";
         return;
       }
+      try {
+        const resp = await fetch("data/jobs/sim_families.json", { cache: "no-store" });
+        if (resp.ok) state.simFamilies = (await resp.json()).templates || {};
+      } catch {}
       let families = DEFAULT_FAMILIES;
       try {
         const resp = await fetch("data/jobs/index.json", { cache: "no-store" });
@@ -135,7 +173,39 @@
       } catch {}
       state.family = families[0];
       buildTabs(families);
+      renderAllSims(families);
+      renderStrip();
       render();
+    }
+    function simChip(id, cls = "") {
+      const template = state.catalog.get(id);
+      const a = document.createElement("a");
+      a.className = `sim-chip ${cls}`.trim();
+      a.href = simUrl(id);
+      a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = template.title;
+      const meta = [template.difficulty, template.duration_minutes != null ? `${template.duration_minutes} min` : null,
+        template.team_size != null ? `${template.team_size} participant(s)` : null].filter(Boolean).join(" · ");
+      if (meta) a.title = meta;
+      return a;
+    }
+    function familySims(family) {
+      return [...state.catalog.keys()].filter(id => (state.simFamilies[id] || []).includes(family)).sort();
+    }
+    function renderStrip() {
+      const ids = familySims(state.family);
+      const strip = document.getElementById("simStrip");
+      const chips = document.getElementById("simStripChips");
+      chips.replaceChildren(...ids.map(id => simChip(id)));
+      document.getElementById("simStripTitle").textContent =
+        `Practice for ${state.family.replace(/_/g, " ")} roles (${ids.length})`;
+      strip.hidden = !ids.length;
+    }
+    function renderAllSims(families) {
+      const listed = new Set(families.flatMap(familySims));
+      const rest = [...state.catalog.keys()].filter(id => !listed.has(id)).sort();
+      document.getElementById("allSimsChips").replaceChildren(...rest.map(id => simChip(id)));
+      document.getElementById("allSims").hidden = !rest.length;
     }
     function syncTabs() {
       tabs.querySelectorAll("button").forEach(b =>
@@ -169,6 +239,7 @@
       body.innerHTML = "";
       if (!feed || !feed.postings) {
         table.hidden = true; empty.hidden = false;
+        document.getElementById("legend").hidden = true;
         empty.textContent = "No feed published yet for this family.";
         stamp.textContent = "";
         return;
@@ -184,17 +255,21 @@
         return true;
       });
       stamp.textContent = `${rows.length} of ${feed.postings.length} postings · feed generated ${feed.generated_at ? feed.generated_at.slice(0, 10) : "n/a"}`;
-      if (!rows.length) { table.hidden = true; empty.hidden = false; empty.textContent = "No postings match the current filters."; return; }
-      empty.hidden = true; table.hidden = false;
+      const legend = document.getElementById("legend");
+      if (!rows.length) { table.hidden = true; legend.hidden = true; empty.hidden = false; empty.textContent = "No postings match the current filters."; return; }
+      empty.hidden = true; table.hidden = false; legend.hidden = false;
       for (const p of rows) {
         const tr = document.createElement("tr");
         const sims = (p.matched_templates || []).filter(id => state.catalog.has(id)).slice(0, 3).map(id => {
           const template = state.catalog.get(id);
           const match = (p.match_explanations || []).find(m => m.template_id === id);
-          const shared = Object.entries(match?.shared_capabilities || {})
-            .filter(([, values]) => values.length)
-            .map(([dim, values]) => `${dim}: ${values.join(", ")}`).join("; ");
-          return `<div class="sim-match"><a class="sim-chip" href="${escapeHtml(simUrl(id))}" target="_blank" rel="noopener noreferrer">${escapeHtml(template.title)}</a><small>${escapeHtml(shared)}</small></div>`;
+          const industry = match?.match_type === "industry";
+          const why = industry
+            ? (match.same_firm ? "Same company" : `Same industry: ${(match.shared_industries || []).map(t => t.replace(/_/g, " ")).join(", ")}`)
+            : Object.entries(match?.shared_capabilities || {})
+                .filter(([, values]) => values.length)
+                .map(([dim, values]) => `${dim}: ${values.join(", ")}`).join("; ");
+          return `<div class="sim-match"><a class="sim-chip${industry ? " industry" : ""}" href="${escapeHtml(simUrl(id))}" target="_blank" rel="noopener noreferrer">${escapeHtml(template.title)}</a><small>${escapeHtml(why)}</small></div>`;
         }).join("") || "No matching simulation yet";
         tr.innerHTML =
           `<td><a href="${escapeHtml(safeUrl(p.url))}" rel="noopener" target="_blank">${escapeHtml(p.title)}</a></td>` +

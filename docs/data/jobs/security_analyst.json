@@ -1,6 +1,6 @@
 {
   "family": "security_analyst",
-  "generated_at": "2026-09-21T14:53:49+00:00",
+  "generated_at": "2026-09-23T21:54:41+00:00",
   "postings": [
     {
       "title": "Information Security Analyst",
@@ -9,8 +9,28 @@
       "url": "https://www.adzuna.com/land/ad/5892765900?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=DA36D8103E3207801B69F978858DC7E5798D6304",
       "posted_at": "2026-09-21T08:06:48Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Information Security Analyst",
@@ -19,8 +39,28 @@
       "url": "https://www.adzuna.com/land/ad/5892338292?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=D555090502EAC3E27310D897EDF8752F14F144CF",
       "posted_at": "2026-09-21T00:08:29Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Information Security Analyst",
@@ -109,8 +149,28 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8815229002",
       "posted_at": "2026-09-17T10:19:29-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Cyber Security Analyst",
@@ -149,8 +209,19 @@
       "url": "https://www.adzuna.com/land/ad/5885291465?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=15D15BE87109539E67E2A976741E415B1BB4BDE9",
       "posted_at": "2026-09-15T20:08:47Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Tesla_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Tesla_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "automotive_energy"
+          ]
+        }
+      ]
     },
     {
       "title": "Network Security Analyst",
@@ -249,8 +320,19 @@
       "url": "https://www.adzuna.com/land/ad/5878011210?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=6900C92828A3CB61A594636AB893958B2F0EFBDF",
       "posted_at": "2026-09-10T01:15:23Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Security Incident Response Manager, Abuse Operations",
@@ -259,8 +341,28 @@
       "url": "https://stripe.com/jobs/search?gh_jid=8172497",
       "posted_at": "2026-09-09T17:58:38-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
@@ -269,8 +371,28 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782306002",
       "posted_at": "2026-09-09T09:10:36-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Security Analyst",
@@ -299,8 +421,28 @@
       "url": "https://stripe.com/jobs/search?gh_jid=8172493",
       "posted_at": "2026-09-03T13:37:28-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Cyber Security Analyst",
@@ -429,8 +571,37 @@
       "url": "https://instacart.careers/job/?gh_jid=8154308",
       "posted_at": "2026-08-24T12:45:44-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "HMA_team_AIassist",
+        "Netflix_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "HMA_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_subscription"
+          ]
+        },
+        {
+          "template_id": "Netflix_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_subscription"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Detection Engineer II",
@@ -439,8 +610,37 @@
       "url": "https://instacart.careers/job/?gh_jid=8154300",
       "posted_at": "2026-08-24T12:44:18-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "HMA_team_AIassist",
+        "Netflix_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "HMA_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_subscription"
+          ]
+        },
+        {
+          "template_id": "Netflix_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_subscription"
+          ]
+        }
+      ]
     },
     {
       "title": "Security Incident Response Engineer",
@@ -449,8 +649,28 @@
       "url": "https://stripe.com/jobs/search?gh_jid=8142302",
       "posted_at": "2026-08-19T16:33:11-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Cyber Security Analyst",
@@ -489,8 +709,28 @@
       "url": "https://careers.datadoghq.com/detail/8121553/?gh_jid=8121553",
       "posted_at": "2026-08-12T16:30:08-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Security Analyst with Security Clearance",
@@ -499,8 +739,37 @@
       "url": "https://www.adzuna.com/land/ad/5827362812?se=9CrYQIyY8RGJftUyzQ0_4w&utm_medium=api&utm_source=e9c6b04b&v=7E634EDA62CC7FB1DA4D704BC5D3C1ACC66A1361",
       "posted_at": "2026-08-03T23:37:17Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Staff Security Detection Engineer, Machine Learning",
@@ -509,8 +778,28 @@
       "url": "https://sofi.com/careers/job/7818418003?gh_jid=7818418003",
       "posted_at": "2026-07-30T16:44:26-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Security Analyst with Security Clearance",
@@ -549,8 +838,37 @@
       "url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8074713",
       "posted_at": "2026-07-24T15:45:09-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "HMA_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_hardware"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_hardware"
+          ]
+        },
+        {
+          "template_id": "HMA_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_subscription"
+          ]
+        }
+      ]
     },
     {
       "title": "IT Security Analyst",
@@ -569,8 +887,28 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8050511?gh_jid=8050511",
       "posted_at": "2026-07-16T04:25:45-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
@@ -579,8 +917,28 @@
       "url": "https://job-boards.greenhouse.io/gitlab/jobs/8628447002",
       "posted_at": "2026-07-10T16:02:45-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Security Analyst with Security Clearance",
@@ -619,8 +977,28 @@
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8025650?gh_jid=8025650",
       "posted_at": "2026-06-24T08:29:13-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Information Security Analyst",
@@ -629,8 +1007,19 @@
       "url": "https://www.adzuna.com/land/ad/5773529309?se=DmSPdNGD8RGFMa6bWHzthQ&utm_medium=api&utm_source=e9c6b04b&v=4D63E8056CCEF6D605341F5420AAAC918FD89935",
       "posted_at": "2026-06-23T07:24:31Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Tesla_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Tesla_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "automotive_energy"
+          ]
+        }
+      ]
     },
     {
       "title": "Incident Response Manager - Security",
@@ -639,8 +1028,28 @@
       "url": "https://stripe.com/jobs/search?gh_jid=8007205",
       "posted_at": "2026-06-15T06:28:33-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Incident Response Manager - Product & Engineering",
@@ -649,8 +1058,37 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5205495008",
       "posted_at": "2026-04-29T18:03:24-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Information Security Analyst",
@@ -659,8 +1097,19 @@
       "url": "https://www.adzuna.com/land/ad/5709764647?se=DmSPdNGD8RGFMa6bWHzthQ&utm_medium=api&utm_source=e9c6b04b&v=3F84795897A89BB11D7C4711489E951B24D0AA99",
       "posted_at": "2026-04-24T18:15:01Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Tesla_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Tesla_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "automotive_energy"
+          ]
+        }
+      ]
     },
     {
       "title": "Defensive Security Analyst",

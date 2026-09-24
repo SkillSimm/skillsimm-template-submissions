@@ -10,7 +10,7 @@ humans, and published to the SkillSimm library.
 | I want to… | Go to |
 |---|---|
 | Create a simulation (no code needed) | [Create guide](https://skillsimm.github.io/skillsimm-template-submissions/create.html) — write a 4-section structured report, submit through an AI agent |
-| Browse published simulations | [Gallery](https://skillsimm.github.io/skillsimm-template-submissions/explore.html) |
+| Browse jobs & the simulations that practice them | [Jobs & simulations](https://skillsimm.github.io/skillsimm-template-submissions/jobs.html) |
 | Understand the package format | [Format reference](https://skillsimm.github.io/skillsimm-template-submissions/format.html) · [`schemas/`](schemas/) |
 | Submit a package by hand | [CONTRIBUTING.md](CONTRIBUTING.md) |
 

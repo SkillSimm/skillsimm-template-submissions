@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-09-23T21:54:41+00:00",
+  "templates": {
+    "AWS_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Affirm_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Affirm_team_AIautomation": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Apple_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Apple_team_AIautomation": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "BadBlood_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Carrier_factor_discovery_team_AIassist": [
+      "data_analyst",
+      "data_scientist",
+      "risk_compliance_manager"
+    ],
+    "Cerebras_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Disney_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "HMA_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Marvell_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "NYT_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Netflix_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "RealReal_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "RealReal_team_AIautomation": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Shak_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Snowflake_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Team_Writing_Project_New_Startup_Eva": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "Team_Writing_Project_Public_Firm_Eva": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "Team_Writing_Project_Startup_Eva": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "Tesla_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "ThomsShoes2025_team_AIassist": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "Wework": [
+      "account_manager",
+      "cloud_data_engineer",
+      "data_engineer",
+      "financial_analyst",
+      "platform_engineer",
+      "product_manager",
+      "risk_compliance_manager",
+      "security_analyst"
+    ],
+    "unit_economics_individual": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "unit_economics_individual_AIassist": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "unit_economics_individual_AIautomation_v2": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "unit_economics_team": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "unit_economics_team_AIassist": [
+      "financial_analyst",
+      "product_manager"
+    ],
+    "unit_economics_team_AIautomation": [
+      "financial_analyst",
+      "product_manager"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "family": "financial_analyst",
-  "generated_at": "2026-09-21T14:53:49+00:00",
+  "generated_at": "2026-09-23T21:54:41+00:00",
   "postings": [
     {
       "title": "Business Planning Financial Analyst",
@@ -9,8 +9,37 @@
       "url": "https://www.adzuna.com/land/ad/5892446523?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=93A33750C68FE32E9BE5963AD5B6BA55CC12B8BF",
       "posted_at": "2026-09-21T02:10:16Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Disney_team_AIassist",
+        "HMA_team_AIassist",
+        "NYT_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Disney_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "media_entertainment"
+          ]
+        },
+        {
+          "template_id": "HMA_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "media_entertainment"
+          ]
+        },
+        {
+          "template_id": "NYT_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "media_entertainment"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -19,8 +48,19 @@
       "url": "https://www.adzuna.com/land/ad/5892383859?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=7E695509D1FB8CBC8293E5E9B49BD636DBA988F8",
       "posted_at": "2026-09-21T01:41:43Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Tesla_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Tesla_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "automotive_energy"
+          ]
+        }
+      ]
     },
     {
       "title": "Sr. Manufacturing Financial Analyst",
@@ -49,8 +89,37 @@
       "url": "https://www.adzuna.com/land/ad/5892179959?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=5652039401BFE78DF9C4A3B2399B653F143B0B37",
       "posted_at": "2026-09-20T20:32:50Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -59,8 +128,37 @@
       "url": "https://www.adzuna.com/land/ad/5892087160?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=2A889E5DD7B2120AC7E5725851D1FC2E1E6D783B",
       "posted_at": "2026-09-20T18:39:40Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -69,8 +167,37 @@
       "url": "https://www.adzuna.com/land/ad/5892084607?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=03F535C1FDA1C7E2C1701E653F8A7E93089A6DF1",
       "posted_at": "2026-09-20T18:34:56Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -79,8 +206,37 @@
       "url": "https://www.adzuna.com/land/ad/5892068460?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=CD14F4C2C9B4DD59EC96764FA84A6B5CCC3E9FB9",
       "posted_at": "2026-09-20T18:29:22Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -89,8 +245,37 @@
       "url": "https://www.adzuna.com/land/ad/5892063243?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=1820151092AFC54D29F8786D70ADB62ECA7C69EE",
       "posted_at": "2026-09-20T18:23:47Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -99,8 +284,37 @@
       "url": "https://www.adzuna.com/land/ad/5892062326?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=2D9E4A476D645C5E83680D76B2E2E826D7AAD59A",
       "posted_at": "2026-09-20T18:23:22Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -109,8 +323,37 @@
       "url": "https://www.adzuna.com/land/ad/5892062176?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=434AB925D3BE8D44949BECA2DBD1917ACCBD7E15",
       "posted_at": "2026-09-20T18:23:06Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -119,8 +362,37 @@
       "url": "https://www.adzuna.com/land/ad/5892059127?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=BD4B9EE8F4752B812E79F0FBC1B25CE75EAA0D04",
       "posted_at": "2026-09-20T18:12:20Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Supply Chain Financial Analyst",
@@ -129,8 +401,37 @@
       "url": "https://www.adzuna.com/land/ad/5892057803?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=BD0625AF5181BFC91CDD71685EF52A41BA589466",
       "posted_at": "2026-09-20T18:10:03Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        },
+        {
+          "template_id": "RealReal_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "marketplace_retail"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -249,8 +550,37 @@
       "url": "https://www.adzuna.com/land/ad/5888817673?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=AA9594D351C88C36ED5D0B300DE759EC16426CCB",
       "posted_at": "2026-09-18T02:29:50Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manufacturing Financial Analyst",
@@ -259,8 +589,19 @@
       "url": "https://www.adzuna.com/land/ad/5888229014?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=3C4120F0EC9E5962E02D72D85B901F86882C3178",
       "posted_at": "2026-09-17T18:00:53Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Tesla_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Tesla_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "automotive_energy"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst – Automotive Finance",
@@ -277,6 +618,7 @@
       "match_explanations": [
         {
           "template_id": "unit_economics_individual",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "pricing strategy analysis"
@@ -288,6 +630,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIassist",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "pricing strategy analysis"
@@ -299,6 +642,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIautomation_v2",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "pricing strategy analysis"
@@ -327,8 +671,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8192216",
       "posted_at": "2026-09-17T13:16:47-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -347,8 +720,19 @@
       "url": "https://www.adzuna.com/land/ad/5887584788?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=080119D296407B5C285A4962CE35D0E12923BFCF",
       "posted_at": "2026-09-17T06:59:09Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manager, Financial Planning & Analysis",
@@ -357,8 +741,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8209989",
       "posted_at": "2026-09-16T21:04:45-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manager, Financial Planning & Analysis",
@@ -367,8 +780,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8154864",
       "posted_at": "2026-09-16T20:11:43-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -397,8 +839,28 @@
       "url": "https://www.adzuna.com/land/ad/5884583366?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=112C1AA9E369A779996D60BA80320D713E1994B0",
       "posted_at": "2026-09-15T07:45:53Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Management and Financial Analyst",
@@ -437,8 +899,37 @@
       "url": "https://www.adzuna.com/land/ad/5880230701?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=8EFCE121496A0541DF2ED16D487F08E84AD067D8",
       "posted_at": "2026-09-11T18:44:33Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Team_Writing_Project_New_Startup_Eva",
+        "Team_Writing_Project_Public_Firm_Eva",
+        "Team_Writing_Project_Startup_Eva"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Team_Writing_Project_New_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Public_Firm_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -487,8 +978,37 @@
       "url": "https://www.guild.com/open-positions-at-guild?gh_jid=8167428",
       "posted_at": "2026-09-09T22:28:43-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Team_Writing_Project_New_Startup_Eva",
+        "Team_Writing_Project_Public_Firm_Eva",
+        "Team_Writing_Project_Startup_Eva"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Team_Writing_Project_New_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Public_Firm_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst / Financial Assistant",
@@ -507,8 +1027,37 @@
       "url": "https://www.samsara.com/company/careers/roles/8187214?gh_jid=8187214",
       "posted_at": "2026-09-08T17:15:28-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -517,8 +1066,37 @@
       "url": "https://www.samsara.com/company/careers/roles/8156715?gh_jid=8156715",
       "posted_at": "2026-09-08T17:15:26-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -527,8 +1105,19 @@
       "url": "https://www.adzuna.com/land/ad/5873277251?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=A13DD06CDDE640A7195C95BAB509855A0EE78D01",
       "posted_at": "2026-09-06T14:36:46Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -537,8 +1126,19 @@
       "url": "https://www.adzuna.com/land/ad/5873277072?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=C35FC7B9F16E587EB51D30454C9F8E6995736774",
       "posted_at": "2026-09-06T14:35:56Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -557,8 +1157,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8168951",
       "posted_at": "2026-09-04T04:44:50-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -587,8 +1216,28 @@
       "url": "https://www.adzuna.com/land/ad/5865832657?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=7B99C636A8EE0EA348947DDB44AE8439082377E5",
       "posted_at": "2026-09-01T19:53:44Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -597,8 +1246,37 @@
       "url": "https://www.adzuna.com/land/ad/5865600126?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=CD7BBF0E18021618F272F28E83CE7D9378A91F86",
       "posted_at": "2026-09-01T18:32:34Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Team_Writing_Project_New_Startup_Eva",
+        "Team_Writing_Project_Public_Firm_Eva",
+        "Team_Writing_Project_Startup_Eva"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Team_Writing_Project_New_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Public_Firm_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -607,8 +1285,28 @@
       "url": "https://www.adzuna.com/land/ad/5861375603?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=B76211FA9A5CAC942735C5474506CB009E4502C8",
       "posted_at": "2026-08-29T13:15:28Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Corporate Finance & Strategy, Cash Flow Forecasting",
@@ -617,8 +1315,37 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358130008",
       "posted_at": "2026-08-28T15:19:00-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -645,6 +1372,7 @@
       "match_explanations": [
         {
           "template_id": "unit_economics_individual",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "pricing strategy analysis"
@@ -656,6 +1384,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIassist",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "pricing strategy analysis"
@@ -667,6 +1396,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIautomation_v2",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "pricing strategy analysis"
@@ -685,8 +1415,28 @@
       "url": "https://sofi.com/careers/job/7976546003?gh_jid=7976546003",
       "posted_at": "2026-08-25T15:39:22-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior FP&A Analyst, Cloud Hosting",
@@ -703,6 +1453,7 @@
       "match_explanations": [
         {
           "template_id": "unit_economics_individual",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [],
             "decisions": [
@@ -714,6 +1465,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIassist",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [],
             "decisions": [
@@ -725,6 +1477,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIautomation_v2",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [],
             "decisions": [
@@ -743,8 +1496,19 @@
       "url": "https://job-boards.greenhouse.io/oscar/jobs/8147968",
       "posted_at": "2026-08-21T13:41:43-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Associate, Strategic Finance (FP&A)",
@@ -753,8 +1517,19 @@
       "url": "https://job-boards.greenhouse.io/oscar/jobs/8147965",
       "posted_at": "2026-08-21T13:40:43-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Associate, Strategic Finance (FP&A)",
@@ -763,8 +1538,19 @@
       "url": "https://job-boards.greenhouse.io/oscar/jobs/8147942",
       "posted_at": "2026-08-21T13:39:44-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Associate, Strategic Finance (FP&A)",
@@ -773,8 +1559,19 @@
       "url": "https://job-boards.greenhouse.io/oscar/jobs/8129152",
       "posted_at": "2026-08-21T13:29:26-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "BadBlood_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "BadBlood_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "healthcare"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst",
@@ -793,8 +1590,28 @@
       "url": "https://careers.datadoghq.com/detail/8132294/?gh_jid=8132294",
       "posted_at": "2026-08-18T15:10:24-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -813,8 +1630,37 @@
       "url": "https://job-boards.greenhouse.io/checkr/jobs/8126358",
       "posted_at": "2026-08-14T15:26:49-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Cerebras_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Cerebras_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Lead Forecasting & Financial Analyst",
@@ -823,8 +1669,37 @@
       "url": "https://www.guild.com/open-positions-at-guild?gh_jid=8095504",
       "posted_at": "2026-08-14T13:40:21-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Team_Writing_Project_New_Startup_Eva",
+        "Team_Writing_Project_Public_Firm_Eva",
+        "Team_Writing_Project_Startup_Eva"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Team_Writing_Project_New_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Public_Firm_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        },
+        {
+          "template_id": "Team_Writing_Project_Startup_Eva",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "education"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst",
@@ -843,8 +1718,37 @@
       "url": "https://www.adzuna.com/land/ad/5836641256?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=9CEF9C4362F748519AEAEFD1BE30E543199CD70C",
       "posted_at": "2026-08-11T07:10:59Z",
       "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "Shak_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_hardware"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "consumer_hardware"
+          ]
+        },
+        {
+          "template_id": "Shak_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "restaurants_food"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Treasury Analyst",
@@ -853,8 +1757,28 @@
       "url": "https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892",
       "posted_at": "2026-07-28T19:32:19-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manager, Financial Planning & Analysis",
@@ -863,8 +1787,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8072506",
       "posted_at": "2026-07-20T13:27:25-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Manager, Financial Planning & Analysis",
@@ -873,8 +1826,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8072504",
       "posted_at": "2026-07-20T13:27:25-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Financial Analyst, Business F&S",
@@ -883,8 +1865,28 @@
       "url": "https://stripe.com/jobs/search?gh_jid=8066264",
       "posted_at": "2026-07-15T01:44:23-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Financial Analyst, North America Sales & Operations Finance",
@@ -893,8 +1895,28 @@
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8025116",
       "posted_at": "2026-07-06T19:26:21-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Snowflake_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Snowflake_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
     },
     {
       "title": "Senior Engineer - Business Systems (FP&A)",
@@ -903,8 +1925,37 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7942613",
       "posted_at": "2026-06-03T01:53:09-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "SUPERVISORY FINANCIAL ANALYST - DIRECT HIRE AUTHORITY",
@@ -951,6 +2002,7 @@
       "match_explanations": [
         {
           "template_id": "unit_economics_individual",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [],
             "decisions": [
@@ -964,6 +2016,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIassist",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [],
             "decisions": [
@@ -977,6 +2030,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIautomation_v2",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [],
             "decisions": [
@@ -1005,6 +2059,7 @@
       "match_explanations": [
         {
           "template_id": "unit_economics_individual",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "unit economic"
@@ -1018,6 +2073,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIassist",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "unit economic"
@@ -1031,6 +2087,7 @@
         },
         {
           "template_id": "unit_economics_individual_AIautomation_v2",
+          "match_type": "capability",
           "shared_capabilities": {
             "responsibilities": [
               "unit economic"
@@ -1061,8 +2118,37 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8414474002",
       "posted_at": "2026-02-17T21:04:46-05:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     }
   ]
 }

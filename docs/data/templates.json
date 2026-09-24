@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T14:53:49+00:00",
+  "generated_at": "2026-09-23T21:54:41+00:00",
   "templates": [
     {
       "template_id": "AWS_team_AIassist",
@@ -10,7 +10,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Affirm_team_AIassist",
@@ -21,7 +21,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Affirm_team_AIautomation",
@@ -32,7 +32,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Apple_team_AIassist",
@@ -43,7 +43,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Apple_team_AIautomation",
@@ -54,7 +54,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "BadBlood_team_AIassist",
@@ -65,7 +65,18 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
+    },
+    {
+      "template_id": "Carrier_factor_discovery_team_AIassist",
+      "title": "Factor & Prevention Discovery · Cardinal Mutual · Team + AIassist",
+      "url": "https://app.skillsimm.com/templates/Carrier_factor_discovery_team_AIassist",
+      "domain": "risk modeling",
+      "industry": "insurance",
+      "difficulty": "intermediate",
+      "duration_minutes": 47,
+      "team_size": 5,
+      "step_count": 11
     },
     {
       "template_id": "Cerebras_team_AIassist",
@@ -76,7 +87,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Disney_team_AIassist",
@@ -87,7 +98,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "HMA_team_AIassist",
@@ -98,7 +109,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Marvell_team_AIassist",
@@ -109,7 +120,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "NYT_team_AIassist",
@@ -120,7 +131,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Netflix_team_AIassist",
@@ -131,7 +142,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "RealReal_team_AIassist",
@@ -142,7 +153,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "RealReal_team_AIautomation",
@@ -153,7 +164,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Shak_team_AIassist",
@@ -164,7 +175,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Snowflake_team_AIassist",
@@ -175,7 +186,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Team_Writing_Project_New_Startup_Eva",
@@ -186,7 +197,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 180,
       "team_size": 5,
-      "step_count": 10
+      "step_count": 12
     },
     {
       "template_id": "Team_Writing_Project_Public_Firm_Eva",
@@ -197,7 +208,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 180,
       "team_size": 5,
-      "step_count": 10
+      "step_count": 12
     },
     {
       "template_id": "Team_Writing_Project_Startup_Eva",
@@ -208,7 +219,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 180,
       "team_size": 5,
-      "step_count": 10
+      "step_count": 12
     },
     {
       "template_id": "Tesla_team_AIassist",
@@ -219,7 +230,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "ThomsShoes2025_team_AIassist",
@@ -230,7 +241,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "Wework",
@@ -241,7 +252,7 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 6,
-      "step_count": 12
+      "step_count": 14
     },
     {
       "template_id": "unit_economics_individual",
@@ -252,7 +263,7 @@
       "difficulty": "beginner",
       "duration_minutes": 20,
       "team_size": 1,
-      "step_count": 8
+      "step_count": 10
     },
     {
       "template_id": "unit_economics_individual_AIassist",
@@ -263,7 +274,7 @@
       "difficulty": "beginner",
       "duration_minutes": 20,
       "team_size": 1,
-      "step_count": 8
+      "step_count": 10
     },
     {
       "template_id": "unit_economics_individual_AIautomation_v2",
@@ -274,7 +285,7 @@
       "difficulty": "beginner",
       "duration_minutes": 20,
       "team_size": 1,
-      "step_count": 8
+      "step_count": 10
     },
     {
       "template_id": "unit_economics_team",
@@ -285,7 +296,7 @@
       "difficulty": "beginner",
       "duration_minutes": 20,
       "team_size": 4,
-      "step_count": 8
+      "step_count": 10
     },
     {
       "template_id": "unit_economics_team_AIassist",
@@ -296,7 +307,7 @@
       "difficulty": "beginner",
       "duration_minutes": 20,
       "team_size": 4,
-      "step_count": 8
+      "step_count": 10
     },
     {
       "template_id": "unit_economics_team_AIautomation",
@@ -307,7 +318,7 @@
       "difficulty": "beginner",
       "duration_minutes": 20,
       "team_size": 4,
-      "step_count": 8
+      "step_count": 10
     }
   ]
 }

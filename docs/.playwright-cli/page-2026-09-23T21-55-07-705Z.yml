@@ -1,0 +1,1322 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "SkillSimm Simulation Hub" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - navigation [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: index.html
+        - link "Jobs & sims" [ref=e7] [cursor=pointer]:
+          - /url: jobs.html
+        - link "Create" [ref=e8] [cursor=pointer]:
+          - /url: create.html
+        - link "Format" [ref=e9] [cursor=pointer]:
+          - /url: format.html
+        - link "GitHub" [ref=e10] [cursor=pointer]:
+          - /url: https://github.com/SkillSimm/skillsimm-template-submissions
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - heading "Jobs & simulations" [level=1] [ref=e13]
+      - paragraph [ref=e14]: Live postings from companies' own public ATS boards (Greenhouse, Lever, Ashby) and public job APIs, each linked to the simulations that practice the same work — or, failing that, a case from the same firm or industry. Practice first, then apply at the source — every job link goes to the company's real posting.
+      - paragraph [ref=e15]:
+        - text: See a role no simulation covers yet? That's a gap —
+        - link "check GAPS.md" [ref=e16] [cursor=pointer]:
+          - /url: https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/GAPS.md
+        - text: and build the sim.
+      - group "Job family" [ref=e17]:
+        - button "financial analyst" [pressed] [ref=e18] [cursor=pointer]
+        - button "data analyst" [ref=e19] [cursor=pointer]
+        - button "security analyst" [ref=e20] [cursor=pointer]
+        - button "account manager" [ref=e21] [cursor=pointer]
+        - button "cloud data engineer" [ref=e22] [cursor=pointer]
+        - button "data engineer" [ref=e23] [cursor=pointer]
+        - button "data scientist" [ref=e24] [cursor=pointer]
+        - button "machine learning engineer" [ref=e25] [cursor=pointer]
+        - button "platform engineer" [ref=e26] [cursor=pointer]
+        - button "product manager" [ref=e27] [cursor=pointer]
+        - button "risk compliance manager" [ref=e28] [cursor=pointer]
+      - generic [ref=e29]:
+        - heading "Practice for financial analyst roles (28)" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e32] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+          - link "Operations & Business Model · Affirm FY2025 · Team + AIassist" [ref=e33] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Affirm_team_AIassist
+          - link "Operations & Business Model · Affirm FY2025 · Team + AI Automation" [ref=e34] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Affirm_team_AIautomation
+          - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e35] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+          - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e36] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+          - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e37] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+          - link "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist" [ref=e38] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Cerebras_team_AIassist
+          - link "Acquiring Enterprises · Disney / Pixar FY2006 · Team + AIassist" [ref=e39] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Disney_team_AIassist
+          - link "Common Pitfalls and Successes · MoviePass FY2017 · Team + AIassist" [ref=e40] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/HMA_team_AIassist
+          - link "Financial Budgeting · Marvell FY2026 · Team + AIassist" [ref=e41] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Marvell_team_AIassist
+          - link "Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AIassist" [ref=e42] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/NYT_team_AIassist
+          - link "Creative Thinking · Netflix FY2007 · Team + AIassist" [ref=e43] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Netflix_team_AIassist
+          - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e44] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+          - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e45] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+          - link "Franchising Enterprises · Shake Shack FY2014 · Team + AIassist" [ref=e46] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Shak_team_AIassist
+          - link "Pricing Strategy · Snowflake FY2026 · Team + AIassist" [ref=e47] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Snowflake_team_AIassist
+          - link "Team Writing Project New Startup Evaluation" [ref=e48] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva
+          - link "Team Writing Project Public Firm Evaluation" [ref=e49] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Public_Firm_Eva
+          - link "Team Writing Project Startup Evaluation" [ref=e50] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Startup_Eva
+          - link "Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist" [ref=e51] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Tesla_team_AIassist
+          - link "Social Entrepreneurs · TOMS 2025 · Team + AIassist" [ref=e52] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/ThomsShoes2025_team_AIassist
+          - link "WeWork FY2021 Survival · Team + AIassist" [ref=e53] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/Wework
+          - link "Unit Economics · Individual" [ref=e54] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/unit_economics_individual
+          - link "Unit Economics · Individual+ AI assist" [ref=e55] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIassist
+          - link "Unit Economics · Individual+ AI Automation version 2" [ref=e56] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2
+          - link "Unit Economics · Team" [ref=e57] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/unit_economics_team
+          - link "Unit Economics · Team + AI Assist" [ref=e58] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/unit_economics_team_AIassist
+          - link "Unit Economics · Team + AI Automation" [ref=e59] [cursor=pointer]:
+            - /url: https://app.skillsimm.com/templates/unit_economics_team_AIautomation
+      - generic [ref=e60]:
+        - searchbox "Filter postings" [ref=e61]
+        - combobox "Posted within" [ref=e62]:
+          - option "Any date" [selected]
+          - option "Last 7 days"
+          - option "Last 30 days"
+          - option "Last 90 days"
+      - status [ref=e63]: 86 of 86 postings · feed generated 2026-09-23
+      - region "Job postings, scroll horizontally on small screens" [ref=e64]:
+        - table [ref=e65]:
+          - rowgroup [ref=e66]:
+            - row "Role Company Location Posted Practice first" [ref=e67]:
+              - columnheader "Role" [ref=e68]
+              - columnheader "Company" [ref=e69]
+              - columnheader "Location" [ref=e70]
+              - columnheader "Posted" [ref=e71]
+              - columnheader "Practice first" [ref=e72]
+          - rowgroup [ref=e73]:
+            - 'row "Business Planning Financial Analyst SPECTRUM Stamford, Fairfield County 2026-09-21 Acquiring Enterprises · Disney / Pixar FY2006 · Team + AIassist Same industry: media entertainment Common Pitfalls and Successes · MoviePass FY2017 · Team + AIassist Same industry: media entertainment Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AIassist Same industry: media entertainment" [ref=e74]':
+              - cell "Business Planning Financial Analyst" [ref=e75]:
+                - link "Business Planning Financial Analyst" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892446523?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=93A33750C68FE32E9BE5963AD5B6BA55CC12B8BF
+              - cell "SPECTRUM" [ref=e77]
+              - cell "Stamford, Fairfield County" [ref=e78]
+              - cell "2026-09-21" [ref=e79]
+              - 'cell "Acquiring Enterprises · Disney / Pixar FY2006 · Team + AIassist Same industry: media entertainment Common Pitfalls and Successes · MoviePass FY2017 · Team + AIassist Same industry: media entertainment Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AIassist Same industry: media entertainment" [ref=e80]':
+                - generic [ref=e81]:
+                  - link "Acquiring Enterprises · Disney / Pixar FY2006 · Team + AIassist" [ref=e82] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Disney_team_AIassist
+                  - generic [ref=e83]: "Same industry: media entertainment"
+                - generic [ref=e84]:
+                  - link "Common Pitfalls and Successes · MoviePass FY2017 · Team + AIassist" [ref=e85] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/HMA_team_AIassist
+                  - generic [ref=e86]: "Same industry: media entertainment"
+                - generic [ref=e87]:
+                  - link "Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AIassist" [ref=e88] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/NYT_team_AIassist
+                  - generic [ref=e89]: "Same industry: media entertainment"
+            - 'row "Financial Analyst SMC Corporation of America Noblesville, Hamilton County 2026-09-21 Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist Same industry: automotive energy" [ref=e90]':
+              - cell "Financial Analyst" [ref=e91]:
+                - link "Financial Analyst" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892383859?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=7E695509D1FB8CBC8293E5E9B49BD636DBA988F8
+              - cell "SMC Corporation of America" [ref=e93]
+              - cell "Noblesville, Hamilton County" [ref=e94]
+              - cell "2026-09-21" [ref=e95]
+              - 'cell "Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist Same industry: automotive energy" [ref=e96]':
+                - generic [ref=e97]:
+                  - link "Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist" [ref=e98] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Tesla_team_AIassist
+                  - generic [ref=e99]: "Same industry: automotive energy"
+            - row "Sr. Manufacturing Financial Analyst Maxcess International Oklahoma City, Oklahoma County 2026-09-21 No matching simulation yet" [ref=e100]:
+              - cell "Sr. Manufacturing Financial Analyst" [ref=e101]:
+                - link "Sr. Manufacturing Financial Analyst" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892378900?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=66D77B4E65CDAFCFF16029CB329A7EBB3319423C
+              - cell "Maxcess International" [ref=e103]
+              - cell "Oklahoma City, Oklahoma County" [ref=e104]
+              - cell "2026-09-21" [ref=e105]
+              - cell "No matching simulation yet" [ref=e106]
+            - row "Financial Analyst - Disbursements Paradigm Information Services, Inc. Beaverton, Washington County 2026-09-21 No matching simulation yet" [ref=e107]:
+              - cell "Financial Analyst - Disbursements" [ref=e108]:
+                - link "Financial Analyst - Disbursements" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892378764?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=3AE0135FFFCF51B9B535D5E34170324ADDDD9773
+              - cell "Paradigm Information Services, Inc." [ref=e110]
+              - cell "Beaverton, Washington County" [ref=e111]
+              - cell "2026-09-21" [ref=e112]
+              - cell "No matching simulation yet" [ref=e113]
+            - 'row "Supply Chain Financial Analyst Uline Inc. Pleasant Prairie, Kenosha County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e114]':
+              - cell "Supply Chain Financial Analyst" [ref=e115]:
+                - link "Supply Chain Financial Analyst" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892179959?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=5652039401BFE78DF9C4A3B2399B653F143B0B37
+              - cell "Uline Inc." [ref=e117]
+              - cell "Pleasant Prairie, Kenosha County" [ref=e118]
+              - cell "2026-09-20" [ref=e119]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e120]':
+                - generic [ref=e121]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e122] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e123]: "Same industry: marketplace retail"
+                - generic [ref=e124]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e125] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e126]: "Same industry: marketplace retail"
+                - generic [ref=e127]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e128] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e129]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Kenosha, Kenosha County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e130]':
+              - cell "Supply Chain Financial Analyst" [ref=e131]:
+                - link "Supply Chain Financial Analyst" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892087160?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=2A889E5DD7B2120AC7E5725851D1FC2E1E6D783B
+              - cell "Uline Inc." [ref=e133]
+              - cell "Kenosha, Kenosha County" [ref=e134]
+              - cell "2026-09-20" [ref=e135]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e136]':
+                - generic [ref=e137]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e138] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e139]: "Same industry: marketplace retail"
+                - generic [ref=e140]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e141] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e142]: "Same industry: marketplace retail"
+                - generic [ref=e143]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e144] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e145]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Russell, Lake County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e146]':
+              - cell "Supply Chain Financial Analyst" [ref=e147]:
+                - link "Supply Chain Financial Analyst" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892084607?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=03F535C1FDA1C7E2C1701E653F8A7E93089A6DF1
+              - cell "Uline Inc." [ref=e149]
+              - cell "Russell, Lake County" [ref=e150]
+              - cell "2026-09-20" [ref=e151]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e152]':
+                - generic [ref=e153]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e154] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e155]: "Same industry: marketplace retail"
+                - generic [ref=e156]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e157] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e158]: "Same industry: marketplace retail"
+                - generic [ref=e159]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e160] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e161]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. North Bay, Racine County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e162]':
+              - cell "Supply Chain Financial Analyst" [ref=e163]:
+                - link "Supply Chain Financial Analyst" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892068460?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=CD14F4C2C9B4DD59EC96764FA84A6B5CCC3E9FB9
+              - cell "Uline Inc." [ref=e165]
+              - cell "North Bay, Racine County" [ref=e166]
+              - cell "2026-09-20" [ref=e167]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e168]':
+                - generic [ref=e169]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e170] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e171]: "Same industry: marketplace retail"
+                - generic [ref=e172]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e173] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e174]: "Same industry: marketplace retail"
+                - generic [ref=e175]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e176] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e177]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Round Lake, Lake County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e178]':
+              - cell "Supply Chain Financial Analyst" [ref=e179]:
+                - link "Supply Chain Financial Analyst" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892063243?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=1820151092AFC54D29F8786D70ADB62ECA7C69EE
+              - cell "Uline Inc." [ref=e181]
+              - cell "Round Lake, Lake County" [ref=e182]
+              - cell "2026-09-20" [ref=e183]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e184]':
+                - generic [ref=e185]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e186] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e187]: "Same industry: marketplace retail"
+                - generic [ref=e188]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e189] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e190]: "Same industry: marketplace retail"
+                - generic [ref=e191]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e192] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e193]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Park, Lake County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e194]':
+              - cell "Supply Chain Financial Analyst" [ref=e195]:
+                - link "Supply Chain Financial Analyst" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892062326?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=2D9E4A476D645C5E83680D76B2E2E826D7AAD59A
+              - cell "Uline Inc." [ref=e197]
+              - cell "Park, Lake County" [ref=e198]
+              - cell "2026-09-20" [ref=e199]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e200]':
+                - generic [ref=e201]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e202] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e203]: "Same industry: marketplace retail"
+                - generic [ref=e204]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e205] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e206]: "Same industry: marketplace retail"
+                - generic [ref=e207]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e208] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e209]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Highwood, Lake County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e210]':
+              - cell "Supply Chain Financial Analyst" [ref=e211]:
+                - link "Supply Chain Financial Analyst" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892062176?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=434AB925D3BE8D44949BECA2DBD1917ACCBD7E15
+              - cell "Uline Inc." [ref=e213]
+              - cell "Highwood, Lake County" [ref=e214]
+              - cell "2026-09-20" [ref=e215]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e216]':
+                - generic [ref=e217]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e218] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e219]: "Same industry: marketplace retail"
+                - generic [ref=e220]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e221] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e222]: "Same industry: marketplace retail"
+                - generic [ref=e223]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e224] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e225]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Paddock Lake, Kenosha County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e226]':
+              - cell "Supply Chain Financial Analyst" [ref=e227]:
+                - link "Supply Chain Financial Analyst" [ref=e228] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892059127?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=BD4B9EE8F4752B812E79F0FBC1B25CE75EAA0D04
+              - cell "Uline Inc." [ref=e229]
+              - cell "Paddock Lake, Kenosha County" [ref=e230]
+              - cell "2026-09-20" [ref=e231]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e232]':
+                - generic [ref=e233]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e234] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e235]: "Same industry: marketplace retail"
+                - generic [ref=e236]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e237] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e238]: "Same industry: marketplace retail"
+                - generic [ref=e239]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e240] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e241]: "Same industry: marketplace retail"
+            - 'row "Supply Chain Financial Analyst Uline Inc. Union Grove, Racine County 2026-09-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e242]':
+              - cell "Supply Chain Financial Analyst" [ref=e243]:
+                - link "Supply Chain Financial Analyst" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5892057803?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=BD0625AF5181BFC91CDD71685EF52A41BA589466
+              - cell "Uline Inc." [ref=e245]
+              - cell "Union Grove, Racine County" [ref=e246]
+              - cell "2026-09-20" [ref=e247]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist Same industry: marketplace retail Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation Same industry: marketplace retail" [ref=e248]':
+                - generic [ref=e249]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e250] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e251]: "Same industry: marketplace retail"
+                - generic [ref=e252]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist" [ref=e253] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIassist
+                  - generic [ref=e254]: "Same industry: marketplace retail"
+                - generic [ref=e255]:
+                  - link "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation" [ref=e256] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/RealReal_team_AIautomation
+                  - generic [ref=e257]: "Same industry: marketplace retail"
+            - row "Financial Analyst Mastech Digital Keller, Tarrant County 2026-09-20 No matching simulation yet" [ref=e258]:
+              - cell "Financial Analyst" [ref=e259]:
+                - link "Financial Analyst" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5891956475?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=17BAA998F2684E1AA9DEDEE035D4887EC0F47A0C
+              - cell "Mastech Digital" [ref=e261]
+              - cell "Keller, Tarrant County" [ref=e262]
+              - cell "2026-09-20" [ref=e263]
+              - cell "No matching simulation yet" [ref=e264]
+            - row "Financial Analyst Cholla Inc. Dallas, Texas 2026-09-20 No matching simulation yet" [ref=e265]:
+              - cell "Financial Analyst" [ref=e266]:
+                - link "Financial Analyst" [ref=e267] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5891953705?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=77084283CC320C685F3D4A27847CD99B447A025F
+              - cell "Cholla Inc." [ref=e268]
+              - cell "Dallas, Texas" [ref=e269]
+              - cell "2026-09-20" [ref=e270]
+              - cell "No matching simulation yet" [ref=e271]
+            - row "Financial Analyst ATA Services Inc Wake Island, Honolulu 2026-09-19 No matching simulation yet" [ref=e272]:
+              - cell "Financial Analyst" [ref=e273]:
+                - link "Financial Analyst" [ref=e274] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5891015088?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=4B0DC06E9624A32998CA16E8B42C0680FA6A30A5
+              - cell "ATA Services Inc" [ref=e275]
+              - cell "Wake Island, Honolulu" [ref=e276]
+              - cell "2026-09-19" [ref=e277]
+              - cell "No matching simulation yet" [ref=e278]
+            - row "Financial Analyst Hire For Hope LLC Harbor Springs, Emmet County 2026-09-19 No matching simulation yet" [ref=e279]:
+              - cell "Financial Analyst" [ref=e280]:
+                - link "Financial Analyst" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5890871518?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=D90FF55D2BAE6391E082B613406D80187371C2E6
+              - cell "Hire For Hope LLC" [ref=e282]
+              - cell "Harbor Springs, Emmet County" [ref=e283]
+              - cell "2026-09-19" [ref=e284]
+              - cell "No matching simulation yet" [ref=e285]
+            - row "Senior Financial Analyst Berkeley Research Group, LLC Boston, Suffolk County 2026-09-19 No matching simulation yet" [ref=e286]:
+              - cell "Senior Financial Analyst" [ref=e287]:
+                - link "Senior Financial Analyst" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5890652169?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=0985390147761C6C76317FF1BA40677D189FD5AA
+              - cell "Berkeley Research Group, LLC" [ref=e289]
+              - cell "Boston, Suffolk County" [ref=e290]
+              - cell "2026-09-19" [ref=e291]
+              - cell "No matching simulation yet" [ref=e292]
+            - row "Financial Analyst ATA Services Inc Wake Island, Honolulu 2026-09-19 No matching simulation yet" [ref=e293]:
+              - cell "Financial Analyst" [ref=e294]:
+                - link "Financial Analyst" [ref=e295] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5890169101?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=A338DC1E68A6D52F55F786A56CD01E61A7B52A73
+              - cell "ATA Services Inc" [ref=e296]
+              - cell "Wake Island, Honolulu" [ref=e297]
+              - cell "2026-09-19" [ref=e298]
+              - cell "No matching simulation yet" [ref=e299]
+            - row "Financial Analyst ATA Services Inc Wake Island, Honolulu 2026-09-18 No matching simulation yet" [ref=e300]:
+              - cell "Financial Analyst" [ref=e301]:
+                - link "Financial Analyst" [ref=e302] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5890126654?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=AFD7E079895E60415CD4CC322725D3CC363E7FD5
+              - cell "ATA Services Inc" [ref=e303]
+              - cell "Wake Island, Honolulu" [ref=e304]
+              - cell "2026-09-18" [ref=e305]
+              - cell "No matching simulation yet" [ref=e306]
+            - row "Financial Analyst Everest Global Solutions Elkins Park, Montgomery County 2026-09-18 No matching simulation yet" [ref=e307]:
+              - cell "Financial Analyst" [ref=e308]:
+                - link "Financial Analyst" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5889795542?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=7F11AA3ABAEC9C1B991023747F102FA4CDF2C540
+              - cell "Everest Global Solutions" [ref=e310]
+              - cell "Elkins Park, Montgomery County" [ref=e311]
+              - cell "2026-09-18" [ref=e312]
+              - cell "No matching simulation yet" [ref=e313]
+            - row "Financial Analyst Air Force Services Agency Kelly AFB, Texas 2026-09-18 No matching simulation yet" [ref=e314]:
+              - cell "Financial Analyst" [ref=e315]:
+                - link "Financial Analyst" [ref=e316] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/885449800
+              - cell "Air Force Services Agency" [ref=e317]
+              - cell "Kelly AFB, Texas" [ref=e318]
+              - cell "2026-09-18" [ref=e319]
+              - cell "No matching simulation yet" [ref=e320]
+            - row "Financial Analyst DevCare Solutions US 2026-09-18 No matching simulation yet" [ref=e321]:
+              - cell "Financial Analyst" [ref=e322]:
+                - link "Financial Analyst" [ref=e323] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5889753627?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=00DB410EACE5E5FF8C63603FCF5AE4852D27B30E
+              - cell "DevCare Solutions" [ref=e324]
+              - cell "US" [ref=e325]
+              - cell "2026-09-18" [ref=e326]
+              - cell "No matching simulation yet" [ref=e327]
+            - row "Financial Analyst Cinntra Inc New Brunswick, Middlesex County 2026-09-18 No matching simulation yet" [ref=e328]:
+              - cell "Financial Analyst" [ref=e329]:
+                - link "Financial Analyst" [ref=e330] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5889617742?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=591F6061888C1A47D3A140C3CC414F4DFA0C04EC
+              - cell "Cinntra Inc" [ref=e331]
+              - cell "New Brunswick, Middlesex County" [ref=e332]
+              - cell "2026-09-18" [ref=e333]
+              - cell "No matching simulation yet" [ref=e334]
+            - 'row "Intern - Financial Analyst Acxiom Conway, Faulkner County 2026-09-18 Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e335]':
+              - cell "Intern - Financial Analyst" [ref=e336]:
+                - link "Intern - Financial Analyst" [ref=e337] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5888817673?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=AA9594D351C88C36ED5D0B300DE759EC16426CCB
+              - cell "Acxiom" [ref=e338]
+              - cell "Conway, Faulkner County" [ref=e339]
+              - cell "2026-09-18" [ref=e340]
+              - 'cell "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e341]':
+                - generic [ref=e342]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e343] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e344]: "Same industry: artificial intelligence"
+                - generic [ref=e345]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e346] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e347]: "Same industry: artificial intelligence"
+                - generic [ref=e348]:
+                  - link "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist" [ref=e349] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Cerebras_team_AIassist
+                  - generic [ref=e350]: "Same industry: artificial intelligence"
+            - 'row "Senior Manufacturing Financial Analyst American Honda Motor Co., Inc. Torrance, Los Angeles County 2026-09-17 Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist Same industry: automotive energy" [ref=e351]':
+              - cell "Senior Manufacturing Financial Analyst" [ref=e352]:
+                - link "Senior Manufacturing Financial Analyst" [ref=e353] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5888229014?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=3C4120F0EC9E5962E02D72D85B901F86882C3178
+              - cell "American Honda Motor Co., Inc." [ref=e354]
+              - cell "Torrance, Los Angeles County" [ref=e355]
+              - cell "2026-09-17" [ref=e356]
+              - 'cell "Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist Same industry: automotive energy" [ref=e357]':
+                - generic [ref=e358]:
+                  - link "Market Deployment & Dominant Design · Tesla FY2025 · Team + AIassist" [ref=e359] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Tesla_team_AIassist
+                  - generic [ref=e360]: "Same industry: automotive energy"
+            - 'row "Senior Financial Analyst – Automotive Finance American Honda Finance Corp. Torrance, Los Angeles County 2026-09-17 Unit Economics · Individual responsibilities: pricing strategy analysis Unit Economics · Individual+ AI assist responsibilities: pricing strategy analysis Unit Economics · Individual+ AI Automation version 2 responsibilities: pricing strategy analysis" [ref=e361]':
+              - cell "Senior Financial Analyst – Automotive Finance" [ref=e362]:
+                - link "Senior Financial Analyst – Automotive Finance" [ref=e363] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5888226377?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=F62571EBA262B18A32E083C0FB1E6A8CB25ECF2B
+              - cell "American Honda Finance Corp." [ref=e364]
+              - cell "Torrance, Los Angeles County" [ref=e365]
+              - cell "2026-09-17" [ref=e366]
+              - 'cell "Unit Economics · Individual responsibilities: pricing strategy analysis Unit Economics · Individual+ AI assist responsibilities: pricing strategy analysis Unit Economics · Individual+ AI Automation version 2 responsibilities: pricing strategy analysis" [ref=e367]':
+                - generic [ref=e368]:
+                  - link "Unit Economics · Individual" [ref=e369] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual
+                  - generic [ref=e370]: "responsibilities: pricing strategy analysis"
+                - generic [ref=e371]:
+                  - link "Unit Economics · Individual+ AI assist" [ref=e372] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIassist
+                  - generic [ref=e373]: "responsibilities: pricing strategy analysis"
+                - generic [ref=e374]:
+                  - link "Unit Economics · Individual+ AI Automation version 2" [ref=e375] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2
+                  - generic [ref=e376]: "responsibilities: pricing strategy analysis"
+            - row "Financial Analyst, CFC/S8BW Space Systems Command Peterson AFB, Colorado 2026-09-17 No matching simulation yet" [ref=e377]:
+              - cell "Financial Analyst, CFC/S8BW" [ref=e378]:
+                - link "Financial Analyst, CFC/S8BW" [ref=e379] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/885215800
+              - cell "Space Systems Command" [ref=e380]
+              - cell "Peterson AFB, Colorado" [ref=e381]
+              - cell "2026-09-17" [ref=e382]
+              - cell "No matching simulation yet" [ref=e383]
+            - 'row "Strategic Finance Analyst MongoDB New York City 2026-09-17 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e384]':
+              - cell "Strategic Finance Analyst" [ref=e385]:
+                - link "Strategic Finance Analyst" [ref=e386] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=8192216
+              - cell "MongoDB" [ref=e387]
+              - cell "New York City" [ref=e388]
+              - cell "2026-09-17" [ref=e389]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e390]':
+                - generic [ref=e391]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e392] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e393]: "Same industry: cloud software"
+                - generic [ref=e394]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e395] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e396]: "Same industry: artificial intelligence"
+                - generic [ref=e397]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e398] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e399]: "Same industry: artificial intelligence"
+            - row "Financial Analyst Pyramid Consulting, Inc. US 2026-09-17 No matching simulation yet" [ref=e400]:
+              - cell "Financial Analyst" [ref=e401]:
+                - link "Financial Analyst" [ref=e402] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5887957967?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=383D3C5BBAEE0010EB83CE6760F22A0D35F3A7D9
+              - cell "Pyramid Consulting, Inc." [ref=e403]
+              - cell "US" [ref=e404]
+              - cell "2026-09-17" [ref=e405]
+              - cell "No matching simulation yet" [ref=e406]
+            - 'row "Financial Analyst Sarnova Dublin, Franklin County 2026-09-17 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e407]':
+              - cell "Financial Analyst" [ref=e408]:
+                - link "Financial Analyst" [ref=e409] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5887584788?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=080119D296407B5C285A4962CE35D0E12923BFCF
+              - cell "Sarnova" [ref=e410]
+              - cell "Dublin, Franklin County" [ref=e411]
+              - cell "2026-09-17" [ref=e412]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e413]':
+                - generic [ref=e414]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e415] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e416]: "Same industry: healthcare"
+            - 'row "Senior Manager, Financial Planning & Analysis MongoDB Dublin 2026-09-16 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e417]':
+              - cell "Senior Manager, Financial Planning & Analysis" [ref=e418]:
+                - link "Senior Manager, Financial Planning & Analysis" [ref=e419] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=8209989
+              - cell "MongoDB" [ref=e420]
+              - cell "Dublin" [ref=e421]
+              - cell "2026-09-16" [ref=e422]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e423]':
+                - generic [ref=e424]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e425] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e426]: "Same industry: cloud software"
+                - generic [ref=e427]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e428] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e429]: "Same industry: artificial intelligence"
+                - generic [ref=e430]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e431] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e432]: "Same industry: artificial intelligence"
+            - 'row "Senior Manager, Financial Planning & Analysis MongoDB Austin; New York City 2026-09-16 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e433]':
+              - cell "Senior Manager, Financial Planning & Analysis" [ref=e434]:
+                - link "Senior Manager, Financial Planning & Analysis" [ref=e435] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=8154864
+              - cell "MongoDB" [ref=e436]
+              - cell "Austin; New York City" [ref=e437]
+              - cell "2026-09-16" [ref=e438]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e439]':
+                - generic [ref=e440]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e441] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e442]: "Same industry: cloud software"
+                - generic [ref=e443]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e444] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e445]: "Same industry: artificial intelligence"
+                - generic [ref=e446]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e447] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e448]: "Same industry: artificial intelligence"
+            - row "Financial Analyst Innosoul inc Raleigh, Wake County 2026-09-16 No matching simulation yet" [ref=e449]:
+              - cell "Financial Analyst" [ref=e450]:
+                - link "Financial Analyst" [ref=e451] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5886569477?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=43EA9D3998783337019AD0727C318AFA3B8A62D5
+              - cell "Innosoul inc" [ref=e452]
+              - cell "Raleigh, Wake County" [ref=e453]
+              - cell "2026-09-16" [ref=e454]
+              - cell "No matching simulation yet" [ref=e455]
+            - row "Senior Financial Analyst, CG-1160-13/14 Federal Deposit Insurance Corporation Washington, District of Columbia 2026-09-16 No matching simulation yet" [ref=e456]:
+              - cell "Senior Financial Analyst, CG-1160-13/14" [ref=e457]:
+                - link "Senior Financial Analyst, CG-1160-13/14" [ref=e458] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/884742900
+              - cell "Federal Deposit Insurance Corporation" [ref=e459]
+              - cell "Washington, District of Columbia" [ref=e460]
+              - cell "2026-09-16" [ref=e461]
+              - cell "No matching simulation yet" [ref=e462]
+            - 'row "GBF Financial Analyst 1 Oracle Nashville, Howard County 2026-09-15 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e463]':
+              - cell "GBF Financial Analyst 1" [ref=e464]:
+                - link "GBF Financial Analyst 1" [ref=e465] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5884583366?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=112C1AA9E369A779996D60BA80320D713E1994B0
+              - cell "Oracle" [ref=e466]
+              - cell "Nashville, Howard County" [ref=e467]
+              - cell "2026-09-15" [ref=e468]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e469]':
+                - generic [ref=e470]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e471] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e472]: "Same industry: cloud software"
+                - generic [ref=e473]:
+                  - link "Pricing Strategy · Snowflake FY2026 · Team + AIassist" [ref=e474] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Snowflake_team_AIassist
+                  - generic [ref=e475]: "Same industry: cloud software"
+            - row "Management and Financial Analyst Federal Aviation Administration College Park, Georgia 2026-09-15 No matching simulation yet" [ref=e476]:
+              - cell "Management and Financial Analyst" [ref=e477]:
+                - link "Management and Financial Analyst" [ref=e478] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/884351800
+              - cell "Federal Aviation Administration" [ref=e479]
+              - cell "College Park, Georgia" [ref=e480]
+              - cell "2026-09-15" [ref=e481]
+              - cell "No matching simulation yet" [ref=e482]
+            - row "Financial Analyst Federal Aviation Administration Fort Worth, Texas 2026-09-12 No matching simulation yet" [ref=e483]:
+              - cell "Financial Analyst" [ref=e484]:
+                - link "Financial Analyst" [ref=e485] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/884347000
+              - cell "Federal Aviation Administration" [ref=e486]
+              - cell "Fort Worth, Texas" [ref=e487]
+              - cell "2026-09-12" [ref=e488]
+              - cell "No matching simulation yet" [ref=e489]
+            - row "Financial Analyst Federal Aviation Administration Washington, District of Columbia 2026-09-12 No matching simulation yet" [ref=e490]:
+              - cell "Financial Analyst" [ref=e491]:
+                - link "Financial Analyst" [ref=e492] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/884358300
+              - cell "Federal Aviation Administration" [ref=e493]
+              - cell "Washington, District of Columbia" [ref=e494]
+              - cell "2026-09-12" [ref=e495]
+              - cell "No matching simulation yet" [ref=e496]
+            - 'row "Financial Analyst University of Cincinnati Mt Auburn, Hamilton County 2026-09-11 Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e497]':
+              - cell "Financial Analyst" [ref=e498]:
+                - link "Financial Analyst" [ref=e499] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5880230701?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=8EFCE121496A0541DF2ED16D487F08E84AD067D8
+              - cell "University of Cincinnati" [ref=e500]
+              - cell "Mt Auburn, Hamilton County" [ref=e501]
+              - cell "2026-09-11" [ref=e502]
+              - 'cell "Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e503]':
+                - generic [ref=e504]:
+                  - link "Team Writing Project New Startup Evaluation" [ref=e505] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva
+                  - generic [ref=e506]: "Same industry: education"
+                - generic [ref=e507]:
+                  - link "Team Writing Project Public Firm Evaluation" [ref=e508] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Public_Firm_Eva
+                  - generic [ref=e509]: "Same industry: education"
+                - generic [ref=e510]:
+                  - link "Team Writing Project Startup Evaluation" [ref=e511] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Startup_Eva
+                  - generic [ref=e512]: "Same industry: education"
+            - row "Senior Financial Analyst MCC Okolona, Jefferson County 2026-09-11 No matching simulation yet" [ref=e513]:
+              - cell "Senior Financial Analyst" [ref=e514]:
+                - link "Senior Financial Analyst" [ref=e515] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5879640811?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=A7EB772A736A8A61DBAAB24938B3D771056307F2
+              - cell "MCC" [ref=e516]
+              - cell "Okolona, Jefferson County" [ref=e517]
+              - cell "2026-09-11" [ref=e518]
+              - cell "No matching simulation yet" [ref=e519]
+            - row "Financial Analyst (Direct Hire) Federal Motor Carrier Safety Administration Montgomery, Alabama 2026-09-10 No matching simulation yet" [ref=e520]:
+              - cell "Financial Analyst (Direct Hire)" [ref=e521]:
+                - link "Financial Analyst (Direct Hire)" [ref=e522] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/883949600
+              - cell "Federal Motor Carrier Safety Administration" [ref=e523]
+              - cell "Montgomery, Alabama" [ref=e524]
+              - cell "2026-09-10" [ref=e525]
+              - cell "No matching simulation yet" [ref=e526]
+            - row "Financial Analyst Joint Activities Stuttgart, Germany 2026-09-10 No matching simulation yet" [ref=e527]:
+              - cell "Financial Analyst" [ref=e528]:
+                - link "Financial Analyst" [ref=e529] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/884064500
+              - cell "Joint Activities" [ref=e530]
+              - cell "Stuttgart, Germany" [ref=e531]
+              - cell "2026-09-10" [ref=e532]
+              - cell "No matching simulation yet" [ref=e533]
+            - row "Financial Analyst Joint Activities Stuttgart, Germany 2026-09-10 No matching simulation yet" [ref=e534]:
+              - cell "Financial Analyst" [ref=e535]:
+                - link "Financial Analyst" [ref=e536] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/884064400
+              - cell "Joint Activities" [ref=e537]
+              - cell "Stuttgart, Germany" [ref=e538]
+              - cell "2026-09-10" [ref=e539]
+              - cell "No matching simulation yet" [ref=e540]
+            - 'row "FP&A Analyst Guild Denver, CO, United States 2026-09-09 Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e541]':
+              - cell "FP&A Analyst" [ref=e542]:
+                - link "FP&A Analyst" [ref=e543] [cursor=pointer]:
+                  - /url: https://www.guild.com/open-positions-at-guild?gh_jid=8167428
+              - cell "Guild" [ref=e544]
+              - cell "Denver, CO, United States" [ref=e545]
+              - cell "2026-09-09" [ref=e546]
+              - 'cell "Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e547]':
+                - generic [ref=e548]:
+                  - link "Team Writing Project New Startup Evaluation" [ref=e549] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva
+                  - generic [ref=e550]: "Same industry: education"
+                - generic [ref=e551]:
+                  - link "Team Writing Project Public Firm Evaluation" [ref=e552] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Public_Firm_Eva
+                  - generic [ref=e553]: "Same industry: education"
+                - generic [ref=e554]:
+                  - link "Team Writing Project Startup Evaluation" [ref=e555] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Startup_Eva
+                  - generic [ref=e556]: "Same industry: education"
+            - row "Financial Analyst / Financial Assistant IT People Corporation Morrisville, Wake County 2026-09-09 No matching simulation yet" [ref=e557]:
+              - cell "Financial Analyst / Financial Assistant" [ref=e558]:
+                - link "Financial Analyst / Financial Assistant" [ref=e559] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5877431227?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=934042AAEE9138608636AB7720E27A42F6D9F257
+              - cell "IT People Corporation" [ref=e560]
+              - cell "Morrisville, Wake County" [ref=e561]
+              - cell "2026-09-09" [ref=e562]
+              - cell "No matching simulation yet" [ref=e563]
+            - 'row "Senior Financial Analyst Samsara Remote - Canada 2026-09-08 Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e564]':
+              - cell "Senior Financial Analyst" [ref=e565]:
+                - link "Senior Financial Analyst" [ref=e566] [cursor=pointer]:
+                  - /url: https://www.samsara.com/company/careers/roles/8187214?gh_jid=8187214
+              - cell "Samsara" [ref=e567]
+              - cell "Remote - Canada" [ref=e568]
+              - cell "2026-09-08" [ref=e569]
+              - 'cell "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e570]':
+                - generic [ref=e571]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e572] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e573]: "Same industry: artificial intelligence"
+                - generic [ref=e574]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e575] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e576]: "Same industry: artificial intelligence"
+                - generic [ref=e577]:
+                  - link "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist" [ref=e578] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Cerebras_team_AIassist
+                  - generic [ref=e579]: "Same industry: artificial intelligence"
+            - 'row "Senior Financial Analyst Samsara Remote - US 2026-09-08 Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e580]':
+              - cell "Senior Financial Analyst" [ref=e581]:
+                - link "Senior Financial Analyst" [ref=e582] [cursor=pointer]:
+                  - /url: https://www.samsara.com/company/careers/roles/8156715?gh_jid=8156715
+              - cell "Samsara" [ref=e583]
+              - cell "Remote - US" [ref=e584]
+              - cell "2026-09-08" [ref=e585]
+              - 'cell "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e586]':
+                - generic [ref=e587]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e588] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e589]: "Same industry: artificial intelligence"
+                - generic [ref=e590]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e591] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e592]: "Same industry: artificial intelligence"
+                - generic [ref=e593]:
+                  - link "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist" [ref=e594] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Cerebras_team_AIassist
+                  - generic [ref=e595]: "Same industry: artificial intelligence"
+            - 'row "Senior Financial Analyst Waters Corporation Milford, Worcester County 2026-09-06 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e596]':
+              - cell "Senior Financial Analyst" [ref=e597]:
+                - link "Senior Financial Analyst" [ref=e598] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5873277251?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=A13DD06CDDE640A7195C95BAB509855A0EE78D01
+              - cell "Waters Corporation" [ref=e599]
+              - cell "Milford, Worcester County" [ref=e600]
+              - cell "2026-09-06" [ref=e601]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e602]':
+                - generic [ref=e603]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e604] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e605]: "Same industry: healthcare"
+            - 'row "Senior Financial Analyst Waters Corporation Milford, Worcester County 2026-09-06 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e606]':
+              - cell "Senior Financial Analyst" [ref=e607]:
+                - link "Senior Financial Analyst" [ref=e608] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5873277072?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=C35FC7B9F16E587EB51D30454C9F8E6995736774
+              - cell "Waters Corporation" [ref=e609]
+              - cell "Milford, Worcester County" [ref=e610]
+              - cell "2026-09-06" [ref=e611]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e612]':
+                - generic [ref=e613]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e614] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e615]: "Same industry: healthcare"
+            - row "Financial Analyst Selby Jennings North Platte, Lincoln County 2026-09-04 No matching simulation yet" [ref=e616]:
+              - cell "Financial Analyst" [ref=e617]:
+                - link "Financial Analyst" [ref=e618] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5870949199?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=35880997ED39595BF4C4833603F295D15408C4E3
+              - cell "Selby Jennings" [ref=e619]
+              - cell "North Platte, Lincoln County" [ref=e620]
+              - cell "2026-09-04" [ref=e621]
+              - cell "No matching simulation yet" [ref=e622]
+            - 'row "Senior Financial Analyst MongoDB Cork, Ireland; Dublin, Ireland 2026-09-04 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e623]':
+              - cell "Senior Financial Analyst" [ref=e624]:
+                - link "Senior Financial Analyst" [ref=e625] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=8168951
+              - cell "MongoDB" [ref=e626]
+              - cell "Cork, Ireland; Dublin, Ireland" [ref=e627]
+              - cell "2026-09-04" [ref=e628]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e629]':
+                - generic [ref=e630]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e631] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e632]: "Same industry: cloud software"
+                - generic [ref=e633]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e634] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e635]: "Same industry: artificial intelligence"
+                - generic [ref=e636]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e637] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e638]: "Same industry: artificial intelligence"
+            - row "Financial Analyst HonorVet Technologies Schiller Park, Cook County 2026-09-01 No matching simulation yet" [ref=e639]:
+              - cell "Financial Analyst" [ref=e640]:
+                - link "Financial Analyst" [ref=e641] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5865897766?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=F7621C14FD2F8F92DCF697C5C1954BC2A365BB21
+              - cell "HonorVet Technologies" [ref=e642]
+              - cell "Schiller Park, Cook County" [ref=e643]
+              - cell "2026-09-01" [ref=e644]
+              - cell "No matching simulation yet" [ref=e645]
+            - row "Senior Financial Analyst Berkeley Research Group, LLC Boston, Suffolk County 2026-09-01 No matching simulation yet" [ref=e646]:
+              - cell "Senior Financial Analyst" [ref=e647]:
+                - link "Senior Financial Analyst" [ref=e648] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5865869389?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=76EAF9B736F15707A9BF85CBE9D72F3504614428
+              - cell "Berkeley Research Group, LLC" [ref=e649]
+              - cell "Boston, Suffolk County" [ref=e650]
+              - cell "2026-09-01" [ref=e651]
+              - cell "No matching simulation yet" [ref=e652]
+            - 'row "Financial Analyst Intern Oracle Nashville, Davidson County 2026-09-01 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e653]':
+              - cell "Financial Analyst Intern" [ref=e654]:
+                - link "Financial Analyst Intern" [ref=e655] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5865832657?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=7B99C636A8EE0EA348947DDB44AE8439082377E5
+              - cell "Oracle" [ref=e656]
+              - cell "Nashville, Davidson County" [ref=e657]
+              - cell "2026-09-01" [ref=e658]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e659]':
+                - generic [ref=e660]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e661] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e662]: "Same industry: cloud software"
+                - generic [ref=e663]:
+                  - link "Pricing Strategy · Snowflake FY2026 · Team + AIassist" [ref=e664] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Snowflake_team_AIassist
+                  - generic [ref=e665]: "Same industry: cloud software"
+            - 'row "Senior Financial Analyst University of Cincinnati Mt Auburn, Hamilton County 2026-09-01 Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e666]':
+              - cell "Senior Financial Analyst" [ref=e667]:
+                - link "Senior Financial Analyst" [ref=e668] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5865600126?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=CD7BBF0E18021618F272F28E83CE7D9378A91F86
+              - cell "University of Cincinnati" [ref=e669]
+              - cell "Mt Auburn, Hamilton County" [ref=e670]
+              - cell "2026-09-01" [ref=e671]
+              - 'cell "Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e672]':
+                - generic [ref=e673]:
+                  - link "Team Writing Project New Startup Evaluation" [ref=e674] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva
+                  - generic [ref=e675]: "Same industry: education"
+                - generic [ref=e676]:
+                  - link "Team Writing Project Public Firm Evaluation" [ref=e677] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Public_Firm_Eva
+                  - generic [ref=e678]: "Same industry: education"
+                - generic [ref=e679]:
+                  - link "Team Writing Project Startup Evaluation" [ref=e680] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Startup_Eva
+                  - generic [ref=e681]: "Same industry: education"
+            - 'row "Financial Analyst Encore Capital Group San Diego, San Diego County 2026-08-29 Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e682]':
+              - cell "Financial Analyst" [ref=e683]:
+                - link "Financial Analyst" [ref=e684] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5861375603?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=B76211FA9A5CAC942735C5474506CB009E4502C8
+              - cell "Encore Capital Group" [ref=e685]
+              - cell "San Diego, San Diego County" [ref=e686]
+              - cell "2026-08-29" [ref=e687]
+              - 'cell "Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e688]':
+                - generic [ref=e689]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AIassist" [ref=e690] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIassist
+                  - generic [ref=e691]: "Same industry: fintech"
+                - generic [ref=e692]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AI Automation" [ref=e693] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIautomation
+                  - generic [ref=e694]: "Same industry: fintech"
+            - 'row "Corporate Finance & Strategy, Cash Flow Forecasting Anthropic San Francisco, CA 2026-08-28 Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e695]':
+              - cell "Corporate Finance & Strategy, Cash Flow Forecasting" [ref=e696]:
+                - link "Corporate Finance & Strategy, Cash Flow Forecasting" [ref=e697] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/anthropic/jobs/5358130008
+              - cell "Anthropic" [ref=e698]
+              - cell "San Francisco, CA" [ref=e699]
+              - cell "2026-08-28" [ref=e700]
+              - 'cell "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e701]':
+                - generic [ref=e702]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e703] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e704]: "Same industry: artificial intelligence"
+                - generic [ref=e705]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e706] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e707]: "Same industry: artificial intelligence"
+                - generic [ref=e708]:
+                  - link "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist" [ref=e709] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Cerebras_team_AIassist
+                  - generic [ref=e710]: "Same industry: artificial intelligence"
+            - row "Financial Analyst Whiz Global LLC Rancho Cordova, Sacramento County 2026-08-27 No matching simulation yet" [ref=e711]:
+              - cell "Financial Analyst" [ref=e712]:
+                - link "Financial Analyst" [ref=e713] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5858500753?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=06B6F97A2FB9AC28542647F36556B599BFCADC31
+              - cell "Whiz Global LLC" [ref=e714]
+              - cell "Rancho Cordova, Sacramento County" [ref=e715]
+              - cell "2026-08-27" [ref=e716]
+              - cell "No matching simulation yet" [ref=e717]
+            - 'row "Sales Financial Analyst Jobot Edison, Middlesex County 2026-08-27 Unit Economics · Individual responsibilities: pricing strategy analysis Unit Economics · Individual+ AI assist responsibilities: pricing strategy analysis Unit Economics · Individual+ AI Automation version 2 responsibilities: pricing strategy analysis" [ref=e718]':
+              - cell "Sales Financial Analyst" [ref=e719]:
+                - link "Sales Financial Analyst" [ref=e720] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5858168851?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=AF2FB976D8237268B7D9FBFFDDCF5635A541AB7A
+              - cell "Jobot" [ref=e721]
+              - cell "Edison, Middlesex County" [ref=e722]
+              - cell "2026-08-27" [ref=e723]
+              - 'cell "Unit Economics · Individual responsibilities: pricing strategy analysis Unit Economics · Individual+ AI assist responsibilities: pricing strategy analysis Unit Economics · Individual+ AI Automation version 2 responsibilities: pricing strategy analysis" [ref=e724]':
+                - generic [ref=e725]:
+                  - link "Unit Economics · Individual" [ref=e726] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual
+                  - generic [ref=e727]: "responsibilities: pricing strategy analysis"
+                - generic [ref=e728]:
+                  - link "Unit Economics · Individual+ AI assist" [ref=e729] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIassist
+                  - generic [ref=e730]: "responsibilities: pricing strategy analysis"
+                - generic [ref=e731]:
+                  - link "Unit Economics · Individual+ AI Automation version 2" [ref=e732] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2
+                  - generic [ref=e733]: "responsibilities: pricing strategy analysis"
+            - 'row "Strategic Finance Analyst, Operations SoFi United States 2026-08-25 Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e734]':
+              - cell "Strategic Finance Analyst, Operations" [ref=e735]:
+                - link "Strategic Finance Analyst, Operations" [ref=e736] [cursor=pointer]:
+                  - /url: https://sofi.com/careers/job/7976546003?gh_jid=7976546003
+              - cell "SoFi" [ref=e737]
+              - cell "United States" [ref=e738]
+              - cell "2026-08-25" [ref=e739]
+              - 'cell "Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e740]':
+                - generic [ref=e741]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AIassist" [ref=e742] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIassist
+                  - generic [ref=e743]: "Same industry: fintech"
+                - generic [ref=e744]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AI Automation" [ref=e745] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIautomation
+                  - generic [ref=e746]: "Same industry: fintech"
+            - 'row "Senior FP&A Analyst, Cloud Hosting GitLab Remote, Canada; Remote, United States 2026-08-25 Unit Economics · Individual decisions: investment trade-off Unit Economics · Individual+ AI assist decisions: investment trade-off Unit Economics · Individual+ AI Automation version 2 decisions: investment trade-off" [ref=e747]':
+              - cell "Senior FP&A Analyst, Cloud Hosting" [ref=e748]:
+                - link "Senior FP&A Analyst, Cloud Hosting" [ref=e749] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/gitlab/jobs/8731564002
+              - cell "GitLab" [ref=e750]
+              - cell "Remote, Canada; Remote, United States" [ref=e751]
+              - cell "2026-08-25" [ref=e752]
+              - 'cell "Unit Economics · Individual decisions: investment trade-off Unit Economics · Individual+ AI assist decisions: investment trade-off Unit Economics · Individual+ AI Automation version 2 decisions: investment trade-off" [ref=e753]':
+                - generic [ref=e754]:
+                  - link "Unit Economics · Individual" [ref=e755] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual
+                  - generic [ref=e756]: "decisions: investment trade-off"
+                - generic [ref=e757]:
+                  - link "Unit Economics · Individual+ AI assist" [ref=e758] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIassist
+                  - generic [ref=e759]: "decisions: investment trade-off"
+                - generic [ref=e760]:
+                  - link "Unit Economics · Individual+ AI Automation version 2" [ref=e761] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2
+                  - generic [ref=e762]: "decisions: investment trade-off"
+            - 'row "Associate, Strategic Finance (FP&A) Oscar Health Atlanta, Georgia, United States 2026-08-21 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e763]':
+              - cell "Associate, Strategic Finance (FP&A)" [ref=e764]:
+                - link "Associate, Strategic Finance (FP&A)" [ref=e765] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/oscar/jobs/8147968
+              - cell "Oscar Health" [ref=e766]
+              - cell "Atlanta, Georgia, United States" [ref=e767]
+              - cell "2026-08-21" [ref=e768]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e769]':
+                - generic [ref=e770]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e771] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e772]: "Same industry: healthcare"
+            - 'row "Associate, Strategic Finance (FP&A) Oscar Health Dallas, Texas, United States 2026-08-21 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e773]':
+              - cell "Associate, Strategic Finance (FP&A)" [ref=e774]:
+                - link "Associate, Strategic Finance (FP&A)" [ref=e775] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/oscar/jobs/8147965
+              - cell "Oscar Health" [ref=e776]
+              - cell "Dallas, Texas, United States" [ref=e777]
+              - cell "2026-08-21" [ref=e778]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e779]':
+                - generic [ref=e780]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e781] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e782]: "Same industry: healthcare"
+            - 'row "Associate, Strategic Finance (FP&A) Oscar Health Tempe, Arizona, United States 2026-08-21 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e783]':
+              - cell "Associate, Strategic Finance (FP&A)" [ref=e784]:
+                - link "Associate, Strategic Finance (FP&A)" [ref=e785] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/oscar/jobs/8147942
+              - cell "Oscar Health" [ref=e786]
+              - cell "Tempe, Arizona, United States" [ref=e787]
+              - cell "2026-08-21" [ref=e788]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e789]':
+                - generic [ref=e790]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e791] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e792]: "Same industry: healthcare"
+            - 'row "Associate, Strategic Finance (FP&A) Oscar Health New York, New York, United States 2026-08-21 Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e793]':
+              - cell "Associate, Strategic Finance (FP&A)" [ref=e794]:
+                - link "Associate, Strategic Finance (FP&A)" [ref=e795] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/oscar/jobs/8129152
+              - cell "Oscar Health" [ref=e796]
+              - cell "New York, New York, United States" [ref=e797]
+              - cell "2026-08-21" [ref=e798]
+              - 'cell "Ethical and Legal Standards · Theranos 2014 · Team + AIassist Same industry: healthcare" [ref=e799]':
+                - generic [ref=e800]:
+                  - link "Ethical and Legal Standards · Theranos 2014 · Team + AIassist" [ref=e801] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/BadBlood_team_AIassist
+                  - generic [ref=e802]: "Same industry: healthcare"
+            - row "Financial Analyst Lumen Solutions Group Inc. Simpsonville, Howard County 2026-08-18 No matching simulation yet" [ref=e803]:
+              - cell "Financial Analyst" [ref=e804]:
+                - link "Financial Analyst" [ref=e805] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5847669777?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=A509DABAAD229DA8C10F90A442F61EACA0DB96C3
+              - cell "Lumen Solutions Group Inc." [ref=e806]
+              - cell "Simpsonville, Howard County" [ref=e807]
+              - cell "2026-08-18" [ref=e808]
+              - cell "No matching simulation yet" [ref=e809]
+            - 'row "Sales Revenue Analyst - NYC Datadog New York, New York, USA 2026-08-18 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e810]':
+              - cell "Sales Revenue Analyst - NYC" [ref=e811]:
+                - link "Sales Revenue Analyst - NYC" [ref=e812] [cursor=pointer]:
+                  - /url: https://careers.datadoghq.com/detail/8132294/?gh_jid=8132294
+              - cell "Datadog" [ref=e813]
+              - cell "New York, New York, USA" [ref=e814]
+              - cell "2026-08-18" [ref=e815]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e816]':
+                - generic [ref=e817]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e818] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e819]: "Same industry: cloud software"
+                - generic [ref=e820]:
+                  - link "Pricing Strategy · Snowflake FY2026 · Team + AIassist" [ref=e821] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Snowflake_team_AIassist
+                  - generic [ref=e822]: "Same industry: cloud software"
+            - row "Senior Financial Analyst Kforce Technology Staffing Cherry Hills, Arapahoe County 2026-08-14 No matching simulation yet" [ref=e823]:
+              - cell "Senior Financial Analyst" [ref=e824]:
+                - link "Senior Financial Analyst" [ref=e825] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5842358829?se=6MD3rcu18RGE0drtev3PKQ&utm_medium=api&utm_source=e9c6b04b&v=7279E7E81D9949D75F42292037B002583E75E5E5
+              - cell "Kforce Technology Staffing" [ref=e826]
+              - cell "Cherry Hills, Arapahoe County" [ref=e827]
+              - cell "2026-08-14" [ref=e828]
+              - cell "No matching simulation yet" [ref=e829]
+            - 'row "Senior Corporate Financial Planning & Strategy Analyst Checkr San Francisco, California, United States 2026-08-14 Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e830]':
+              - cell "Senior Corporate Financial Planning & Strategy Analyst" [ref=e831]:
+                - link "Senior Corporate Financial Planning & Strategy Analyst" [ref=e832] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/checkr/jobs/8126358
+              - cell "Checkr" [ref=e833]
+              - cell "San Francisco, California, United States" [ref=e834]
+              - cell "2026-08-14" [ref=e835]
+              - 'cell "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist Same industry: artificial intelligence" [ref=e836]':
+                - generic [ref=e837]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e838] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e839]: "Same industry: artificial intelligence"
+                - generic [ref=e840]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e841] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e842]: "Same industry: artificial intelligence"
+                - generic [ref=e843]:
+                  - link "Technology Deployment & Competitor Analysis · Cerebras FY2025 · Team + AIassist" [ref=e844] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Cerebras_team_AIassist
+                  - generic [ref=e845]: "Same industry: artificial intelligence"
+            - 'row "Lead Forecasting & Financial Analyst Guild Denver, CO, United States 2026-08-14 Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e846]':
+              - cell "Lead Forecasting & Financial Analyst" [ref=e847]:
+                - link "Lead Forecasting & Financial Analyst" [ref=e848] [cursor=pointer]:
+                  - /url: https://www.guild.com/open-positions-at-guild?gh_jid=8095504
+              - cell "Guild" [ref=e849]
+              - cell "Denver, CO, United States" [ref=e850]
+              - cell "2026-08-14" [ref=e851]
+              - 'cell "Team Writing Project New Startup Evaluation Same industry: education Team Writing Project Public Firm Evaluation Same industry: education Team Writing Project Startup Evaluation Same industry: education" [ref=e852]':
+                - generic [ref=e853]:
+                  - link "Team Writing Project New Startup Evaluation" [ref=e854] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva
+                  - generic [ref=e855]: "Same industry: education"
+                - generic [ref=e856]:
+                  - link "Team Writing Project Public Firm Evaluation" [ref=e857] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Public_Firm_Eva
+                  - generic [ref=e858]: "Same industry: education"
+                - generic [ref=e859]:
+                  - link "Team Writing Project Startup Evaluation" [ref=e860] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Team_Writing_Project_Startup_Eva
+                  - generic [ref=e861]: "Same industry: education"
+            - row "Senior Financial Analyst ES Ring Management Los Angeles, Los Angeles County 2026-08-13 No matching simulation yet" [ref=e862]:
+              - cell "Senior Financial Analyst" [ref=e863]:
+                - link "Senior Financial Analyst" [ref=e864] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5841136144?se=PPXHvIuY8RGXlua0wi23rg&utm_medium=api&utm_source=e9c6b04b&v=E8C5E46EA13EE098A478DBFF3173CBFA85AF7A93
+              - cell "ES Ring Management" [ref=e865]
+              - cell "Los Angeles, Los Angeles County" [ref=e866]
+              - cell "2026-08-13" [ref=e867]
+              - cell "No matching simulation yet" [ref=e868]
+            - 'row "Internship - Financial Analyst General Mills Minneapolis, Hennepin County 2026-08-11 Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: consumer hardware Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: consumer hardware Franchising Enterprises · Shake Shack FY2014 · Team + AIassist Same industry: restaurants food" [ref=e869]':
+              - cell "Internship - Financial Analyst" [ref=e870]:
+                - link "Internship - Financial Analyst" [ref=e871] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5836641256?se=LOLW42ep8RGW0aWQtHnF7g&utm_medium=api&utm_source=e9c6b04b&v=9CEF9C4362F748519AEAEFD1BE30E543199CD70C
+              - cell "General Mills" [ref=e872]
+              - cell "Minneapolis, Hennepin County" [ref=e873]
+              - cell "2026-08-11" [ref=e874]
+              - 'cell "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: consumer hardware Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: consumer hardware Franchising Enterprises · Shake Shack FY2014 · Team + AIassist Same industry: restaurants food" [ref=e875]':
+                - generic [ref=e876]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e877] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e878]: "Same industry: consumer hardware"
+                - generic [ref=e879]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e880] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e881]: "Same industry: consumer hardware"
+                - generic [ref=e882]:
+                  - link "Franchising Enterprises · Shake Shack FY2014 · Team + AIassist" [ref=e883] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Shak_team_AIassist
+                  - generic [ref=e884]: "Same industry: restaurants food"
+            - 'row "Senior Treasury Analyst Robinhood Chicago, IL; Menlo Park, CA; New York, NY 2026-07-28 Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e885]':
+              - cell "Senior Treasury Analyst" [ref=e886]:
+                - link "Senior Treasury Analyst" [ref=e887] [cursor=pointer]:
+                  - /url: https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892
+              - cell "Robinhood" [ref=e888]
+              - cell "Chicago, IL; Menlo Park, CA; New York, NY" [ref=e889]
+              - cell "2026-07-28" [ref=e890]
+              - 'cell "Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e891]':
+                - generic [ref=e892]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AIassist" [ref=e893] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIassist
+                  - generic [ref=e894]: "Same industry: fintech"
+                - generic [ref=e895]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AI Automation" [ref=e896] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIautomation
+                  - generic [ref=e897]: "Same industry: fintech"
+            - 'row "Senior Manager, Financial Planning & Analysis MongoDB Dublin 2026-07-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e898]':
+              - cell "Senior Manager, Financial Planning & Analysis" [ref=e899]:
+                - link "Senior Manager, Financial Planning & Analysis" [ref=e900] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=8072506
+              - cell "MongoDB" [ref=e901]
+              - cell "Dublin" [ref=e902]
+              - cell "2026-07-20" [ref=e903]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e904]':
+                - generic [ref=e905]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e906] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e907]: "Same industry: cloud software"
+                - generic [ref=e908]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e909] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e910]: "Same industry: artificial intelligence"
+                - generic [ref=e911]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e912] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e913]: "Same industry: artificial intelligence"
+            - 'row "Senior Manager, Financial Planning & Analysis MongoDB Austin; New York City 2026-07-20 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e914]':
+              - cell "Senior Manager, Financial Planning & Analysis" [ref=e915]:
+                - link "Senior Manager, Financial Planning & Analysis" [ref=e916] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=8072504
+              - cell "MongoDB" [ref=e917]
+              - cell "Austin; New York City" [ref=e918]
+              - cell "2026-07-20" [ref=e919]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e920]':
+                - generic [ref=e921]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e922] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e923]: "Same industry: cloud software"
+                - generic [ref=e924]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e925] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e926]: "Same industry: artificial intelligence"
+                - generic [ref=e927]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e928] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e929]: "Same industry: artificial intelligence"
+            - 'row "Financial Analyst, Business F&S Stripe Bengaluru 2026-07-15 Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e930]':
+              - cell "Financial Analyst, Business F&S" [ref=e931]:
+                - link "Financial Analyst, Business F&S" [ref=e932] [cursor=pointer]:
+                  - /url: https://stripe.com/jobs/search?gh_jid=8066264
+              - cell "Stripe" [ref=e933]
+              - cell "Bengaluru" [ref=e934]
+              - cell "2026-07-15" [ref=e935]
+              - 'cell "Operations & Business Model · Affirm FY2025 · Team + AIassist Same industry: fintech Operations & Business Model · Affirm FY2025 · Team + AI Automation Same industry: fintech" [ref=e936]':
+                - generic [ref=e937]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AIassist" [ref=e938] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIassist
+                  - generic [ref=e939]: "Same industry: fintech"
+                - generic [ref=e940]:
+                  - link "Operations & Business Model · Affirm FY2025 · Team + AI Automation" [ref=e941] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Affirm_team_AIautomation
+                  - generic [ref=e942]: "Same industry: fintech"
+            - 'row "Senior Financial Analyst, North America Sales & Operations Finance Flexport San Francisco, California, United States 2026-07-06 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e943]':
+              - cell "Senior Financial Analyst, North America Sales & Operations Finance" [ref=e944]:
+                - link "Senior Financial Analyst, North America Sales & Operations Finance" [ref=e945] [cursor=pointer]:
+                  - /url: https://job-boards.greenhouse.io/flexport/jobs/8025116
+              - cell "Flexport" [ref=e946]
+              - cell "San Francisco, California, United States" [ref=e947]
+              - cell "2026-07-06" [ref=e948]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Pricing Strategy · Snowflake FY2026 · Team + AIassist Same industry: cloud software" [ref=e949]':
+                - generic [ref=e950]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e951] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e952]: "Same industry: cloud software"
+                - generic [ref=e953]:
+                  - link "Pricing Strategy · Snowflake FY2026 · Team + AIassist" [ref=e954] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Snowflake_team_AIassist
+                  - generic [ref=e955]: "Same industry: cloud software"
+            - 'row "Senior Engineer - Business Systems (FP&A) MongoDB Bengaluru; Gurugram 2026-06-03 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e956]':
+              - cell "Senior Engineer - Business Systems (FP&A)" [ref=e957]:
+                - link "Senior Engineer - Business Systems (FP&A)" [ref=e958] [cursor=pointer]:
+                  - /url: https://www.mongodb.com/careers/job/?gh_jid=7942613
+              - cell "MongoDB" [ref=e959]
+              - cell "Bengaluru; Gurugram" [ref=e960]
+              - cell "2026-06-03" [ref=e961]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e962]':
+                - generic [ref=e963]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e964] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e965]: "Same industry: cloud software"
+                - generic [ref=e966]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e967] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e968]: "Same industry: artificial intelligence"
+                - generic [ref=e969]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e970] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e971]: "Same industry: artificial intelligence"
+            - row "SUPERVISORY FINANCIAL ANALYST - DIRECT HIRE AUTHORITY Air Force Materiel Command Lackland AFB, Texas 2026-05-22 No matching simulation yet" [ref=e972]:
+              - cell "SUPERVISORY FINANCIAL ANALYST - DIRECT HIRE AUTHORITY" [ref=e973]:
+                - link "SUPERVISORY FINANCIAL ANALYST - DIRECT HIRE AUTHORITY" [ref=e974] [cursor=pointer]:
+                  - /url: https://www.usajobs.gov/job/870439400
+              - cell "Air Force Materiel Command" [ref=e975]
+              - cell "Lackland AFB, Texas" [ref=e976]
+              - cell "2026-05-22" [ref=e977]
+              - cell "No matching simulation yet" [ref=e978]
+            - row "Senior Financial Analyst Alpha Omega Integration LLC State Farm, Arlington County 2026-05-11 No matching simulation yet" [ref=e979]:
+              - cell "Senior Financial Analyst" [ref=e980]:
+                - link "Senior Financial Analyst" [ref=e981] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5726277547?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=FBAF4EC34ACA9E986C7E896345036AD0F11416FE
+              - cell "Alpha Omega Integration LLC" [ref=e982]
+              - cell "State Farm, Arlington County" [ref=e983]
+              - cell "2026-05-11" [ref=e984]
+              - cell "No matching simulation yet" [ref=e985]
+            - row "Financial Analysts Enterprise Business Solutions Inc US 2026-05-06 No matching simulation yet" [ref=e986]:
+              - cell "Financial Analysts" [ref=e987]:
+                - link "Financial Analysts" [ref=e988] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5720938537?se=gANmbtGD8RGbbMLcfp6qmw&utm_medium=api&utm_source=e9c6b04b&v=C270874C57C470CA1D6DAE5A27EBF2ED1CA2DF30
+              - cell "Enterprise Business Solutions Inc" [ref=e989]
+              - cell "US" [ref=e990]
+              - cell "2026-05-06" [ref=e991]
+              - cell "No matching simulation yet" [ref=e992]
+            - 'row "Strategic Finance Lead, Corporate Finance and Capital Strategy openai San Francisco 2026-05-04 Unit Economics · Individual decisions: investment trade-off; deliverables: recommendation Unit Economics · Individual+ AI assist decisions: investment trade-off; deliverables: recommendation Unit Economics · Individual+ AI Automation version 2 decisions: investment trade-off; deliverables: recommendation" [ref=e993]':
+              - cell "Strategic Finance Lead, Corporate Finance and Capital Strategy" [ref=e994]:
+                - link "Strategic Finance Lead, Corporate Finance and Capital Strategy" [ref=e995] [cursor=pointer]:
+                  - /url: https://jobs.ashbyhq.com/openai/a1d8f659-c652-42df-968e-008298b733e5
+              - cell "openai" [ref=e996]
+              - cell "San Francisco" [ref=e997]
+              - cell "2026-05-04" [ref=e998]
+              - 'cell "Unit Economics · Individual decisions: investment trade-off; deliverables: recommendation Unit Economics · Individual+ AI assist decisions: investment trade-off; deliverables: recommendation Unit Economics · Individual+ AI Automation version 2 decisions: investment trade-off; deliverables: recommendation" [ref=e999]':
+                - generic [ref=e1000]:
+                  - link "Unit Economics · Individual" [ref=e1001] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual
+                  - generic [ref=e1002]: "decisions: investment trade-off; deliverables: recommendation"
+                - generic [ref=e1003]:
+                  - link "Unit Economics · Individual+ AI assist" [ref=e1004] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIassist
+                  - generic [ref=e1005]: "decisions: investment trade-off; deliverables: recommendation"
+                - generic [ref=e1006]:
+                  - link "Unit Economics · Individual+ AI Automation version 2" [ref=e1007] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2
+                  - generic [ref=e1008]: "decisions: investment trade-off; deliverables: recommendation"
+            - 'row "Director, Compute & Infrastructure FP&A openai San Francisco 2026-04-21 Unit Economics · Individual responsibilities: unit economic; decisions: investment trade-off Unit Economics · Individual+ AI assist responsibilities: unit economic; decisions: investment trade-off Unit Economics · Individual+ AI Automation version 2 responsibilities: unit economic; decisions: investment trade-off" [ref=e1009]':
+              - cell "Director, Compute & Infrastructure FP&A" [ref=e1010]:
+                - link "Director, Compute & Infrastructure FP&A" [ref=e1011] [cursor=pointer]:
+                  - /url: https://jobs.ashbyhq.com/openai/7536171d-0f98-4964-8f22-7968db062105
+              - cell "openai" [ref=e1012]
+              - cell "San Francisco" [ref=e1013]
+              - cell "2026-04-21" [ref=e1014]
+              - 'cell "Unit Economics · Individual responsibilities: unit economic; decisions: investment trade-off Unit Economics · Individual+ AI assist responsibilities: unit economic; decisions: investment trade-off Unit Economics · Individual+ AI Automation version 2 responsibilities: unit economic; decisions: investment trade-off" [ref=e1015]':
+                - generic [ref=e1016]:
+                  - link "Unit Economics · Individual" [ref=e1017] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual
+                  - generic [ref=e1018]: "responsibilities: unit economic; decisions: investment trade-off"
+                - generic [ref=e1019]:
+                  - link "Unit Economics · Individual+ AI assist" [ref=e1020] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIassist
+                  - generic [ref=e1021]: "responsibilities: unit economic; decisions: investment trade-off"
+                - generic [ref=e1022]:
+                  - link "Unit Economics · Individual+ AI Automation version 2" [ref=e1023] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/unit_economics_individual_AIautomation_v2
+                  - generic [ref=e1024]: "responsibilities: unit economic; decisions: investment trade-off"
+            - row "IT Financial Analyst Chenega MIOS Mount Rainier, Prince George's County 2026-03-27 No matching simulation yet" [ref=e1025]:
+              - cell "IT Financial Analyst" [ref=e1026]:
+                - link "IT Financial Analyst" [ref=e1027] [cursor=pointer]:
+                  - /url: https://www.adzuna.com/land/ad/5680354342?se=tIXNGtSJ8RGONKM1ulltTQ&utm_medium=api&utm_source=e9c6b04b&v=81DE31857B0FEA4E68EA342B0FD0A322F17611B1
+              - cell "Chenega MIOS" [ref=e1028]
+              - cell "Mount Rainier, Prince George's County" [ref=e1029]
+              - cell "2026-03-27" [ref=e1030]
+              - cell "No matching simulation yet" [ref=e1031]
+            - 'row "Senior Financial Analyst Databricks Bellevue, Washington; Mountain View, California; San Francisco, California; Seattle, Washington 2026-02-17 Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e1032]':
+              - cell "Senior Financial Analyst" [ref=e1033]:
+                - link "Senior Financial Analyst" [ref=e1034] [cursor=pointer]:
+                  - /url: https://databricks.com/company/careers/open-positions/job?gh_jid=8414474002
+              - cell "Databricks" [ref=e1035]
+              - cell "Bellevue, Washington; Mountain View, California; San Francisco, California; Seattle, Washington" [ref=e1036]
+              - cell "2026-02-17" [ref=e1037]
+              - 'cell "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist Same industry: cloud software Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist Same industry: artificial intelligence Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation Same industry: artificial intelligence" [ref=e1038]':
+                - generic [ref=e1039]:
+                  - link "Corporate Entrepreneurs · AWS inside Amazon FY2007 · Team + AIassist" [ref=e1040] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/AWS_team_AIassist
+                  - generic [ref=e1041]: "Same industry: cloud software"
+                - generic [ref=e1042]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist" [ref=e1043] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIassist
+                  - generic [ref=e1044]: "Same industry: artificial intelligence"
+                - generic [ref=e1045]:
+                  - link "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation" [ref=e1046] [cursor=pointer]:
+                    - /url: https://app.skillsimm.com/templates/Apple_team_AIautomation
+                  - generic [ref=e1047]: "Same industry: artificial intelligence"
+      - paragraph [ref=e1048]:
+        - generic [ref=e1049]: Solid
+        - text: practices the same work as the posting ·
+        - generic [ref=e1050]: Outlined
+        - text: is a case from the same firm or industry
+      - heading "Want your simulation listed here?" [level=2] [ref=e1051]
+      - paragraph [ref=e1052]:
+        - text: Write a
+        - link "structured report" [ref=e1053] [cursor=pointer]:
+          - /url: create.html
+        - text: about a workflow you know, submit it through the AI-guided interview, and once it clears review your simulation is linked to the jobs that do that work, with your creator profile attached.
+  - contentinfo [ref=e1054]:
+    - paragraph [ref=e1056]:
+      - text: "Feeds are committed JSON generated from public ATS APIs — titles and links only, no reposted descriptions. Families are partly data-discovered (clustered from postings, not hand-picked). Data:"
+      - link "index.json" [ref=e1057] [cursor=pointer]:
+        - /url: data/jobs/index.json
+      - text: ","
+      - code [ref=e1058]: data/jobs/<family>.json
+      - text: ","
+      - link "sim_families.json" [ref=e1059] [cursor=pointer]:
+        - /url: data/jobs/sim_families.json
+      - text: ","
+      - link "templates.json" [ref=e1060] [cursor=pointer]:
+        - /url: data/templates.json

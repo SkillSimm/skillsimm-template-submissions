@@ -1,6 +1,6 @@
 {
   "family": "data_analyst",
-  "generated_at": "2026-09-21T14:53:49+00:00",
+  "generated_at": "2026-09-23T21:54:41+00:00",
   "postings": [
     {
       "title": "FINANCIAL MANAGEMENT ANALYST (DATA ANALYTICS)",
@@ -529,8 +529,19 @@
       "url": "https://job-boards.greenhouse.io/oscar/jobs/8146196",
       "posted_at": "2026-08-27T10:19:10-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Carrier_factor_discovery_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Carrier_factor_discovery_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "insurance"
+          ]
+        }
+      ]
     },
     {
       "title": "Privacy Program Data Analyst (HIPAA)",

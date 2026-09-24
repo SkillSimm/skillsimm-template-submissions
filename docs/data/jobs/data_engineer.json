@@ -1,6 +1,6 @@
 {
   "family": "data_engineer",
-  "generated_at": "2026-09-21T14:53:49+00:00",
+  "generated_at": "2026-09-23T21:54:41+00:00",
   "postings": [
     {
       "title": "Solutions Architect, Retail  - Travel & Hospitality",
@@ -9,8 +9,37 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8595098002",
       "posted_at": "2026-07-08T17:18:34-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Sr. Solutions Architect",
@@ -19,8 +48,37 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622162002",
       "posted_at": "2026-07-08T02:00:05-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "AI Solutions Engineer",
@@ -29,8 +87,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7778206003",
       "posted_at": "2026-07-01T19:13:36-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "AI Solutions Engineer",
@@ -39,8 +117,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7778204003",
       "posted_at": "2026-07-01T19:13:35-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Compliance Analyst I",
@@ -49,8 +147,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7778440003",
       "posted_at": "2026-06-30T09:18:30-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Solutions Architect - Casino / iGaming",
@@ -59,8 +177,37 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8595123002",
       "posted_at": "2026-06-23T16:15:33-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     },
     {
       "title": "Analytics Engineer II",
@@ -69,8 +216,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7764109003",
       "posted_at": "2026-06-17T05:53:12-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Manager, Machine Learning Engineering (Fraud)",
@@ -79,8 +246,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
       "posted_at": "2026-04-23T14:43:01-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Manager, Machine Learning Engineering (Fraud)",
@@ -89,8 +276,28 @@
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7710178003",
       "posted_at": "2026-04-23T14:43:00-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "Affirm_team_AIassist",
+        "Affirm_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Affirm_team_AIassist",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        },
+        {
+          "template_id": "Affirm_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": true,
+          "shared_industries": [
+            "fintech"
+          ]
+        }
+      ]
     },
     {
       "title": "Sr. Solutions Engineer - MFG",
@@ -99,8 +306,37 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8417654002",
       "posted_at": "2026-04-01T00:41:24-04:00",
       "source": "greenhouse",
-      "matched_templates": [],
-      "match_explanations": []
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
     }
   ]
 }

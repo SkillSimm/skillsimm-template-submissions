@@ -44,7 +44,7 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **risk model** — 46% of postings [deliverables] · [claim → gap:risk-model](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Arisk-model)
    - typical flow: analyze respiratory clinical and claim data → analyze respiratory and health data → inform insurance coverage risk model and product design → design risk model → build tool to price and manage respiratory care benefit → inform digital product
-   - tools seen: blockchain (55%), r (3%), sas (3%), python (3%)
+   - tools seen: blockchain (55%), python (3%), r (3%), sas (3%)
 2. **risk model design** — 28% of postings [decisions] · [claim → gap:risk-model-design](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Arisk-model-design)
    - typical flow: analyze respiratory clinical and claim data → analyze respiratory and health data → inform insurance coverage risk model and product design → design risk model → build tool to price and manage respiratory care benefit → inform digital product
    - tools seen: blockchain (91%)
@@ -53,10 +53,10 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
    - tools seen: blockchain (100%)
 4. **dashboard** — 24% of postings [deliverables] · [claim → gap:dashboard](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adashboard)
    - typical flow: identify data need → define problem → gather business requirement → data collection → collect data → extract and transform data
-   - tools seen: sql (65%), dbt (45%), python (45%), looker (40%)
+   - tools seen: sql (65%), python (45%), dbt (45%), looker (40%)
 5. **report** — 24% of postings [deliverables] · [claim → gap:report](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Areport)
    - typical flow: identify data need → collect data → gather business requirement → data collection → extract and transform data → data modeling
-   - tools seen: sql (45%), python (40%), dbt (30%), tableau (30%)
+   - tools seen: sql (45%), python (40%), tableau (30%), dbt (30%)
 6. **inform digital product** — 23% of postings [responsibilities] · [claim → gap:inform-digital-product](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Ainform-digital-product)
    - tools seen: blockchain (100%)
 7. **analyze health data** — 23% of postings [responsibilities] · [claim → gap:analyze-health-data](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aanalyze-health-data)
@@ -80,25 +80,25 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
    - tools seen: siem (38%), python (29%), aws (24%), soar (19%)
 3. **prioritize security incident** — 27% of postings [decisions] · [claim → gap:prioritize-security-incident](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aprioritize-security-incident)
    - typical flow: detect incident → access monitoring → monitor network traffic and server log → alert triage → analyze incident → find vulnerabilitie
-   - tools seen: active directory software (22%), arcsight enterprise threat and risk management (22%), siem (22%), backup and archival software (17%)
+   - tools seen: active directory software (22%), arcsight enterprise threat and risk management (22%), siem (22%), automated audit trail analysis software (17%)
 4. **analyze security incident** — 25% of postings [responsibilities] · [claim → gap:analyze-security-incident](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aanalyze-security-incident)
    - typical flow: alert triage → monitor security event → analyze incident → detect security event → ioc investigation → respond to security threat
-   - tools seen: siem (24%), vulnerability scanner (18%), active directory software (12%), check point next generation secure web gateway (12%)
+   - tools seen: siem (24%), vulnerability scanner (18%), cryptographic key management software (12%), active directory software (12%)
 5. **security documentation** — 18% of postings [deliverables] · [claim → gap:security-documentation](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Asecurity-documentation)
    - typical flow: access monitoring → alert triage → analyze incident → incident response → security documentation
-   - tools seen: active directory software (42%), arcsight enterprise threat and risk management (33%), backup and archival software (25%), check point next generation secure web gateway (25%)
+   - tools seen: active directory software (42%), arcsight enterprise threat and risk management (33%), automated audit trail analysis software (25%), anti-spyware software (25%)
 6. **cross-functional collaboration** — 16% of postings [responsibilities] · [claim → gap:cross-functional-collaboration](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Across-functional-collaboration)
    - typical flow: detect incident → analyze security incident → incident response
-   - tools seen: python (64%), sql (45%), panda (36%), databrick (36%)
+   - tools seen: python (64%), sql (45%), databrick (36%), panda (36%)
 7. **access monitoring** — 16% of postings [responsibilities] · [claim → gap:access-monitoring](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aaccess-monitoring)
    - typical flow: access monitoring → alert triage → analyze incident → incident response → security documentation
-   - tools seen: active directory software (36%), backup and archival software (27%), anti-trojan software (27%), access management software (27%)
+   - tools seen: active directory software (36%), automated audit trail analysis software (27%), anti-spyware software (27%), cryptographic key management software (27%)
 8. **incident severity classification** — 16% of postings [decisions] · [claim → gap:incident-severity-classification](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aincident-severity-classification)
    - typical flow: alert triage → analyze security incident → incident response → security documentation → incident report → document and report
-   - tools seen: siem (45%), python (27%), soar (18%), gcp (18%)
+   - tools seen: siem (45%), python (27%), edr (18%), soar (18%)
 9. **threat intelligence** — 15% of postings [responsibilities] · [claim → gap:threat-intelligence](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Athreat-intelligence)
    - typical flow: analyze security incident → incident response
-   - tools seen: python (50%), gcp (40%), aws (40%), siem (40%)
+   - tools seen: python (50%), siem (40%), gcp (40%), aws (40%)
 10. **mentor junior analyst** — 13% of postings [responsibilities] · [claim → gap:mentor-junior-analyst](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Amentor-junior-analyst)
    - typical flow: collect telemetry → detect incident → develop detection logic → analyze security incident → test detection logic → incident response
    - tools seen: python (100%), sql (56%), soar (44%), gcp (44%)
@@ -127,13 +127,13 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
    - tools seen: ai tool (100%), agentic enablement capabilitie (50%), partner program tech stack (50%), notion (50%)
 7. **team supervision** — 40% of postings [responsibilities] · [claim → gap:team-supervision](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Ateam-supervision)
    - typical flow: pipeline → conduct technical discovery → client relationship management → build and deliver demo → advise on integration and compliance → vendor security review report
-   - tools seen: ai tool (100%), notion (100%), dlp/siem (50%), notion api (50%)
+   - tools seen: notion (100%), ai tool (100%), dlp/siem (50%), iam/sso (50%)
 8. **recommendation** — 40% of postings [deliverables] · [claim → gap:recommendation](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Arecommendation)
    - typical flow: financial performance analysis → investment planning → territory plan → competitive analysis → build growth roadmap → negotiation guide
    - tools seen: ai tool (100%), bi tool (50%), salesforce (50%), agentic enablement capabilitie (50%)
 9. **playbook** — 40% of postings [deliverables] · [claim → gap:playbook](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aplaybook)
    - typical flow: pipeline → conduct technical discovery → client relationship management → build and deliver demo → advise on integration and compliance → vendor security review report
-   - tools seen: ai tool (100%), notion (100%), dlp/siem (50%), notion api (50%)
+   - tools seen: notion (100%), ai tool (100%), dlp/siem (50%), iam/sso (50%)
 10. **resource allocation** — 40% of postings [decisions] · [claim → gap:resource-allocation](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aresource-allocation)
    - typical flow: investment planning → conduct technical discovery → competitive analysis → build and deliver demo → cross-functional collaboration → advise on integration and compliance
    - tools seen: ai tool (100%), agentic enablement capabilitie (50%), partner program tech stack (50%), dlp/siem (50%)
@@ -144,7 +144,7 @@ _(items from responsibilities withheld: vocabulary too fragmented to rank at cur
 
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **system** — 29% of postings [deliverables] · [claim → gap:system](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Asystem)
-   - tools seen: llm (38%), aws (38%), memcached (25%), tidb (25%)
+   - tools seen: llm (38%), aws (38%), mysql (25%), vitess (25%)
 2. **solution architecture design** — 25% of postings [decisions] · [claim → gap:solution-architecture-design](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Asolution-architecture-design)
    - typical flow: design architecture
    - tools seen: python (71%), apache spark (43%), delta lake (43%), azure (43%)
@@ -157,16 +157,16 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
    - tools seen: python (83%), aws (50%), sql (50%), scala (50%)
 6. **prioritize analysis request** — 18% of postings [decisions] · [claim → gap:prioritize-analysis-request](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aprioritize-analysis-request)
    - typical flow: design solution
-   - tools seen: python (60%), javascript (40%), java (40%), typescript (40%)
+   - tools seen: python (60%), java (40%), javascript (40%), typescript (40%)
 7. **tool** — 18% of postings [deliverables] · [claim → gap:tool](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Atool)
-   - tools seen: llm (60%), memcached (40%), tidb (40%), vitess (40%)
+   - tools seen: llm (60%), mysql (40%), vitess (40%), dynamodb (40%)
 8. **prioritize feature** — 14% of postings [decisions] · [claim → gap:prioritize-feature](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aprioritize-feature)
    - tools seen: python (75%), llm (50%), snowflake (50%), search (25%)
 9. **storage infrastructure** — 14% of postings [deliverables] · [claim → gap:storage-infrastructure](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Astorage-infrastructure)
-   - tools seen: memcached (50%), tidb (50%), vitess (50%), redi (50%)
+   - tools seen: mysql (50%), vitess (50%), dynamodb (50%), tidb (50%)
 10. **proof-of-value result** — 14% of postings [deliverables] · [claim → gap:proof-of-value-result](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aproof-of-value-result)
    - typical flow: identify target account → run proof-of-value → negotiate and close → enable field
-   - tools seen: azure (100%), gcp (100%), aws (100%), databrick lakebase (50%)
+   - tools seen: azure (100%), gcp (100%), aws (100%), mysql (50%)
 
 ## Data Engineer — 10 postings from 2 companies (updated 2026-09-21)
 **No sims cover this family yet — the whole head is open.**
@@ -174,33 +174,33 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **cross-functional collaboration** — 50% of postings [responsibilities] · [claim → gap:cross-functional-collaboration](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Across-functional-collaboration)
    - typical flow: define strategy → develop feature → experiment with model → deploy to production → monitor and iterate
-   - tools seen: snowflake (60%), snowpark container service (40%), notion (40%), dbt (40%)
+   - tools seen: snowflake (60%), quicksilver (40%), snowpark container service (40%), github (40%)
 2. **technical strategy document** — 50% of postings [deliverables] · [claim → gap:technical-strategy-document](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Atechnical-strategy-document)
    - typical flow: define strategy → develop feature → experiment with model → deploy to production → monitor and iterate
-   - tools seen: scala (60%), python (60%), java (60%), deep learning (40%)
+   - tools seen: scala (60%), python (60%), java (60%), representation learning (40%)
 3. **evaluate trade-off** — 40% of postings [decisions] · [claim → gap:evaluate-trade-off](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aevaluate-trade-off)
    - typical flow: define strategy → develop feature → experiment with model → deploy to production → monitor and iterate
-   - tools seen: snowpark container service (50%), notion (50%), dbt (50%), snowflake (50%)
+   - tools seen: quicksilver (50%), snowpark container service (50%), github (50%), python (50%)
 4. **prioritize team effort** — 40% of postings [decisions] · [claim → gap:prioritize-team-effort](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aprioritize-team-effort)
    - typical flow: define strategy → develop feature → experiment with model → deploy to production → monitor and iterate
-   - tools seen: deep learning (50%), build scalable system for long term (50%), gradient-boosted tree (50%), representation learning (50%)
+   - tools seen: representation learning (50%), etl (50%), deep learning (50%), gradient-boosted tree (50%)
 5. **proof-of-value result** — 40% of postings [deliverables] · [claim → gap:proof-of-value-result](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aproof-of-value-result)
-   - tools seen: scala (100%), python (100%), java (100%), public cloud platform (50%)
+   - tools seen: scala (100%), python (100%), java (100%), spark (50%)
 6. **reliability infrastructure** — 30% of postings [responsibilities] · [claim → gap:reliability-infrastructure](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Areliability-infrastructure)
    - typical flow: scope business problem with stakeholder → scope business problem → stakeholder communication → design and build ai system → design architecture → develop dbt model
-   - tools seen: dbt (100%), snowflake (100%), python (100%), github (100%)
+   - tools seen: github (100%), python (100%), snowflake (100%), git (100%)
 7. **production system** — 30% of postings [responsibilities] · [claim → gap:production-system](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aproduction-system)
    - typical flow: scope business problem with stakeholder → scope business problem → stakeholder communication → design and build ai system → design architecture → develop dbt model
-   - tools seen: dbt (100%), snowflake (100%), python (100%), github (100%)
+   - tools seen: github (100%), python (100%), snowflake (100%), git (100%)
 8. **select modeling approache** — 30% of postings [decisions] · [claim → gap:select-modeling-approache](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aselect-modeling-approache)
    - typical flow: define strategy → develop feature → experiment with model → evaluate model → deploy to production → monitor and iterate
-   - tools seen: deep learning (67%), build scalable system for long term (67%), gradient-boosted tree (67%), representation learning (67%)
+   - tools seen: representation learning (67%), etl (67%), deep learning (67%), gradient-boosted tree (67%)
 9. **ai agent** — 20% of postings [responsibilities] · [claim → gap:ai-agent](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aai-agent)
    - typical flow: scope business problem with stakeholder → scope business problem → design and build ai system → design architecture → deploy and maintain production system → build and containerize
-   - tools seen: snowpark container service (100%), notion (100%), dbt (100%), snowflake (100%)
+   - tools seen: quicksilver (100%), snowpark container service (100%), github (100%), python (100%)
 10. **contribute to snowflake infrastructure** — 20% of postings [responsibilities] · [claim → gap:contribute-to-snowflake-infrastructure](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Acontribute-to-snowflake-infrastructure)
    - typical flow: scope business problem with stakeholder → scope business problem → design and build ai system → design architecture → deploy and maintain production system → build and containerize
-   - tools seen: snowpark container service (100%), notion (100%), dbt (100%), snowflake (100%)
+   - tools seen: quicksilver (100%), snowpark container service (100%), github (100%), python (100%)
 
 ## Data Scientist — 30 postings from 10 companies (updated 2026-09-21)
 **No sims cover this family yet — the whole head is open.**
@@ -209,31 +209,31 @@ _(items from responsibilities withheld: vocabulary too fragmented to rank at cur
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **define requirement and evaluate tradeoff** — 23% of postings [decisions] · [claim → gap:define-requirement-and-evaluate-tradeoff](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adefine-requirement-and-evaluate-tradeoff)
    - typical flow: prototype new modeling idea → run offline experiment → drive best-performing approache into production → build and maintain evidence extraction pipeline
-   - tools seen: cursor (71%), claude code (43%), kubeflow (43%), airflow (43%)
+   - tools seen: cursor (71%), xgboost (43%), airflow (43%), catboost (43%)
 2. **product roadmap** — 20% of postings [deliverables] · [claim → gap:product-roadmap](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aproduct-roadmap)
    - typical flow: identify growth opportunitie → run offline experiment → launch and scale feature → monitor funnel performance
    - tools seen: cursor (67%), claude (33%), claude code (33%), sql (33%)
 3. **experiment result** — 20% of postings [deliverables] · [claim → gap:experiment-result](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aexperiment-result)
    - typical flow: prototype new modeling idea → identify growth opportunitie → run offline experiment → drive best-performing approache into production → launch and scale feature → build and maintain evidence extraction pipeline
-   - tools seen: claude code (83%), cursor (83%), kubeflow (50%), airflow (50%)
+   - tools seen: claude code (83%), cursor (83%), xgboost (50%), airflow (50%)
 4. **architecture and design decision** — 17% of postings [decisions] · [claim → gap:architecture-and-design-decision](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aarchitecture-and-design-decision)
    - tools seen: cursor (40%), claude (40%), python (40%), kotlin (20%)
 5. **resource allocation** — 13% of postings [decisions] · [claim → gap:resource-allocation](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aresource-allocation)
-   - tools seen: python (50%), sql (50%), machine learning (25%), data visualization (25%)
+   - tools seen: python (50%), sql (50%), data visualization (25%), machine learning (25%)
 6. **select modeling approache** — 13% of postings [decisions] · [claim → gap:select-modeling-approache](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aselect-modeling-approache)
    - typical flow: prototype new modeling idea → run offline experiment → drive best-performing approache into production → build and maintain evidence extraction pipeline
-   - tools seen: claude code (75%), kubeflow (75%), airflow (75%), python (75%)
+   - tools seen: xgboost (75%), airflow (75%), catboost (75%), claude code (75%)
 7. **risk assessment** — 13% of postings [decisions] · [claim → gap:risk-assessment](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Arisk-assessment)
    - typical flow: perform independent challenge of model → identify weaknesse and opportunitie → partner with audit and compliance
-   - tools seen: python (50%), sql (50%), cloud-based coding environment (50%), pyspark (50%)
+   - tools seen: pyspark (50%), python (50%), scikit-learn (50%), cloud-based coding environment (50%)
 8. **success metrics** — 13% of postings [deliverables] · [claim → gap:success-metrics](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Asuccess-metrics)
-   - tools seen: cursor (50%), claude (50%), 1p api (25%), external cloud provider (25%)
+   - tools seen: cursor (50%), claude (50%), 1p api (25%), claude.ai (25%)
 9. **recommend compensation structure update** — 10% of postings [decisions] · [claim → gap:recommend-compensation-structure-update](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Arecommend-compensation-structure-update)
    - typical flow: audit job role → perform independent challenge of model → submit benchmarking survey → identify weaknesse and opportunitie → evaluate market positioning → collaborate with model owner to remediate
-   - tools seen: claude code (67%), pave (67%), google sheets (67%), sigma computing (67%)
+   - tools seen: pave (67%), claude code (67%), excel (67%), google sheets (67%)
 10. **prioritize feature** — 10% of postings [decisions] · [claim → gap:prioritize-feature](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aprioritize-feature)
    - typical flow: prototype new modeling idea → identify growth opportunitie → technology trend analysis → run offline experiment → define requirement and evaluate tradeoff → drive best-performing approache into production
-   - tools seen: claude code (67%), cursor (67%), langchain (33%), langgraph (33%)
+   - tools seen: claude code (67%), cursor (67%), xgboost (33%), airflow (33%)
 
 ## Machine Learning Engineer — 10 postings from 2 companies (updated 2026-09-21)
 **No sims cover this family yet — the whole head is open.**
@@ -241,32 +241,32 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **own design and scalability of system** — 60% of postings [responsibilities] · [claim → gap:own-design-and-scalability-of-system](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aown-design-and-scalability-of-system)
    - typical flow: provision environment → design access control pattern → execute test → teardown environment → api → develop integration
-   - tools seen: buildkite (67%), kotlin (67%), terraform (67%), python (67%)
+   - tools seen: kotlin (67%), buildkite (67%), python (67%), terraform (67%)
 2. **set technical strategy** — 60% of postings [responsibilities] · [claim → gap:set-technical-strategy](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aset-technical-strategy)
    - typical flow: provision environment → execute test → teardown environment
-   - tools seen: deep learning (50%), agentic ml (50%), transformer (50%), tree-based model (50%)
+   - tools seen: transformer (50%), deep learning (50%), tree-based model (50%), agentic ml (50%)
 3. **build vs buy trade-off** — 60% of postings [decisions] · [claim → gap:build-vs-buy-trade-off](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Abuild-vs-buy-trade-off)
    - typical flow: provision environment → execute test → teardown environment
-   - tools seen: deep learning (50%), agentic ml (50%), transformer (50%), tree-based model (50%)
+   - tools seen: transformer (50%), deep learning (50%), tree-based model (50%), agentic ml (50%)
 4. **improve observability and incident response** — 40% of postings [responsibilities] · [claim → gap:improve-observability-and-incident-response](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aimprove-observability-and-incident-response)
    - typical flow: design access control pattern → design platform feature → api → develop integration → monitor and optimize service
-   - tools seen: buildkite (100%), python (100%), oidc (100%), forgerock (50%)
+   - tools seen: buildkite (100%), python (100%), oidc (100%), kotlin (50%)
 5. **develop integration** — 40% of postings [responsibilities] · [claim → gap:develop-integration](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adevelop-integration)
    - typical flow: design access control pattern → design platform feature → api → develop integration → monitor and optimize service
-   - tools seen: buildkite (100%), python (100%), oidc (100%), forgerock (50%)
+   - tools seen: buildkite (100%), python (100%), oidc (100%), kotlin (50%)
 6. **design access control pattern** — 40% of postings [decisions] · [claim → gap:design-access-control-pattern](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adesign-access-control-pattern)
    - typical flow: design access control pattern → design platform feature → api → develop integration → monitor and optimize service
-   - tools seen: buildkite (100%), python (100%), oidc (100%), forgerock (50%)
+   - tools seen: buildkite (100%), python (100%), oidc (100%), kotlin (50%)
 7. **automation script** — 40% of postings [deliverables] · [claim → gap:automation-script](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aautomation-script)
    - typical flow: provision environment → design access control pattern → execute test → teardown environment → api → develop integration
-   - tools seen: buildkite (100%), kotlin (100%), terraform (100%), python (100%)
+   - tools seen: kotlin (100%), buildkite (100%), python (100%), terraform (100%)
 8. **prioritize platform feature** — 40% of postings [decisions] · [claim → gap:prioritize-platform-feature](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aprioritize-platform-feature)
    - typical flow: design platform feature
    - tools seen: docker (100%), github action (100%), buildkite (75%), python (75%)
 9. **mentor junior analyst** — 30% of postings [responsibilities] · [claim → gap:mentor-junior-analyst](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Amentor-junior-analyst)
-   - tools seen: deep learning (100%), agentic ml (100%), transformer (100%), tree-based model (100%)
+   - tools seen: transformer (100%), deep learning (100%), tree-based model (100%), agentic ml (100%)
 10. **define and advocate technical solution** — 30% of postings [responsibilities] · [claim → gap:define-and-advocate-technical-solution](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adefine-and-advocate-technical-solution)
-   - tools seen: deep learning (100%), agentic ml (100%), transformer (100%), tree-based model (100%)
+   - tools seen: transformer (100%), deep learning (100%), tree-based model (100%), agentic ml (100%)
 
 ## Platform Engineer — 23 postings from 1 companies (updated 2026-09-21)
 **No sims cover this family yet — the whole head is open.**
@@ -274,33 +274,33 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **own and deliver quarterly goal** — 78% of postings [responsibilities] · [claim → gap:own-and-deliver-quarterly-goal](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aown-and-deliver-quarterly-goal)
    - typical flow: define project → ideate and plan → design system → implement code → test with user or stakeholder → deploy and monitor
-   - tools seen: kotlin (94%), python (94%), kubernetes (94%), aws (94%)
+   - tools seen: kotlin (94%), mysql (94%), kubernetes (94%), python (94%)
 2. **lead engineer through ambiguity** — 74% of postings [responsibilities] · [claim → gap:lead-engineer-through-ambiguity](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Alead-engineer-through-ambiguity)
    - typical flow: define project → ideate and plan → design system → implement code → test with user or stakeholder → deploy and monitor
-   - tools seen: kotlin (94%), python (94%), kubernetes (94%), aws (94%)
+   - tools seen: kotlin (94%), mysql (94%), kubernetes (94%), python (94%)
 3. **foster culture of quality and ownership** — 70% of postings [responsibilities] · [claim → gap:foster-culture-of-quality-and-ownership](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Afoster-culture-of-quality-and-ownership)
    - typical flow: ideate and plan → test with user or stakeholder → make kill or scale decision
-   - tools seen: kotlin (94%), python (94%), kubernetes (94%), aws (94%)
+   - tools seen: kotlin (94%), mysql (94%), kubernetes (94%), python (94%)
 4. **identify and solve project process technology issue** — 61% of postings [responsibilities] · [claim → gap:identify-and-solve-project-process-technology-issue](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aidentify-and-solve-project-process-technology-issue)
    - typical flow: identify and solve project process technology issue → define project → design system → implement code → test with user or stakeholder → deploy and monitor
-   - tools seen: kotlin (100%), python (100%), kubernetes (100%), aws (100%)
+   - tools seen: kotlin (100%), kubernetes (100%), python (100%), aws (100%)
 5. **develop talent through feedback and guidance** — 61% of postings [responsibilities] · [claim → gap:develop-talent-through-feedback-and-guidance](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adevelop-talent-through-feedback-and-guidance)
    - typical flow: ideate and plan → test with user or stakeholder → make kill or scale decision
-   - tools seen: kotlin (93%), python (93%), kubernetes (93%), aws (93%)
+   - tools seen: kotlin (93%), mysql (93%), kubernetes (93%), python (93%)
 6. **kpi reporting** — 52% of postings [deliverables] · [claim → gap:kpi-reporting](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Akpi-reporting)
    - typical flow: ideate and plan
-   - tools seen: kotlin (92%), python (92%), kubernetes (92%), aws (92%)
+   - tools seen: kotlin (92%), mysql (92%), kubernetes (92%), python (92%)
 7. **collaborate with product management design analytic** — 48% of postings [responsibilities] · [claim → gap:collaborate-with-product-management-design-analytic](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Acollaborate-with-product-management-design-analytic)
    - typical flow: test with user or stakeholder → deploy and monitor → make kill or scale decision
-   - tools seen: kotlin (91%), python (91%), kubernetes (91%), aws (91%)
+   - tools seen: kotlin (91%), mysql (91%), kubernetes (91%), python (91%)
 8. **create and monitor metrics** — 48% of postings [responsibilities] · [claim → gap:create-and-monitor-metrics](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Acreate-and-monitor-metrics)
    - typical flow: test with user or stakeholder → make kill or scale decision
-   - tools seen: kotlin (91%), python (91%), kubernetes (91%), aws (91%)
+   - tools seen: kotlin (91%), mysql (91%), kubernetes (91%), python (91%)
 9. **support on-call effort** — 43% of postings [responsibilities] · [claim → gap:support-on-call-effort](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Asupport-on-call-effort)
-   - tools seen: kotlin (90%), python (90%), kubernetes (90%), aws (90%)
+   - tools seen: kotlin (90%), mysql (90%), kubernetes (90%), python (90%)
 10. **design standard** — 43% of postings [deliverables] · [claim → gap:design-standard](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Adesign-standard)
    - typical flow: test with user or stakeholder → make kill or scale decision
-   - tools seen: kotlin (90%), python (90%), kubernetes (90%), aws (90%)
+   - tools seen: kotlin (90%), mysql (90%), kubernetes (90%), python (90%)
 
 ## Product Manager — 80 postings from 20 companies (updated 2026-09-21)
 **No sims cover this family yet — the whole head is open.**
@@ -314,32 +314,32 @@ Uncovered processes (top by demand share — tools shown as context, not gaps):
 Uncovered processes (top by demand share — tools shown as context, not gaps):
 1. **ensure compliance and governance** — 50% of postings [responsibilities] · [claim → gap:ensure-compliance-and-governance](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aensure-compliance-and-governance)
    - typical flow: risk assessment → ensure compliance and governance → executive reporting
-   - tools seen: monitoring tool (14%), encryption standard (14%), vulnerability management tool (14%), endpoint protection (14%)
+   - tools seen: identity governance tool (14%), endpoint protection (14%), fs-isac (14%), cloud platform (14%)
 2. **lead and develop team** — 50% of postings [responsibilities] · [claim → gap:lead-and-develop-team](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Alead-and-develop-team)
    - typical flow: receive complaint → assess validity → determine resolution → user consultation → identify potential cause → drive improvement
-   - tools seen: monitoring tool (14%), encryption standard (14%), vulnerability management tool (14%), endpoint protection (14%)
+   - tools seen: identity governance tool (14%), endpoint protection (14%), fs-isac (14%), cloud platform (14%)
 3. **policie and procedure** — 50% of postings [deliverables] · [claim → gap:policie-and-procedure](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Apolicie-and-procedure)
    - typical flow: risk assessment → ensure compliance and governance → executive reporting
-   - tools seen: monitoring tool (14%), encryption standard (14%), vulnerability management tool (14%), endpoint protection (14%)
+   - tools seen: identity governance tool (14%), endpoint protection (14%), fs-isac (14%), cloud platform (14%)
 4. **risk assessment** — 50% of postings [deliverables] · [claim → gap:risk-assessment](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Arisk-assessment)
    - typical flow: risk assessment → ensure compliance and governance → executive reporting
-   - tools seen: monitoring tool (14%), encryption standard (14%), vulnerability management tool (14%), endpoint protection (14%)
+   - tools seen: identity governance tool (14%), endpoint protection (14%), fs-isac (14%), cloud platform (14%)
 5. **executive reporting** — 43% of postings [responsibilities] · [claim → gap:executive-reporting](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Aexecutive-reporting)
    - typical flow: ensure compliance and governance → executive reporting
-   - tools seen: monitoring tool (17%), encryption standard (17%), vulnerability management tool (17%), endpoint protection (17%)
+   - tools seen: identity governance tool (17%), endpoint protection (17%), fs-isac (17%), cloud platform (17%)
 6. **partner cross-functionally with product sales marketing analytic risk finance operation** — 43% of postings [responsibilities] · [claim → gap:partner-cross-functionally-with-product-sales-marketing-analytic-risk-finance-operation](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Apartner-cross-functionally-with-product-sales-marketing-analytic-risk-finance-operation)
    - typical flow: risk assessment
-   - tools seen: monitoring tool (17%), encryption standard (17%), vulnerability management tool (17%), endpoint protection (17%)
+   - tools seen: identity governance tool (17%), endpoint protection (17%), fs-isac (17%), cloud platform (17%)
 7. **balance risk with business velocity** — 36% of postings [decisions] · [claim → gap:balance-risk-with-business-velocity](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Abalance-risk-with-business-velocity)
-   - tools seen: cloud control plane (20%), vendor management tool (20%), claude (20%), gcp (20%)
+   - tools seen: bi tool (20%), python (20%), cursor (20%), cloud control plane (20%)
 8. **report** — 36% of postings [deliverables] · [claim → gap:report](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Areport)
    - typical flow: risk assessment → ensure compliance and governance → executive reporting
-   - tools seen: cloud control plane (20%), vendor management tool (20%), claude (20%), gcp (20%)
+   - tools seen: bi tool (20%), python (20%), cursor (20%), cloud control plane (20%)
 9. **cross-functional collaboration** — 29% of postings [responsibilities] · [claim → gap:cross-functional-collaboration](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Across-functional-collaboration)
    - typical flow: risk assessment → ensure compliance and governance → executive reporting
 10. **training resource** — 29% of postings [responsibilities] · [claim → gap:training-resource](https://github.com/SkillSimm/skillsimm-template-submissions/issues?q=is%3Aissue+label%3Agap%3Atraining-resource)
    - typical flow: receive complaint → assess validity → determine resolution → user consultation → identify potential cause → drive improvement
-   - tools seen: monitoring tool (25%), encryption standard (25%), vulnerability management tool (25%), endpoint protection (25%)
+   - tools seen: identity governance tool (25%), endpoint protection (25%), fs-isac (25%), cloud platform (25%)
 
 ---
 _Generated by SkillSimm's demand-analysis pipeline from public ATS job
