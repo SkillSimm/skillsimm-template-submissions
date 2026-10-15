@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T21:54:41+00:00",
+  "generated_at": "2026-10-15T15:26:52+00:00",
   "templates": {
     "AWS_team_AIassist": [
       "account_manager",
@@ -61,6 +61,10 @@
       "risk_compliance_manager",
       "security_analyst"
     ],
+    "Carrier_factor_discovery_individual_AIassist": [
+      "financial_analyst",
+      "product_manager"
+    ],
     "Carrier_factor_discovery_team_AIassist": [
       "data_analyst",
       "data_scientist",
@@ -72,9 +76,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "Disney_team_AIassist": [
       "account_manager",
@@ -82,9 +84,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "HMA_team_AIassist": [
       "account_manager",
@@ -92,9 +92,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "Marvell_team_AIassist": [
       "account_manager",
@@ -102,9 +100,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "NYT_team_AIassist": [
       "account_manager",
@@ -116,15 +112,14 @@
       "risk_compliance_manager",
       "security_analyst"
     ],
+    "NYT_team_AIautomation": [],
     "Netflix_team_AIassist": [
       "account_manager",
       "cloud_data_engineer",
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "RealReal_team_AIassist": [
       "account_manager",
@@ -152,9 +147,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "Snowflake_team_AIassist": [
       "account_manager",
@@ -162,9 +155,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "Team_Writing_Project_New_Startup_Eva": [
       "financial_analyst",
@@ -184,9 +175,7 @@
       "data_engineer",
       "financial_analyst",
       "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
+      "product_manager"
     ],
     "ThomsShoes2025_team_AIassist": [
       "account_manager",

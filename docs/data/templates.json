@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T21:54:41+00:00",
+  "generated_at": "2026-10-15T15:26:52+00:00",
   "templates": [
     {
       "template_id": "AWS_team_AIassist",
@@ -68,6 +68,17 @@
       "step_count": 14
     },
     {
+      "template_id": "Carrier_factor_discovery_individual_AIassist",
+      "title": "Underwriter Assistant · Small Commercial BOP · Individual + AIassist",
+      "url": "https://app.skillsimm.com/templates/Carrier_factor_discovery_individual_AIassist",
+      "domain": "commercial underwriting",
+      "industry": "insurance",
+      "difficulty": "intermediate",
+      "duration_minutes": 48,
+      "team_size": 1,
+      "step_count": 14
+    },
+    {
       "template_id": "Carrier_factor_discovery_team_AIassist",
       "title": "Factor & Prevention Discovery · Cardinal Mutual · Team + AIassist",
       "url": "https://app.skillsimm.com/templates/Carrier_factor_discovery_team_AIassist",
@@ -86,8 +97,8 @@
       "industry": "semiconductors / AI infrastructure",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 15
     },
     {
       "template_id": "Disney_team_AIassist",
@@ -97,8 +108,8 @@
       "industry": "media / entertainment",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 15
     },
     {
       "template_id": "HMA_team_AIassist",
@@ -108,8 +119,8 @@
       "industry": "consumer subscription / entertainment",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 15
     },
     {
       "template_id": "Marvell_team_AIassist",
@@ -119,13 +130,24 @@
       "industry": "semiconductors / data infrastructure",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 15
     },
     {
       "template_id": "NYT_team_AIassist",
       "title": "Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AIassist",
       "url": "https://app.skillsimm.com/templates/NYT_team_AIassist",
+      "domain": "entrepreneurship",
+      "industry": "media / artificial intelligence",
+      "difficulty": "intermediate",
+      "duration_minutes": 40,
+      "team_size": 6,
+      "step_count": 14
+    },
+    {
+      "template_id": "NYT_team_AIautomation",
+      "title": "Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AI Automation",
+      "url": "https://app.skillsimm.com/templates/NYT_team_AIautomation",
       "domain": "entrepreneurship",
       "industry": "media / artificial intelligence",
       "difficulty": "intermediate",
@@ -141,8 +163,8 @@
       "industry": "media / subscription entertainment",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 21
     },
     {
       "template_id": "RealReal_team_AIassist",
@@ -174,8 +196,8 @@
       "industry": "restaurants / franchising",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 15
     },
     {
       "template_id": "Snowflake_team_AIassist",
@@ -185,19 +207,19 @@
       "industry": "enterprise software / cloud data platform",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 15
     },
     {
       "template_id": "Team_Writing_Project_New_Startup_Eva",
-      "title": "Team Writing Project New Startup Evaluation",
+      "title": "Team Writing Project — Evaluate a Startup Plan and Produce a Better One",
       "url": "https://app.skillsimm.com/templates/Team_Writing_Project_New_Startup_Eva",
       "domain": "entrepreneurship",
       "industry": "education",
       "difficulty": "intermediate",
       "duration_minutes": 180,
       "team_size": 5,
-      "step_count": 12
+      "step_count": 10
     },
     {
       "template_id": "Team_Writing_Project_Public_Firm_Eva",
@@ -229,8 +251,8 @@
       "industry": "automotive / energy storage / autonomy",
       "difficulty": "intermediate",
       "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
+      "team_size": 5,
+      "step_count": 20
     },
     {
       "template_id": "ThomsShoes2025_team_AIassist",

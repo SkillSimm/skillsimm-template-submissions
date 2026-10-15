@@ -1,13 +1,363 @@
 {
   "family": "security_analyst",
-  "generated_at": "2026-09-23T21:54:41+00:00",
+  "generated_at": "2026-10-15T15:26:52+00:00",
   "postings": [
     {
       "title": "Information Security Analyst",
-      "company": "MassMutual",
-      "location": "Springfield, Hampden County",
-      "url": "https://www.adzuna.com/land/ad/5892765900?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=DA36D8103E3207801B69F978858DC7E5798D6304",
-      "posted_at": "2026-09-21T08:06:48Z",
+      "company": "Katten Muchin Rosenman LLP",
+      "location": "Washington, D.C., US",
+      "url": "https://www.adzuna.com/land/ad/5929008907?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=6F65F81FE853938A3E9ABB55CC687D73E6C1E126",
+      "posted_at": "2026-10-15T08:20:27Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "Katten Muchin Rosenman LLP",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/land/ad/5929004813?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=F1B6227322F4559704F08C63456C7C2AA900F196",
+      "posted_at": "2026-10-15T08:18:14Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "Katten Muchin Rosenman LLP",
+      "location": "Charlotte, Mecklenburg County",
+      "url": "https://www.adzuna.com/land/ad/5929002442?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=772BD2DBC9B0B5BA980043E9DE4B9BFE0AFA96E6",
+      "posted_at": "2026-10-15T08:15:47Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Ping Security Analyst",
+      "company": "Tekgence Inc",
+      "location": "Seattle, King County",
+      "url": "https://www.adzuna.com/land/ad/5929001467?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=98F116B5DE628B478D1108F64AA15B966FD2EA9F",
+      "posted_at": "2026-10-15T08:14:35Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "HTC Global Services Inc",
+      "location": "Columbia, Boone County",
+      "url": "https://www.adzuna.com/land/ad/5928600430?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=25B178330A0D1EEFEFED5BC614F7089F61C70591",
+      "posted_at": "2026-10-15T02:22:31Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Innosoft Corporation",
+      "location": "Pineridge, Lexington County",
+      "url": "https://www.adzuna.com/land/ad/5928296758?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=5D441BBCFA8B0F0AF3EF3051BF4F43AE3F1EC93B",
+      "posted_at": "2026-10-14T21:41:57Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Compunnel Inc.",
+      "location": "Pineridge, Lexington County",
+      "url": "https://www.adzuna.com/land/ad/5928038867?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=A306B0CDB77670476BCADA0F568200BC08FE809F",
+      "posted_at": "2026-10-14T19:21:59Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst / Security Engineer",
+      "company": "Abacus Service Corporation",
+      "location": "Pineridge, Lexington County",
+      "url": "https://www.adzuna.com/land/ad/5928038805?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=91E9210A61CD74B671CF554E244BD90AEC7D0174",
+      "posted_at": "2026-10-14T19:21:58Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "InterSources Inc.",
+      "location": "Pineridge, Lexington County",
+      "url": "https://www.adzuna.com/land/ad/5928022700?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=760B8C870B42C9B3C68E590AC8D1A475CFD6BE71",
+      "posted_at": "2026-10-14T17:40:56Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Zolon Tech Solutions Inc",
+      "location": "Pineridge, Lexington County",
+      "url": "https://www.adzuna.com/land/ad/5928020488?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=325526A130D0C8FADD8CF346172D2AD74AEEBEC8",
+      "posted_at": "2026-10-14T17:25:53Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Encore Consulting Services",
+      "location": "Fitchburg, Dane County",
+      "url": "https://www.adzuna.com/land/ad/5926330619?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=85FA07C41772DAA37B0464B3EDE5ACA108131D4E",
+      "posted_at": "2026-10-13T19:53:26Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Adva IT Services, Inc..",
+      "location": "Fitchburg, Dane County",
+      "url": "https://www.adzuna.com/land/ad/5925919454?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=7E3F182F0E66DDCEF6B77B44FE12025676862657",
+      "posted_at": "2026-10-13T11:23:10Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Russell, Tobin & Associates",
+      "location": "East Case, Baltimore",
+      "url": "https://www.adzuna.com/land/ad/5924675058?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=77125FDD1F43C8496172C4BC8EFDAFE004892C70",
+      "posted_at": "2026-10-12T15:24:35Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Symphony Corporation",
+      "location": "Fitchburg, Dane County",
+      "url": "https://www.adzuna.com/land/ad/5924664026?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=CD64CC932F7344BA367B148E4F0C5E8EFC5136E4",
+      "posted_at": "2026-10-12T15:16:41Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "IT Security Analyst",
+      "company": "Insight Global",
+      "location": "US",
+      "url": "https://www.adzuna.com/land/ad/5923350246?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=D19D7FFA8C18E0156C47EE32A4DD701E8FD9704D",
+      "posted_at": "2026-10-11T09:43:43Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Security Analyst",
+      "company": "Iridium",
+      "location": "Mc Lean, Fairfax County",
+      "url": "https://www.adzuna.com/land/ad/5923345595?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=E5ED48799850D64CD9747D60A9A8D6AAC6505D74",
+      "posted_at": "2026-10-11T09:36:32Z",
+      "source": "adzuna",
+      "matched_templates": [
+        "NYT_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "NYT_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "media_entertainment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cyber Security Analyst",
+      "company": "FedEx Office",
+      "location": "Cloverdale, Shelby County",
+      "url": "https://www.adzuna.com/land/ad/5923335808?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=DDA14AC91163B9EDE294789F542911487D5D9F2D",
+      "posted_at": "2026-10-11T09:05:35Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Cyber Security Analyst",
+      "company": "CACI International, Inc.",
+      "location": "San Diego, San Diego County",
+      "url": "https://www.adzuna.com/land/ad/5922601415?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=8F528630E5EA473094E7AA21EF0502B2E36C5103",
+      "posted_at": "2026-10-10T19:24:56Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "CHAMP",
+      "location": "Cleveland, Cuyahoga County",
+      "url": "https://www.adzuna.com/land/ad/5922106234?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=FBC260301DD67E2DA15C1122CBA341FFFAEC64C8",
+      "posted_at": "2026-10-10T07:54:23Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "Cobalt Benefits Group LLC",
+      "location": "Manchester, Hillsborough County",
+      "url": "https://www.adzuna.com/details/5921122943?utm_medium=api&utm_source=e9c6b04b",
+      "posted_at": "2026-10-09T15:13:32Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Security Engineer, Incident Response",
+      "company": "Databricks",
+      "location": "United States",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8841960002",
+      "posted_at": "2026-10-08T19:46:49-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Cargill",
+      "location": "Northlake, DeKalb County",
+      "url": "https://www.adzuna.com/land/ad/5919672186?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=32DFFC6B068060BE9456C9E4A6EC5CB5CDD65EA5",
+      "posted_at": "2026-10-08T18:42:07Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst - SAP/GRC",
+      "company": "Cargill",
+      "location": "Northlake, DeKalb County",
+      "url": "https://www.adzuna.com/land/ad/5919502260?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=1AFB3D1F9F436A19FC2E73C4AC6BE0BD930C277E",
+      "posted_at": "2026-10-08T13:36:15Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "HUB International",
+      "location": "US",
+      "url": "https://www.adzuna.com/land/ad/5919081362?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=277A8812CBD7FA7426AB5883CBE7B452BB80F245",
+      "posted_at": "2026-10-08T10:10:14Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Data Security Analyst",
+      "company": "Programmers.io",
+      "location": "Tampa, Hillsborough County",
+      "url": "https://www.adzuna.com/land/ad/5919072489?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=C1B7E69182E5A749A449C286EF4B2140A4ADA042",
+      "posted_at": "2026-10-08T10:07:14Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Cyber Security Analyst",
+      "company": "MANTECH",
+      "location": "Virginia Beach, Virginia Beach City",
+      "url": "https://www.adzuna.com/land/ad/5918286847?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=0546726FC268A8441FA02C1A9111F235165C3688",
+      "posted_at": "2026-10-07T23:03:53Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "On-Demand Group",
+      "location": "Lauderdale, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5917520185?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=2A455D3323C1D93D8969B4CA42B1096E9034A71D",
+      "posted_at": "2026-10-07T14:17:32Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Treasury Security Analyst",
+      "company": "Kforce Technology Staffing",
+      "location": "Fountainebleau, Miami-Dade County",
+      "url": "https://www.adzuna.com/land/ad/5917506233?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=6B91D403AE85BB8BD4EF2EC4DE61CCFE2943F6D9",
+      "posted_at": "2026-10-07T13:59:26Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst",
+      "company": "InfoStride",
+      "location": "Lansing, Ingham County",
+      "url": "https://www.adzuna.com/land/ad/5917056256?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=2B23CA6A9ABA6CE0CF3047E1549DA075E70D436F",
+      "posted_at": "2026-10-07T08:38:16Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Cyber Security Analyst",
+      "company": "CACI International, Inc.",
+      "location": "Chantilly, Fairfax County",
+      "url": "https://www.adzuna.com/land/ad/5917030563?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=E1E0E54AD17249A8072970E678D11BC7970E80F4",
+      "posted_at": "2026-10-07T08:25:59Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Technical Security Analyst",
+      "company": "Judge Group, Inc.",
+      "location": "South Boston, Suffolk County",
+      "url": "https://www.adzuna.com/land/ad/5914923163?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=0D023C5F981471590BC6D0C511E83AEA5BF67256",
+      "posted_at": "2026-10-06T22:00:29Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Intern - Security Analyst",
+      "company": "Midland States Bank",
+      "location": "Saint Louis, Saint Louis County",
+      "url": "https://www.adzuna.com/land/ad/5914241576?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=293910808BD1D6E40BD35EA7FC2839CA9F7BA23E",
+      "posted_at": "2026-10-06T15:37:15Z",
       "source": "adzuna",
       "matched_templates": [
         "Affirm_team_AIassist",
@@ -33,12 +383,82 @@
       ]
     },
     {
-      "title": "Information Security Analyst",
-      "company": "MassMutual",
-      "location": "Springfield, Hampden County",
-      "url": "https://www.adzuna.com/land/ad/5892338292?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=D555090502EAC3E27310D897EDF8752F14F144CF",
-      "posted_at": "2026-09-21T00:08:29Z",
+      "title": "EPIC Security Analyst",
+      "company": "TSR Consulting",
+      "location": "Melville, Suffolk County",
+      "url": "https://www.adzuna.com/land/ad/5914084873?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=362D2E920E05A0463FD71F7FA41D99D688016F19",
+      "posted_at": "2026-10-06T12:31:27Z",
       "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Security Analyst",
+      "company": "TM Floyd & Company",
+      "location": "North Charleston, Charleston County",
+      "url": "https://www.adzuna.com/land/ad/5914076258?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=2E80D8F64578E34075FDF784BF2B0C009144435C",
+      "posted_at": "2026-10-06T12:30:52Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "ConMon Security Analyst",
+      "company": "Prestige Staffing",
+      "location": "Chantilly, Fairfax County",
+      "url": "https://www.adzuna.com/land/ad/5914060643?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=EB0193524E2B24F67822DD7818AED2ECCD275E8E",
+      "posted_at": "2026-10-06T12:29:14Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "SAP Security Analyst",
+      "company": "MSRcosmos LLC",
+      "location": "Charlotte, Mecklenburg County",
+      "url": "https://www.adzuna.com/land/ad/5914052881?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=B9F6330159B367F5C0AB39F329554AC2F712A5E6",
+      "posted_at": "2026-10-06T12:28:25Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "Eliassen Group",
+      "location": "Hyde Park, Hamilton County",
+      "url": "https://www.adzuna.com/land/ad/5912333127?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=55960AB7D487DD012D104C49B3A4AB516F27D9C6",
+      "posted_at": "2026-10-05T06:00:21Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "IT Security Analyst",
+      "company": "Decisionpoint Corporation",
+      "location": "Panama City, Bay County",
+      "url": "https://www.adzuna.com/land/ad/5909675357?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=24049C68C9109C3CEFA7B902FBBF372338EEA167",
+      "posted_at": "2026-10-03T03:59:32Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Security Analyst I",
+      "company": "Kforce Technology Staffing",
+      "location": "Trammells, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5908998965?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=8AD582E4B7ED8A0939449539EF2BF47559E29627",
+      "posted_at": "2026-10-02T20:12:52Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Incident Response Manager",
+      "company": "Stripe",
+      "location": "Ireland, Dublin",
+      "url": "https://stripe.com/jobs/search?gh_jid=8167558",
+      "posted_at": "2026-09-29T08:50:03-04:00",
+      "source": "greenhouse",
       "matched_templates": [
         "Affirm_team_AIassist",
         "Affirm_team_AIautomation"
@@ -64,10 +484,119 @@
     },
     {
       "title": "Information Security Analyst",
-      "company": "INSAIT Solutions",
-      "location": "Alameda Pt, Alameda County",
-      "url": "https://www.adzuna.com/land/ad/5890075149?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=4DC842C4A47628837D7C2FC161B2739B6AAB3A82",
-      "posted_at": "2026-09-18T22:17:41Z",
+      "company": "Cherokee Federal",
+      "location": "Mount Rainier, Prince George's County",
+      "url": "https://www.adzuna.com/land/ad/5897398666?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=A2DB77937231867E558C786B1022A308553A024E",
+      "posted_at": "2026-09-24T18:03:27Z",
+      "source": "adzuna",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Security Engineer, Incident Response",
+      "company": "Databricks",
+      "location": "Belgium; Finland; Remote - Denmark; Remote - France; Remote - Germany; Remote - Italy; Remote - Netherlands; Remote - Spain; Remote - Sweden; Remote - United Kingdom; Switzerland",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8612868002",
+      "posted_at": "2026-09-24T14:17:13-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "AWS_team_AIassist",
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Intermediate Security Analyst, Vulnerability Operations  (North America)",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, United States",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8821526002",
+      "posted_at": "2026-09-24T12:03:09-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "AWS_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "AWS_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "cloud_software"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Incident Response Manager - Privacy",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432528008",
+      "posted_at": "2026-09-23T23:28:43-04:00",
+      "source": "greenhouse",
+      "matched_templates": [
+        "Apple_team_AIassist",
+        "Apple_team_AIautomation",
+        "NYT_team_AIassist"
+      ],
+      "match_explanations": [
+        {
+          "template_id": "Apple_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "Apple_team_AIautomation",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        },
+        {
+          "template_id": "NYT_team_AIassist",
+          "match_type": "industry",
+          "same_firm": false,
+          "shared_industries": [
+            "artificial_intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Information Security Analyst",
+      "company": "Cobalt Benefits Group LLC",
+      "location": "Manchester, Hillsborough County",
+      "url": "https://www.adzuna.com/land/ad/5895032365?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=1A9C4CF5FC5BBAA0580B926736E411AD257FC2F6",
+      "posted_at": "2026-09-23T06:11:01Z",
       "source": "adzuna",
       "matched_templates": [],
       "match_explanations": []
@@ -78,26 +607,6 @@
       "location": "US",
       "url": "https://www.adzuna.com/land/ad/5890065756?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=20F10C9740B3530AABC13D3CC6B9EC8D1C984A71",
       "posted_at": "2026-09-18T22:08:14Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "IT Security Analyst",
-      "company": "Goldenpick Technologies LLC",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5889752871?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=DCD82CD68D6525FAD63681E07E3A01A180319A4D",
-      "posted_at": "2026-09-18T16:18:13Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "Sunrise Systems, Inc.",
-      "location": "West Trenton, Mercer County",
-      "url": "https://www.adzuna.com/land/ad/5889576880?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=7D7DD0E362A9EAFC64113D9D7EF2284253ADF27A",
-      "posted_at": "2026-09-18T12:28:46Z",
       "source": "adzuna",
       "matched_templates": [],
       "match_explanations": []
@@ -123,26 +632,6 @@
       "match_explanations": []
     },
     {
-      "title": "Cyber Security Analyst",
-      "company": "Braintree Technology Solutions",
-      "location": "Jacksonville, Duval County",
-      "url": "https://www.adzuna.com/land/ad/5888543754?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=9B3C6E02F0DF2198105FAC22A1EF34529829B78E",
-      "posted_at": "2026-09-17T22:09:35Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Security Analyst III",
-      "company": "V-Soft Consulting Group, Inc",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5888091926?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=3CDADC92063B37FC59EE2D6E4EEFC4ACC360596E",
-      "posted_at": "2026-09-17T14:13:15Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
       "title": "Senior Security Engineer, Incident Response Team (Australia)",
       "company": "GitLab",
       "location": "Remote, Australia",
@@ -150,8 +639,7 @@
       "posted_at": "2026-09-17T10:19:29-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "AWS_team_AIassist",
-        "Snowflake_team_AIassist"
+        "AWS_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -160,176 +648,6 @@
           "same_firm": false,
           "shared_industries": [
             "cloud_software"
-          ]
-        },
-        {
-          "template_id": "Snowflake_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "MANTECH",
-      "location": "Stafford, Stafford County",
-      "url": "https://www.adzuna.com/land/ad/5887016399?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=0C33E3AFCB1FA0489B70964ED1397544429A7992",
-      "posted_at": "2026-09-16T22:30:00Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Network Security Analyst",
-      "company": "V-CENTRIX-US LLC",
-      "location": "Bee Cave, Travis County",
-      "url": "https://www.adzuna.com/land/ad/5886894601?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=5443627E1DF8911D4F3AA7ABAF2D919C44112B94",
-      "posted_at": "2026-09-16T20:57:22Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Network Security Analyst",
-      "company": "Theron Partners Inc.",
-      "location": "Bee Cave, Travis County",
-      "url": "https://www.adzuna.com/land/ad/5885298161?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=AAE1FCB48E152E20E3B9561D6968B4B4FFFEFB05",
-      "posted_at": "2026-09-15T20:13:05Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "SpaceX",
-      "location": "Redmond, King County",
-      "url": "https://www.adzuna.com/land/ad/5885291465?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=15D15BE87109539E67E2A976741E415B1BB4BDE9",
-      "posted_at": "2026-09-15T20:08:47Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "Tesla_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "Tesla_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "automotive_energy"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Network Security Analyst",
-      "company": "Aivanta Tech Inc",
-      "location": "Texas City, Galveston County",
-      "url": "https://www.adzuna.com/land/ad/5885078226?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=D93AED1E4D2776E780851738D9937359C4CEEDFD",
-      "posted_at": "2026-09-15T15:58:32Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Security Analyst with Security Clearance",
-      "company": "Amentum",
-      "location": "Chantilly, Fairfax County",
-      "url": "https://www.adzuna.com/land/ad/5884992929?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=2F38014BFB1B9348B15761CEAD96D5C903F91828",
-      "posted_at": "2026-09-15T13:51:28Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "Judge Group, Inc.",
-      "location": "Charlotte, Mecklenburg County",
-      "url": "https://www.adzuna.com/land/ad/5884166177?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=04F867A7A57485DCCF72CB78812ABBF515CE23F6",
-      "posted_at": "2026-09-14T21:53:44Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Senior Security Analyst",
-      "company": "Kforce Technology Staffing",
-      "location": "Highland Park, Dallas",
-      "url": "https://www.adzuna.com/land/ad/5883827225?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=A1F4661CFB01C18B044D3B7783C4FBB2594DA42B",
-      "posted_at": "2026-09-14T14:02:17Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Security Analyst with Security Clearance",
-      "company": "Core One",
-      "location": "Fairfax, Fairfax County",
-      "url": "https://www.adzuna.com/land/ad/5880682631?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=5C088FF4B4B40586EF65897A00134FD524A1CC6D",
-      "posted_at": "2026-09-12T01:52:42Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "Strategic Staffing Solutions",
-      "location": "Fort Sam Houston, Bexar County",
-      "url": "https://www.adzuna.com/land/ad/5880098731?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=05CAEDD737DCE24DAD8A9A7B755E297BDF2BFD59",
-      "posted_at": "2026-09-11T15:49:28Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Network Security Analyst",
-      "company": "RedSalsa Technologies, Inc.",
-      "location": "Bee Cave, Travis County",
-      "url": "https://www.adzuna.com/land/ad/5879891809?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=1F2BFC9411C48C60F7BCCB97EA9F072630C4C52E",
-      "posted_at": "2026-09-11T11:49:35Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Network Security Analyst",
-      "company": "ASSYST",
-      "location": "Bee Cave, Travis County",
-      "url": "https://www.adzuna.com/land/ad/5878804088?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=A6A9A36A670CAA9493B1A8387F0E8ED12B16D83D",
-      "posted_at": "2026-09-10T13:49:48Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Network Security Analyst",
-      "company": "ArnAmy, Inc.",
-      "location": "Bee Cave, Travis County",
-      "url": "https://www.adzuna.com/land/ad/5878798249?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=7A4338F596EB0C95F6479829E14E1DA4043C8BAE",
-      "posted_at": "2026-09-10T13:39:25Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst I",
-      "company": "Arrowhead Pharmaceuticals",
-      "location": "Madison, Dane County",
-      "url": "https://www.adzuna.com/land/ad/5878011210?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=6900C92828A3CB61A594636AB893958B2F0EFBDF",
-      "posted_at": "2026-09-10T01:15:23Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "BadBlood_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "BadBlood_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "healthcare"
           ]
         }
       ]
@@ -372,20 +690,11 @@
       "posted_at": "2026-09-09T09:10:36-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "AWS_team_AIassist",
-        "Snowflake_team_AIassist"
+        "AWS_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "AWS_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        },
-        {
-          "template_id": "Snowflake_team_AIassist",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -400,16 +709,6 @@
       "location": "State Farm, Arlington County",
       "url": "https://www.adzuna.com/land/ad/5876788510?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=701C673A83C9371117F6C172BE7A36528DAE8106",
       "posted_at": "2026-09-09T03:47:06Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Economic Security Analyst",
-      "company": "SAIC",
-      "location": "Trade, Alexandria City",
-      "url": "https://www.adzuna.com/land/ad/5871644115?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=171DEA1723D0A7247330CC3EFF311B6F8CE487FA",
-      "posted_at": "2026-09-05T03:29:48Z",
       "source": "adzuna",
       "matched_templates": [],
       "match_explanations": []
@@ -455,61 +754,11 @@
       "match_explanations": []
     },
     {
-      "title": "IT Security Analyst",
-      "company": "SolGenie Technologies, INC",
-      "location": "Campbell, Santa Clara County",
-      "url": "https://www.adzuna.com/land/ad/5867821986?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=D25EBBEDFA20056AE1612B74837307FF69D6759E",
-      "posted_at": "2026-09-02T19:44:36Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "OT SECURITY ANALYST",
-      "company": "Echo IT Solutions, Inc.",
-      "location": "Highland Park, Dallas",
-      "url": "https://www.adzuna.com/land/ad/5865027834?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=8D82CA63DFC6B6E870DA27169ED0DC3516FD848A",
-      "posted_at": "2026-09-01T12:08:36Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "Judge Group, Inc.",
-      "location": "Charlotte, Mecklenburg County",
-      "url": "https://www.adzuna.com/land/ad/5863717065?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=CE68FA803733246E83D7EA01FF8676F9ECB18564",
-      "posted_at": "2026-08-31T22:22:30Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "Judge Group, Inc.",
-      "location": "Charlotte, Mecklenburg County",
-      "url": "https://www.adzuna.com/land/ad/5863716990?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=D13511F57320168745D1D038F003CD3EED5420C1",
-      "posted_at": "2026-08-31T22:22:26Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
       "title": "Security Analyst",
       "company": "Brooksource",
       "location": "Michigan, US",
       "url": "https://www.adzuna.com/land/ad/5863516957?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=A93372E4FACBD1D0B7A9BE071E6690BDC2B4D8DE",
       "posted_at": "2026-08-31T20:17:24Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "Hansen Talent Group",
-      "location": "Pineridge, Lexington County",
-      "url": "https://www.adzuna.com/land/ad/5860039657?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=AD32E21D07DBD92139180055C8F4C1D9EAA3395B",
-      "posted_at": "2026-08-28T16:05:43Z",
       "source": "adzuna",
       "matched_templates": [],
       "match_explanations": []
@@ -525,46 +774,6 @@
       "match_explanations": []
     },
     {
-      "title": "Security Analyst",
-      "company": "NovaLink Solutions",
-      "location": "Fitchburg, Dane County",
-      "url": "https://www.adzuna.com/land/ad/5855405401?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=F32F6DA75A95D57C6F55C6E0B2B165224F680757",
-      "posted_at": "2026-08-25T10:00:31Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "GovCIO",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5854879989?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=1C4FF6BA24771A7AFB7C901DCF1E46ED1E6E8A65",
-      "posted_at": "2026-08-24T22:12:51Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "GovCIO",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5854876476?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=872B786228AFE12105B62FA58A5EA2AB835D8EBB",
-      "posted_at": "2026-08-24T22:09:11Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "GovCIO",
-      "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5854872915?se=MEPrEsy18RGR2aafQSrkEQ&utm_medium=api&utm_source=e9c6b04b&v=A33A5CA01A18286EE4E443504D0F5F9E94C26CBC",
-      "posted_at": "2026-08-24T22:01:33Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
       "title": "Senior Detection Engineer II",
       "company": "Instacart",
       "location": "Canada - Remote (ON, AB, BC, or NS Only)",
@@ -573,8 +782,8 @@
       "source": "greenhouse",
       "matched_templates": [
         "AWS_team_AIassist",
-        "HMA_team_AIassist",
-        "Netflix_team_AIassist"
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
       ],
       "match_explanations": [
         {
@@ -586,19 +795,19 @@
           ]
         },
         {
-          "template_id": "HMA_team_AIassist",
+          "template_id": "RealReal_team_AIassist",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
-            "consumer_subscription"
+            "marketplace_retail"
           ]
         },
         {
-          "template_id": "Netflix_team_AIassist",
+          "template_id": "RealReal_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
-            "consumer_subscription"
+            "marketplace_retail"
           ]
         }
       ]
@@ -612,8 +821,8 @@
       "source": "greenhouse",
       "matched_templates": [
         "AWS_team_AIassist",
-        "HMA_team_AIassist",
-        "Netflix_team_AIassist"
+        "RealReal_team_AIassist",
+        "RealReal_team_AIautomation"
       ],
       "match_explanations": [
         {
@@ -625,25 +834,25 @@
           ]
         },
         {
-          "template_id": "HMA_team_AIassist",
+          "template_id": "RealReal_team_AIassist",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
-            "consumer_subscription"
+            "marketplace_retail"
           ]
         },
         {
-          "template_id": "Netflix_team_AIassist",
+          "template_id": "RealReal_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
-            "consumer_subscription"
+            "marketplace_retail"
           ]
         }
       ]
     },
     {
-      "title": "Security Incident Response Engineer",
+      "title": "Security Analyst",
       "company": "Stripe",
       "location": "US Remote",
       "url": "https://stripe.com/jobs/search?gh_jid=8142302",
@@ -673,31 +882,11 @@
       ]
     },
     {
-      "title": "Cyber Security Analyst",
-      "company": "By Light Professional IT Services",
-      "location": "Fort George G Meade, Anne Arundel County",
-      "url": "https://www.adzuna.com/land/ad/5847073523?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=CE6D9882E06E364D1C070F10ED13D0D13C2056DA",
-      "posted_at": "2026-08-18T12:56:03Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
       "title": "Senior Security Analyst",
       "company": "SAIC",
-      "location": "State Farm, Arlington County",
-      "url": "https://www.adzuna.com/land/ad/5842823964?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=93A518AE50B24EA28B95B91A4508BD00A9F871DD",
+      "location": "Mosby, Fairfax County",
+      "url": "https://www.adzuna.com/land/ad/5842823964?se=1K0lqazI8RGnv4JedLxTEg&utm_medium=api&utm_source=e9c6b04b&v=93A518AE50B24EA28B95B91A4508BD00A9F871DD",
       "posted_at": "2026-08-15T02:47:56Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "Judge Group, Inc.",
-      "location": "Charlotte, Mecklenburg County",
-      "url": "https://www.adzuna.com/land/ad/5839252222?se=nvbKQGip8RGogquEo3zAlQ&utm_medium=api&utm_source=e9c6b04b&v=1C1419709C31A3C7FAA1D062CBA7FF29BCBDA524",
-      "posted_at": "2026-08-12T22:22:04Z",
       "source": "adzuna",
       "matched_templates": [],
       "match_explanations": []
@@ -710,8 +899,7 @@
       "posted_at": "2026-08-12T16:30:08-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "AWS_team_AIassist",
-        "Snowflake_team_AIassist"
+        "AWS_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -721,105 +909,8 @@
           "shared_industries": [
             "cloud_software"
           ]
-        },
-        {
-          "template_id": "Snowflake_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
         }
       ]
-    },
-    {
-      "title": "Security Analyst with Security Clearance",
-      "company": "Empower AI",
-      "location": "Fry, Cochise County",
-      "url": "https://www.adzuna.com/land/ad/5827362812?se=9CrYQIyY8RGJftUyzQ0_4w&utm_medium=api&utm_source=e9c6b04b&v=7E634EDA62CC7FB1DA4D704BC5D3C1ACC66A1361",
-      "posted_at": "2026-08-03T23:37:17Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "Apple_team_AIassist",
-        "Apple_team_AIautomation",
-        "Cerebras_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "Apple_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "artificial_intelligence"
-          ]
-        },
-        {
-          "template_id": "Apple_team_AIautomation",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "artificial_intelligence"
-          ]
-        },
-        {
-          "template_id": "Cerebras_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "artificial_intelligence"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Staff Security Detection Engineer, Machine Learning",
-      "company": "SoFi",
-      "location": "WA - Seattle; CA - San Francisco",
-      "url": "https://sofi.com/careers/job/7818418003?gh_jid=7818418003",
-      "posted_at": "2026-07-30T16:44:26-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Security Analyst with Security Clearance",
-      "company": "Prism, Inc.",
-      "location": "Coraopolis, Allegheny County",
-      "url": "https://www.adzuna.com/land/ad/5820792157?se=9CrYQIyY8RGJftUyzQ0_4w&utm_medium=api&utm_source=e9c6b04b&v=65AFB66C13FDAE4A38B2DF02F73A5100B1F850FC",
-      "posted_at": "2026-07-30T01:24:39Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Security Analyst with Security Clearance",
-      "company": "Agile Defense, Inc.",
-      "location": "Ridgecrest, Kern County",
-      "url": "https://www.adzuna.com/land/ad/5818726015?se=9CrYQIyY8RGJftUyzQ0_4w&utm_medium=api&utm_source=e9c6b04b&v=C32FA36F14DB9EBF1418C7B7C3A55DAB236340D2",
-      "posted_at": "2026-07-28T15:06:33Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
     },
     {
       "title": "IT Security Analyst",
@@ -832,45 +923,6 @@
       "match_explanations": []
     },
     {
-      "title": "Security Engineer, Incident Response",
-      "company": "Peloton",
-      "location": "New York, New York",
-      "url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=8074713",
-      "posted_at": "2026-07-24T15:45:09-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "Apple_team_AIassist",
-        "Apple_team_AIautomation",
-        "HMA_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "Apple_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "consumer_hardware"
-          ]
-        },
-        {
-          "template_id": "Apple_team_AIautomation",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "consumer_hardware"
-          ]
-        },
-        {
-          "template_id": "HMA_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "consumer_subscription"
-          ]
-        }
-      ]
-    },
-    {
       "title": "IT Security Analyst",
       "company": "Decisionpoint Corporation",
       "location": "US",
@@ -881,36 +933,6 @@
       "match_explanations": []
     },
     {
-      "title": "Senior Incident Response Analyst - REACT",
-      "company": "Cloudflare",
-      "location": "Hybrid",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8050511?gh_jid=8050511",
-      "posted_at": "2026-07-16T04:25:45-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "AWS_team_AIassist",
-        "Snowflake_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "AWS_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        },
-        {
-          "template_id": "Snowflake_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        }
-      ]
-    },
-    {
       "title": "Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA",
       "company": "GitLab",
       "location": "Remote, Israel; Remote, Poland; Remote, United Kingdom",
@@ -918,8 +940,7 @@
       "posted_at": "2026-07-10T16:02:45-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "AWS_team_AIassist",
-        "Snowflake_team_AIassist"
+        "AWS_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -928,95 +949,6 @@
           "same_firm": false,
           "shared_industries": [
             "cloud_software"
-          ]
-        },
-        {
-          "template_id": "Snowflake_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Security Analyst with Security Clearance",
-      "company": "Integral Federal",
-      "location": "Fairfax, Fairfax County",
-      "url": "https://www.adzuna.com/land/ad/5782886514?se=DmSPdNGD8RGFMa6bWHzthQ&utm_medium=api&utm_source=e9c6b04b&v=99FFED642655F687FD384F2407157B1E11A262E0",
-      "posted_at": "2026-07-01T01:03:22Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Cyber Security Analyst",
-      "company": "Infinite Computer Solutions",
-      "location": "Minerva Park, Franklin County",
-      "url": "https://www.adzuna.com/land/ad/5781212905?se=9CrYQIyY8RGJftUyzQ0_4w&utm_medium=api&utm_source=e9c6b04b&v=DBF4E117402331C4646F33AAF4C6661F528282FE",
-      "posted_at": "2026-06-29T11:03:13Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "IT Security Analyst",
-      "company": "Decisionpoint Corporation",
-      "location": "Topeka, Shawnee County",
-      "url": "https://www.adzuna.com/land/ad/5775975899?se=DmSPdNGD8RGFMa6bWHzthQ&utm_medium=api&utm_source=e9c6b04b&v=10218E413448DF2119F4C3FDB3E7AA9BEA36C4EA",
-      "posted_at": "2026-06-25T04:21:41Z",
-      "source": "adzuna",
-      "matched_templates": [],
-      "match_explanations": []
-    },
-    {
-      "title": "Incident Response Analyst - React",
-      "company": "Cloudflare",
-      "location": "In-Office",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8025650?gh_jid=8025650",
-      "posted_at": "2026-06-24T08:29:13-04:00",
-      "source": "greenhouse",
-      "matched_templates": [
-        "AWS_team_AIassist",
-        "Snowflake_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "AWS_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        },
-        {
-          "template_id": "Snowflake_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "cloud_software"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "SpaceX",
-      "location": "Texas, US",
-      "url": "https://www.adzuna.com/land/ad/5773529309?se=DmSPdNGD8RGFMa6bWHzthQ&utm_medium=api&utm_source=e9c6b04b&v=4D63E8056CCEF6D605341F5420AAAC918FD89935",
-      "posted_at": "2026-06-23T07:24:31Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "Tesla_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "Tesla_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "automotive_energy"
           ]
         }
       ]
@@ -1061,7 +993,7 @@
       "matched_templates": [
         "Apple_team_AIassist",
         "Apple_team_AIautomation",
-        "Cerebras_team_AIassist"
+        "NYT_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -1081,32 +1013,11 @@
           ]
         },
         {
-          "template_id": "Cerebras_team_AIassist",
+          "template_id": "NYT_team_AIassist",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
             "artificial_intelligence"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Information Security Analyst",
-      "company": "SpaceX",
-      "location": "Hawthorne, Los Angeles County",
-      "url": "https://www.adzuna.com/land/ad/5709764647?se=DmSPdNGD8RGFMa6bWHzthQ&utm_medium=api&utm_source=e9c6b04b&v=3F84795897A89BB11D7C4711489E951B24D0AA99",
-      "posted_at": "2026-04-24T18:15:01Z",
-      "source": "adzuna",
-      "matched_templates": [
-        "Tesla_team_AIassist"
-      ],
-      "match_explanations": [
-        {
-          "template_id": "Tesla_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "automotive_energy"
           ]
         }
       ]
