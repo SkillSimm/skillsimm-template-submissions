@@ -1,6 +1,6 @@
 {
   "family": "security_analyst",
-  "generated_at": "2026-10-15T15:26:52+00:00",
+  "generated_at": "2026-10-15T16:57:53+00:00",
   "postings": [
     {
       "title": "Information Security Analyst",
@@ -223,7 +223,7 @@
       "matched_templates": [
         "AWS_team_AIassist",
         "Apple_team_AIassist",
-        "Apple_team_AIautomation"
+        "NYT_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -243,7 +243,7 @@
           ]
         },
         {
-          "template_id": "Apple_team_AIautomation",
+          "template_id": "NYT_team_AIassist",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -360,20 +360,11 @@
       "posted_at": "2026-10-06T15:37:15Z",
       "source": "adzuna",
       "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
+        "Affirm_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -460,20 +451,11 @@
       "posted_at": "2026-09-29T08:50:03-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
+        "Affirm_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -502,7 +484,7 @@
       "matched_templates": [
         "AWS_team_AIassist",
         "Apple_team_AIassist",
-        "Apple_team_AIautomation"
+        "NYT_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -522,7 +504,7 @@
           ]
         },
         {
-          "template_id": "Apple_team_AIautomation",
+          "template_id": "NYT_team_AIassist",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -561,20 +543,11 @@
       "source": "greenhouse",
       "matched_templates": [
         "Apple_team_AIassist",
-        "Apple_team_AIautomation",
         "NYT_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Apple_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "artificial_intelligence"
-          ]
-        },
-        {
-          "template_id": "Apple_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -660,20 +633,11 @@
       "posted_at": "2026-09-09T17:58:38-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
+        "Affirm_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -721,20 +685,11 @@
       "posted_at": "2026-09-03T13:37:28-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
+        "Affirm_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -782,8 +737,7 @@
       "source": "greenhouse",
       "matched_templates": [
         "AWS_team_AIassist",
-        "RealReal_team_AIassist",
-        "RealReal_team_AIautomation"
+        "RealReal_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -796,14 +750,6 @@
         },
         {
           "template_id": "RealReal_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "marketplace_retail"
-          ]
-        },
-        {
-          "template_id": "RealReal_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -821,8 +767,7 @@
       "source": "greenhouse",
       "matched_templates": [
         "AWS_team_AIassist",
-        "RealReal_team_AIassist",
-        "RealReal_team_AIautomation"
+        "RealReal_team_AIassist"
       ],
       "match_explanations": [
         {
@@ -840,14 +785,6 @@
           "shared_industries": [
             "marketplace_retail"
           ]
-        },
-        {
-          "template_id": "RealReal_team_AIautomation",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "marketplace_retail"
-          ]
         }
       ]
     },
@@ -859,20 +796,11 @@
       "posted_at": "2026-08-19T16:33:11-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
+        "Affirm_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -961,20 +889,11 @@
       "posted_at": "2026-06-15T06:28:33-04:00",
       "source": "greenhouse",
       "matched_templates": [
-        "Affirm_team_AIassist",
-        "Affirm_team_AIautomation"
+        "Affirm_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Affirm_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "fintech"
-          ]
-        },
-        {
-          "template_id": "Affirm_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [
@@ -992,20 +911,11 @@
       "source": "greenhouse",
       "matched_templates": [
         "Apple_team_AIassist",
-        "Apple_team_AIautomation",
         "NYT_team_AIassist"
       ],
       "match_explanations": [
         {
           "template_id": "Apple_team_AIassist",
-          "match_type": "industry",
-          "same_firm": false,
-          "shared_industries": [
-            "artificial_intelligence"
-          ]
-        },
-        {
-          "template_id": "Apple_team_AIautomation",
           "match_type": "industry",
           "same_firm": false,
           "shared_industries": [

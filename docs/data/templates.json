@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:26:52+00:00",
+  "generated_at": "2026-10-15T16:57:53+00:00",
   "templates": [
     {
       "template_id": "AWS_team_AIassist",
@@ -24,31 +24,9 @@
       "step_count": 14
     },
     {
-      "template_id": "Affirm_team_AIautomation",
-      "title": "Operations & Business Model · Affirm FY2025 · Team + AI Automation",
-      "url": "https://app.skillsimm.com/templates/Affirm_team_AIautomation",
-      "domain": "entrepreneurship",
-      "industry": "fintech / consumer payments and lending",
-      "difficulty": "intermediate",
-      "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
-    },
-    {
       "template_id": "Apple_team_AIassist",
       "title": "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AIassist",
       "url": "https://app.skillsimm.com/templates/Apple_team_AIassist",
-      "domain": "entrepreneurship",
-      "industry": "consumer hardware / artificial intelligence",
-      "difficulty": "intermediate",
-      "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
-    },
-    {
-      "template_id": "Apple_team_AIautomation",
-      "title": "Intellectual Property Protection · Apple v. OpenAI (2026) · Team + AI Automation",
-      "url": "https://app.skillsimm.com/templates/Apple_team_AIautomation",
       "domain": "entrepreneurship",
       "industry": "consumer hardware / artificial intelligence",
       "difficulty": "intermediate",
@@ -145,17 +123,6 @@
       "step_count": 14
     },
     {
-      "template_id": "NYT_team_AIautomation",
-      "title": "Legal Structure · NYT v. Microsoft & OpenAI (2023) · Team + AI Automation",
-      "url": "https://app.skillsimm.com/templates/NYT_team_AIautomation",
-      "domain": "entrepreneurship",
-      "industry": "media / artificial intelligence",
-      "difficulty": "intermediate",
-      "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
-    },
-    {
       "template_id": "Netflix_team_AIassist",
       "title": "Creative Thinking · Netflix FY2007 · Team + AIassist",
       "url": "https://app.skillsimm.com/templates/Netflix_team_AIassist",
@@ -164,23 +131,12 @@
       "difficulty": "intermediate",
       "duration_minutes": 40,
       "team_size": 5,
-      "step_count": 21
+      "step_count": 20
     },
     {
       "template_id": "RealReal_team_AIassist",
       "title": "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AIassist",
       "url": "https://app.skillsimm.com/templates/RealReal_team_AIassist",
-      "domain": "entrepreneurship",
-      "industry": "luxury resale / online marketplace",
-      "difficulty": "intermediate",
-      "duration_minutes": 40,
-      "team_size": 6,
-      "step_count": 14
-    },
-    {
-      "template_id": "RealReal_team_AIautomation",
-      "title": "Marketing Research & the Value Chain · TheRealReal FY2025 · Team + AI Automation",
-      "url": "https://app.skillsimm.com/templates/RealReal_team_AIautomation",
       "domain": "entrepreneurship",
       "industry": "luxury resale / online marketplace",
       "difficulty": "intermediate",

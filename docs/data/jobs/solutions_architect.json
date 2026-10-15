@@ -1,0 +1,616 @@
+{
+  "family": "solutions_architect",
+  "generated_at": "2026-10-15T16:57:53+00:00",
+  "postings": [
+    {
+      "title": "Senior Software Engineer, Backend (Retail DEX)",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "url": "https://www.coinbase.com/careers/positions/8243520?gh_jid=8243520",
+      "posted_at": "2026-10-13T11:12:12-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Solutions Architect, AI",
+      "company": "Stripe",
+      "location": "NYC, SF, or Chicago",
+      "url": "https://stripe.com/jobs/search?gh_jid=8248509",
+      "posted_at": "2026-10-08T15:18:12-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Software Engineer, Retirement Financial Platform",
+      "company": "Gusto, Inc.",
+      "location": "Austin, TX - Remote; Burlingame, CA - Hybrid; Chicago, IL - Remote; Denver, CO - Hybrid; Los Angeles, CA - Remote; Miami, FL - Remote; New York, NY - Hybrid; San Francisco, CA - Hybrid; Seattle, WA - Remote",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8205075",
+      "posted_at": "2026-10-01T18:51:13-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Professional Services Technical Architect - West",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, United States",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8857335002",
+      "posted_at": "2026-09-30T14:29:11-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Android Engineer, Pick & Deliver",
+      "company": "Instacart",
+      "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+      "url": "https://instacart.careers/job/?gh_jid=8237987",
+      "posted_at": "2026-09-29T12:54:22-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Software Engineer, Retirement Money Planning",
+      "company": "Gusto, Inc.",
+      "location": "Burlingame, CA - Hybrid; Denver, CO - Hybrid; New York, NY - Hybrid; San Francisco, CA - Hybrid",
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8205624",
+      "posted_at": "2026-09-25T18:46:39-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Software Engineer- Blockchain Platform (Wallets, Liquidity & Bridging)",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "url": "https://www.coinbase.com/careers/positions/8204215?gh_jid=8204215",
+      "posted_at": "2026-09-24T11:28:40-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Engineer, Professional Services",
+      "company": "Cloudflare",
+      "location": "Distributed",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8043305?gh_jid=8043305",
+      "posted_at": "2026-09-23T15:27:31-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Enterprise Architect",
+      "company": "GitLab",
+      "location": "Remote, United States",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8828009002",
+      "posted_at": "2026-09-22T18:09:29-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Principal Engineer, AI Platform",
+      "company": "Pinterest",
+      "location": "San Francisco, CA, US; Remote, US",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7683977",
+      "posted_at": "2026-09-22T14:14:17-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Software Engineer, International",
+      "company": "ramp",
+      "location": "London, UK",
+      "url": "https://jobs.ashbyhq.com/ramp/009dc18b-26a3-4fac-a773-c60d742cf840",
+      "posted_at": "2026-09-16T20:44:49.227+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Engineering Manager, Cooperative Systems",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/241154df-ab1a-4dfa-8b18-66e087d1e636",
+      "posted_at": "2026-09-12T03:19:39.860+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Partner Engineer",
+      "company": "Cloudflare",
+      "location": "Distributed",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8173956?gh_jid=8173956",
+      "posted_at": "2026-09-11T15:23:51-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Applied AI Engineer, Codex",
+      "company": "openai",
+      "location": "London, UK",
+      "url": "https://jobs.ashbyhq.com/openai/32425ea6-a64b-408d-ae54-38342b83c875",
+      "posted_at": "2026-09-11T07:44:32.667+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Engineering Manager, International",
+      "company": "Robinhood",
+      "location": "Toronto, Canada",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8175215?t=gh_src=&gh_jid=8175215",
+      "posted_at": "2026-09-10T16:42:31-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Money Management Demand Generation Manager, Americas",
+      "company": "Stripe",
+      "location": "South San Francisco HQ, Seattle",
+      "url": "https://stripe.com/jobs/search?gh_jid=8187278",
+      "posted_at": "2026-09-08T18:43:55-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "Datadog",
+      "location": "Madrid, Spain",
+      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
+      "posted_at": "2026-09-08T10:04:29-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Customer Engineer, Majors - Bentoville, AR",
+      "company": "Cloudflare",
+      "location": "Distributed",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8172246?gh_jid=8172246",
+      "posted_at": "2026-09-04T11:29:11-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Field Engineer, Healthcare",
+      "company": "cursor",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/cursor/1cfacf1a-4ba7-4e68-9f65-4fb8e3525bde",
+      "posted_at": "2026-09-04T07:10:56.962+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Software Engineer (Institutional, FCM)",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "url": "https://www.coinbase.com/careers/positions/8154342?gh_jid=8154342",
+      "posted_at": "2026-09-04T02:45:15-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Sr. Solutions Architect - Agencies",
+      "company": "Databricks",
+      "location": "Northeast - United States",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8758645002",
+      "posted_at": "2026-08-31T11:08:58-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Engineering Manager - Fintech",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8143511?gh_jid=8143511",
+      "posted_at": "2026-08-28T12:08:07-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Applied AI Architect, Strategic Enterprise Tech",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409008008",
+      "posted_at": "2026-08-27T19:58:06-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Sr. Manager, Field Engineering",
+      "company": "Databricks",
+      "location": "Chicago, Illinois; Connecticut; New Jersey; Remote - New York; Remote - Washington D.C.; San Francisco, California",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732052002",
+      "posted_at": "2026-08-20T14:31:31-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Customer Engineer, SLED South West (Southern California or Arizona)",
+      "company": "Cloudflare",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8142219?gh_jid=8142219",
+      "posted_at": "2026-08-19T17:15:23-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Applied AI Architect, Industries",
+      "company": "Anthropic",
+      "location": "London, UK",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390765008",
+      "posted_at": "2026-08-19T10:26:21-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Sr. Staff Software Engineer, Pinterest Assistant",
+      "company": "Pinterest",
+      "location": "San Francisco, CA, US; Remote, US",
+      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8088867",
+      "posted_at": "2026-08-10T12:17:06-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Backend Engineer (Ruby), AI Engineering: DAP Repository Flows",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, United States",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8646573002",
+      "posted_at": "2026-08-07T21:00:24-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Engineer (FDE), Healthcare - SF",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/d8b894e3-c399-4303-a708-3cef8ff5c1a2",
+      "posted_at": "2026-08-06T00:06:53.894+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Backend Engineer, Deployment Environments",
+      "company": "GitLab",
+      "location": "Remote, Canada; Remote, United Kingdom",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636713002",
+      "posted_at": "2026-07-21T06:55:36-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Partner Manager, Global Health",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5310996008",
+      "posted_at": "2026-07-09T13:50:10-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Solutions Architect",
+      "company": "Databricks",
+      "location": "Munich, Germany",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8608603002",
+      "posted_at": "2026-07-01T09:43:01-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Software Engineer, Internship - Commercial",
+      "company": "palantir",
+      "location": "Chicago, IL",
+      "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+      "posted_at": "2026-06-30T20:01:06.026000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Researcher, Alignment CoT Monitorability",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/82492010-ea96-449d-9949-b726b1a22616",
+      "posted_at": "2026-06-29T17:56:09.817+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Solutions Architect",
+      "company": "Databricks",
+      "location": "Seoul, South Korea",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8607718002",
+      "posted_at": "2026-06-26T05:27:00-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Software Engineer",
+      "company": "Coinbase",
+      "location": "Remote - Israel",
+      "url": "https://www.coinbase.com/careers/positions/8021650?gh_jid=8021650",
+      "posted_at": "2026-06-24T15:15:38-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Security Reliability Engineer",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/a368e0b4-2027-4d73-b45b-8a6a9b06c77b",
+      "posted_at": "2026-06-23T20:59:53.147+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Machine Learning Engineer, Assistance Engineering",
+      "company": "Airbnb",
+      "location": "San Francisco, CA",
+      "url": "https://careers.airbnb.com/positions/8024316?gh_jid=8024316",
+      "posted_at": "2026-06-23T18:20:45-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Applied AI Architect",
+      "company": "openai",
+      "location": "Seoul, South Korea",
+      "url": "https://jobs.ashbyhq.com/openai/ad06299f-d4e2-4de6-a925-b2e94b3c1d0b",
+      "posted_at": "2026-06-19T07:59:27.591+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Full Stack Software Engineer, ChatGPT Finances",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/39e06ef9-5e62-425d-81e2-e8690188011f",
+      "posted_at": "2026-06-15T18:16:20.513+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Principal Customer Engineer, Majors",
+      "company": "Cloudflare",
+      "location": "Distributed",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7967144?gh_jid=7967144",
+      "posted_at": "2026-06-12T04:02:11-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "company": "Coinbase",
+      "location": "Remote - India",
+      "url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
+      "posted_at": "2026-06-10T10:56:02-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Software Engineer - Hosted Model Infrastructure",
+      "company": "palantir",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a",
+      "posted_at": "2026-06-03T19:38:18.769000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Software Engineer, Internship",
+      "company": "palantir",
+      "location": "Paris, France",
+      "url": "https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a",
+      "posted_at": "2026-05-06T11:47:58.850000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Customer Engineer, Majors, Raleigh, NC",
+      "company": "Cloudflare",
+      "location": "Distributed",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/7864156?gh_jid=7864156",
+      "posted_at": "2026-05-01T10:24:59-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Partner Engineer, Azure",
+      "company": "Databricks",
+      "location": "New York City, New York; San Francisco, California; Seattle, Washington",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8508943002",
+      "posted_at": "2026-04-15T23:00:35-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Software Engineer, Foundations Search",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/40ed6975-ef61-4807-b748-37c2fa2b76c7",
+      "posted_at": "2026-04-14T15:52:27.521+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Product Manager, Affirm Bank",
+      "company": "Affirm",
+      "location": "Remote US",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7694938003",
+      "posted_at": "2026-04-14T10:44:54-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Manager, Safety AI",
+      "company": "Samsara",
+      "location": "Remote - US",
+      "url": "https://www.samsara.com/company/careers/roles/7731751?gh_jid=7731751",
+      "posted_at": "2026-04-06T16:27:18-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Lead Machine Learning Engineer - ML Infrastructure",
+      "company": "Samsara",
+      "location": "Remote - Canada",
+      "url": "https://www.samsara.com/company/careers/roles/7746586?gh_jid=7746586",
+      "posted_at": "2026-03-24T12:52:22-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
+      "posted_at": "2025-12-09T17:20:34-05:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Tech Lead Manager- MLRE, ML Systems",
+      "company": "Scale AI",
+      "location": "San Francisco, CA; New York, NY",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005",
+      "posted_at": "2025-10-10T14:00:40-04:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Backend Software Engineer - Infrastructure",
+      "company": "palantir",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7",
+      "posted_at": "2025-08-06T19:28:07.190000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Staff Software Engineer - Search Platform",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7841778002",
+      "posted_at": "2025-01-31T11:21:16-05:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Researcher, Safety Oversight",
+      "company": "openai",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/openai/9b11373c-1643-4ea6-bbcd-033d5b8a0d3e",
+      "posted_at": "2025-01-28T16:12:01.888+00:00",
+      "source": "ashby",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Senior Front End Software Engineer - Application Development",
+      "company": "palantir",
+      "location": "London, United Kingdom",
+      "url": "https://jobs.lever.co/palantir/4e7d0732-f477-4c7a-aac9-abd62f8c9987",
+      "posted_at": "2024-08-07T02:11:24.764000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Engineering Manager - Core Experiences",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7006090002",
+      "posted_at": "2023-12-16T10:42:04-05:00",
+      "source": "greenhouse",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Software Engineer",
+      "company": "palantir",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "url": "https://jobs.lever.co/palantir/90aa8748-3fef-4e2b-9ea9-c4dc5f37f0d2",
+      "posted_at": "2022-10-05T17:24:59.942000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Software Engineer, New Grad - US Government",
+      "company": "palantir",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+      "posted_at": "2022-06-30T22:50:16.107000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Software Engineer",
+      "company": "palantir",
+      "location": "Vilnius, Lithuania",
+      "url": "https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9",
+      "posted_at": "2022-01-26T23:55:32.430000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    },
+    {
+      "title": "Forward Deployed Software Engineer",
+      "company": "palantir",
+      "location": "Munich, Germany",
+      "url": "https://jobs.lever.co/palantir/a8eb96f4-e39b-4c0f-b42e-610165b88f34",
+      "posted_at": "2021-02-12T23:39:20.732000+00:00",
+      "source": "lever",
+      "matched_templates": [],
+      "match_explanations": []
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:26:52+00:00",
+  "generated_at": "2026-10-15T16:57:53+00:00",
   "templates": {
     "AWS_team_AIassist": [
       "account_manager",
@@ -21,27 +21,7 @@
       "risk_compliance_manager",
       "security_analyst"
     ],
-    "Affirm_team_AIautomation": [
-      "account_manager",
-      "cloud_data_engineer",
-      "data_engineer",
-      "financial_analyst",
-      "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
-    ],
     "Apple_team_AIassist": [
-      "account_manager",
-      "cloud_data_engineer",
-      "data_engineer",
-      "financial_analyst",
-      "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
-    ],
-    "Apple_team_AIautomation": [
       "account_manager",
       "cloud_data_engineer",
       "data_engineer",
@@ -112,7 +92,6 @@
       "risk_compliance_manager",
       "security_analyst"
     ],
-    "NYT_team_AIautomation": [],
     "Netflix_team_AIassist": [
       "account_manager",
       "cloud_data_engineer",
@@ -122,16 +101,6 @@
       "product_manager"
     ],
     "RealReal_team_AIassist": [
-      "account_manager",
-      "cloud_data_engineer",
-      "data_engineer",
-      "financial_analyst",
-      "platform_engineer",
-      "product_manager",
-      "risk_compliance_manager",
-      "security_analyst"
-    ],
-    "RealReal_team_AIautomation": [
       "account_manager",
       "cloud_data_engineer",
       "data_engineer",

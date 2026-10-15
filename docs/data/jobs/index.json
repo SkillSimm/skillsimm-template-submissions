@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:26:52+00:00",
+  "generated_at": "2026-10-15T16:57:53+00:00",
   "families": [
     {
       "family": "financial_analyst",
@@ -9,7 +9,7 @@
     {
       "family": "data_analyst",
       "postings": 74,
-      "companies": 48
+      "companies": 49
     },
     {
       "family": "security_analyst",
@@ -17,44 +17,44 @@
       "companies": 46
     },
     {
-      "family": "account_manager",
-      "postings": 5,
-      "companies": 3
+      "family": "ai_solutions_architect",
+      "postings": 50,
+      "companies": 21
     },
     {
-      "family": "cloud_data_engineer",
-      "postings": 28,
-      "companies": 15
+      "family": "cloud_engineer",
+      "postings": 92,
+      "companies": 24
     },
     {
-      "family": "data_engineer",
-      "postings": 10,
-      "companies": 2
-    },
-    {
-      "family": "data_scientist",
-      "postings": 30,
-      "companies": 10
-    },
-    {
-      "family": "machine_learning_engineer",
-      "postings": 10,
-      "companies": 2
-    },
-    {
-      "family": "platform_engineer",
-      "postings": 23,
-      "companies": 1
+      "family": "data_analyst_discovered",
+      "postings": 178,
+      "companies": 34
     },
     {
       "family": "product_manager",
-      "postings": 80,
+      "postings": 65,
+      "companies": 24
+    },
+    {
+      "family": "risk_analyst",
+      "postings": 31,
+      "companies": 16
+    },
+    {
+      "family": "sales_executive",
+      "postings": 68,
       "companies": 20
     },
     {
-      "family": "risk_compliance_manager",
-      "postings": 14,
-      "companies": 1
+      "family": "sales_operations_manager",
+      "postings": 42,
+      "companies": 22
+    },
+    {
+      "family": "solutions_architect",
+      "postings": 61,
+      "companies": 19
     }
   ]
 }
