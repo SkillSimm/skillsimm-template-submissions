@@ -1,0 +1,174 @@
+{
+  "stage_index": 0,
+  "stage_id": "comprehension",
+  "name": "Stage 1 — Establish the Company’s Position",
+  "description": "Functional executives: consult the colleague named in your question. CEO: ask each executive, “What is your recommendation, and why is your question important for the company to resolve?” You have no separate comprehension submission.",
+  "estimated_duration_minutes": 8,
+  "stage_manipulation": "Distributed executive evidence; decisions require consultation across functions.",
+  "sign_off_rule": null,
+  "dependencies": [],
+  "parallel_with": [],
+  "context_brief_template": "Functional executives: consult the colleague named in your question. CEO: ask each executive, “What is your recommendation, and why is your question important for the company to resolve?” You have no separate comprehension submission. Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+  "tasks": [
+    {
+      "task_id": "comp_cfo",
+      "participant_slot": 1,
+      "name": "Chief Financial Officer (CFO) · Establish the company's position",
+      "type": "human",
+      "role": "cfo",
+      "hitl_prompt": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the COO's private briefing and one from the CTO's. Consult the COO and the CTO before answering.",
+      "required_fields": [
+        "comp_cfo"
+      ],
+      "field_schema": {
+        "comp_cfo": {
+          "type": "select",
+          "label": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the COO's private briefing and one from the CTO's. Consult the COO and the CTO before answering.",
+          "options": [
+            "Option A — the correct answer, written as a full sentence with its reasoning",
+            "Option B — a plausible mistake (e.g. uses only one colleague's fact)",
+            "Option C — a second plausible mistake",
+            "Option D — a third plausible mistake"
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "ai_answer": {
+        "correct": "Option A — the correct answer, written as a full sentence with its reasoning",
+        "wrong": "Option B — a plausible mistake (e.g. uses only one colleague's fact)"
+      },
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.075,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "ui_options": {
+        "information_requests": true
+      }
+    },
+    {
+      "task_id": "comp_cmo",
+      "participant_slot": 2,
+      "name": "Chief Marketing Officer (CMO) · Establish the company's position",
+      "type": "human",
+      "role": "cmo",
+      "hitl_prompt": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the CTO's private briefing and one from the COO's. Consult the CTO and the COO before answering.",
+      "required_fields": [
+        "comp_cmo"
+      ],
+      "field_schema": {
+        "comp_cmo": {
+          "type": "select",
+          "label": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the CTO's private briefing and one from the COO's. Consult the CTO and the COO before answering.",
+          "options": [
+            "Option A — the correct answer, written as a full sentence with its reasoning",
+            "Option B — a plausible mistake (e.g. uses only one colleague's fact)",
+            "Option C — a second plausible mistake",
+            "Option D — a third plausible mistake"
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "ai_answer": {
+        "correct": "Option A — the correct answer, written as a full sentence with its reasoning",
+        "wrong": "Option B — a plausible mistake (e.g. uses only one colleague's fact)"
+      },
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.075,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "ui_options": {
+        "information_requests": true
+      }
+    },
+    {
+      "task_id": "comp_coo",
+      "participant_slot": 3,
+      "name": "Chief Operating Officer (COO) · Establish the company's position",
+      "type": "human",
+      "role": "coo",
+      "hitl_prompt": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the CFO's private briefing and one from the CMO's. Consult the CFO and the CMO before answering.",
+      "required_fields": [
+        "comp_coo"
+      ],
+      "field_schema": {
+        "comp_coo": {
+          "type": "select",
+          "label": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the CFO's private briefing and one from the CMO's. Consult the CFO and the CMO before answering.",
+          "options": [
+            "Option A — the correct answer, written as a full sentence with its reasoning",
+            "Option B — a plausible mistake (e.g. uses only one colleague's fact)",
+            "Option C — a second plausible mistake",
+            "Option D — a third plausible mistake"
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "ai_answer": {
+        "correct": "Option A — the correct answer, written as a full sentence with its reasoning",
+        "wrong": "Option B — a plausible mistake (e.g. uses only one colleague's fact)"
+      },
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.075,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "ui_options": {
+        "information_requests": true
+      }
+    },
+    {
+      "task_id": "comp_cto",
+      "participant_slot": 4,
+      "name": "Chief Technology Officer (CTO) · Establish the company's position",
+      "type": "human",
+      "role": "cto",
+      "hitl_prompt": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the CFO's private briefing and one from the CMO's. Consult the CFO and the CMO before answering.",
+      "required_fields": [
+        "comp_cto"
+      ],
+      "field_schema": {
+        "comp_cto": {
+          "type": "select",
+          "label": "PLACEHOLDER — write a question this executive can only answer by combining one fact from the CFO's private briefing and one from the CMO's. Consult the CFO and the CMO before answering.",
+          "options": [
+            "Option A — the correct answer, written as a full sentence with its reasoning",
+            "Option B — a plausible mistake (e.g. uses only one colleague's fact)",
+            "Option C — a second plausible mistake",
+            "Option D — a third plausible mistake"
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "ai_answer": {
+        "correct": "Option A — the correct answer, written as a full sentence with its reasoning",
+        "wrong": "Option B — a plausible mistake (e.g. uses only one colleague's fact)"
+      },
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.075,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "ui_options": {
+        "information_requests": true
+      }
+    }
+  ]
+}

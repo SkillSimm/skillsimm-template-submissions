@@ -1,0 +1,194 @@
+{
+  "stage_kind": "survey_post",
+  "stage_id": "post_survey",
+  "name": "Before you go",
+  "description": "Two unscored questions about the session.",
+  "estimated_duration_minutes": 2,
+  "dependencies": [
+    "priority_ranking"
+  ],
+  "parallel_with": [],
+  "sign_off_rule": null,
+  "tasks": [
+    {
+      "task_id": "post_survey_cfo",
+      "participant_slot": 1,
+      "name": "Before you go",
+      "type": "human",
+      "role": "cfo",
+      "hitl_prompt": "Two quick questions. Your teammates never see your answers, and nothing here is scored.",
+      "required_fields": [
+        "post_confidence"
+      ],
+      "field_schema": {
+        "post_confidence": {
+          "type": "likert",
+          "label": "How confident are you in the decision your team reached?",
+          "scale": 7,
+          "min_label": "Not at all confident",
+          "max_label": "Extremely confident",
+          "required": true
+        },
+        "post_learning": {
+          "type": "textarea",
+          "label": "What is one thing you would do differently next time?",
+          "required": false
+        }
+      },
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "requires_review": false,
+      "behavioral_signals": [],
+      "materials_required": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false,
+        "submit_label": "Finish"
+      }
+    },
+    {
+      "task_id": "post_survey_cmo",
+      "participant_slot": 2,
+      "name": "Before you go",
+      "type": "human",
+      "role": "cmo",
+      "hitl_prompt": "Two quick questions. Your teammates never see your answers, and nothing here is scored.",
+      "required_fields": [
+        "post_confidence"
+      ],
+      "field_schema": {
+        "post_confidence": {
+          "type": "likert",
+          "label": "How confident are you in the decision your team reached?",
+          "scale": 7,
+          "min_label": "Not at all confident",
+          "max_label": "Extremely confident",
+          "required": true
+        },
+        "post_learning": {
+          "type": "textarea",
+          "label": "What is one thing you would do differently next time?",
+          "required": false
+        }
+      },
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "requires_review": false,
+      "behavioral_signals": [],
+      "materials_required": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false,
+        "submit_label": "Finish"
+      }
+    },
+    {
+      "task_id": "post_survey_coo",
+      "participant_slot": 3,
+      "name": "Before you go",
+      "type": "human",
+      "role": "coo",
+      "hitl_prompt": "Two quick questions. Your teammates never see your answers, and nothing here is scored.",
+      "required_fields": [
+        "post_confidence"
+      ],
+      "field_schema": {
+        "post_confidence": {
+          "type": "likert",
+          "label": "How confident are you in the decision your team reached?",
+          "scale": 7,
+          "min_label": "Not at all confident",
+          "max_label": "Extremely confident",
+          "required": true
+        },
+        "post_learning": {
+          "type": "textarea",
+          "label": "What is one thing you would do differently next time?",
+          "required": false
+        }
+      },
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "requires_review": false,
+      "behavioral_signals": [],
+      "materials_required": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false,
+        "submit_label": "Finish"
+      }
+    },
+    {
+      "task_id": "post_survey_cto",
+      "participant_slot": 4,
+      "name": "Before you go",
+      "type": "human",
+      "role": "cto",
+      "hitl_prompt": "Two quick questions. Your teammates never see your answers, and nothing here is scored.",
+      "required_fields": [
+        "post_confidence"
+      ],
+      "field_schema": {
+        "post_confidence": {
+          "type": "likert",
+          "label": "How confident are you in the decision your team reached?",
+          "scale": 7,
+          "min_label": "Not at all confident",
+          "max_label": "Extremely confident",
+          "required": true
+        },
+        "post_learning": {
+          "type": "textarea",
+          "label": "What is one thing you would do differently next time?",
+          "required": false
+        }
+      },
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "requires_review": false,
+      "behavioral_signals": [],
+      "materials_required": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false,
+        "submit_label": "Finish"
+      }
+    },
+    {
+      "task_id": "post_survey_ceo",
+      "participant_slot": 5,
+      "name": "Before you go",
+      "type": "human",
+      "role": "ceo",
+      "hitl_prompt": "Two quick questions. Your teammates never see your answers, and nothing here is scored.",
+      "required_fields": [
+        "post_confidence"
+      ],
+      "field_schema": {
+        "post_confidence": {
+          "type": "likert",
+          "label": "How confident are you in the decision your team reached?",
+          "scale": 7,
+          "min_label": "Not at all confident",
+          "max_label": "Extremely confident",
+          "required": true
+        },
+        "post_learning": {
+          "type": "textarea",
+          "label": "What is one thing you would do differently next time?",
+          "required": false
+        }
+      },
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "requires_review": false,
+      "behavioral_signals": [],
+      "materials_required": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false,
+        "submit_label": "Finish"
+      }
+    }
+  ]
+}

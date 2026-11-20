@@ -1,0 +1,95 @@
+{
+  "stage_index": 2,
+  "stage_id": "priority_ranking",
+  "name": "Stage 3 — CEO: Set Company Priorities",
+  "description": "Rank the importance of the four executive questions. Explain your first priority using information shared by an executive. There is no weighting or separate approval decision.",
+  "estimated_duration_minutes": 12,
+  "stage_manipulation": "Distributed executive evidence; decisions require consultation across functions.",
+  "sign_off_rule": null,
+  "dependencies": [
+    "functional_decisions"
+  ],
+  "parallel_with": [],
+  "context_brief_template": "Rank the importance of the four executive questions. Explain your first priority using information shared by an executive. There is no weighting or separate approval decision. Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+  "tasks": [
+    {
+      "task_id": "priority_ranking",
+      "participant_slot": 5,
+      "name": "Chief Executive Officer (CEO) · Set Company Priorities",
+      "type": "human",
+      "role": "ceo",
+      "hitl_prompt": "As CEO, rank the four questions from most to least important for this company to still be worth eating at when it has 300 Shacks. Discuss your executives’ recommendations before setting the company’s priorities. Ask each executive: “What is your recommendation, which colleague’s constraint does it depend on, and why is your question important for the company to resolve?” You receive their answers through team chat, not automatic summaries.\n\nChief Financial Officer (CFO) · Unit economics\nAverage unit volume has fallen from $5,367 thousand to $5,017 to $4,611 over three years, and Shack-level operating profit margin from 25.6% to 24.0%, while the count went from 21 to 63. The filing warns that as you leave Manhattan, “we may not be able to maintain our current average unit volumes.” What test does a new Shack have to pass?\nA. Company-operate only where the unit test passes, and license everywhere else so somebody else carries the capital.\nB. Open as fast as we can while the brand is hot; the falling average is just a mix effect and it’ll settle.\nC. Every site has to clear our return and payback test on its own before we sign the lease — and if that means opening fewer, we open fewer.\nD. Accept the lower average as the price of scale — total profit dollars are still going up.\n\nChief Marketing Officer (CMO) · The brand\nThe brand was built on a single kiosk in Madison Square Park, no traditional advertising, and enough free product placement that the company “has been able to charge fees for these location shoots.” Same-Shack sales growth has slowed from 7.1% to 4.1%. How do you handle the brand as the footprint leaves New York?\nA. Keep leaning on the free coverage and product placement — it’s worked so far and it costs us nothing.\nB. Build a deliberate national brand now, because most people outside New York have never heard of us.\nC. Start advertising nationally to push traffic and get same-Shack sales back up.\nD. Keep every Shack designed for its own location and community — the moment they all look the same we’re just another burger chain.\n\nChief Operating Officer (COO) · The dial\nYou operate 31 Shacks yourself at home and license 27 internationally. In the Middle East your licensee “delegates the supply function to its own third-party logistics providers… with which we have limited and restricted communication, preventing us from exercising control.” Where should the dial sit?\nA. Start licensing domestically too — it’s the quickest way to add units without spending our own capital.\nB. Operate them ourselves at home where we control the experience, license only where we genuinely can’t operate — and fix the supply-chain control in the licence terms.\nC. Operate everything ourselves, including internationally, now that we have the money to do it.\nD. License harder to grow faster on somebody else’s capital, but tighten the standards and audit them properly.\n\nChief Technology Officer (CTO) · Visibility\nYou have a supply chain in the Middle East you cannot see into, you measure success by “Shack-level operating profit margins, cash-on-cash returns and payback periods”, and 32 of your 63 Shacks are run by other companies. What do you build?\nA. Build the reporting so we can see supply chain and unit economics in every Shack — including the ones we don’t own. You can’t hold anyone to a standard you can’t see.\nB. Build it properly for our own Shacks first, then extend it to licensees as contracts come up for renewal.\nC. Buy standard restaurant systems off the shelf — this isn’t where we should be spending engineering effort.\nD. Leave licensees to run their own systems — they’re independent operators and that’s the point of licensing.",
+      "required_fields": [
+        "rank_1",
+        "rank_2",
+        "rank_3",
+        "rank_4",
+        "rank1_reason"
+      ],
+      "field_schema": {
+        "rank_1": {
+          "type": "select",
+          "label": "#1 — most important",
+          "options": [
+            "Unit economics — what a new Shack must earn",
+            "The brand — staying special while scaling",
+            "The dial — what we operate vs. what we license",
+            "Visibility — the systems that let us see every Shack"
+          ],
+          "required": true
+        },
+        "rank_2": {
+          "type": "select",
+          "label": "#2 — company priority",
+          "options": [
+            "Unit economics — what a new Shack must earn",
+            "The brand — staying special while scaling",
+            "The dial — what we operate vs. what we license",
+            "Visibility — the systems that let us see every Shack"
+          ],
+          "required": true
+        },
+        "rank_3": {
+          "type": "select",
+          "label": "#3 — company priority",
+          "options": [
+            "Unit economics — what a new Shack must earn",
+            "The brand — staying special while scaling",
+            "The dial — what we operate vs. what we license",
+            "Visibility — the systems that let us see every Shack"
+          ],
+          "required": true
+        },
+        "rank_4": {
+          "type": "select",
+          "label": "#4 — company priority",
+          "options": [
+            "Unit economics — what a new Shack must earn",
+            "The brand — staying special while scaling",
+            "The dial — what we operate vs. what we license",
+            "Visibility — the systems that let us see every Shack"
+          ],
+          "required": true
+        },
+        "rank1_reason": {
+          "type": "textarea",
+          "label": "Why should your first-ranked question take priority? Refer to information two executives shared, say where the company should sit on the dial (what it operates and what it licenses), and name one thing a Shack must be able to do before someone else is allowed to run one.",
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.2,
+      "requires_review": false,
+      "behavioral_signals": [
+        "manager"
+      ],
+      "ui_options": {
+        "require_rationale": false,
+        "information_requests": true
+      }
+    }
+  ]
+}

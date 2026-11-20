@@ -1,0 +1,76 @@
+{
+  "stage_index": 1,
+  "stage_id": "work",
+  "name": "Work together",
+  "description": "Use team chat to talk to the local session. Send /end before completing the outcome.",
+  "dependencies": [
+    "open"
+  ],
+  "tasks": [
+    {
+      "task_id": "session_log",
+      "participant_slot": 2,
+      "name": "Session log",
+      "type": "human",
+      "role": "local_session",
+      "hitl_prompt": "Session log",
+      "field_schema": {
+        "summary": {
+          "type": "textarea",
+          "label": "Last session summary",
+          "required": true
+        }
+      },
+      "required_fields": [
+        "summary"
+      ],
+      "review_type": "none",
+      "requires_review": false,
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "materials_required": [],
+      "behavioral_signals": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false
+      }
+    },
+    {
+      "task_id": "session_end",
+      "participant_slot": 1,
+      "name": "End the session",
+      "type": "human",
+      "role": "operator",
+      "hitl_prompt": "End the session",
+      "field_schema": {
+        "outcome": {
+          "type": "textarea",
+          "label": "Outcome",
+          "required": true
+        },
+        "remaining": {
+          "type": "textarea",
+          "label": "What is left?",
+          "required": true
+        }
+      },
+      "required_fields": [
+        "outcome",
+        "remaining"
+      ],
+      "review_type": "none",
+      "requires_review": false,
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "materials_required": [],
+      "behavioral_signals": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false
+      }
+    }
+  ],
+  "parallel_with": [],
+  "sign_off_rule": null,
+  "estimated_duration_minutes": 0
+}

@@ -5,6 +5,11 @@
     python scripts/new_template.py --slug log-analysis-triage \
         --title "Log Analysis Triage" --family security_analyst
     python scripts/new_template.py --slug log-analysis-triage --from-gap gap:log-analysis
+    python scripts/new_template.py --slug my-exec-case --from-example team-decision
+
+--from-example copies a starter from examples/ (app format: template.json +
+stages/*.json) into templates/<slug>/ and gives it its own template_id. Without
+it, the script writes the YAML lite format below.
 
 Generates templates/<slug>/ (template.yaml, steps.yaml, grading.yaml,
 metadata.yaml, creator.yaml, README.md, LICENSE.md) prefilled from the matching
@@ -15,7 +20,9 @@ placeholder content, keep it passing, open a PR.
 from __future__ import annotations
 
 import argparse
+import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -163,6 +170,35 @@ def gap_entry(slug: str) -> dict | None:
     return None
 
 
+EXAMPLES = {"team-decision": "team-decision-starter", "session-desk": "session-desk-starter"}
+
+
+def copy_example(name: str, slug: str, title, author: str, force: bool) -> int:
+    src = REPO / "examples" / EXAMPLES[name]
+    dest = REPO / "templates" / slug
+    if dest.exists() and any(dest.iterdir()):
+        if not force:
+            print(f"{dest} already exists (use --force to overwrite)", file=sys.stderr)
+            return 2
+        shutil.rmtree(dest)
+    shutil.copytree(src, dest)
+    master_path = dest / "template.json"
+    master = json.loads(master_path.read_text(encoding="utf-8"))
+    master["template_id"] = slug.replace("-", "_")
+    master["version"] = "1.0.0"
+    if title:
+        master["name"] = title
+    master.setdefault("metadata", {})["author"] = author
+    tags = [t for t in master["metadata"].get("tags", []) if t != "example"]
+    master["metadata"]["tags"] = tags
+    master_path.write_text(json.dumps(master, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"  copied examples/{EXAMPLES[name]} -> templates/{slug}/")
+    print(f"\nNext: work through templates/{slug}/README.md, then validate:\n"
+          f"  python scripts/validate_package.py templates/{slug}\n"
+          f"Submit as a PR on branch publish/{slug} (see CONTRIBUTING.md).")
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -172,6 +208,8 @@ def main(argv=None) -> int:
                     help="job family (e.g. security_analyst) — used in metadata/tags")
     ap.add_argument("--from-gap", default=None, metavar="gap:SLUG",
                     help="prefill from this GAPS.md entry")
+    ap.add_argument("--from-example", default=None, choices=sorted(EXAMPLES),
+                    help="copy an app-format starter from examples/ instead of writing YAML")
     ap.add_argument("--author", default="Your Name")
     ap.add_argument("--force", action="store_true", help="overwrite an existing folder")
     args = ap.parse_args(argv)
@@ -179,6 +217,8 @@ def main(argv=None) -> int:
     if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", args.slug):
         print("--slug must be kebab-case (a-z, 0-9, hyphens)", file=sys.stderr)
         return 2
+    if args.from_example:
+        return copy_example(args.from_example, args.slug, args.title, args.author, args.force)
 
     gap_item, family, why = None, args.family, ""
     if args.from_gap:

@@ -1,0 +1,52 @@
+{
+  "stage_index": 0,
+  "stage_id": "open",
+  "name": "Open the session",
+  "description": "Set the goal and approval boundaries.",
+  "dependencies": [],
+  "tasks": [
+    {
+      "task_id": "session_goal",
+      "participant_slot": 1,
+      "name": "What is this session for?",
+      "type": "human",
+      "role": "operator",
+      "hitl_prompt": "What is this session for?",
+      "field_schema": {
+        "goal": {
+          "type": "textarea",
+          "label": "Goal",
+          "required": true
+        },
+        "folder": {
+          "type": "textarea",
+          "label": "Repository or folder",
+          "required": true
+        },
+        "approvals": {
+          "type": "textarea",
+          "label": "What needs your approval?",
+          "required": true
+        }
+      },
+      "required_fields": [
+        "goal",
+        "folder",
+        "approvals"
+      ],
+      "review_type": "none",
+      "requires_review": false,
+      "evaluation_point": false,
+      "evaluation_weight": 0,
+      "materials_required": [],
+      "behavioral_signals": [],
+      "ui_options": {
+        "require_rationale": false,
+        "show_confidence": false
+      }
+    }
+  ],
+  "parallel_with": [],
+  "sign_off_rule": null,
+  "estimated_duration_minutes": 0
+}

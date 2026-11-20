@@ -1,0 +1,65 @@
+{
+  "scoring_overview": {
+    "total_points": 100,
+    "objective_block": 90,
+    "process_block": 0,
+    "custom_scoring_module": null,
+    "note": "Placeholder weights: Stage 1 4 × 7.5, Stage 2 4 × 10, CEO ranking 20. Put the criteria here; send the actual keys privately to your reviewer."
+  },
+  "criteria": {
+    "comp_cfo": {
+      "weight": 0.075,
+      "rubric": "Describe what a correct answer shows (no key here).",
+      "scored_by": "instructor",
+      "stage": "comprehension"
+    },
+    "comp_cmo": {
+      "weight": 0.075,
+      "rubric": "Describe what a correct answer shows (no key here).",
+      "scored_by": "instructor",
+      "stage": "comprehension"
+    },
+    "comp_coo": {
+      "weight": 0.075,
+      "rubric": "Describe what a correct answer shows (no key here).",
+      "scored_by": "instructor",
+      "stage": "comprehension"
+    },
+    "comp_cto": {
+      "weight": 0.075,
+      "rubric": "Describe what a correct answer shows (no key here).",
+      "scored_by": "instructor",
+      "stage": "comprehension"
+    },
+    "financial_decision": {
+      "weight": 0.1,
+      "rubric": "Describe what makes a decision consistent with the constraints colleagues hold (no key here).",
+      "scored_by": "instructor",
+      "stage": "functional_decisions"
+    },
+    "marketing_decision": {
+      "weight": 0.1,
+      "rubric": "Describe what makes a decision consistent with the constraints colleagues hold (no key here).",
+      "scored_by": "instructor",
+      "stage": "functional_decisions"
+    },
+    "operation_decision": {
+      "weight": 0.1,
+      "rubric": "Describe what makes a decision consistent with the constraints colleagues hold (no key here).",
+      "scored_by": "instructor",
+      "stage": "functional_decisions"
+    },
+    "tech_decision": {
+      "weight": 0.1,
+      "rubric": "Describe what makes a decision consistent with the constraints colleagues hold (no key here).",
+      "scored_by": "instructor",
+      "stage": "functional_decisions"
+    },
+    "priority_ranking": {
+      "weight": 0.2,
+      "rubric": "Describe what a well-reasoned ranking does (no key here). The reason field is unscored.",
+      "scored_by": "instructor",
+      "stage": "priority_ranking"
+    }
+  }
+}

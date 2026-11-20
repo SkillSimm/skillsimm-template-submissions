@@ -1,0 +1,96 @@
+{
+  "template_id": "example_session_desk",
+  "name": "Example · Session Desk (operator + local AI session)",
+  "version": "1.0.0",
+  "team_size": 2,
+  "study_format": "short",
+  "ai_chat_enabled": false,
+  "group_communication_allowed": true,
+  "timing": {
+    "enabled": false
+  },
+  "privacy": {
+    "encrypt_participant_contacts": true
+  },
+  "staffing": {
+    "allowed_sizes": [
+      2,
+      1
+    ],
+    "human_seat_order": [
+      1,
+      2
+    ],
+    "vacant_seat": "pool",
+    "start": {
+      "min_humans": 1
+    },
+    "desk_teams": {
+      "operator_seat": 1,
+      "session_seat": 2
+    }
+  },
+  "lens_assignments": [
+    {
+      "member_slot": 1,
+      "lens": "Operator",
+      "goal": "Direct the session and approve work."
+    },
+    {
+      "member_slot": 2,
+      "lens": "Local session",
+      "goal": "Relay the local Claude session."
+    }
+  ],
+  "stages_dir": "stages/",
+  "materials_dir": "materials/",
+  "evaluation_config": "evaluation/rubric.json",
+  "coordination": {
+    "version": "1.0",
+    "routing": {
+      "takeover": {
+        "enabled": true,
+        "auto_release_seconds": 0,
+        "leader_only": false
+      }
+    },
+    "review": {
+      "required": false,
+      "assign": "any_peer"
+    },
+    "contacts": {
+      "default": "same_stage",
+      "max_people": 1,
+      "rules": []
+    },
+    "nudges": []
+  },
+  "materials": [
+    {
+      "name": "How this desk works",
+      "path": "materials/how_this_desk_works.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "What the operator and the session seat each do."
+    }
+  ],
+  "metadata": {
+    "visibility": "private",
+    "author": "Your name",
+    "domain": "technology",
+    "task_type": "production",
+    "scoring_type": "none",
+    "license": "CC-BY-4.0",
+    "research_ready": false,
+    "tags": [
+      "session-desk",
+      "local-agent",
+      "example"
+    ],
+    "team_size": {
+      "min": 1,
+      "max": 2
+    },
+    "verified_by_skillsimm": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_comment": "Shape only. The app reads evaluation/reference_decisions.json (keyed by task name) to auto-score select answers. Do NOT commit real keys to this public repo — send them to your reviewer, who adds the file privately.",
+  "Chief Financial Officer (CFO) · Unit economics": {
+    "optimal_decision": "<the option text that earns full credit>",
+    "scoring_map": {
+      "<option text>": 100,
+      "<another option text>": 0
+    }
+  }
+}

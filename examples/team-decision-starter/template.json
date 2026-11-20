@@ -1,0 +1,323 @@
+{
+  "template_id": "example_team_decision",
+  "name": "Example · Shake Shack FY2014 · Executive Team + AI coach",
+  "version": "1.0.0",
+  "team_size": 5,
+  "study_format": "long",
+  "ai_chat_enabled": true,
+  "ai_chat_policy": "coach",
+  "group_communication_allowed": true,
+  "ai_answer_randomization": {
+    "enabled": true,
+    "p_support": 0.5,
+    "p_correct": 0.5
+  },
+  "privacy": {
+    "encrypt_case_contacts": true,
+    "encrypt_participant_contacts": true
+  },
+  "staffing": {
+    "allowed_sizes": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "human_seat_order": [
+      5,
+      1,
+      2,
+      3,
+      4
+    ],
+    "vacant_seat": "pool",
+    "information_integrator_slot": 5,
+    "vacant_functions": "pool",
+    "start": {
+      "min_humans": 1
+    }
+  },
+  "stages_dir": "stages/",
+  "materials_dir": "materials/",
+  "skills_dir": "skills/",
+  "evaluation_config": "evaluation/rubric.json",
+  "lens_assignments": [
+    {
+      "member_slot": 1,
+      "lens": "Chief Financial Officer (CFO)",
+      "goal": "Average unit volume has fallen from $5,367 thousand to $5,017 to $4,611 over three years, and Shack-level operating profit margin from 25.6% to 24.0%, while the count went from 21 to 63. The filing warns that as you leave Manhattan, “we may not be able to maintain our current average unit volumes.” What test does a new Shack have to pass?"
+    },
+    {
+      "member_slot": 2,
+      "lens": "Chief Marketing Officer (CMO)",
+      "goal": "The brand was built on a single kiosk in Madison Square Park, no traditional advertising, and enough free product placement that the company “has been able to charge fees for these location shoots.” Same-Shack sales growth has slowed from 7.1% to 4.1%. How do you handle the brand as the footprint leaves New York?"
+    },
+    {
+      "member_slot": 3,
+      "lens": "Chief Operating Officer (COO)",
+      "goal": "You operate 31 Shacks yourself at home and license 27 internationally. In the Middle East your licensee “delegates the supply function to its own third-party logistics providers… with which we have limited and restricted communication, preventing us from exercising control.” Where should the dial sit?"
+    },
+    {
+      "member_slot": 4,
+      "lens": "Chief Technology Officer (CTO)",
+      "goal": "You have a supply chain in the Middle East you cannot see into, you measure success by “Shack-level operating profit margins, cash-on-cash returns and payback periods”, and 32 of your 63 Shacks are run by other companies. What do you build?"
+    },
+    {
+      "member_slot": 5,
+      "lens": "Chief Executive Officer (CEO)",
+      "goal": "Ask each executive for their recommendation, which colleague’s constraint it depends on, and why their question matters. Rank the four executive questions and explain your first priority using information shared in team chat. You receive no private briefings or automatic executive answers. The four executive questions are: Chief Financial Officer (CFO): Average unit volume has fallen from $5,367 thousand to $5,017 to $4,611 over three years, and Shack-level operating profit margin from 25.6% to 24.0%, while the count went from 21 to 63. The filing warns that as you leave Manhattan, “we may not be able to maintain our current average unit volumes.” What test does a new Shack have to pass? Chief Marketing Officer (CMO): The brand was built on a single kiosk in Madison Square Park, no traditional advertising, and enough free product placement that the company “has been able to charge fees for these location shoots.” Same-Shack sales growth has slowed from 7.1% to 4.1%. How do you handle the brand as the footprint leaves New York? Chief Operating Officer (COO): You operate 31 Shacks yourself at home and license 27 internationally. In the Middle East your licensee “delegates the supply function to its own third-party logistics providers… with which we have limited and restricted communication, preventing us from exercising control.” Where should the dial sit? Chief Technology Officer (CTO): You have a supply chain in the Middle East you cannot see into, you measure success by “Shack-level operating profit margins, cash-on-cash returns and payback periods”, and 32 of your 63 Shacks are run by other companies. What do you build?"
+    }
+  ],
+  "coordination": {
+    "version": "1.1",
+    "routing": {
+      "takeover": {
+        "auto_release_seconds": 0,
+        "leader_role": "ceo"
+      }
+    },
+    "review": {
+      "required": false,
+      "assign": "none"
+    },
+    "contacts": {
+      "default": "same_stage",
+      "max_people": 4,
+      "rules": [
+        {
+          "for_slot": 1,
+          "suggest_slots": [
+            2,
+            3,
+            4
+          ],
+          "prompt": "Consult the other executives before deciding; explain your recommendation to the CEO."
+        },
+        {
+          "for_slot": 2,
+          "suggest_slots": [
+            1,
+            3,
+            4
+          ],
+          "prompt": "Consult the other executives before deciding; explain your recommendation to the CEO."
+        },
+        {
+          "for_slot": 3,
+          "suggest_slots": [
+            1,
+            2,
+            4
+          ],
+          "prompt": "Consult the other executives before deciding; explain your recommendation to the CEO."
+        },
+        {
+          "for_slot": 4,
+          "suggest_slots": [
+            1,
+            2,
+            3
+          ],
+          "prompt": "Consult the other executives before deciding; explain your recommendation to the CEO."
+        },
+        {
+          "for_slot": 5,
+          "suggest_slots": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "prompt": "Ask each executive what they recommend and why their question matters for the company. If a seat is empty, its task waits in the team queue: take it yourself or move it to a colleague from the workflow map."
+        }
+      ]
+    },
+    "nudges": [
+      {
+        "id": "executive_exchange",
+        "when": "idle_on_task_seconds",
+        "value": 180,
+        "say": "Ask a colleague for the information your company decision depends on, then share your recommendation in team chat."
+      }
+    ],
+    "escalation": {
+      "notify_facilitator_after_blocked_seconds": 1200
+    }
+  },
+  "materials": [
+    {
+      "name": "Chief Financial Officer (CFO) — Private Briefing",
+      "path": "materials/1_cfo_briefing.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "Only the CFO sees this: the evidence and assumptions this executive holds.",
+      "audience": {
+        "slots": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "Chief Marketing Officer (CMO) — Private Briefing",
+      "path": "materials/2_cmo_briefing.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "Only the CMO sees this: the evidence and assumptions this executive holds.",
+      "audience": {
+        "slots": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "Chief Operating Officer (COO) — Private Briefing",
+      "path": "materials/3_coo_briefing.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "Only the COO sees this: the evidence and assumptions this executive holds.",
+      "audience": {
+        "slots": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "Chief Technology Officer (CTO) — Private Briefing",
+      "path": "materials/4_cto_briefing.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "Only the CTO sees this: the evidence and assumptions this executive holds.",
+      "audience": {
+        "slots": [
+          4
+        ]
+      }
+    },
+    {
+      "name": "Company Brief — Executive Team",
+      "path": "materials/common_brief.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "Setting, shared figures and each executive's responsibility. Open to the whole team."
+    },
+    {
+      "name": "Public source document",
+      "path": "materials/source_document.md",
+      "mime": "text/markdown",
+      "visibility": "all_stages",
+      "description": "Placeholder for the public filing or case the figures come from (Shak uses the FY2014 10-K)."
+    }
+  ],
+  "metadata": {
+    "visibility": "private",
+    "verified_by_skillsimm": false,
+    "domain": "entrepreneurship",
+    "industry": "restaurants / franchising",
+    "difficulty": "advanced",
+    "duration_minutes": 50,
+    "task_type": "decision",
+    "scoring_type": "rubric",
+    "license": "CC-BY-4.0",
+    "author": "Your name",
+    "research_ready": false,
+    "tags": [
+      "franchising",
+      "licensing",
+      "unit-economics",
+      "standardization",
+      "restaurants",
+      "control",
+      "example"
+    ],
+    "learning_goals": [
+      "Place a growing company on the Standardization–Autonomy Dial and say what each position trades.",
+      "Test a unit before replicating it: replication multiplies whatever the unit already is.",
+      "See why a standard nobody can observe is not a standard.",
+      "Combine constraints held by two colleagues before committing a functional decision.",
+      "Prioritise four conflicting decisions in a company whose count is rising while its unit weakens."
+    ],
+    "ai_modes": [
+      "team"
+    ],
+    "team_size": {
+      "min": 1,
+      "max": 5
+    }
+  },
+  "ai_mediation": {
+    "enabled": true,
+    "p_available": 0.5,
+    "questions": {
+      "comp_cfo": {
+        "target_slots": [
+          3,
+          4
+        ],
+        "suggested_request": "COO and CTO: what does each of your options cost?"
+      },
+      "comp_cmo": {
+        "target_slots": [
+          4,
+          3
+        ],
+        "suggested_request": "CTO and COO: which of your options reach every Shack?"
+      },
+      "comp_coo": {
+        "target_slots": [
+          1,
+          2
+        ],
+        "suggested_request": "CFO and CMO: what limits or costs should I plan around?"
+      },
+      "comp_cto": {
+        "target_slots": [
+          1,
+          2
+        ],
+        "suggested_request": "CFO and CMO: what limits or costs should I plan around?"
+      },
+      "financial_decision": {
+        "target_slots": [
+          3,
+          4,
+          2
+        ],
+        "suggested_request": "COO: how does your plan change what a new Shack must earn?"
+      },
+      "marketing_decision": {
+        "target_slots": [
+          3,
+          1,
+          4
+        ],
+        "suggested_request": "COO: which Shacks will we run ourselves?"
+      },
+      "operation_decision": {
+        "target_slots": [
+          4,
+          1,
+          2
+        ],
+        "suggested_request": "CTO: what can your systems see in licensed Shacks?"
+      },
+      "tech_decision": {
+        "target_slots": [
+          3,
+          1,
+          2
+        ],
+        "suggested_request": "COO: what will your systems have to check?"
+      },
+      "priority_ranking": {
+        "target_slots": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "suggested_request": "What is your recommendation, whose constraint does it depend on, and why does it matter?"
+      }
+    }
+  }
+}

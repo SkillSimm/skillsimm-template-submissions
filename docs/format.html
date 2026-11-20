@@ -16,6 +16,7 @@
         <a href="index.html">Home</a>
         <a href="jobs.html">Jobs &amp; sims</a>
         <a href="create.html">Create</a>
+        <a href="edit.html">Start from an example</a>
         <a href="format.html" aria-current="page">Format</a>
         <a href="https://github.com/SkillSimm/skillsimm-template-submissions">GitHub</a>
       </nav>
@@ -28,13 +29,93 @@
       <p class="lede">
         Reference for reviewers and hands-on creators. If you're creating
         through the <a href="create.html">structured report</a>, you never
-        touch these files — the AI interview builds them for you. Machine-readable
-        schemas live in
-        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/schemas"><code>schemas/</code></a>.
+        touch these files — the AI interview builds them for you.
       </p>
 
-      <h2>Package layout</h2>
-      <p>Each simulation is one folder under <code>templates/</code>:</p>
+      <p>Two formats are accepted. The <code>validate</code> check picks the right one for each folder:</p>
+      <ul>
+        <li><a href="#app-format"><strong>App format</strong></a> — <code>template.json</code> +
+          <code>stages/*.json</code>. What SkillSimm runs, and what the
+          <a href="edit.html">starters</a> use. Use it when you edit by hand.</li>
+        <li><a href="#lite-format"><strong>Lite format</strong></a> — <code>template.yaml</code> +
+          <code>steps.yaml</code>. What the AI/MCP path produces. Machine-readable schemas live in
+          <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/schemas"><code>schemas/</code></a>.</li>
+      </ul>
+
+      <h2 id="app-format">App format (template.json + stages/)</h2>
+<pre><code>templates/
+  your-template-slug/
+    template.json          # settings for the whole simulation
+    stages/
+      01_first_stage.json  # one file per stage, run in name order
+      02_next_stage.json
+    materials/             # what participants read (md, pdf, html, txt, csv)
+    skills/                # AI coach instructions, plain English (optional)
+    evaluation/rubric.json # what good answers look like (optional)
+    README.md              # for reviewers: what it teaches, how it works
+</code></pre>
+      <p>
+        Copy a starter from
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/examples"><code>examples/</code></a>
+        rather than starting empty. Step-by-step: <a href="edit.html">Start from an example</a>.
+      </p>
+
+      <h3>template.json</h3>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Key</th><th>Required</th><th>Meaning</th></tr>
+        <tr><td><code>template_id</code></td><td>yes</td><td>Unique id, the folder slug with <code>_</code> for <code>-</code></td></tr>
+        <tr><td><code>name</code></td><td>yes</td><td>Display name</td></tr>
+        <tr><td><code>team_size</code></td><td>yes</td><td>Number of seats</td></tr>
+        <tr><td><code>version</code></td><td>no</td><td>Semver; defaults to 1.0.0. Bump it when you change the template</td></tr>
+        <tr><td><code>lens_assignments</code></td><td>no</td><td>Per seat: <code>member_slot</code>, <code>lens</code> (title), <code>goal</code></td></tr>
+        <tr><td><code>staffing</code></td><td>no</td><td><code>allowed_sizes</code>, <code>human_seat_order</code> (who gets seated first), <code>vacant_functions: "pool"</code> (empty seats' tasks go to the leader), <code>start.min_humans</code></td></tr>
+        <tr><td><code>materials</code></td><td>no</td><td>List of <code>{name, path, mime, visibility, description, audience?}</code>; <code>audience.slots</code> makes a file private to those seats</td></tr>
+        <tr><td><code>ai_chat_enabled</code>, <code>ai_chat_policy</code></td><td>no</td><td>AI assistant in chat on/off; <code>"coach"</code> coaches without answering</td></tr>
+        <tr><td><code>ai_answer_randomization</code></td><td>no</td><td><code>{enabled, p_support, p_correct}</code> — how often cards show an AI suggestion, and how often it is right</td></tr>
+        <tr><td><code>ai_mediation</code></td><td>no</td><td>Per task: which seats the AI may ask on the participant's behalf, and the suggested request</td></tr>
+        <tr><td><code>group_communication_allowed</code></td><td>no</td><td>Team chat on/off</td></tr>
+        <tr><td><code>coordination</code></td><td>no</td><td><code>routing.takeover</code> (who may take over a task), <code>contacts</code> (who to ask), <code>nudges</code>, <code>escalation</code> (alert the facilitator)</td></tr>
+        <tr><td><code>timing</code></td><td>no</td><td><code>{enabled: false}</code> for no time limit</td></tr>
+        <tr><td><code>privacy</code></td><td>no</td><td><code>encrypt_participant_contacts</code>, <code>encrypt_case_contacts</code></td></tr>
+        <tr><td><code>stages_dir</code>, <code>materials_dir</code>, <code>skills_dir</code>, <code>evaluation_config</code></td><td>no</td><td>Folder and file locations (defaults shown in the starters)</td></tr>
+        <tr><td><code>metadata</code></td><td>no</td><td><code>domain</code>, <code>industry</code>, <code>difficulty</code>, <code>duration_minutes</code>, <code>scoring_type</code>, <code>license</code>, <code>author</code>, <code>tags</code>, <code>learning_goals</code>, <code>team_size {min, max}</code></td></tr>
+      </table>
+      </div>
+
+      <h3>stages/NN_name.json</h3>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Key</th><th>Meaning</th></tr>
+        <tr><td><code>stage_id</code></td><td>Unique id</td></tr>
+        <tr><td><code>name</code>, <code>description</code></td><td>Shown on the stage rail and to the AI coach</td></tr>
+        <tr><td><code>dependencies</code></td><td>Stage ids that must finish first</td></tr>
+        <tr><td><code>stage_kind</code></td><td><code>"survey_pre"</code> / <code>"survey_post"</code> for unscored surveys placed first / last</td></tr>
+        <tr><td><code>estimated_duration_minutes</code></td><td>Planning estimate</td></tr>
+        <tr><td><code>tasks</code></td><td>The cards in this stage (below)</td></tr>
+      </table>
+      </div>
+
+      <h3>Task (one card)</h3>
+      <div class="table-scroll">
+      <table>
+        <tr><th>Key</th><th>Meaning</th></tr>
+        <tr><td><code>task_id</code></td><td>Unique across the template</td></tr>
+        <tr><td><code>participant_slot</code>, <code>role</code></td><td>Which seat does it</td></tr>
+        <tr><td><code>type</code></td><td><code>"human"</code> for a person's card; <code>"auto"</code> for an AI step</td></tr>
+        <tr><td><code>name</code>, <code>hitl_prompt</code></td><td>Card title and question</td></tr>
+        <tr><td><code>field_schema</code></td><td>The answer fields: <code>select</code>, <code>multi_select</code>, <code>textarea</code>, <code>text</code>, <code>number</code>, <code>likert</code>; each with <code>label</code>, <code>options</code> where needed, <code>required</code></td></tr>
+        <tr><td><code>required_fields</code></td><td>Field names that must be filled; each must be in <code>field_schema</code></td></tr>
+        <tr><td><code>ai_guidance_skill</code></td><td>Path to the coach file in <code>skills/</code></td></tr>
+        <tr><td><code>ai_answer</code></td><td><code>{correct, wrong}</code> — the AI suggestion shown on the card; each must equal an option exactly</td></tr>
+        <tr><td><code>chat_context_override</code></td><td>Extra instructions to the AI coach for this card</td></tr>
+        <tr><td><code>evaluation_point</code>, <code>evaluation_weight</code></td><td>Scored or not, and its share of the total</td></tr>
+        <tr><td><code>ui_options</code></td><td>e.g. <code>information_requests</code>, <code>submit_label</code></td></tr>
+      </table>
+      </div>
+
+      <h2 id="lite-format">Lite format (AI/MCP submissions)</h2>
+      <p>The structured-report path produces one folder under <code>templates/</code>:</p>
 <pre><code>templates/
   your-template-slug/
     template.yaml          # identity: id, title, objective, audience, roles, team size
@@ -47,11 +128,11 @@
     LICENSE.md             # license text
 </code></pre>
       <p>
-        The reference package to copy from:
-        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/templates/consumer-complaint-escalation"><code>consumer-complaint-escalation</code></a>.
+        Scaffold one with
+        <code>python scripts/new_template.py --slug your-template-slug</code>.
       </p>
 
-      <h2>template.yaml</h2>
+      <h3>template.yaml</h3>
       <div class="table-scroll">
       <table>
         <tr><th>Field</th><th>Required</th><th>Meaning</th></tr>
@@ -67,7 +148,7 @@
       </table>
       </div>
 
-      <h2>steps.yaml — one entry per step</h2>
+      <h3>steps.yaml — one entry per step</h3>
       <div class="table-scroll">
       <table>
         <tr><th>Field</th><th>Required</th><th>Meaning</th></tr>
@@ -118,7 +199,7 @@
       </table>
       </div>
 
-      <h2>metadata.yaml &amp; creator.yaml</h2>
+      <h3>metadata.yaml &amp; creator.yaml</h3>
       <p>
         <code>metadata.yaml</code> carries discovery info: <code>domain</code>,
         <code>industry</code>, <code>difficulty</code>,
@@ -135,9 +216,14 @@
       <p>
         Every pull request runs
         <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/scripts/validate_package.py"><code>scripts/validate_package.py</code></a>
-        over all packages: schema conformance, step-id uniqueness,
-        <code>depends_on</code> references, and grading-rule completeness per
-        the decision tree above. Run it locally before opening a PR:
+        over every folder in <code>templates/</code> and <code>examples/</code>.
+        App-format folders are checked for valid JSON, unique stage and task ids,
+        known stage dependencies, seat numbers within <code>team_size</code>,
+        required fields that exist, AI answers that match an option, and files
+        that exist. Lite-format folders are checked for schema conformance, step-id
+        uniqueness, <code>depends_on</code> references and grading-rule completeness.
+        Run it locally before opening a PR (lite format needs
+        <code>pip install pydantic pyyaml</code>):
       </p>
 <pre><code>python scripts/validate_package.py templates/&lt;your-slug&gt;</code></pre>
     </div>

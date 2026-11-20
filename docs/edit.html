@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start from an example — SkillSimm Simulation Hub</title>
+  <meta name="description" content="Build a SkillSimm simulation without ChatGPT or Claude: copy a starter template on GitHub, edit it in your browser, submit a pull request, then set up and run it.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html">Skill<span>Simm</span> Simulation Hub</a>
+      <nav class="site">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs &amp; sims</a>
+        <a href="create.html">Create</a>
+        <a href="edit.html" aria-current="page">Start from an example</a>
+        <a href="format.html">Format</a>
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Start from an example — no AI needed</h1>
+      <p class="lede">
+        Don't have ChatGPT or Claude? Copy a working template, change the words
+        and settings in your browser, and submit it for review. All you need is a
+        free GitHub account.
+      </p>
+
+      <div class="callout">
+        <strong>The whole process:</strong> pick a starter → copy it into your own
+        folder on GitHub → edit it in the browser → open a pull request → the
+        <code>validate</code> check and a reviewer help you fix anything → SkillSimm
+        test-runs and publishes it → you (or anyone) set up a run.
+      </div>
+
+      <h2><span class="stepnum">1</span>Pick a starter</h2>
+      <p>
+        Both starters are copies of templates that run on SkillSimm today. They
+        show the range: a five-person executive team with private information and
+        an AI coach, and a two-seat working session where one seat is an AI agent.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th></th><th>Team decision starter</th><th>Session desk starter</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Based on</td><td>Shake Shack FY2014 · Executive Team + AI</td><td>SkillSimm · Session Desk</td></tr>
+            <tr><td>Who takes part</td><td>1–5 people as CFO, CMO, COO, CTO and CEO</td><td>1 person (Operator) + 1 AI agent session</td></tr>
+            <tr><td>Flow</td><td>Understand → each executive decides → CEO ranks priorities → short survey</td><td>Set the goal and approvals → work in team chat → record the outcome</td></tr>
+            <tr><td>Answer types</td><td>Multiple choice, ranking, written reason, 1–7 scale</td><td>Written text</td></tr>
+            <tr><td>Private materials</td><td>Each executive has a briefing only they can open</td><td>One shared instruction sheet</td></tr>
+            <tr><td>AI in chat</td><td>A coach that teaches a method and never gives answers</td><td>Off</td></tr>
+            <tr><td>AI on the question card</td><td>A suggestion that is sometimes right and sometimes wrong, so people learn to check it</td><td>None</td></tr>
+            <tr><td>AI as go-between</td><td>Offers to ask the right colleague for missing facts</td><td>None</td></tr>
+            <tr><td>Missing people</td><td>Empty seats' tasks go to the CEO, who can do them or hand them on</td><td>The Operator can run alone</td></tr>
+            <tr><td>Scoring</td><td>Weighted, out of 100</td><td>None</td></tr>
+            <tr><td>Use it for</td><td>Team cases, role-plays, any decision where information is spread across people</td><td>Guided work sessions, intake forms, a person supervising AI work</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Browse them on GitHub:
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/examples/team-decision-starter">team-decision-starter</a> ·
+        <a href="https://github.com/SkillSimm/skillsimm-template-submissions/tree/main/examples/session-desk-starter">session-desk-starter</a>.
+        Each folder's README lists every feature and the exact setting behind it.
+      </p>
+
+      <h2><span class="stepnum">2</span>Copy it into your own folder</h2>
+      <ol>
+        <li>Sign in to GitHub and open
+          <a href="https://github.com/SkillSimm/skillsimm-template-submissions">the repository</a>.
+          Click <strong>Fork</strong> → <strong>Create fork</strong>. You now have your own copy.</li>
+        <li>On your fork, press the <kbd>.</kbd> key (or change <code>github.com</code> to
+          <code>github.dev</code> in the address bar). An editor opens in your browser.</li>
+        <li>In the file list on the left, right-click
+          <code>examples/team-decision-starter</code> (or <code>session-desk-starter</code>) →
+          <strong>Copy</strong>. Right-click the <code>templates</code> folder → <strong>Paste</strong>.</li>
+        <li>Right-click the pasted folder → <strong>Rename</strong>. Use a short name in
+          lowercase with hyphens, such as <code>hospital-discharge-team</code>. This is your <em>slug</em>.</li>
+      </ol>
+      <p>
+        <strong>Prefer working offline?</strong> Click <strong>Code → Download ZIP</strong>,
+        copy the starter folder, edit the files in any text editor, then on your fork use
+        <strong>Add file → Upload files</strong> and drag your folder into
+        <code>templates/</code>.
+      </p>
+
+      <h2><span class="stepnum">3</span>Edit it, one part at a time</h2>
+      <p>
+        A template is a folder of plain text files. <code>template.json</code> holds the
+        settings for the whole simulation; each file in <code>stages/</code> is one stage
+        of work; <code>materials/</code> holds what people read; <code>skills/</code> holds
+        the AI coach's instructions. Edit only the text between quotes, and keep every
+        comma, bracket and quote mark in place. The check in step 4 points to any you break.
+      </p>
+
+      <h3>a. Name and describe it — <code>template.json</code></h3>
+      <div class="copy-block"><pre><code>"template_id": "hospital_discharge_team",    ← your slug, with _ instead of -
+"name": "Hospital Discharge · Care Team + AI",
+"version": "1.0.0",
+...
+"metadata": {
+  "domain": "healthcare",
+  "difficulty": "intermediate",
+  "duration_minutes": 45,
+  "author": "Your name",
+  "learning_goals": ["…", "…"]
+}</code></pre></div>
+
+      <h3>b. Seats — who takes part</h3>
+      <p>
+        <code>team_size</code> is the number of seats. Each seat has a number
+        (1, 2, 3 …), a title and a goal in <code>lens_assignments</code>. Every task
+        says which seat does it with <code>participant_slot</code>.
+      </p>
+      <div class="copy-block"><pre><code>"lens_assignments": [
+  { "member_slot": 1, "lens": "Chief Financial Officer (CFO)",
+    "goal": "What test does a new Shack have to pass?" },
+  ...
+]</code></pre></div>
+      <p>
+        Changing the number of seats? Also update <code>staffing.allowed_sizes</code>
+        (team sizes you'll accept), <code>staffing.human_seat_order</code> (which seat a
+        person gets first; the starter seats the CEO first, so one person plays the CEO),
+        and any <code>audience.slots</code> and <code>target_slots</code> that name a seat.
+      </p>
+
+      <h3>c. Stages and questions — <code>stages/*.json</code></h3>
+      <p>
+        Files run in name order (<code>01_…</code>, <code>02_…</code>). A stage starts after
+        the stages in its <code>dependencies</code> are done. Each task is one card a
+        person fills in:
+      </p>
+      <div class="copy-block"><pre><code>{
+  "task_id": "financial_decision",          ← unique, no spaces
+  "participant_slot": 1,                     ← seat 1 (CFO) does this
+  "name": "CFO · Unit economics",
+  "type": "human",
+  "hitl_prompt": "What test does a new Shack have to pass?",
+  "required_fields": ["financial_decision"],
+  "field_schema": {
+    "financial_decision": {
+      "type": "select",
+      "label": "What test does a new Shack have to pass?",
+      "options": ["…", "…", "…", "…"],
+      "required": true
+    }
+  },
+  "evaluation_point": true,                  ← scored?
+  "evaluation_weight": 0.1                   ← share of the total score
+}</code></pre></div>
+      <p>Answer types you can use in <code>field_schema</code>:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>type</th><th>The person…</th><th>Example in</th></tr></thead>
+          <tbody>
+            <tr><td><code>select</code></td><td>picks one option</td><td>team decision, stages 1–3</td></tr>
+            <tr><td><code>multi_select</code></td><td>picks any number of options</td><td>—</td></tr>
+            <tr><td><code>textarea</code></td><td>writes a paragraph</td><td>CEO reason; session desk forms</td></tr>
+            <tr><td><code>text</code> / <code>number</code></td><td>types a short answer or a number</td><td>—</td></tr>
+            <tr><td><code>likert</code></td><td>rates on a scale (<code>scale</code>, <code>min_label</code>, <code>max_label</code>)</td><td>team decision survey</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        For a ranking, use one <code>select</code> per position with the same options
+        (see <code>03_priority_ranking.json</code>). For an unscored survey at the end,
+        give the stage <code>"stage_kind": "survey_post"</code> (see
+        <code>99_post_survey.json</code>).
+      </p>
+
+      <h3>d. Materials — what people read</h3>
+      <p>
+        Put files in <code>materials/</code> and list each one in
+        <code>template.json</code> → <code>materials</code>. Markdown (<code>.md</code>),
+        PDF, HTML, plain text and CSV all work. Add <code>audience</code> to make a file
+        private to some seats; leave it out to share with everyone.
+      </p>
+      <div class="copy-block"><pre><code>{ "name": "CFO — Private Briefing",
+  "path": "materials/1_cfo_briefing.md",
+  "mime": "text/markdown",              ← application/pdf for a PDF
+  "visibility": "all_stages",
+  "audience": { "slots": [1] } }        ← only seat 1 can open it</code></pre></div>
+      <p>
+        Spreading facts across private briefings is what makes people talk to each
+        other. In the team decision starter, every Stage 1 question needs one fact from
+        each of two colleagues.
+      </p>
+
+      <h3>e. AI help — on, off, or somewhere between</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Setting</th><th>Where</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td><code>ai_chat_enabled</code></td><td>template.json</td><td><code>true</code> gives each person an AI assistant in chat; <code>false</code> turns it off</td></tr>
+            <tr><td><code>ai_chat_policy: "coach"</code></td><td>template.json</td><td>The assistant coaches a method instead of answering</td></tr>
+            <tr><td><code>ai_guidance_skill</code></td><td>each task</td><td>Points to a file in <code>skills/</code> with the assistant's instructions, in plain English</td></tr>
+            <tr><td><code>ai_answer</code> + <code>ai_answer_randomization</code></td><td>task + template.json</td><td>Shows an AI suggestion on the card, right or wrong at random. Both values must match an option word for word</td></tr>
+            <tr><td><code>ai_mediation</code></td><td>template.json</td><td>Offers to send a question to the colleague who holds the missing fact</td></tr>
+            <tr><td><code>group_communication_allowed</code></td><td>template.json</td><td>Team chat on or off</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>f. Grading</h3>
+      <p>
+        Mark scored tasks with <code>evaluation_point: true</code> and an
+        <code>evaluation_weight</code>, and describe what a good answer looks like in
+        <code>evaluation/rubric.json</code>. For a template with no scoring, set every
+        <code>evaluation_point</code> to <code>false</code> and
+        <code>metadata.scoring_type</code> to <code>"none"</code>, as the session desk does.
+      </p>
+      <div class="callout">
+        <strong>Keep answer keys out of the pull request.</strong> This repository is
+        public, so anyone can read what you commit. Put placeholders where keys would go
+        and send the real keys to your reviewer privately; SkillSimm adds them when it
+        sets up your template. <code>evaluation/<wbr>reference_decisions<wbr>.example.json</code>
+        shows the shape.
+      </div>
+
+      <h2><span class="stepnum">4</span>Submit it and fix what the check finds</h2>
+      <ol>
+        <li>In github.dev, open <strong>Source Control</strong> (the branch icon on the
+          left), type a short message such as <em>Add hospital-discharge-team</em>, and
+          click <strong>Commit &amp; Push</strong>.</li>
+        <li>Go back to your fork on github.com. Click <strong>Contribute → Open pull
+          request</strong>, describe your simulation, and submit.</li>
+        <li>The <code>validate</code> check runs on your pull request. (The first time, a
+          maintainer may need to approve it before it runs.) If it fails, click
+          <strong>Details</strong>: each line names the file and what to fix, for example
+          <code>participant_slot 7 is outside seats 1–5</code> or
+          <code>not valid JSON (line 12 …) — check for a missing comma</code>.</li>
+        <li>Fix it in github.dev on your fork and push again. The pull request updates
+          by itself.</li>
+      </ol>
+      <p>
+        Then a reviewer reads it for clear instructions, sound step logic, honest
+        grading, safety and originality, and SkillSimm does a test run. Once you've
+        agreed royalty terms, the template is published to the library with your name
+        on it. Nothing publishes without human review.
+      </p>
+
+      <h2 id="run">Set up and run a simulation</h2>
+      <p>
+        Once a template is in the SkillSimm library (yours, a starter, or any
+        published one), anyone with a SkillSimm account can run it:
+      </p>
+      <ol>
+        <li><strong>Sign in</strong> at <a href="https://app.skillsimm.com">app.skillsimm.com</a>
+          and open <strong>Library</strong> to find the template.</li>
+        <li><strong>Create a run.</strong> Choose <em>Create New Run</em>, select the
+          template, and give the run a title.</li>
+        <li><strong>Shape the teams.</strong> Set <em>People per team</em> (within the
+          template's allowed sizes) and <em>Number of teams</em>. Under <em>Seats</em>,
+          each seat can be a person, an AI teammate, or your own agent. Optionally upload
+          an email list to reserve seats for named people, or keep teams from an earlier
+          run.</li>
+        <li><strong>Invite people.</strong> On the run page, share the <em>Join Code</em>,
+          the join link or the QR code. People join with the code and are placed in teams.
+          Add observers with the read-only observer link.</li>
+        <li><strong>Start the run.</strong> Teams can start below full size; empty seats
+          are covered as the template says (for the team decision starter, the CEO picks
+          up their tasks).</li>
+        <li><strong>Watch and help.</strong> Open each team's desktop to follow progress.
+          Facilitators are alerted when a team is stuck, and can take over or reassign a
+          task.</li>
+        <li><strong>End and review.</strong> End the run, then open its summary and
+          reports for scores, decisions and survey answers, and export the results.</li>
+      </ol>
+      <p>
+        For the session desk, step 4 is different: each AI agent session joins with the
+        run's join code from the computer it runs on, and you admit it on the run page.
+        The run page shows the commands.
+      </p>
+
+      <p>
+        <strong>Have an AI agent after all?</strong> The
+        <a href="create.html">structured report path</a> lets Claude or ChatGPT build the
+        template from a four-section description. Field-by-field reference:
+        <a href="format.html#app-format">template format</a>.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      SkillSimm Simulation Hub ·
+      <a href="https://github.com/SkillSimm/skillsimm-template-submissions">skillsimm-template-submissions</a> ·
+      <a href="https://github.com/SkillSimm/skillsimm-template-submissions/blob/main/CONTRIBUTING.md">Contributing</a>
+    </div>
+  </footer>
+</body>
+</html>

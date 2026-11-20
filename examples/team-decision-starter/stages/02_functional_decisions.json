@@ -1,0 +1,164 @@
+{
+  "stage_index": 1,
+  "stage_id": "functional_decisions",
+  "name": "Stage 2 — Make Executive Decisions",
+  "description": "Discuss the consequences across functions. Tell the team: “I recommend ___. The consequence for the company is ___. My recommendation depends on ___ from another executive.” Then submit your functional decision.",
+  "estimated_duration_minutes": 15,
+  "stage_manipulation": "Distributed executive evidence; decisions require consultation across functions.",
+  "sign_off_rule": null,
+  "dependencies": [
+    "comprehension"
+  ],
+  "parallel_with": [],
+  "context_brief_template": "Discuss the consequences across functions. Tell the team: “I recommend ___. The consequence for the company is ___. My recommendation depends on ___ from another executive.” Then submit your functional decision. Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+  "tasks": [
+    {
+      "task_id": "financial_decision",
+      "participant_slot": 1,
+      "name": "Chief Financial Officer (CFO) · Unit economics",
+      "type": "human",
+      "role": "cfo",
+      "hitl_prompt": "Average unit volume has fallen from $5,367 thousand to $5,017 to $4,611 over three years, and Shack-level operating profit margin from 25.6% to 24.0%, while the count went from 21 to 63. The filing warns that as you leave Manhattan, “we may not be able to maintain our current average unit volumes.” What test does a new Shack have to pass?",
+      "required_fields": [
+        "financial_decision"
+      ],
+      "field_schema": {
+        "financial_decision": {
+          "type": "select",
+          "label": "Average unit volume has fallen from $5,367 thousand to $5,017 to $4,611 over three years, and Shack-level operating profit margin from 25.6% to 24.0%, while the count went from 21 to 63. The filing warns that as you leave Manhattan, “we may not be able to maintain our current average unit volumes.” What test does a new Shack have to pass?",
+          "options": [
+            "Company-operate only where the unit test passes, and license everywhere else so somebody else carries the capital.",
+            "Open as fast as we can while the brand is hot; the falling average is just a mix effect and it’ll settle.",
+            "Every site has to clear our return and payback test on its own before we sign the lease — and if that means opening fewer, we open fewer.",
+            "Accept the lower average as the price of scale — total profit dollars are still going up."
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.1,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "description": "Average unit volume has fallen from $5,367 thousand to $5,017 to $4,611 over three years, and Shack-level operating profit margin from 25.6% to 24.0%, while the count went from 21 to 63. The filing warns that as you leave Manhattan, “we may not be able to maintain our current average unit volumes.” What test does a new Shack have to pass?\n\nOptions:\nA. Company-operate only where the unit test passes, and license everywhere else so somebody else carries the capital.\nB. Open as fast as we can while the brand is hot; the falling average is just a mix effect and it’ll settle.\nC. Every site has to clear our return and payback test on its own before we sign the lease — and if that means opening fewer, we open fewer.\nD. Accept the lower average as the price of scale — total profit dollars are still going up.",
+      "ui_options": {
+        "information_requests": true
+      }
+    },
+    {
+      "task_id": "marketing_decision",
+      "participant_slot": 2,
+      "name": "Chief Marketing Officer (CMO) · The brand",
+      "type": "human",
+      "role": "cmo",
+      "hitl_prompt": "The brand was built on a single kiosk in Madison Square Park, no traditional advertising, and enough free product placement that the company “has been able to charge fees for these location shoots.” Same-Shack sales growth has slowed from 7.1% to 4.1%. How do you handle the brand as the footprint leaves New York?",
+      "required_fields": [
+        "marketing_decision"
+      ],
+      "field_schema": {
+        "marketing_decision": {
+          "type": "select",
+          "label": "The brand was built on a single kiosk in Madison Square Park, no traditional advertising, and enough free product placement that the company “has been able to charge fees for these location shoots.” Same-Shack sales growth has slowed from 7.1% to 4.1%. How do you handle the brand as the footprint leaves New York?",
+          "options": [
+            "Keep leaning on the free coverage and product placement — it’s worked so far and it costs us nothing.",
+            "Build a deliberate national brand now, because most people outside New York have never heard of us.",
+            "Start advertising nationally to push traffic and get same-Shack sales back up.",
+            "Keep every Shack designed for its own location and community — the moment they all look the same we’re just another burger chain."
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.1,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "description": "The brand was built on a single kiosk in Madison Square Park, no traditional advertising, and enough free product placement that the company “has been able to charge fees for these location shoots.” Same-Shack sales growth has slowed from 7.1% to 4.1%. How do you handle the brand as the footprint leaves New York?\n\nOptions:\nA. Keep leaning on the free coverage and product placement — it’s worked so far and it costs us nothing.\nB. Build a deliberate national brand now, because most people outside New York have never heard of us.\nC. Start advertising nationally to push traffic and get same-Shack sales back up.\nD. Keep every Shack designed for its own location and community — the moment they all look the same we’re just another burger chain.",
+      "ui_options": {
+        "information_requests": true
+      }
+    },
+    {
+      "task_id": "operation_decision",
+      "participant_slot": 3,
+      "name": "Chief Operating Officer (COO) · The dial",
+      "type": "human",
+      "role": "coo",
+      "hitl_prompt": "You operate 31 Shacks yourself at home and license 27 internationally. In the Middle East your licensee “delegates the supply function to its own third-party logistics providers… with which we have limited and restricted communication, preventing us from exercising control.” Where should the dial sit?",
+      "required_fields": [
+        "operation_decision"
+      ],
+      "field_schema": {
+        "operation_decision": {
+          "type": "select",
+          "label": "You operate 31 Shacks yourself at home and license 27 internationally. In the Middle East your licensee “delegates the supply function to its own third-party logistics providers… with which we have limited and restricted communication, preventing us from exercising control.” Where should the dial sit?",
+          "options": [
+            "Start licensing domestically too — it’s the quickest way to add units without spending our own capital.",
+            "Operate them ourselves at home where we control the experience, license only where we genuinely can’t operate — and fix the supply-chain control in the licence terms.",
+            "Operate everything ourselves, including internationally, now that we have the money to do it.",
+            "License harder to grow faster on somebody else’s capital, but tighten the standards and audit them properly."
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.1,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "description": "You operate 31 Shacks yourself at home and license 27 internationally. In the Middle East your licensee “delegates the supply function to its own third-party logistics providers… with which we have limited and restricted communication, preventing us from exercising control.” Where should the dial sit?\n\nOptions:\nA. Start licensing domestically too — it’s the quickest way to add units without spending our own capital.\nB. Operate them ourselves at home where we control the experience, license only where we genuinely can’t operate — and fix the supply-chain control in the licence terms.\nC. Operate everything ourselves, including internationally, now that we have the money to do it.\nD. License harder to grow faster on somebody else’s capital, but tighten the standards and audit them properly.",
+      "ui_options": {
+        "information_requests": true
+      }
+    },
+    {
+      "task_id": "tech_decision",
+      "participant_slot": 4,
+      "name": "Chief Technology Officer (CTO) · Visibility",
+      "type": "human",
+      "role": "cto",
+      "hitl_prompt": "You have a supply chain in the Middle East you cannot see into, you measure success by “Shack-level operating profit margins, cash-on-cash returns and payback periods”, and 32 of your 63 Shacks are run by other companies. What do you build?",
+      "required_fields": [
+        "tech_decision"
+      ],
+      "field_schema": {
+        "tech_decision": {
+          "type": "select",
+          "label": "You have a supply chain in the Middle East you cannot see into, you measure success by “Shack-level operating profit margins, cash-on-cash returns and payback periods”, and 32 of your 63 Shacks are run by other companies. What do you build?",
+          "options": [
+            "Build the reporting so we can see supply chain and unit economics in every Shack — including the ones we don’t own. You can’t hold anyone to a standard you can’t see.",
+            "Build it properly for our own Shacks first, then extend it to licensees as contracts come up for renewal.",
+            "Buy standard restaurant systems off the shelf — this isn’t where we should be spending engineering effort.",
+            "Leave licensees to run their own systems — they’re independent operators and that’s the point of licensing."
+          ],
+          "required": true
+        }
+      },
+      "ai_guidance_skill": "skills/executive_coach.md",
+      "materials_required": [],
+      "evaluation_point": true,
+      "evaluation_weight": 0.1,
+      "requires_review": false,
+      "behavioral_signals": [
+        "thinker"
+      ],
+      "chat_context_override": "Coach the decision process only. Do not supply or infer private figures, another executive's answers, or the preferred ranking. Ask the participant to obtain missing evidence from the responsible executive through team chat.",
+      "description": "You have a supply chain in the Middle East you cannot see into, you measure success by “Shack-level operating profit margins, cash-on-cash returns and payback periods”, and 32 of your 63 Shacks are run by other companies. What do you build?\n\nOptions:\nA. Build the reporting so we can see supply chain and unit economics in every Shack — including the ones we don’t own. You can’t hold anyone to a standard you can’t see.\nB. Build it properly for our own Shacks first, then extend it to licensees as contracts come up for renewal.\nC. Buy standard restaurant systems off the shelf — this isn’t where we should be spending engineering effort.\nD. Leave licensees to run their own systems — they’re independent operators and that’s the point of licensing.",
+      "ui_options": {
+        "information_requests": true
+      }
+    }
+  ]
+}
